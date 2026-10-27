@@ -1,0 +1,1124 @@
+[
+ {
+  "scope": "source:Cleveland Islamic Art (CC0, with image)",
+  "source": "Cleveland Museum of Art Open Access",
+  "query": "GET /api/artworks/?department=Islamic Art&cc0=1&has_image=1",
+  "total": 294,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Health and Wellbeing",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=Ramadan fasting health&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 36715,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Environment",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=Islamic environmental ethics&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 170268,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Business",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=Islamic finance&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 440643,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Education",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=madrasa education&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 31013,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Science",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=history of science Islamic world&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 423104,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Social Media",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=Muslim social media&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 376583,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Media and Communication",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=Muslim media representation&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 110409,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Government and Society",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=Muslim civil society&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 193919,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Fashion",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=modest fashion&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 219462,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Food",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=halal food&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 220066,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Technology",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=Islamic fintech&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 47194,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Travel and Hospitality",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=halal tourism&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 59886,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Sports",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=Muslim athletes&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 11925,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Film",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=Iranian cinema&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 15506,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Music",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=Sufi music&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 11941,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Literature",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=Arabic novel&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 138767,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Architecture & Design",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=mosque architecture&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 47474,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Art",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=contemporary Islamic art&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 160877,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Innovation",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=Islamic social innovation&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 447295,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Space and Exploration",
+  "source": "OpenAlex",
+  "query": "GET api.openalex.org/works?search=astronomy medieval Islam&filter=is_oa:true,from_publication_date:2000-01-01",
+  "total": 6560,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Music",
+  "source": "Internet Archive",
+  "query": "advancedsearch q=(nasheed OR qawwali OR gnawa) AND mediatype:audio",
+  "total": 5956,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Film",
+  "source": "Internet Archive",
+  "query": "advancedsearch q=(Iranian film OR Egyptian film OR Turkish film) AND mediatype:movies",
+  "total": 2055,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Literature",
+  "source": "Internet Archive",
+  "query": "advancedsearch q=(Rumi poetry OR Arabic poetry) AND mediatype:audio",
+  "total": 501,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Media and Communication",
+  "source": "Internet Archive",
+  "query": "advancedsearch q=(Al Jazeera OR Arabic radio) AND mediatype:audio",
+  "total": 15148,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Food",
+  "source": "Internet Archive",
+  "query": "advancedsearch q=(Middle Eastern cooking OR halal cooking) AND mediatype:movies",
+  "total": 33,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Education",
+  "source": "Internet Archive",
+  "query": "advancedsearch q=(Islamic history lecture) AND mediatype:audio",
+  "total": 341,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Architecture & Design",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=mosque interior",
+  "total": 26477,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Food",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=Iftar food",
+  "total": 635,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Travel and Hospitality",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=caravanserai",
+  "total": 95156,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Sports",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=Muslim women football",
+  "total": 125,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Fashion",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=hijab fashion",
+  "total": 39,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Environment",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=oasis Sahara",
+  "total": 1555,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Art",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=Islamic calligraphy contemporary",
+  "total": 94,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Space and Exploration",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=Islamic astronomy instrument",
+  "total": 263,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Government and Society",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=Ramadan street",
+  "total": 3405,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Social Media",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=Muslim YouTuber",
+  "total": 29,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Innovation",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=Islamic geometric pattern",
+  "total": 921,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Technology",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=Arabic typewriter",
+  "total": 285,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Health and Wellbeing",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=hammam",
+  "total": 11452,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Literature",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=Arabic manuscript poetry",
+  "total": 2560,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Music",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=oud player",
+  "total": 545,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Film",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=Iranian cinema",
+  "total": 1453,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Business",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=bazaar souk",
+  "total": 39539,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Education",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=madrasa",
+  "total": 19175,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Media and Communication",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=Arabic newspaper",
+  "total": 6648,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Science",
+  "source": "Wikimedia Commons",
+  "query": "list=search srnamespace=6 srsearch=Islamic astrolabe",
+  "total": 4460,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Art",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'painting', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 5304,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Art",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'calligraphy', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 2529,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Music",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'music', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 46,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Music",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'lute', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 13,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Sports",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'polo', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 7,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Sports",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'hunting', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 98,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Technology",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'astrolabe', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 2,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Technology",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'metalwork', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 221,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Business",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'weight', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 174,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Business",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'coin', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 3290,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Environment",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'garden', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 89,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Environment",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'bird', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 1091,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Health and Wellbeing",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'bath', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 56,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Health and Wellbeing",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'medicine', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 15,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Innovation",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'lustre', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 440,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Innovation",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'glass', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 3119,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Travel and Hospitality",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'caravan', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 4,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Travel and Hospitality",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'ewer', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 278,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Social Media",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'portrait', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 279,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Social Media",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'letter', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 372,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Space and Exploration",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'celestial', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 10,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Space and Exploration",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'zodiac', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 34,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Media and Communication",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'manuscript', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 1419,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Media and Communication",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'inscription', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 1440,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Fashion",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'robe', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 742,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Fashion",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'jewelry', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 3741,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Science",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'astronomy', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 6,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Science",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'geometric', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 3608,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Government and Society",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'sultan', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 694,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Government and Society",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'seal', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 145,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Education",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'Quran', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 10,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Education",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'school', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 48,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Film",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'Shahnama', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 247,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Film",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'illustrated', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 1262,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Food",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'dish', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 367,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Food",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'bowl', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 1488,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Architecture & Design",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'tile', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 993,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Architecture & Design",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'mihrab', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 237,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Literature",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'poetry', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 131,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Literature",
+  "source": "Met Open Access (Islamic Art)",
+  "query": "GET /public/collection/v1.1/search {'departmentId': 14, 'q': 'Divan', 'isPublicDomain': 'true', 'hasImages': 'true', 'limit': 40}",
+  "total": 17,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Food",
+  "source": "Art Institute of Chicago",
+  "query": "GET /api/v1/artworks/search?q=Iran bowl&query[term][is_public_domain]=true",
+  "total": 62119,
+  "retrieved": "2026-10-26",
+  "reliability": "DO NOT DISPLAY: total equals the whole public-domain set (62,119) for every query, so the keyword is not restricting the total"
+ },
+ {
+  "scope": "field:Travel and Hospitality",
+  "source": "Art Institute of Chicago",
+  "query": "GET /api/v1/artworks/search?q=Ottoman&query[term][is_public_domain]=true",
+  "total": 62119,
+  "retrieved": "2026-10-26",
+  "reliability": "DO NOT DISPLAY: total equals the whole public-domain set (62,119) for every query, so the keyword is not restricting the total"
+ },
+ {
+  "scope": "field:Architecture & Design",
+  "source": "Art Institute of Chicago",
+  "query": "GET /api/v1/artworks/search?q=Iznik tile&query[term][is_public_domain]=true",
+  "total": 62119,
+  "retrieved": "2026-10-26",
+  "reliability": "DO NOT DISPLAY: total equals the whole public-domain set (62,119) for every query, so the keyword is not restricting the total"
+ },
+ {
+  "scope": "field:Science",
+  "source": "Art Institute of Chicago",
+  "query": "GET /api/v1/artworks/search?q=Islamic astrolabe&query[term][is_public_domain]=true",
+  "total": 62119,
+  "retrieved": "2026-10-26",
+  "reliability": "DO NOT DISPLAY: total equals the whole public-domain set (62,119) for every query, so the keyword is not restricting the total"
+ },
+ {
+  "scope": "field:Space and Exploration",
+  "source": "Art Institute of Chicago",
+  "query": "GET /api/v1/artworks/search?q=Persian zodiac&query[term][is_public_domain]=true",
+  "total": 62119,
+  "retrieved": "2026-10-26",
+  "reliability": "DO NOT DISPLAY: total equals the whole public-domain set (62,119) for every query, so the keyword is not restricting the total"
+ },
+ {
+  "scope": "field:Environment",
+  "source": "Art Institute of Chicago",
+  "query": "GET /api/v1/artworks/search?q=Mughal garden&query[term][is_public_domain]=true",
+  "total": 62119,
+  "retrieved": "2026-10-26",
+  "reliability": "DO NOT DISPLAY: total equals the whole public-domain set (62,119) for every query, so the keyword is not restricting the total"
+ },
+ {
+  "scope": "field:Sports",
+  "source": "Art Institute of Chicago",
+  "query": "GET /api/v1/artworks/search?q=Persian hunting&query[term][is_public_domain]=true",
+  "total": 62119,
+  "retrieved": "2026-10-26",
+  "reliability": "DO NOT DISPLAY: total equals the whole public-domain set (62,119) for every query, so the keyword is not restricting the total"
+ },
+ {
+  "scope": "field:Literature",
+  "source": "Art Institute of Chicago",
+  "query": "GET /api/v1/artworks/search?q=Persian manuscript&query[term][is_public_domain]=true",
+  "total": 62119,
+  "retrieved": "2026-10-26",
+  "reliability": "DO NOT DISPLAY: total equals the whole public-domain set (62,119) for every query, so the keyword is not restricting the total"
+ },
+ {
+  "scope": "field:Music",
+  "source": "Art Institute of Chicago",
+  "query": "GET /api/v1/artworks/search?q=Persian musician&query[term][is_public_domain]=true",
+  "total": 62119,
+  "retrieved": "2026-10-26",
+  "reliability": "DO NOT DISPLAY: total equals the whole public-domain set (62,119) for every query, so the keyword is not restricting the total"
+ },
+ {
+  "scope": "field:Government and Society",
+  "source": "Art Institute of Chicago",
+  "query": "GET /api/v1/artworks/search?q=Mughal emperor&query[term][is_public_domain]=true",
+  "total": 62119,
+  "retrieved": "2026-10-26",
+  "reliability": "DO NOT DISPLAY: total equals the whole public-domain set (62,119) for every query, so the keyword is not restricting the total"
+ },
+ {
+  "scope": "field:Business",
+  "source": "Art Institute of Chicago",
+  "query": "GET /api/v1/artworks/search?q=Islamic coin&query[term][is_public_domain]=true",
+  "total": 62119,
+  "retrieved": "2026-10-26",
+  "reliability": "DO NOT DISPLAY: total equals the whole public-domain set (62,119) for every query, so the keyword is not restricting the total"
+ },
+ {
+  "scope": "field:Health and Wellbeing",
+  "source": "Art Institute of Chicago",
+  "query": "GET /api/v1/artworks/search?q=Islamic bath&query[term][is_public_domain]=true",
+  "total": 62119,
+  "retrieved": "2026-10-26",
+  "reliability": "DO NOT DISPLAY: total equals the whole public-domain set (62,119) for every query, so the keyword is not restricting the total"
+ },
+ {
+  "scope": "field:Food",
+  "source": "Europeana",
+  "query": "search.json?query=halal OR iftar OR couscous&reusability=open&media=true",
+  "total": 193,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Travel and Hospitality",
+  "source": "Europeana",
+  "query": "search.json?query=caravanserai OR hajj pilgrim&reusability=open&media=true",
+  "total": 2217,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Science",
+  "source": "Europeana",
+  "query": "search.json?query=islamic astronomy&reusability=open&media=true",
+  "total": 3,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Space and Exploration",
+  "source": "Europeana",
+  "query": "search.json?query=astrolabe arabic&reusability=open&media=true",
+  "total": 3,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Environment",
+  "source": "Europeana",
+  "query": "search.json?query=oasis&reusability=open&media=true",
+  "total": 685,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Sports",
+  "source": "Europeana",
+  "query": "search.json?query=Muslim athlete&reusability=open&media=true",
+  "total": 0,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Social Media",
+  "source": "Europeana",
+  "query": "search.json?query=Muslim youth&reusability=open&media=true",
+  "total": 8,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Government and Society",
+  "source": "Europeana",
+  "query": "search.json?query=Muslim community&reusability=open&media=true",
+  "total": 30,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Health and Wellbeing",
+  "source": "Europeana",
+  "query": "search.json?query=hammam&reusability=open&media=true",
+  "total": 355,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Business",
+  "source": "Europeana",
+  "query": "search.json?query=souk OR bazaar&reusability=open&media=true",
+  "total": 817,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Architecture & Design",
+  "source": "Europeana",
+  "query": "search.json?query=mosque&reusability=open&media=true",
+  "total": 2554,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Media and Communication",
+  "source": "Europeana",
+  "query": "search.json?query=Arabic newspaper&reusability=open&media=true",
+  "total": 4,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Innovation",
+  "source": "Europeana",
+  "query": "search.json?query=islamic geometry&reusability=open&media=true",
+  "total": 2,
+  "retrieved": "2026-10-26",
+  "reliability": "loose: any-word keyword match, needs scope review; treat as an upper bound"
+ },
+ {
+  "scope": "field:Art",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q1028181 wd:Q3303330 wd:Q1281618 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 243,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Film",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q2526255 wd:Q33999 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 2830,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Music",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q639669 wd:Q177220 wd:Q753110 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 1467,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Sports",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q937857 wd:Q11338576 wd:Q11513337 wd:Q13381376 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 1131,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Technology",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q82594 wd:Q81096 wd:Q5482740 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 259,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Business",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q131524 wd:Q43845 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 719,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Environment",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q3578589 wd:Q18805 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 27,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Health and Wellbeing",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q39631 wd:Q774306 wd:Q186360 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 415,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Travel and Hospitality",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q11900058 wd:Q3579035 wd:Q1639825 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 42,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Food",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q3499072 wd:Q156839 wd:Q1759246 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 15,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Architecture & Design",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q42973 wd:Q5322166 wd:Q627325 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 86,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Literature",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q6625963 wd:Q49757 wd:Q482980 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 2796,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Social Media",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q17125263 wd:Q94791573 wd:Q15077007 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 94,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Space and Exploration",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q11631 wd:Q11063 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 141,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Fashion",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q3501317 wd:Q4610556 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 508,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Science",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q169470 wd:Q593644 wd:Q170790 wd:Q864503 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 294,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Government and Society",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q15253558 wd:Q1476215 wd:Q193391 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 1017,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "field:Education",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { VALUES ?rel { wd:Q432 wd:Q483654 wd:Q9585 } VALUES ?occ { wd:Q1231865 wd:Q37226 wd:Q1622272 } ?p wdt:P140 ?rel; wdt:P106 ?occ. }",
+  "total": 1610,
+  "retrieved": "2026-10-26",
+  "note": "people with explicit P140=Islam/Sunni/Shia and these occupations (any birth year)",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "type:film (Film)",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?w) AS ?n) WHERE { ?w wdt:P31 wd:Q11424; wdt:P921 ?s. VALUES ?s { wd:Q432 wd:Q9581 wd:Q42548 wd:Q5743 } OPTIONAL{?w wdt:P577 ?d} }",
+  "total": 3,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "type:place (Travel and Hospitality)",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?w) AS ?n) WHERE { ?w wdt:P31 wd:Q211481. OPTIONAL{?w wdt:P571 ?d} }",
+  "total": 0,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "type:publication (Media and Communication)",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?w) AS ?n) WHERE { ?w wdt:P31 wd:Q11032; wdt:P495 ?c. VALUES ?c { wd:Q252 wd:Q843 wd:Q902 wd:Q79 wd:Q794 wd:Q43 wd:Q1028 wd:Q262 wd:Q948 wd:Q1041 wd:Q833 wd:Q851 wd:Q796 wd:Q858 wd:Q810 wd:Q219060 wd:Q889 wd:Q265 wd:Q232 wd:Q912 wd:Q1049 wd:Q878 wd:Q846 wd:Q817 wd:Q805 wd:Q1016 wd:Q1045 wd:Q813 wd:Q863 wd:Q227 wd:Q842 wd:Q398 wd:Q826 wd:Q921 wd:Q1050 wd:Q1032 } OPTIONAL{?w wdt:P571 ?d} }",
+  "total": 405,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "type:club (Sports)",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?w) AS ?n) WHERE { ?w wdt:P31 wd:Q476028; wdt:P17 ?c. VALUES ?c { wd:Q252 wd:Q843 wd:Q902 wd:Q79 wd:Q794 wd:Q43 wd:Q1028 wd:Q262 wd:Q948 wd:Q1041 wd:Q833 wd:Q851 wd:Q796 wd:Q858 wd:Q810 wd:Q219060 wd:Q889 wd:Q265 wd:Q232 wd:Q912 wd:Q1049 wd:Q878 wd:Q846 wd:Q817 wd:Q805 wd:Q1016 wd:Q1045 wd:Q813 wd:Q863 wd:Q227 wd:Q842 wd:Q398 wd:Q826 wd:Q921 wd:Q1050 wd:Q1032 } OPTIONAL{?w wdt:P571 ?d} }",
+  "total": 4209,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "type:institution (Education)",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?w) AS ?n) WHERE { ?w wdt:P31 wd:Q3918; wdt:P17 ?c; wdt:P571 ?d. VALUES ?c { wd:Q252 wd:Q843 wd:Q902 wd:Q79 wd:Q794 wd:Q43 wd:Q1028 wd:Q262 wd:Q948 wd:Q1041 wd:Q833 wd:Q851 wd:Q796 wd:Q858 wd:Q810 wd:Q219060 wd:Q889 wd:Q265 wd:Q232 wd:Q912 wd:Q1049 wd:Q878 wd:Q846 wd:Q817 wd:Q805 wd:Q1016 wd:Q1045 wd:Q813 wd:Q863 wd:Q227 wd:Q842 wd:Q398 wd:Q826 wd:Q921 wd:Q1050 wd:Q1032 } }",
+  "total": 2404,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "type:place (Environment)",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?w) AS ?n) WHERE { ?w wdt:P31 wd:Q46169; wdt:P17 ?c. VALUES ?c { wd:Q252 wd:Q843 wd:Q902 wd:Q79 wd:Q794 wd:Q43 wd:Q1028 wd:Q262 wd:Q948 wd:Q1041 wd:Q833 wd:Q851 wd:Q796 wd:Q858 wd:Q810 wd:Q219060 wd:Q889 wd:Q265 wd:Q232 wd:Q912 wd:Q1049 wd:Q878 wd:Q846 wd:Q817 wd:Q805 wd:Q1016 wd:Q1045 wd:Q813 wd:Q863 wd:Q227 wd:Q842 wd:Q398 wd:Q826 wd:Q921 wd:Q1050 wd:Q1032 } OPTIONAL{?w wdt:P571 ?d} }",
+  "total": 266,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "type:organisation (Space and Exploration)",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?w) AS ?n) WHERE { ?w wdt:P31 wd:Q2142186 ; wdt:P17 ?c. VALUES ?c { wd:Q252 wd:Q843 wd:Q902 wd:Q79 wd:Q794 wd:Q43 wd:Q1028 wd:Q262 wd:Q948 wd:Q1041 wd:Q833 wd:Q851 wd:Q796 wd:Q858 wd:Q810 wd:Q219060 wd:Q889 wd:Q265 wd:Q232 wd:Q912 wd:Q1049 wd:Q878 wd:Q846 wd:Q817 wd:Q805 wd:Q1016 wd:Q1045 wd:Q813 wd:Q863 wd:Q227 wd:Q842 wd:Q398 wd:Q826 wd:Q921 wd:Q1050 wd:Q1032 } OPTIONAL{?w wdt:P571 ?d} }",
+  "total": 0,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ },
+ {
+  "scope": "type:place (Art)",
+  "source": "Wikidata",
+  "query": "SELECT (COUNT(DISTINCT ?w) AS ?n) WHERE { ?w wdt:P31 wd:Q32815; wdt:P84 ?a. ?w wdt:P571 ?d. FILTER(YEAR(?d)>=1945) }",
+  "total": 60,
+  "retrieved": "2026-10-26",
+  "reliability": "tight: department filter or explicit property"
+ }
+]

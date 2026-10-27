@@ -1,0 +1,6239 @@
+{
+ "note": "Free beginner resources for Try it yourself. Each item verified live on the date shown (YouTube oEmbed or HTTP 200 with no paywall signals). Selected by an editor; not ranked by popularity.",
+ "generated": "2026-10-27",
+ "crafts": {
+  "arabic-calligraphy": {
+   "field": "Art",
+   "label": "Arabic calligraphy with a qalam",
+   "tags": [
+    "calligraphy",
+    "qalam",
+    "khat"
+   ],
+   "items": [
+    {
+     "title": "How to use a Qalam | Materials you need for Arabic calligraphy (Lesson 1)",
+     "url": "https://www.youtube.com/watch?v=xfVrjwdbjzY",
+     "provider": "Lina Atiq",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:28",
+     "description": "Video lesson (4:28) from Lina Atiq.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@linaatiq",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Arabic Calligraphy for beginners | testing different pens, how to use bamboo Qalam",
+     "url": "https://www.youtube.com/watch?v=UZLJsbevY18",
+     "provider": "QalbCalligraphy",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:22",
+     "description": "Video lesson (9:22) from QalbCalligraphy.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@QalbCalligraphy",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Arabic Calligraphy Tutorial - Lesson 1",
+     "url": "https://www.youtube.com/watch?v=elhsh2YwbOg",
+     "provider": "Alhamdulillah Arts",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:48",
+     "description": "Video lesson (9:48) from Alhamdulillah Arts.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@alhamdulillaharts7600",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "The British Museum: Islamic Gallery",
+     "url": "https://islamicworld.britishmuseum.org/video/5",
+     "provider": "The British Museum",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Master calligrapher Mustafa Ja‘far writes the alphabet in Naskh and compares five scripts.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "kufic": {
+   "field": "Art",
+   "label": "Kufic script",
+   "tags": [
+    "kufic",
+    "calligraphy"
+   ],
+   "items": [
+    {
+     "title": "Free Arabic Calligraphy Guide for Beginners",
+     "url": "https://www.domestika.org/en/blog/8516-free-arabic-calligraphy-guide-for-beginners",
+     "provider": "Domestika",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "A free beginner guide to Kufic by Joumana Medlej: materials and a downloadable exercise sheet.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to make Kufic Style Calligraphic Art | Square calligraphy 99 Names of Allah Contemporary Art",
+     "url": "https://www.youtube.com/watch?v=AOauc33ZZHk",
+     "provider": "koshdigital",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from koshdigital.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@koshdigital",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Kufic Calligraphy Tutorial – How to Write Bismillah in Arabic | Step-by-Step Guide",
+     "url": "https://www.youtube.com/watch?v=JzLtlJVeTnY",
+     "provider": "Sana's Diaries",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Sana's Diaries.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@sanasdiaries7818",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "persian-nastaliq": {
+   "field": "Art",
+   "label": "Nasta'liq / Persian calligraphy",
+   "tags": [
+    "nastaliq",
+    "persian",
+    "calligraphy"
+   ],
+   "items": [
+    {
+     "title": "Arabic Script and the Art of Calligraphy (unit)",
+     "url": "https://www.metmuseum.org/-/media/files/learn/for%20educators/publications%20for%20educators/islamic%20teacher%20resource/unit2.pdf",
+     "provider": "The Met",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "A museum unit that introduces the main Arabic scripts, including nasta‘liq, with activities.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Write Persian Calligraphy - آموزش خوشنویسی نستعلیق",
+     "url": "https://www.youtube.com/watch?v=IvyW7FUNDCY",
+     "provider": "Aziz Golkar",
+     "type": "video",
+     "level": "beginner",
+     "length": "26:23",
+     "description": "Video lesson (26:23) from Aziz Golkar.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@azizgolkar",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "OPAL-Urdu Calligraphy-Nastaliq-Lesson 1",
+     "url": "https://www.youtube.com/watch?v=UYjEz3nwEOE",
+     "provider": "OPAL Calligraphy",
+     "type": "video",
+     "level": "beginner",
+     "length": "16:01",
+     "description": "Video lesson (16:01) from OPAL Calligraphy.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@opalcalligraphy",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "geometric-pattern": {
+   "field": "Art",
+   "label": "Islamic geometric pattern",
+   "tags": [
+    "geometric",
+    "girih",
+    "tessellation"
+   ],
+   "items": [
+    {
+     "title": "The complex geometry of Islamic design - Eric Broug",
+     "url": "https://ed.ted.com/lessons/the-complex-geometry-of-islamic-design-eric-broug",
+     "provider": "TED-Ed",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "A five-minute lesson with questions: how a compass and ruler make fourfold, fivefold and sixfold patterns.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to draw a simple Islamic geometric pattern",
+     "url": "https://www.youtube.com/watch?v=27iVbB656a0",
+     "provider": "Alia Art",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:51",
+     "description": "Video lesson (3:51) from Alia Art.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Alia-art",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Islamic Geometric Design Tutorial | طريقة رسم زخرفة هندسية اسلامية | Sacred Geometry Tutorial",
+     "url": "https://www.youtube.com/watch?v=IT5_ZF_2_dU",
+     "provider": "Rola Art",
+     "type": "video",
+     "level": "beginner",
+     "length": "7:22",
+     "description": "Video lesson (7:22) from Rola Art.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@rola.merheb",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Draw Islamic Geometric Patterns – Easy & Mesmerizing Art Tutorial",
+     "url": "https://www.youtube.com/watch?v=-s_tKDSKElo",
+     "provider": "Paint with Rumi ",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:09",
+     "description": "Video lesson (4:09) from Paint with Rumi .",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@PaintwithRumi85",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "zellige": {
+   "field": "Art",
+   "label": "Tile and zellige",
+   "tags": [
+    "zellige",
+    "zellij"
+   ],
+   "items": [
+    {
+     "title": "Free geometry tutorials",
+     "url": "https://sandykurt.com/free-tutorials",
+     "provider": "Sandy Kurt",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Includes a free zellige study: draw 30 tile shapes from one construction.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Islamic Art and Geometric Design: Activities for Learning",
+     "url": "https://www.metmuseum.org/learn/educators/curriculum-resources/islamic-art-and-geometric-design",
+     "provider": "The Met",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Pattern-making activities that lead into tile design.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "miniature-painting": {
+   "field": "Art",
+   "label": "Miniature painting",
+   "tags": [
+    "miniature",
+    "miniature painting"
+   ],
+   "items": [
+    {
+     "title": "How to paint a face in persian Miniature",
+     "url": "https://www.youtube.com/watch?v=hAiiPsN1qMo",
+     "provider": "persian Miniature painting",
+     "type": "video",
+     "level": "beginner",
+     "length": "15:21",
+     "description": "Video lesson (15:21) from persian Miniature painting.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@persianMinyaturepainting",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to paint Landscaping in Persian Miniature 1",
+     "url": "https://www.youtube.com/watch?v=poTEVgGXx0A",
+     "provider": "persian Miniature painting",
+     "type": "video",
+     "level": "beginner",
+     "length": "13:15",
+     "description": "Video lesson (13:15) from persian Miniature painting.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@persianMinyaturepainting",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "illumination": {
+   "field": "Art",
+   "label": "Illumination (tazhib)",
+   "tags": [
+    "illumination",
+    "tazhib",
+    "manuscript"
+   ],
+   "items": [
+    {
+     "title": "How to make and use shell gold?",
+     "url": "https://www.youtube.com/watch?v=i3ygLwlXvvQ",
+     "provider": "Tazhib Artworks | تذهیب",
+     "type": "video",
+     "level": "beginner",
+     "length": "8:20",
+     "description": "Video lesson (8:20) from Tazhib Artworks | تذهیب.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Tazhibart",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Apply GOLD LEAF to Paper - Calligraphy Tutorial by Maaida Noor | Domestika English",
+     "url": "https://www.youtube.com/watch?v=69vllqd_iTw",
+     "provider": "Domestika English",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Domestika English.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@domestikaenglish",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "ebru": {
+   "field": "Art",
+   "label": "Ebru (paper marbling)",
+   "tags": [
+    "ebru",
+    "marbling"
+   ],
+   "items": [
+    {
+     "title": "Studio Sessions: The Art of Bookmaking",
+     "url": "https://learn.agakhanmuseum.org/courses/ArtOfBookmaking",
+     "provider": "Aga Khan Museum",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "A free museum course that includes marbling: tools, pigments and the marbling bath.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to do Paper Marbling & Ebru, basic instructions by James Mouland",
+     "url": "https://www.youtube.com/watch?v=ld_58aAvH9Y",
+     "provider": "James Mouland Ebru Studio",
+     "type": "video",
+     "level": "beginner",
+     "length": "14:48",
+     "description": "Video lesson (14:48) from James Mouland Ebru Studio.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@JamesMouland",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to do Paper Marbling and Turkish Ebru Tulip/Lale by James Mouland",
+     "url": "https://www.youtube.com/watch?v=SZy7l79vtZ0",
+     "provider": "James Mouland Ebru Studio",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from James Mouland Ebru Studio.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@JamesMouland",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Paper Marbling Tutorial Fun and Easy!",
+     "url": "https://www.youtube.com/watch?v=ekrgY6RdYww",
+     "provider": "Josie Lewis",
+     "type": "video",
+     "level": "beginner",
+     "length": "7:55",
+     "description": "Video lesson (7:55) from Josie Lewis.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@JosieLewisArt",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "bookbinding": {
+   "field": "Art",
+   "label": "Bookbinding",
+   "tags": [
+    "bookbinding",
+    "binding"
+   ],
+   "items": [
+    {
+     "title": "Minnesota Center for Book Arts: Free virtual lessons including a first hardcover book and",
+     "url": "https://mnbookarts.org/free-virtual-lessons",
+     "provider": "Minnesota Center for Book Arts",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Free virtual lessons including a first hardcover book and simple marbling.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Bookbinding Basics: Chapter 1 - Basic Tools - Easy Options to Get Started Bookbinding",
+     "url": "https://www.youtube.com/watch?v=492DKS3Z9XE",
+     "provider": "Four Keys Book Arts",
+     "type": "video",
+     "level": "beginner",
+     "length": "10:38",
+     "description": "Video lesson (10:38) from Four Keys Book Arts.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@FourKeysBookArts",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Start bookbinding this year ⟡ how-to guide for beginners",
+     "url": "https://www.youtube.com/watch?v=RigW13OJSFo",
+     "provider": "bitter melon bindery",
+     "type": "video",
+     "level": "beginner",
+     "length": "8:15",
+     "description": "Video lesson (8:15) from bitter melon bindery.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@bittermelonbindery",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Bookbinding for Beginners: Folding Signatures the Right Way (DIY Journal Part 1)",
+     "url": "https://www.youtube.com/watch?v=OzG8UZ6VSZw",
+     "provider": "Renaissance Bookbinding",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Renaissance Bookbinding.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@RenaissanceBookbinding",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "henna": {
+   "field": "Art",
+   "label": "Henna",
+   "tags": [
+    "henna",
+    "mehndi"
+   ],
+   "items": [
+    {
+     "title": "The Henna Page - The most complete henna information resource!",
+     "url": "https://www.hennapage.com/henna/",
+     "provider": "The Henna Page",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "A long-standing free guide to henna: making paste and applying it.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Your First HENNA - Tutorial for Beginners",
+     "url": "https://www.youtube.com/watch?v=0938GlGBCPM",
+     "provider": "Fairy Fox Design",
+     "type": "video",
+     "level": "beginner",
+     "length": "7:51",
+     "description": "Video lesson (7:51) from Fairy Fox Design.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@fairyfox",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Simple Henna Design for Beginners",
+     "url": "https://www.youtube.com/watch?v=CbNWJiKjXRE",
+     "provider": "Gopi Henna",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:07",
+     "description": "Video lesson (6:07) from Gopi Henna.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@GopiHenna",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Apply Henna for Beginners",
+     "url": "https://www.youtube.com/watch?v=3ByugJ2ewYY",
+     "provider": "farahdhukai",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:15",
+     "description": "Video lesson (5:15) from farahdhukai.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@farahdhukai",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "ceramics": {
+   "field": "Art",
+   "label": "Ceramics and glazing",
+   "tags": [
+    "ceramics",
+    "pottery",
+    "iznik"
+   ],
+   "items": [
+    {
+     "title": "How to hand-build with clay | Ceramic technique tutorial | IN THE STUDIO",
+     "url": "https://www.youtube.com/watch?v=MYFlL6Lo7pQ",
+     "provider": "The Museum of Modern Art",
+     "type": "video",
+     "level": "beginner",
+     "length": "24:40",
+     "description": "Video lesson (24:40) from The Museum of Modern Art.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@themuseumofmodernart",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Basics of Ceramic Handbuilding: Pinchpot, Coiling & Slab Building",
+     "url": "https://www.youtube.com/watch?v=HgKodiI2MMc",
+     "provider": "Clay Corner Studio",
+     "type": "video",
+     "level": "beginner",
+     "length": "8:42",
+     "description": "Video lesson (8:42) from Clay Corner Studio.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@claycornerstudio4762",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "woodcarving": {
+   "field": "Art",
+   "label": "Woodcarving and mashrabiya",
+   "tags": [
+    "woodcarving",
+    "mashrabiya",
+    "carved wood"
+   ],
+   "items": [
+    {
+     "title": "Woodcarving for Beginners - Carve a Beautiful Relief Flower",
+     "url": "https://www.youtube.com/watch?v=srW-qhQK8RE",
+     "provider": "Clint Rose Carving",
+     "type": "video",
+     "level": "beginner",
+     "length": "8:47",
+     "description": "Video lesson (8:47) from Clint Rose Carving.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ClintRoseCarving",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Carving Like it's the Middle Ages - Step by Step Plant Motif Tutorial",
+     "url": "https://www.youtube.com/watch?v=2pPijptE19M",
+     "provider": "Clint Rose Carving",
+     "type": "video",
+     "level": "beginner",
+     "length": "10:54",
+     "description": "Video lesson (10:54) from Clint Rose Carving.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ClintRoseCarving",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "mosaic": {
+   "field": "Art",
+   "label": "Mosaic",
+   "tags": [
+    "mosaic"
+   ],
+   "items": [
+    {
+     "title": "Mosaics For Beginners: Tutorial 1 - Essential Tools",
+     "url": "https://www.youtube.com/watch?v=cmKhBr4bDqY",
+     "provider": "City Self-Sufficiency",
+     "type": "video",
+     "level": "beginner",
+     "length": "7:20",
+     "description": "Video lesson (7:20) from City Self-Sufficiency.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@cityself-sufficiency",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Mosaic Project For Absolute Beginners - Easy Peasy Coaster Tutorial",
+     "url": "https://www.youtube.com/watch?v=Ycx9sCulL3A",
+     "provider": "City Self-Sufficiency",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:01",
+     "description": "Video lesson (9:01) from City Self-Sufficiency.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@cityself-sufficiency",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "papercut": {
+   "field": "Art",
+   "label": "Paper cutting and arabesque",
+   "tags": [
+    "arabesque"
+   ],
+   "items": [
+    {
+     "title": "Lesson 1, How to start drawing any arabesque pattern.",
+     "url": "https://www.youtube.com/watch?v=EsXbeDCpg6g",
+     "provider": "bassem zawdeh",
+     "type": "video",
+     "level": "beginner",
+     "length": "2:44",
+     "description": "Video lesson (2:44) from bassem zawdeh.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@bassemzawdeh",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to properly draw Geometric Patterns - Introduction",
+     "url": "https://www.youtube.com/watch?v=NuStupdV6Dc",
+     "provider": "Mohamad Aljanabi",
+     "type": "video",
+     "level": "beginner",
+     "length": "12:37",
+     "description": "Video lesson (12:37) from Mohamad Aljanabi.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@BawabatAlkhatAlarabi",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "oud": {
+   "field": "Music",
+   "label": "Oud",
+   "tags": [
+    "oud",
+    "lute",
+    "arabic music"
+   ],
+   "items": [
+    {
+     "title": "MaqamWorld: What the oud is, how it is tuned and how it is played",
+     "url": "https://www.maqamworld.com/en/instr/oud.php",
+     "provider": "MaqamWorld",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "What the oud is, how it is tuned and how it is played.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Intro Oud Lesson with Demetrios Petsalakis",
+     "url": "https://www.youtube.com/watch?v=H4he47X8CY4",
+     "provider": "CBC Music",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:58",
+     "description": "Video lesson (3:58) from CBC Music.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@cbcmusic",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Beginners Oud Lesson - Learn Arabic Oud",
+     "url": "https://www.youtube.com/watch?v=LXyywyupzHA",
+     "provider": "Navid Goldrick | OudforGuitarists",
+     "type": "video",
+     "level": "beginner",
+     "length": "56:41",
+     "description": "Video lesson (56:41) from Navid Goldrick | OudforGuitarists.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@OudforGuitarists",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Learn The Oud - First Lesson (Oud Rundown Series)",
+     "url": "https://www.youtube.com/watch?v=afRYiI-gWmI",
+     "provider": "Faddoul Saad - فضول سعد",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:42",
+     "description": "Video lesson (6:42) from Faddoul Saad - فضول سعد.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@faddoulsaad",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "qanun": {
+   "field": "Music",
+   "label": "Qanun",
+   "tags": [
+    "qanun",
+    "zither"
+   ],
+   "items": [
+    {
+     "title": "Maqam Tools: learn and play Arabic maqam",
+     "url": "https://www.maqamtools.com/",
+     "provider": "Maqam Tools",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Includes a playable qanun in the browser, free.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Stage 1 of Qanun Success Path: Learn the basics",
+     "url": "https://www.youtube.com/watch?v=0yiMvp7nf7k",
+     "provider": "Maya Youssef Music",
+     "type": "video",
+     "level": "beginner",
+     "length": "10:14",
+     "description": "Video lesson (10:14) from Maya Youssef Music.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@MayaYoussefMusic",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to play Kanun | Lesson 1 تعلم عزف القانون للمبتدئين الدرس الأول",
+     "url": "https://www.youtube.com/watch?v=uAb-rML-fd8",
+     "provider": "Youssef Nassif يوسف ناصيف",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:19",
+     "description": "Video lesson (3:19) from Youssef Nassif يوسف ناصيف.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Youssef.Nassif",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "QANOON LESSON 1 (For Beginners)",
+     "url": "https://www.youtube.com/watch?v=MXRCH-OhvFQ",
+     "provider": "SEZER YILMAZ",
+     "type": "video",
+     "level": "beginner",
+     "length": "2:57",
+     "description": "Video lesson (2:57) from SEZER YILMAZ.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@sezer.yilmaz",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "ney": {
+   "field": "Music",
+   "label": "Ney",
+   "tags": [
+    "ney",
+    "flute"
+   ],
+   "items": [
+    {
+     "title": "Learn to Play The Ney  - Nay Tutorial - Ney Lesson #1",
+     "url": "https://www.youtube.com/watch?v=k2tYtZ9VUdk",
+     "provider": "Arab Instruments",
+     "type": "video",
+     "level": "beginner",
+     "length": "2:55",
+     "description": "Video lesson (2:55) from Arab Instruments.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Arabinstruments",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How To Make a Sound From a Ney - The Ultimate Tutorial",
+     "url": "https://www.youtube.com/watch?v=rZfmgSL9EFs",
+     "provider": "Arab Instruments",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:40",
+     "description": "Video lesson (6:40) from Arab Instruments.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Arabinstruments",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "darbuka": {
+   "field": "Music",
+   "label": "Darbuka and Arabic rhythm",
+   "tags": [
+    "darbuka",
+    "doumbek",
+    "rhythm"
+   ],
+   "items": [
+    {
+     "title": "Learn Darbuka in 5 minutes!",
+     "url": "https://www.youtube.com/watch?v=3SzZ91f0Ihk",
+     "provider": "April Centrone",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:26",
+     "description": "Video lesson (4:26) from April Centrone.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@AprilCentrone",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "🔹DARBUKA TUTORIAL | SAIDI Patterns #1",
+     "url": "https://www.youtube.com/watch?v=ErNR0XiwKno",
+     "provider": "Omar Kattan Percussion",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:45",
+     "description": "Video lesson (5:45) from Omar Kattan Percussion.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@OmarKattanPercussion",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to play the Darbuka: Beginners Course, Darbuka Lesson #1 (The basic strokes)",
+     "url": "https://www.youtube.com/watch?v=dGHTUFLDDOk",
+     "provider": "Ibi's Digital Nomad Stories ",
+     "type": "video",
+     "level": "beginner",
+     "length": "20:14",
+     "description": "Video lesson (20:14) from Ibi's Digital Nomad Stories .",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ibis_digitalnomadstories",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "nasheed": {
+   "field": "Music",
+   "label": "Nasheed and singing",
+   "tags": [
+    "nasheed",
+    "singing",
+    "vocal"
+   ],
+   "items": [
+    {
+     "title": "Your FIRST Singing Lesson (Beginner Lesson from a REAL Vocal Coach)",
+     "url": "https://www.youtube.com/watch?v=jog-nfLldRI",
+     "provider": "Ramsey Voice Studio",
+     "type": "video",
+     "level": "beginner",
+     "length": "11:06",
+     "description": "Video lesson (11:06) from Ramsey Voice Studio.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ramseyvoicestudio",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Breathe when Singing: Inhalation",
+     "url": "https://www.youtube.com/watch?v=e-9LPpsBidE",
+     "provider": "Singgeek",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:42",
+     "description": "Video lesson (4:42) from Singgeek.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@singgeek",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "maqam": {
+   "field": "Music",
+   "label": "Maqam basics",
+   "tags": [
+    "maqam",
+    "arabic scales"
+   ],
+   "items": [
+    {
+     "title": "Arabic Maqam World",
+     "url": "https://www.maqamworld.com/en/",
+     "provider": "MaqamWorld",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "A free site that teaches the Arabic maqam system with clickable notes and audio.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Maqam Tools: learn and play Arabic maqam",
+     "url": "https://www.maqamtools.com/",
+     "provider": "Maqam Tools",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Free browser instruments and rhythm trainer for exploring Arabic maqam; no sign-up.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Layth Sidiq Explains the Basics of Maqam [Highlight]",
+     "url": "https://www.youtube.com/watch?v=RxQdVxTSO3Y",
+     "provider": "afikra - عفكرة",
+     "type": "video",
+     "level": "beginner",
+     "length": "2:00",
+     "description": "Video lesson (2:00) from afikra - عفكرة.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@afikra",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Oud Maqam Learning Part 2: Ultimate Introduction to Maqam Music",
+     "url": "https://www.youtube.com/watch?v=Xp15YtTJNJk",
+     "provider": "Navid Goldrick | OudforGuitarists",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:00",
+     "description": "Video lesson (6:00) from Navid Goldrick | OudforGuitarists.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@OudforGuitarists",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "frame-drum": {
+   "field": "Music",
+   "label": "Frame drum (daf, riq)",
+   "tags": [
+    "daf",
+    "riq",
+    "frame drum"
+   ],
+   "items": [
+    {
+     "title": "How to Play Frame Drum for Absolute Beginners, Part I: Basic Frame Drum Rhythms and Sounds",
+     "url": "https://www.youtube.com/watch?v=1M6QvpxbB7E",
+     "provider": "Didge Project",
+     "type": "video",
+     "level": "beginner",
+     "length": "13:29",
+     "description": "Video lesson (13:29) from Didge Project.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@didgeproject",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Frame Drum Basics -  Lesson by Abe Doron ( Daff / Tar Drum)",
+     "url": "https://www.youtube.com/watch?v=EWn9UM-Hxxc",
+     "provider": "Abe Doron",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Abe Doron.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@abedoron1",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Daf lesson-Learn a Basic Frame Drum Pattern in 5 Steps-Amir Haghiri",
+     "url": "https://www.youtube.com/watch?v=LxSmeluUdzo",
+     "provider": "Amir Haghiri",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:57",
+     "description": "Video lesson (3:57) from Amir Haghiri.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@AmirHaghiri",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "saz": {
+   "field": "Music",
+   "label": "Saz / baglama",
+   "tags": [
+    "saz",
+    "baglama"
+   ],
+   "items": [
+    {
+     "title": "English Saz - Baglama Lesson For Beginners (Başlangıç Seviyesi İçin İngilizce Saz - Bağlama Dersi)",
+     "url": "https://www.youtube.com/watch?v=9zp3tC0PdDw",
+     "provider": "Ayhan Doğan",
+     "type": "video",
+     "level": "beginner",
+     "length": "7:26",
+     "description": "Video lesson (7:26) from Ayhan Doğan.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ayhandogann",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Introduction to Baglama Saz for the absolute Beginner - In English! Part 1",
+     "url": "https://www.youtube.com/watch?v=sgSKFhVHO30",
+     "provider": "Guitar101Ramstein",
+     "type": "video",
+     "level": "beginner",
+     "length": "12:44",
+     "description": "Video lesson (12:44) from Guitar101Ramstein.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Guitar101Ramstein",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "qawwali": {
+   "field": "Music",
+   "label": "Qawwali and ghazal",
+   "tags": [
+    "qawwali",
+    "ghazal",
+    "harmonium"
+   ],
+   "items": [
+    {
+     "title": "Qawwali Harmonium Tutorial Haq Ali Ali",
+     "url": "https://www.youtube.com/watch?v=1Uiv9Q04W4c",
+     "provider": "Fanna-Fi-Allah",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:42",
+     "description": "Video lesson (4:42) from Fanna-Fi-Allah.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@fannafiallah",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Play Harmonium in Qawwali Style | Complete Lecture in Urdu/Hindi",
+     "url": "https://www.youtube.com/watch?v=NOCMuZ_D42s",
+     "provider": "swar Teach",
+     "type": "video",
+     "level": "beginner",
+     "length": "16:39",
+     "description": "Video lesson (16:39) from swar Teach.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@swarTeach",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "filmmaking": {
+   "field": "Film",
+   "label": "Filmmaking basics",
+   "tags": [
+    "filmmaking",
+    "cinematography",
+    "short film"
+   ],
+   "items": [
+    {
+     "title": "Film Making Basics: Everything you need to know in 8 minutes!",
+     "url": "https://www.youtube.com/watch?v=BFwMRVwrKcA",
+     "provider": "Alfie Vaughan",
+     "type": "video",
+     "level": "beginner",
+     "length": "8:00",
+     "description": "Video lesson (8:00) from Alfie Vaughan.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@AlfieVaughan",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "The Basics of Cinematography - Filmmaking for Beginners",
+     "url": "https://www.youtube.com/watch?v=8rAe8RuICYM",
+     "provider": "Camp Films",
+     "type": "video",
+     "level": "beginner",
+     "length": "19:30",
+     "description": "Video lesson (19:30) from Camp Films.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@RyanCampFilms",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "screenwriting": {
+   "field": "Film",
+   "label": "Screenwriting",
+   "tags": [
+    "screenwriting",
+    "script"
+   ],
+   "items": [
+    {
+     "title": "How to Write A Short Film Script",
+     "url": "https://www.youtube.com/watch?v=_9eaz0o-rk8",
+     "provider": "Rian Spaulding",
+     "type": "video",
+     "level": "beginner",
+     "length": "7:36",
+     "description": "Video lesson (7:36) from Rian Spaulding.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@RianSpaulding",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How To Write A Screenplay (For Beginners)",
+     "url": "https://www.youtube.com/watch?v=0SNaOisC2II",
+     "provider": "Film Riot",
+     "type": "video",
+     "level": "beginner",
+     "length": "17:16",
+     "description": "Video lesson (17:16) from Film Riot.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@filmriot",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "documentary": {
+   "field": "Film",
+   "label": "Documentary storytelling",
+   "tags": [
+    "documentary"
+   ],
+   "items": [
+    {
+     "title": "How to Make a Documentary Film: A Step-By-Step Guide for Beginners",
+     "url": "https://www.youtube.com/watch?v=KfirJkk7dnI",
+     "provider": "Camp Films",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:53",
+     "description": "Video lesson (9:53) from Camp Films.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@RyanCampFilms",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Making a Documentary From Start to Finish - Beginner Tips",
+     "url": "https://www.youtube.com/watch?v=thqw_XSyEO0",
+     "provider": "Luc Forsyth",
+     "type": "video",
+     "level": "beginner",
+     "length": "12:35",
+     "description": "Video lesson (12:35) from Luc Forsyth.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@LucForsyth",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "animation": {
+   "field": "Film",
+   "label": "Animation",
+   "tags": [
+    "animation",
+    "animated"
+   ],
+   "items": [
+    {
+     "title": "Pixar in a Box | Computing | Khan Academy",
+     "url": "https://www.khanacademy.org/computing/pixar",
+     "provider": "Khan Academy (Pixar in a Box)",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Free lessons on how Pixar makes animated films.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Make Stop Motion Animation | A Beginner’s Guide to Stop Motion | Episode 1",
+     "url": "https://www.youtube.com/watch?v=tKtrn4gJQCE",
+     "provider": "Marvelous Stop Motions",
+     "type": "video",
+     "level": "beginner",
+     "length": "14:20",
+     "description": "Video lesson (14:20) from Marvelous Stop Motions.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Marvelous_Stop_Motions",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How To Make Stop-Motion Videos (The 8 Principles)",
+     "url": "https://www.youtube.com/watch?v=zAMwWgspxpE",
+     "provider": "Samuel Burt",
+     "type": "video",
+     "level": "beginner",
+     "length": "10:18",
+     "description": "Video lesson (10:18) from Samuel Burt.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@SamuelJBurt",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "film-editing": {
+   "field": "Film",
+   "label": "Film editing",
+   "tags": [
+    "film editing",
+    "video editing"
+   ],
+   "items": [
+    {
+     "title": "Learn DaVinci Resolve in JUST 10 MINUTES!",
+     "url": "https://www.youtube.com/watch?v=3mo_vgKfYCU",
+     "provider": "Casey Faris",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Casey Faris.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@CaseyFaris",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Get Started with DaVinci Resolve Free Video Editor",
+     "url": "https://www.youtube.com/watch?v=AfeW4QuW-vY",
+     "provider": "Simon Horrocks",
+     "type": "video",
+     "level": "beginner",
+     "length": "13:42",
+     "description": "Video lesson (13:42) from Simon Horrocks.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@SiHorrocks",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "football": {
+   "field": "Sports",
+   "label": "Football (soccer)",
+   "tags": [
+    "football",
+    "soccer"
+   ],
+   "items": [
+    {
+     "title": "THE BASICS OF DRIBBLING I beginner tutorial",
+     "url": "https://www.youtube.com/watch?v=naEccnjzLxM",
+     "provider": "Unisport",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:33",
+     "description": "Video lesson (5:33) from Unisport.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@unisport",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "THE BASICS OF PASSING - beginner tutorial",
+     "url": "https://www.youtube.com/watch?v=oIpRuzvsU80",
+     "provider": "Unisport",
+     "type": "video",
+     "level": "beginner",
+     "length": "11:41",
+     "description": "Video lesson (11:41) from Unisport.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@unisport",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "7 ESSENTIAL Soccer Drills for Beginners (Dribbling, Passing, Shooting)",
+     "url": "https://www.youtube.com/watch?v=K63Um58qm08",
+     "provider": "Progressive Soccer",
+     "type": "video",
+     "level": "beginner",
+     "length": "7:58",
+     "description": "Video lesson (7:58) from Progressive Soccer.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ProgressiveSoccer",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "boxing": {
+   "field": "Sports",
+   "label": "Boxing",
+   "tags": [
+    "boxing",
+    "muhammad ali"
+   ],
+   "items": [
+    {
+     "title": "The Basic Boxing Punches Explained | How & Why",
+     "url": "https://www.youtube.com/watch?v=n-PBmzmeXSI",
+     "provider": "Tony Jeffries",
+     "type": "video",
+     "level": "beginner",
+     "length": "12:25",
+     "description": "Video lesson (12:25) from Tony Jeffries.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Tony_Jeffries",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Boxing 101: Learn the 6 Basic Punches for Beginners",
+     "url": "https://www.youtube.com/watch?v=QorRKgmXm7A",
+     "provider": "FightCamp",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:04",
+     "description": "Video lesson (5:04) from FightCamp.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@FightCamp",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "wrestling": {
+   "field": "Sports",
+   "label": "Wrestling",
+   "tags": [
+    "wrestling",
+    "pehlwani"
+   ],
+   "items": [
+    {
+     "title": "Wrestling for Beginners: Your First 5 Moves to Master",
+     "url": "https://www.youtube.com/watch?v=ENhK2w0Znqs",
+     "provider": "Iron Faith Wrestling",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:13",
+     "description": "Video lesson (9:13) from Iron Faith Wrestling.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ironfaithwrestling",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "The RULES OF WRESTLING explained for beginners and parents",
+     "url": "https://www.youtube.com/watch?v=GbWB1mPa69c",
+     "provider": "Wrestling Reimagined",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:05",
+     "description": "Video lesson (9:05) from Wrestling Reimagined.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Wrestling_Reimanged",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "archery": {
+   "field": "Sports",
+   "label": "Archery (traditional)",
+   "tags": [
+    "archery",
+    "bow"
+   ],
+   "items": [
+    {
+     "title": "Beginners Guide to Archery",
+     "url": "https://archerygb.org/get-involved/archery-for-beginners/beginners-guide-to-archery",
+     "provider": "Archery GB",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "How to try archery, bow types and what kit you need.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Aim a Horse Bow | Asiatic Archery",
+     "url": "https://www.youtube.com/watch?v=48ZMOdxg5-w",
+     "provider": "NUSensei",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:39",
+     "description": "Video lesson (4:39) from NUSensei.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@NUSensei",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Aim in Traditional Archery",
+     "url": "https://www.youtube.com/watch?v=Y-RnSsP3ix8",
+     "provider": "Armin Hirmer",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:12",
+     "description": "Video lesson (5:12) from Armin Hirmer.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ArminHirmer",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "cricket": {
+   "field": "Sports",
+   "label": "Cricket",
+   "tags": [
+    "cricket"
+   ],
+   "items": [
+    {
+     "title": "How To Bat In Cricket With The CORRECT Set Up - STANCE, GRIP, BACKFLIFT - Facing Fast Bowling & Spin",
+     "url": "https://www.youtube.com/watch?v=rp77LQBJgGY",
+     "provider": "CRICKET LIFE STORIES",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from CRICKET LIFE STORIES.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@CricketLifeStories",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Kevin Pietersen's Batting Masterclass 🏏 Best batting tips, techniques and tutorials",
+     "url": "https://www.youtube.com/watch?v=5INjpGd5LMw",
+     "provider": "Sky Sports Cricket",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Sky Sports Cricket.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@skysportscricket",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "judo": {
+   "field": "Sports",
+   "label": "Judo and sambo",
+   "tags": [
+    "judo",
+    "sambo",
+    "martial arts"
+   ],
+   "items": [
+    {
+     "title": "Judo Basics - Your First Lesson To Start #judo",
+     "url": "https://www.youtube.com/watch?v=aFBp0cZ79bQ",
+     "provider": "Shintaro Higashi",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:18",
+     "description": "Video lesson (5:18) from Shintaro Higashi.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Shigashi84",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "JUDO for Beginners: What I wish I knew on DAY ONE !",
+     "url": "https://www.youtube.com/watch?v=jS78zobHuIk",
+     "provider": "KO Academy",
+     "type": "video",
+     "level": "beginner",
+     "length": "7:18",
+     "description": "Video lesson (7:18) from KO Academy.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@k.o_Academy",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "squash": {
+   "field": "Sports",
+   "label": "Squash",
+   "tags": [
+    "squash"
+   ],
+   "items": [
+    {
+     "title": "Master the basics of squash",
+     "url": "https://www.englandsquash.com/get-involved/play/master-the-basics",
+     "provider": "England Squash",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "The basic rules and jargon of squash in plain words.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Squash beginners: grip and basic drills",
+     "url": "https://play-squash.com/squash-beginners",
+     "provider": "Play Squash",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Grip, nine basic drills and beginner shots, with videos.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How To Play Squash: A Beginners Guide – Equipment, Rules and Tactics! ☄️",
+     "url": "https://www.youtube.com/watch?v=Km5TMstbE34",
+     "provider": "SQUASHTV",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:51",
+     "description": "Video lesson (3:51) from SQUASHTV.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@squashtv",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Zero to Hero: Basic Technique - Squash Technique For Beginners",
+     "url": "https://www.youtube.com/watch?v=g-A3hNFqgxM",
+     "provider": "SquashSkills",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:01",
+     "description": "Video lesson (6:01) from SquashSkills.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@squashskills",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "swimming": {
+   "field": "Sports",
+   "label": "Swimming",
+   "tags": [
+    "swimming"
+   ],
+   "items": [
+    {
+     "title": "Learn To Swim Freestyle | A Simple Step-By-Step Guide",
+     "url": "https://www.youtube.com/watch?v=6_vXycbD2TM",
+     "provider": "Global Triathlon Network",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:22",
+     "description": "Video lesson (5:22) from Global Triathlon Network.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@gtn",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Swim Freestyle For Complete Beginners",
+     "url": "https://www.youtube.com/watch?v=z4TL8lF18hE",
+     "provider": "Caribe Swim",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Caribe Swim.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@caribeswim",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "taekwondo": {
+   "field": "Sports",
+   "label": "Taekwondo",
+   "tags": [
+    "taekwondo",
+    "martial arts"
+   ],
+   "items": [
+    {
+     "title": "Taekwondo White Belt Basics👊",
+     "url": "https://www.youtube.com/watch?v=UxIB6mOfOkM",
+     "provider": "TaekwondoShawn",
+     "type": "video",
+     "level": "beginner",
+     "length": "10:16",
+     "description": "Video lesson (10:16) from TaekwondoShawn.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@taekwondoshawn",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "White belt to Yellow belt in Taekwondo: Step by Step Tutorial for Beginners",
+     "url": "https://www.youtube.com/watch?v=vk_EUivgWNk",
+     "provider": "Taekwondo with Chadi",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Taekwondo with Chadi.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TaekwondowithChadi",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "20-min BEGINNER TAEKWONDO Workout (At Home & No Equipment)",
+     "url": "https://www.youtube.com/watch?v=4dSjAurn86U",
+     "provider": "Black Belt Samery",
+     "type": "video",
+     "level": "beginner",
+     "length": "22:39",
+     "description": "Video lesson (22:39) from Black Belt Samery.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@BlackBeltSamery",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "running": {
+   "field": "Sports",
+   "label": "Running",
+   "tags": [
+    "running"
+   ],
+   "items": [
+    {
+     "title": "Get running with Couch to 5K - Better Health",
+     "url": "https://www.nhs.uk/live-well/exercise/running-and-aerobic-exercises/get-running-with-couch-to-5k/",
+     "provider": "NHS",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "The free nine-week Couch to 5K plan.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Couch To 5K: Week 1 | Starting Running For The First Time",
+     "url": "https://www.youtube.com/watch?v=YACmfwcBDnM",
+     "provider": "Global Triathlon Network",
+     "type": "video",
+     "level": "beginner",
+     "length": "11:46",
+     "description": "Video lesson (11:46) from Global Triathlon Network.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@gtn",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "11 Beginner Run Tips | How To Start Running!",
+     "url": "https://www.youtube.com/watch?v=kVnyY17VS9Y",
+     "provider": "Global Triathlon Network",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Global Triathlon Network.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@gtn",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "basketball": {
+   "field": "Sports",
+   "label": "Basketball",
+   "tags": [
+    "basketball"
+   ],
+   "items": [
+    {
+     "title": "How To Dribble A Basketball For Beginners! Basketball Basics [SECRETS]",
+     "url": "https://www.youtube.com/watch?v=CMQp0bwjokw",
+     "provider": "Get Handles Basketball",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:32",
+     "description": "Video lesson (9:32) from Get Handles Basketball.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@GetHandles",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Teach the basics of BASKETBALL for youth PE 🏀",
+     "url": "https://www.youtube.com/watch?v=tg-w45l2Ib0",
+     "provider": "Prime Coaching Sport",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Prime Coaching Sport.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@PrimeCoachingSport",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "horse-riding": {
+   "field": "Sports",
+   "label": "Horse riding",
+   "tags": [
+    "horse",
+    "riding"
+   ],
+   "items": [
+    {
+     "title": "HOW TO RIDE A HORSE (EASY BEGINNERS GUIDE)",
+     "url": "https://www.youtube.com/watch?v=jByGqv0Wt-Q",
+     "provider": "Carmella Abel - Equine Helper",
+     "type": "video",
+     "level": "beginner",
+     "length": "7:31",
+     "description": "Video lesson (7:31) from Carmella Abel - Equine Helper.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@CarmellaAbel",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "HOW TO RIDE A HORSE FOR BEGINNERS (STEP BY STEP) 🐎",
+     "url": "https://www.youtube.com/watch?v=fV7kuUrjutY",
+     "provider": "JSHorsemanship",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:30",
+     "description": "Video lesson (9:30) from JSHorsemanship.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@JSHorsemanship",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "python": {
+   "field": "Technology",
+   "label": "Programming with Python",
+   "tags": [
+    "python",
+    "programming"
+   ],
+   "items": [
+    {
+     "title": "Khan Academy: Free interactive intro to Python",
+     "url": "https://www.khanacademy.org/computing/intro-to-python-fundamentals",
+     "provider": "Khan Academy",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Free interactive intro to Python.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Beginners Guide - Python Wiki",
+     "url": "https://wiki.python.org/moin/BeginnersGuide",
+     "provider": "python.org",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "The official beginner starting point for Python.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Learn Python - Full Course for Beginners [Tutorial]",
+     "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+     "provider": "freeCodeCamp.org",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from freeCodeCamp.org.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@freecodecamp",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Python for Beginners - Learn Coding with Python in 1 Hour",
+     "url": "https://www.youtube.com/watch?v=kqtD5dpn9C8",
+     "provider": "Programming with Mosh",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Programming with Mosh.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@programmingwithmosh",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "web-dev": {
+   "field": "Technology",
+   "label": "Making a web page",
+   "tags": [
+    "web development",
+    "html",
+    "website"
+   ],
+   "items": [
+    {
+     "title": "Learn web development | MDN",
+     "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+     "provider": "MDN Web Docs",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Mozilla's free learning path, from HTML to the web.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Intro to HTML/CSS: Making webpages (Khan Academy)",
+     "url": "https://www.khanacademy.org/computing/computer-programming/html-css",
+     "provider": "Khan Academy",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Free HTML and CSS lessons you can try in the browser.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "HTML Tutorial - How to Make a Super Simple Website",
+     "url": "https://www.youtube.com/watch?v=PlxWf493en4",
+     "provider": "freeCodeCamp.org",
+     "type": "video",
+     "level": "beginner",
+     "length": "33:24",
+     "description": "Video lesson (33:24) from freeCodeCamp.org.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@freecodecamp",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "HTML Tutorial For Beginners",
+     "url": "https://www.youtube.com/watch?v=vY2xUc4TVmY",
+     "provider": "The Coding Sloth",
+     "type": "video",
+     "level": "beginner",
+     "length": "16:40",
+     "description": "Video lesson (16:40) from The Coding Sloth.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TheCodingSloth",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "electronics": {
+   "field": "Technology",
+   "label": "Electronics and Arduino",
+   "tags": [
+    "arduino",
+    "electronics"
+   ],
+   "items": [
+    {
+     "title": "Blink | Arduino Documentation",
+     "url": "https://docs.arduino.cc/built-in-examples/basics/Blink/",
+     "provider": "Arduino",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "The official first Arduino project: blink an LED.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Arduino 101- Crash Course w/ Mark Rober",
+     "url": "https://www.youtube.com/watch?v=yi29dbPnu28",
+     "provider": "CrunchLabs",
+     "type": "video",
+     "level": "beginner",
+     "length": "22:12",
+     "description": "Video lesson (22:12) from CrunchLabs.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@CrunchLabs",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Blink an LED with Arduino (Lesson #2)",
+     "url": "https://www.youtube.com/watch?v=FKekzzj5844",
+     "provider": "Science Buddies",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Science Buddies.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Science.Buddies",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "cybersecurity": {
+   "field": "Technology",
+   "label": "Cybersecurity basics",
+   "tags": [
+    "cybersecurity",
+    "hacker"
+   ],
+   "items": [
+    {
+     "title": "Introduction to Cybersecurity",
+     "url": "https://www.youtube.com/watch?v=ULGILG-ZhO0",
+     "provider": "CBT Nuggets",
+     "type": "video",
+     "level": "beginner",
+     "length": "8:21",
+     "description": "Video lesson (8:21) from CBT Nuggets.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@cbtnuggets",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Everything you NEED to know as Cybersecurity Beginner",
+     "url": "https://www.youtube.com/watch?v=X-O1-l0gP5Q",
+     "provider": "Tech with Jono",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:36",
+     "description": "Video lesson (5:36) from Tech with Jono.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TechwithJono",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "robotics": {
+   "field": "Technology",
+   "label": "Robotics",
+   "tags": [
+    "robotics",
+    "robot"
+   ],
+   "items": [
+    {
+     "title": "An Introduction To Robotics 🤖 By Teach Kids Robotics (Full Lesson)",
+     "url": "https://www.youtube.com/watch?v=HvMQONnCXbE",
+     "provider": "TeachKidsRobotics",
+     "type": "video",
+     "level": "beginner",
+     "length": "30:33",
+     "description": "Video lesson (30:33) from TeachKidsRobotics.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TeachKidsRobotics",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to start in robotics? The BEST intro to robotics!",
+     "url": "https://www.youtube.com/watch?v=EAyzRmAKueE",
+     "provider": "Every Flavor of Robot",
+     "type": "video",
+     "level": "beginner",
+     "length": "16:36",
+     "description": "Video lesson (16:36) from Every Flavor of Robot.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@EveryFlavorRobot",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "bookkeeping": {
+   "field": "Business",
+   "label": "Bookkeeping and accounting basics",
+   "tags": [
+    "bookkeeping",
+    "accounting"
+   ],
+   "items": [
+    {
+     "title": "Khan Academy: Free finance basics: interest, accounts and money",
+     "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+     "provider": "Khan Academy",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Free finance basics: interest, accounts and money.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "The ACCOUNTING BASICS for BEGINNERS",
+     "url": "https://www.youtube.com/watch?v=Gua2Bo_G-J0",
+     "provider": "LYFE Accounting",
+     "type": "video",
+     "level": "beginner",
+     "length": "11:13",
+     "description": "Video lesson (11:13) from LYFE Accounting.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@LYFEAccounting",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Accounting Basics for Small Business Owners [By a CPA]",
+     "url": "https://www.youtube.com/watch?v=3KeG7hHzUy4",
+     "provider": "LYFE Accounting",
+     "type": "video",
+     "level": "beginner",
+     "length": "15:41",
+     "description": "Video lesson (15:41) from LYFE Accounting.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@LYFEAccounting",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "small-business": {
+   "field": "Business",
+   "label": "Starting a small business",
+   "tags": [
+    "small business",
+    "entrepreneur",
+    "startup"
+   ],
+   "items": [
+    {
+     "title": "Khan Academy: Free entrepreneurship lessons from entrepreneurs",
+     "url": "https://www.khanacademy.org/college-careers-more/entrepreneurship2",
+     "provider": "Khan Academy",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Free entrepreneurship lessons from entrepreneurs.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How To Start a Business - Step by Step Guide for Beginners",
+     "url": "https://www.youtube.com/watch?v=0Q4BZhTVSqk",
+     "provider": "ClearValue Tax",
+     "type": "video",
+     "level": "beginner",
+     "length": "24:15",
+     "description": "Video lesson (24:15) from ClearValue Tax.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@clearvaluetax9382",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "marketing": {
+   "field": "Business",
+   "label": "Marketing basics",
+   "tags": [
+    "marketing",
+    "advertising"
+   ],
+   "items": [
+    {
+     "title": "Introduction To Marketing | Marketing 101",
+     "url": "https://www.youtube.com/watch?v=8Sj2tbh-ozE",
+     "provider": "Adam Erhart",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Adam Erhart.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Adamerhartvideo",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Understanding Marketing Basics For Businesses | Marketing 101",
+     "url": "https://www.youtube.com/watch?v=ZYw52nVZl_0",
+     "provider": "Adam Erhart",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Adam Erhart.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Adamerhartvideo",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "spreadsheets": {
+   "field": "Business",
+   "label": "Spreadsheets for trade",
+   "tags": [
+    "spreadsheet"
+   ],
+   "items": [
+    {
+     "title": "Google Sheets Tutorial for Beginners 🔥",
+     "url": "https://www.youtube.com/watch?v=FIkZ1sPmKNw",
+     "provider": "Coupler․io Academy",
+     "type": "video",
+     "level": "beginner",
+     "length": "13:50",
+     "description": "Video lesson (13:50) from Coupler․io Academy.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@coupleracademy",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Google Sheets Tutorial for Beginners",
+     "url": "https://www.youtube.com/watch?v=TENAbUa-R-w",
+     "provider": "Kevin Stratvert",
+     "type": "video",
+     "level": "beginner",
+     "length": "49:11",
+     "description": "Video lesson (49:11) from Kevin Stratvert.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@KevinStratvert",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "negotiation": {
+   "field": "Business",
+   "label": "Negotiation and trade",
+   "tags": [
+    "negotiation"
+   ],
+   "items": [
+    {
+     "title": "Free Negotiation Reports - Program on Negotiation at Harvard Law School",
+     "url": "https://www.pon.harvard.edu/freemium/",
+     "provider": "Harvard Program on Negotiation",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Free negotiation guides.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Negotiation skills for life: how to succeed when it matters most | Matthias Schranner | TEDxZurich",
+     "url": "https://www.youtube.com/watch?v=DpmvQm1PMPk",
+     "provider": "TEDx Talks",
+     "type": "video",
+     "level": "beginner",
+     "length": "13:23",
+     "description": "Video lesson (13:23) from TEDx Talks.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TEDx",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "3 steps to getting what you want in a negotiation | The Way We Work, a TED series",
+     "url": "https://www.youtube.com/watch?v=Z3HJCQJ2Lmo",
+     "provider": "TED",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from TED.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TED",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "gardening": {
+   "field": "Environment",
+   "label": "Gardening",
+   "tags": [
+    "garden",
+    "gardening"
+   ],
+   "items": [
+    {
+     "title": "Grow your own fruit, vegetables & herbs / RHS",
+     "url": "https://www.rhs.org.uk/advice/grow-your-own",
+     "provider": "Royal Horticultural Society",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Free grow-your-own guides for beginners.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Vegetable Gardening for Beginners",
+     "url": "https://www.youtube.com/watch?v=LAU6qu_dKBk",
+     "provider": "Gardenary",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:43",
+     "description": "Video lesson (9:43) from Gardenary.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Gardenary",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Planning a Vegetable Garden for Beginners: The 5 Golden Rules 🏆",
+     "url": "https://www.youtube.com/watch?v=9R-utqpmwmE",
+     "provider": "GrowVeg",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:06",
+     "description": "Video lesson (5:06) from GrowVeg.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@GrowVeg",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "composting": {
+   "field": "Environment",
+   "label": "Composting",
+   "tags": [
+    "compost"
+   ],
+   "items": [
+    {
+     "title": "Composting At Home",
+     "url": "https://www.epa.gov/recycle/composting-home",
+     "provider": "US EPA",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "How to compost at home.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Beginner's Guide to Composting",
+     "url": "https://www.youtube.com/watch?v=egyNJ7xPyoQ",
+     "provider": "Nelson City Council",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:12",
+     "description": "Video lesson (3:12) from Nelson City Council.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@NelsonCouncil",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Composting 101: Stupid-Easy Compost Making in Piles & Bins",
+     "url": "https://www.youtube.com/watch?v=9zvFresyPmA",
+     "provider": "Pure Living for Life",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:52",
+     "description": "Video lesson (6:52) from Pure Living for Life.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@purelivingforlife",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "permaculture": {
+   "field": "Environment",
+   "label": "Permaculture and water-wise growing",
+   "tags": [
+    "permaculture",
+    "rainwater"
+   ],
+   "items": [
+    {
+     "title": "How to HARVEST RAINWATER from your roof",
+     "url": "https://www.youtube.com/watch?v=DhEaKdmHeCk",
+     "provider": "Andrew Millison",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Andrew Millison.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@amillison",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Rainwater Harvesting Basics: A Simple Muffin Tin Metaphor",
+     "url": "https://www.youtube.com/watch?v=_YFeBFIVy0U",
+     "provider": "Brad Lancaster",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:31",
+     "description": "Video lesson (4:31) from Brad Lancaster.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Brad_Lancaster_Water_Harvester",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "beekeeping": {
+   "field": "Environment",
+   "label": "Beekeeping",
+   "tags": [
+    "bees",
+    "honey",
+    "beekeeping"
+   ],
+   "items": [
+    {
+     "title": "How to Start Beekeeping for Absolute Beginners (Step-by-Step Guide)",
+     "url": "https://www.youtube.com/watch?v=jeFxOUZreXI",
+     "provider": "Beekeeping Made Simple",
+     "type": "video",
+     "level": "beginner",
+     "length": "15:42",
+     "description": "Video lesson (15:42) from Beekeeping Made Simple.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@BeekeepingMadeSimple",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Beginning Beekeeping Series Episode 1: Introduction and Equipment",
+     "url": "https://www.youtube.com/watch?v=TaVMrR9hUpQ",
+     "provider": "Doug the Bee Guy",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Doug the Bee Guy.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@DougtheBeeGuy",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "birdwatching": {
+   "field": "Environment",
+   "label": "Birdwatching",
+   "tags": [
+    "birds",
+    "birding"
+   ],
+   "items": [
+    {
+     "title": "Audubon: Getting started in birding and a free bird guide",
+     "url": "https://www.audubon.org/birding",
+     "provider": "Audubon",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Getting started in birding and a free bird guide.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Beginner's Birdwatching: Tips & Tools for Success",
+     "url": "https://www.youtube.com/watch?v=1RK4Nx4i924",
+     "provider": "Virginia Department of Wildlife Resources",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:45",
+     "description": "Video lesson (4:45) from Virginia Department of Wildlife Resources.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@VirginiaDWR",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Birding 101: The Ultimate Beginner's Guide to Birding",
+     "url": "https://www.youtube.com/watch?v=DSIhFy6tlvI",
+     "provider": "Badgerland Birding",
+     "type": "video",
+     "level": "beginner",
+     "length": "11:09",
+     "description": "Video lesson (11:09) from Badgerland Birding.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@BadgerlandBirding",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "solar": {
+   "field": "Environment",
+   "label": "Solar energy basics",
+   "tags": [
+    "solar",
+    "energy"
+   ],
+   "items": [
+    {
+     "title": "SOLAR POWER: The Ultimate Beginner's Guide / How To",
+     "url": "https://www.youtube.com/watch?v=khYZTmm7S5I",
+     "provider": "LRN2DIY",
+     "type": "video",
+     "level": "beginner",
+     "length": "11:25",
+     "description": "Video lesson (11:25) from LRN2DIY.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@LRN2DIY",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How Home Solar Systems Work: A Beginner's Guide",
+     "url": "https://www.youtube.com/watch?v=D7w3ZTecMYw",
+     "provider": "SolarQuotes",
+     "type": "video",
+     "level": "beginner",
+     "length": "8:03",
+     "description": "Video lesson (8:03) from SolarQuotes.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@SolarQuotes",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "first-aid": {
+   "field": "Health",
+   "label": "First aid",
+   "tags": [
+    "first aid"
+   ],
+   "items": [
+    {
+     "title": "First aid advice",
+     "url": "https://www.sja.org.uk/get-advice/first-aid-advice/",
+     "provider": "St John Ambulance",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Free first aid advice for common emergencies.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Use your First Aid Kit & Contents - First Aid Training - St John Ambulance",
+     "url": "https://www.youtube.com/watch?v=gn6xt1ca8A0",
+     "provider": "St John Ambulance",
+     "type": "video",
+     "level": "beginner",
+     "length": "2:05",
+     "description": "Video lesson (2:05) from St John Ambulance.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@stjohnambulanceorg",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to do the Primary Survey - First Aid Training - St John Ambulance",
+     "url": "https://www.youtube.com/watch?v=ea1RJUOiNfQ",
+     "provider": "St John Ambulance",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:03",
+     "description": "Video lesson (4:03) from St John Ambulance.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@stjohnambulanceorg",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "First Aid Training: CPR",
+     "url": "https://www.youtube.com/watch?v=TsJ49Np3HS0",
+     "provider": "St John Ambulance",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:53",
+     "description": "Video lesson (3:53) from St John Ambulance.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@stjohnambulanceorg",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "mindfulness": {
+   "field": "Health",
+   "label": "Mindfulness and breathing",
+   "tags": [
+    "mindfulness",
+    "breathing"
+   ],
+   "items": [
+    {
+     "title": "Daily Calm | 10 Minute Mindfulness Meditation | Be Present",
+     "url": "https://www.youtube.com/watch?v=ZToicYcHIOU",
+     "provider": "Calm",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Calm.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@calm",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Mindfulness Meditation - Guided 10 Minutes",
+     "url": "https://www.youtube.com/watch?v=6p_yaNFSYao",
+     "provider": "The Honest Guys - Meditations - Relaxation",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from The Honest Guys - Meditations - Relaxation.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TheHonestGuys",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "stretching": {
+   "field": "Health",
+   "label": "Stretching and mobility",
+   "tags": [
+    "stretching",
+    "mobility"
+   ],
+   "items": [
+    {
+     "title": "NHS: Simple flexibility and strength exercises",
+     "url": "https://www.nhs.uk/live-well/exercise/strength-and-flexibility-exercises/",
+     "provider": "NHS",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Simple flexibility and strength exercises.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "10 Minute Beginner Full Body Stretch",
+     "url": "https://www.youtube.com/watch?v=LnCQ-MECZSw",
+     "provider": "Bob & Brad",
+     "type": "video",
+     "level": "beginner",
+     "length": "10:52",
+     "description": "Video lesson (10:52) from Bob & Brad.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@BobandBrad",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "10 Minute Total Body Stretch! [Daily Flexibility Routine for Beginners]",
+     "url": "https://www.youtube.com/watch?v=COO2S7lPBzA",
+     "provider": "Tone and Tighten",
+     "type": "video",
+     "level": "beginner",
+     "length": "10:49",
+     "description": "Video lesson (10:49) from Tone and Tighten.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@toneandtighten",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "nutrition": {
+   "field": "Health",
+   "label": "Nutrition basics",
+   "tags": [
+    "nutrition"
+   ],
+   "items": [
+    {
+     "title": "The Eatwell Guide",
+     "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/",
+     "provider": "NHS",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "The Eatwell Guide to a balanced diet.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Nutrition Basics [From a Dietitian]",
+     "url": "https://www.youtube.com/watch?v=oo3I4CoemOQ",
+     "provider": "Dietitian Success Center Inc.",
+     "type": "video",
+     "level": "beginner",
+     "length": "15:03",
+     "description": "Video lesson (15:03) from Dietitian Success Center Inc..",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@dietitiansuccesscenterinc",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Nutrition 101 - Understanding the Basics",
+     "url": "https://www.youtube.com/watch?v=Qj_4uvzCqYk",
+     "provider": "Raise the Bar Fitness",
+     "type": "video",
+     "level": "beginner",
+     "length": "7:06",
+     "description": "Video lesson (7:06) from Raise the Bar Fitness.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@RaisetheBarFitness",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "sleep": {
+   "field": "Health",
+   "label": "Sleep habits",
+   "tags": [
+    "sleep"
+   ],
+   "items": [
+    {
+     "title": "Sleep Hygiene",
+     "url": "https://www.youtube.com/watch?v=ACmUi-6xkTM",
+     "provider": "Johns Hopkins Medicine",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Johns Hopkins Medicine.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@JohnsHopkinsMedicine",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Sleep Hygiene: Train Your Brain to Fall Asleep and Sleep Better",
+     "url": "https://www.youtube.com/watch?v=fk-_SwHhLLc",
+     "provider": "Therapy in a Nutshell",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Therapy in a Nutshell.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TherapyinaNutshell",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "automata": {
+   "field": "Innovation",
+   "label": "Automata and simple machines",
+   "tags": [
+    "automata",
+    "al-jazari",
+    "mechanism"
+   ],
+   "items": [
+    {
+     "title": "How to use cams - a customised automaton. Quiet Contemplation of a Sandwich.",
+     "url": "https://www.youtube.com/watch?v=ZWfTyHXqnV4",
+     "provider": "Philip Lowndes Automata Maker",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:23",
+     "description": "Video lesson (6:23) from Philip Lowndes Automata Maker.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@woodenpersonality",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to make an Automata- a STEM activity | DIY | School project | science project | STEM activity",
+     "url": "https://www.youtube.com/watch?v=JOfCZohKHrw",
+     "provider": "Bee-a-maker",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:21",
+     "description": "Video lesson (3:21) from Bee-a-maker.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@beeamaker",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "design-thinking": {
+   "field": "Innovation",
+   "label": "Design thinking",
+   "tags": [
+    "design thinking"
+   ],
+   "items": [
+    {
+     "title": "Design Thinking Full Course | Design Thinking Process | Design Thinking For Beginners | Simplilearn",
+     "url": "https://www.youtube.com/watch?v=4nTh3AP6knM",
+     "provider": "Simplilearn",
+     "type": "video",
+     "level": "beginner",
+     "length": "40:57",
+     "description": "Video lesson (40:57) from Simplilearn.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@SimplilearnOfficial",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "The Design Thinking Process",
+     "url": "https://www.youtube.com/watch?v=_r0VX-aU_T8",
+     "provider": "Sprouts",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Sprouts.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@sprouts",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Design Thinking 101",
+     "url": "https://www.youtube.com/watch?v=6lmvCqvmjfE",
+     "provider": "NNgroup",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:18",
+     "description": "Video lesson (3:18) from NNgroup.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@NNgroup",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "What is Design Thinking? | IDEO U",
+     "url": "https://www.youtube.com/watch?v=ldYzbV0NDp8",
+     "provider": "IDEO U",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from IDEO U.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ideoulearn",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "3d-printing": {
+   "field": "Innovation",
+   "label": "3D printing and CAD",
+   "tags": [
+    "3d printing",
+    "cad"
+   ],
+   "items": [
+    {
+     "title": "Learn how to use Tinkercad",
+     "url": "https://www.tinkercad.com/learn",
+     "provider": "Tinkercad",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Free guided lessons in 3D design for complete beginners.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Use Tinkercad for 3D Printing (Step-by-Step Beginner’s Guide)",
+     "url": "https://www.youtube.com/watch?v=XL1XVV6gQ9E",
+     "provider": "Teacher's Tech",
+     "type": "video",
+     "level": "beginner",
+     "length": "19:37",
+     "description": "Video lesson (19:37) from Teacher's Tech.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TeachersTech",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Design custom 3D printed parts - Learn Tinkercad in under 20 minutes",
+     "url": "https://www.youtube.com/watch?v=ub5NFpyP8wk",
+     "provider": "Teaching Tech",
+     "type": "video",
+     "level": "beginner",
+     "length": "19:01",
+     "description": "Video lesson (19:01) from Teaching Tech.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TeachingTech",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "water-clocks": {
+   "field": "Innovation",
+   "label": "Water clocks and engineering toys",
+   "tags": [
+    "water clock",
+    "engineering"
+   ],
+   "items": [
+    {
+     "title": "How to Make a Soda Bottle Water Clock",
+     "url": "https://www.youtube.com/watch?v=Gxa_3RZq1wI",
+     "provider": "LlegaWeapon",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:36",
+     "description": "Video lesson (3:36) from LlegaWeapon.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@LlegaWeapon",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Animation of Al-Jazari's Elephant Clock (1001 Inventions)",
+     "url": "https://www.youtube.com/watch?v=MCW_wp0dgF4",
+     "provider": "1001Inventions",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from 1001Inventions.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@1001Inventions",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "travel-photo": {
+   "field": "Travel",
+   "label": "Travel photography",
+   "tags": [
+    "travel photography"
+   ],
+   "items": [
+    {
+     "title": "Beginner Travel Photography Tips",
+     "url": "https://www.youtube.com/watch?v=iQY1JRyIaxI",
+     "provider": "Hyun Ralph Jeong",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:48",
+     "description": "Video lesson (9:48) from Hyun Ralph Jeong.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@HyunRalphJeong",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "The 3 essential tips for better travel photos",
+     "url": "https://www.youtube.com/watch?v=LDPpz_dF9Og",
+     "provider": "Leander Hoefler",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Leander Hoefler.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@leanderhoefler",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "5 Tips for Travel Photography from National Geographic Photographer Jim Richardson",
+     "url": "https://www.youtube.com/watch?v=1SwOq_87aUY",
+     "provider": "B&H Photo Video Pro Audio",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from B&H Photo Video Pro Audio.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@BandH",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "navigation": {
+   "field": "Travel",
+   "label": "Map reading and navigation",
+   "tags": [
+    "maps",
+    "navigation"
+   ],
+   "items": [
+    {
+     "title": "Ordnance Survey: How to read a map, step by step",
+     "url": "https://www.ordnancesurvey.co.uk/getoutside/guides/map-reading",
+     "provider": "Ordnance Survey",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "How to read a map, step by step.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Use a Compass || REI",
+     "url": "https://www.youtube.com/watch?v=0cF0ovA3FtY",
+     "provider": "REI",
+     "type": "video",
+     "level": "beginner",
+     "length": "7:16",
+     "description": "Video lesson (7:16) from REI.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@rei",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Compass 101 - How to Use a Baseplate Compass",
+     "url": "https://www.youtube.com/watch?v=7MQUIYsmQhc",
+     "provider": "MRCAParks",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:03",
+     "description": "Video lesson (3:03) from MRCAParks.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@MRCAParks",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "phrases-arabic": {
+   "field": "Travel",
+   "label": "Travel Arabic phrases",
+   "tags": [
+    "arabic",
+    "phrases",
+    "travel"
+   ],
+   "items": [
+    {
+     "title": "Learn Arabic with lessons that work",
+     "url": "https://www.duolingo.com/course/ar/en/Learn-Arabic",
+     "provider": "Duolingo",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Free Arabic lessons that start with the alphabet and greetings.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Arabic Conversation for Beginners | 70 Basic Arabic Phrases To Know",
+     "url": "https://www.youtube.com/watch?v=X1mC1XY65Kc",
+     "provider": "Learn Arabic with Khasu",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:19",
+     "description": "Video lesson (6:19) from Learn Arabic with Khasu.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@LearnArabicKhasu",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Learn Arabic for Travel: 20 Essential Phrases for Restaurants & Shopping (Beginner MSA)",
+     "url": "https://www.youtube.com/watch?v=BYXxxzST9hk",
+     "provider": "Arabic Universe",
+     "type": "video",
+     "level": "beginner",
+     "length": "15:38",
+     "description": "Video lesson (15:38) from Arabic Universe.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@arabicUniversee",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "trip-planning": {
+   "field": "Travel",
+   "label": "Planning a trip",
+   "tags": [
+    "trip planning"
+   ],
+   "items": [
+    {
+     "title": "How to Plan a Trip for Solo or Group Travel",
+     "url": "https://www.youtube.com/watch?v=E47FGfv14Mc",
+     "provider": "Brady Skye",
+     "type": "video",
+     "level": "beginner",
+     "length": "13:04",
+     "description": "Video lesson (13:04) from Brady Skye.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@BradySkye",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "HOW TO PLAN A TRIP TO EUROPE (STEP BY STEP) FOR FIRST TIMERS | Flights, Accommodation & More!",
+     "url": "https://www.youtube.com/watch?v=v1EelA5RgW4",
+     "provider": "Happy to Wander (Travel Tips & Inspo)",
+     "type": "video",
+     "level": "beginner",
+     "length": "18:16",
+     "description": "Video lesson (18:16) from Happy to Wander (Travel Tips & Inspo).",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@HappytoWander",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "hiking": {
+   "field": "Travel",
+   "label": "Hiking",
+   "tags": [
+    "hiking"
+   ],
+   "items": [
+    {
+     "title": "Watch this when you're ready to get into hiking (a beginner's guide)",
+     "url": "https://www.youtube.com/watch?v=upj7N22EMZA",
+     "provider": "Fareweld",
+     "type": "video",
+     "level": "beginner",
+     "length": "17:19",
+     "description": "Video lesson (17:19) from Fareweld.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@fareweld",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "6 TIPS for BEGINNER Day Hikers",
+     "url": "https://www.youtube.com/watch?v=gUzrBAqgqpc",
+     "provider": "Amanda Outside",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:40",
+     "description": "Video lesson (3:40) from Amanda Outside.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@amanda.outside",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "content": {
+   "field": "Social Media",
+   "label": "Making short videos",
+   "tags": [
+    "short video",
+    "reels"
+   ],
+   "items": [
+    {
+     "title": "How To Make a YouTube Short With a Smartphone (Step-by-Step Guide)",
+     "url": "https://www.youtube.com/watch?v=d48r-Y02wg4",
+     "provider": "Think Media",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:32",
+     "description": "Video lesson (4:32) from Think Media.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ThinkMediaTV",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "LEARN CAPCUT IN 15 MINUTES // COMPLETE MOBILE VIDEO EDITING TUTORIAL FOR BEGINNERS!",
+     "url": "https://www.youtube.com/watch?v=924il_WauMk",
+     "provider": "Stewart and Alina",
+     "type": "video",
+     "level": "beginner",
+     "length": "17:31",
+     "description": "Video lesson (17:31) from Stewart and Alina.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@DroneFilmGuide",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "phone-photo": {
+   "field": "Social Media",
+   "label": "Phone photography",
+   "tags": [
+    "phone photography"
+   ],
+   "items": [
+    {
+     "title": "80% Of Photography Basics In Just 10 Minutes",
+     "url": "https://www.youtube.com/watch?v=hVuTuib65WM",
+     "provider": "Pat Kay",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:51",
+     "description": "Video lesson (9:51) from Pat Kay.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@patkay",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "4 Framing & Composition Techniques for Beginners | Photography & Video Training",
+     "url": "https://www.youtube.com/watch?v=nKM3jkEOpuE",
+     "provider": "Learn Online Video",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:32",
+     "description": "Video lesson (5:32) from Learn Online Video.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@LearnOnlineVideo",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "stargazing": {
+   "field": "Space",
+   "label": "Stargazing",
+   "tags": [
+    "stargazing",
+    "night sky"
+   ],
+   "items": [
+    {
+     "title": "Home | NASA Space Place – NASA Science for Kids",
+     "url": "https://spaceplace.nasa.gov/",
+     "provider": "NASA Space Place",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Friendly NASA explainers and activities on space.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Stellarium Web Online Star Map",
+     "url": "https://stellarium-web.org/",
+     "provider": "Stellarium Web",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "A free planetarium in your browser to find stars and constellations.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "A Beginner's Guide to Stargazing",
+     "url": "https://www.youtube.com/watch?v=ibL91sASgKQ",
+     "provider": "Kielder Observatory",
+     "type": "video",
+     "level": "beginner",
+     "length": "10:28",
+     "description": "Video lesson (10:28) from Kielder Observatory.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@kielderobservatory5211",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Astronomy for beginners: 5 simple tips",
+     "url": "https://www.youtube.com/watch?v=Gl9qtBbKhEk",
+     "provider": "BBC Sky at Night Magazine",
+     "type": "video",
+     "level": "beginner",
+     "length": "2:47",
+     "description": "Video lesson (2:47) from BBC Sky at Night Magazine.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@bbcskyatnightmag",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "astrolabe": {
+   "field": "Space",
+   "label": "Astrolabe",
+   "tags": [
+    "astrolabe"
+   ],
+   "items": [
+    {
+     "title": "Make an Astrolabe Activity",
+     "url": "https://science.nasa.gov/learn/heat/resource/make-an-astrolabe-activity/",
+     "provider": "NASA Science",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Print a template and build a simple astrolabe that measures angles.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to make a simple Astrolabe",
+     "url": "https://www.youtube.com/watch?v=eXDDQtkv4-M",
+     "provider": "SKULL & SKILL",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:56",
+     "description": "Video lesson (5:56) from SKULL & SKILL.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@skullskill6086",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to use an astrolabe I Curator's Corner S3 Ep1 #CuratorsCorner",
+     "url": "https://www.youtube.com/watch?v=N8oWGwcdFmA",
+     "provider": "The British Museum",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:26",
+     "description": "Video lesson (6:26) from The British Museum.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@britishmuseum",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Calculate Time With an Islamic Astrolabe",
+     "url": "https://www.youtube.com/watch?v=0MxzfqadkBQ",
+     "provider": "NOVA PBS Official",
+     "type": "video",
+     "level": "beginner",
+     "length": "2:39",
+     "description": "Video lesson (2:39) from NOVA PBS Official.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@novapbs",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "telescope": {
+   "field": "Space",
+   "label": "Telescope basics",
+   "tags": [
+    "telescope"
+   ],
+   "items": [
+    {
+     "title": "Stellarium Web Online Star Map",
+     "url": "https://stellarium-web.org/",
+     "provider": "Stellarium Web",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Plan what to look at before you set up a telescope.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How To Use a Beginner Telescope",
+     "url": "https://www.youtube.com/watch?v=t1Ip2ta8NuU",
+     "provider": "LearnToStargaze",
+     "type": "video",
+     "level": "beginner",
+     "length": "14:49",
+     "description": "Video lesson (14:49) from LearnToStargaze.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@LearnToStargaze",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Five best things to see with a beginner telescope",
+     "url": "https://www.youtube.com/watch?v=I3DCyhLFPdA",
+     "provider": "The Planetary Society",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:24",
+     "description": "Video lesson (4:24) from The Planetary Society.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@planetarysociety",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "podcasting": {
+   "field": "Media",
+   "label": "Podcasting",
+   "tags": [
+    "podcast"
+   ],
+   "items": [
+    {
+     "title": "Spotify for Creators: Free guides to making a podcast",
+     "url": "https://podcasters.spotify.com/resources/learn",
+     "provider": "Spotify for Creators",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Free guides to making a podcast.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How To Create A Podcast for Beginners",
+     "url": "https://www.youtube.com/watch?v=mwFYiFZO6sI",
+     "provider": "Think Media",
+     "type": "video",
+     "level": "beginner",
+     "length": "14:28",
+     "description": "Video lesson (14:28) from Think Media.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ThinkMediaTV",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Start a Podcast in 2026 (Start to Finish)",
+     "url": "https://www.youtube.com/watch?v=8UYbUsfbBW0",
+     "provider": "Think Media",
+     "type": "video",
+     "level": "beginner",
+     "length": "11:01",
+     "description": "Video lesson (11:01) from Think Media.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ThinkMediaTV",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "journalism": {
+   "field": "Media",
+   "label": "Journalism basics",
+   "tags": [
+    "journalism"
+   ],
+   "items": [
+    {
+     "title": "How to Write a News Story STUDENTS WATCH ALL!",
+     "url": "https://www.youtube.com/watch?v=flq29zwRrZA",
+     "provider": "VelocityWriting | Momentum for Writers",
+     "type": "video",
+     "level": "beginner",
+     "length": "8:22",
+     "description": "Video lesson (8:22) from VelocityWriting | Momentum for Writers.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@VelocityWriting",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "OSJ Journalistic Writing (JT030) - Chapter 1: The Basics",
+     "url": "https://www.youtube.com/watch?v=R3nJtm5yQVQ",
+     "provider": "Open School of Journalism",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Open School of Journalism.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Openschoolofjournalism",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "radio": {
+   "field": "Media",
+   "label": "Audio and radio",
+   "tags": [
+    "audio",
+    "radio"
+   ],
+   "items": [
+    {
+     "title": "How to Record an Interview | Getting Great Audio on a Budget",
+     "url": "https://www.youtube.com/watch?v=F04S2f4THhM",
+     "provider": "Deity Microphones",
+     "type": "video",
+     "level": "beginner",
+     "length": "12:38",
+     "description": "Video lesson (12:38) from Deity Microphones.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@DeityMicrophones",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Record Audio with your iPhone - Voice overs, Notes and Dictation",
+     "url": "https://www.youtube.com/watch?v=ue0xeUp_qWo",
+     "provider": "Touch Technology Review",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Touch Technology Review.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Touchtechnologyreview",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "sewing": {
+   "field": "Fashion",
+   "label": "Sewing basics",
+   "tags": [
+    "sewing"
+   ],
+   "items": [
+    {
+     "title": "Sewing.org: Free beginner sewing basics",
+     "url": "https://www.sewing.org/",
+     "provider": "Sewing.org",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Free beginner sewing basics.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 1,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Hand-Sewing | Basic Stitches and Techniques",
+     "url": "https://www.youtube.com/watch?v=1FknfumFPX8",
+     "provider": "Nutty Crafter",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:06",
+     "description": "Video lesson (5:06) from Nutty Crafter.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@NuttyCrafter",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "HOW to SEW by HAND for BEGINNERS  - Learn BASIC SEWING Skills",
+     "url": "https://www.youtube.com/watch?v=Vva2h5oSYK8",
+     "provider": "naztazia",
+     "type": "video",
+     "level": "beginner",
+     "length": "11:36",
+     "description": "Video lesson (11:36) from naztazia.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@naztazia",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "tatreez": {
+   "field": "Fashion",
+   "label": "Tatreez and cross-stitch embroidery",
+   "tags": [
+    "tatreez",
+    "embroidery",
+    "cross stitch"
+   ],
+   "items": [
+    {
+     "title": "Tatreez Traditions: A free beginner course",
+     "url": "https://tatreeztraditions.com/pages/courses",
+     "provider": "Tatreez Traditions",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "A free beginner course: fabric, thread, basic cross-stitch, and a first small motif.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 1,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Simple Border Steps",
+     "url": "https://www.tatreeztraditions.com/motif-library/simple-border-steps",
+     "provider": "Tatreez Traditions",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "A free step-by-step PDF for a simple border motif.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Start Stitching Tatreez: How to Cross-Stitch + Begin Your First Motif",
+     "url": "https://www.youtube.com/watch?v=OYX_pW5HFzk",
+     "provider": "Lina's Thobe",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:42",
+     "description": "Video lesson (6:42) from Lina's Thobe.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@linasthobe",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Tatreez Tutorial for Beginners : Lesson 1",
+     "url": "https://www.youtube.com/watch?v=idDahyP_3ak",
+     "provider": "Tatreez Tutorials",
+     "type": "video",
+     "level": "beginner",
+     "length": "2:51",
+     "description": "Video lesson (2:51) from Tatreez Tutorials.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TatreezTutorials",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "embroidery": {
+   "field": "Fashion",
+   "label": "Hand embroidery",
+   "tags": [
+    "embroidery",
+    "textile"
+   ],
+   "items": [
+    {
+     "title": "Tatreez Traditions: A free cross-stitch course that also teaches clean thread work",
+     "url": "https://tatreeztraditions.com/pages/courses",
+     "provider": "Tatreez Traditions",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "A free cross-stitch course that also teaches clean thread work.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 1,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "FIVE essential stitches to start embroidery - Beginners Hand Embroidery tutorial part 2",
+     "url": "https://www.youtube.com/watch?v=Tgc8CpuEHFo",
+     "provider": "Sarah Homfray Embroidery",
+     "type": "video",
+     "level": "beginner",
+     "length": "20:16",
+     "description": "Video lesson (20:16) from Sarah Homfray Embroidery.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@SarahHomfrayEmbroidery",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "13 Hand Embroidery Stitches for Beginners",
+     "url": "https://www.youtube.com/watch?v=V95uh5nQZic",
+     "provider": "Cutesy Crafts",
+     "type": "video",
+     "level": "beginner",
+     "length": "21:51",
+     "description": "Video lesson (21:51) from Cutesy Crafts.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@CutesyCrafts",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "weaving": {
+   "field": "Fashion",
+   "label": "Weaving",
+   "tags": [
+    "weaving",
+    "textile"
+   ],
+   "items": [
+    {
+     "title": "HOW TO WEAVE (Lap Loom)",
+     "url": "https://www.youtube.com/watch?v=gsPDUA4E_88",
+     "provider": "Harrisville Designs",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:33",
+     "description": "Video lesson (4:33) from Harrisville Designs.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@HarrisvilleDesigns",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Weave | Weaving for Beginners",
+     "url": "https://www.youtube.com/watch?v=hCy3Crq7fYs",
+     "provider": "Fibers and Design Weaving",
+     "type": "video",
+     "level": "beginner",
+     "length": "14:09",
+     "description": "Video lesson (14:09) from Fibers and Design Weaving.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@fibersanddesignweaving",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "natural-dye": {
+   "field": "Fashion",
+   "label": "Natural dyeing and indigo",
+   "tags": [
+    "dye",
+    "indigo",
+    "textile"
+   ],
+   "items": [
+    {
+     "title": "How to Make a Fructose Indigo Vat",
+     "url": "https://www.youtube.com/watch?v=vdzJ_NGLL28",
+     "provider": "Botanical Colors Video",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:58",
+     "description": "Video lesson (3:58) from Botanical Colors Video.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@botanicalcolors",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Prepare an Indigo Vat",
+     "url": "https://www.youtube.com/watch?v=kJ5J6q1-sYc",
+     "provider": "CreativeLive",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:52",
+     "description": "Video lesson (3:52) from CreativeLive.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@creativelive",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "block-print": {
+   "field": "Fashion",
+   "label": "Block printing",
+   "tags": [
+    "block print",
+    "textile",
+    "ajrak"
+   ],
+   "items": [
+    {
+     "title": "Introduction to Block Printing on Fabric",
+     "url": "https://www.youtube.com/watch?v=Un2DUWn3FLE",
+     "provider": "SpeedballArt",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:42",
+     "description": "Video lesson (3:42) from SpeedballArt.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@speedball_art",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Block Print Like a Pro | Like a Pro | HGTV Handmade",
+     "url": "https://www.youtube.com/watch?v=AYtEKRc2iRU",
+     "provider": "HGTV Home",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:42",
+     "description": "Video lesson (9:42) from HGTV Home.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@hgtvhome",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "algebra": {
+   "field": "Science",
+   "label": "Algebra",
+   "tags": [
+    "algebra",
+    "khwarizmi",
+    "math"
+   ],
+   "items": [
+    {
+     "title": "Algebra Basics (Khan Academy)",
+     "url": "https://www.khanacademy.org/math/algebra-basics",
+     "provider": "Khan Academy",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Free lessons and practice from \"what is a variable\" onwards.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Algebra Basics: What Is Algebra? - Math Antics",
+     "url": "https://www.youtube.com/watch?v=NybHckSEQBI",
+     "provider": "mathantics",
+     "type": "video",
+     "level": "beginner",
+     "length": "12:07",
+     "description": "Video lesson (12:07) from mathantics.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@mathantics",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Algebra - Basic Algebra Lessons for Beginners / Dummies (P1) - Pass any Math Test Easily",
+     "url": "https://www.youtube.com/watch?v=V3dFHt9p5W8",
+     "provider": "UltimateAlgebra",
+     "type": "video",
+     "level": "beginner",
+     "length": "15:18",
+     "description": "Video lesson (15:18) from UltimateAlgebra.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@UltimateAlgebra",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "optics": {
+   "field": "Science",
+   "label": "Optics and the camera obscura",
+   "tags": [
+    "optics",
+    "camera obscura",
+    "ibn al-haytham"
+   ],
+   "items": [
+    {
+     "title": "How to Make (And Use) a Pinhole Camera",
+     "url": "https://www.youtube.com/watch?v=_194aWsczx0",
+     "provider": "B&H Photo Video Pro Audio",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:42",
+     "description": "Video lesson (5:42) from B&H Photo Video Pro Audio.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@BandH",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "The Brilliant Experiment That Changed The Way We See Light",
+     "url": "https://www.youtube.com/watch?v=4Dk2CfO5PAY",
+     "provider": "Smithsonian Channel",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Smithsonian Channel.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@SmithsonianChannel",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "chemistry": {
+   "field": "Science",
+   "label": "Chemistry basics",
+   "tags": [
+    "chemistry"
+   ],
+   "items": [
+    {
+     "title": "Khan Academy: Free chemistry from atoms to reactions",
+     "url": "https://www.khanacademy.org/science/chemistry",
+     "provider": "Khan Academy",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Free chemistry from atoms to reactions.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Basic Chemistry Concepts Part I 🐧",
+     "url": "https://www.youtube.com/watch?v=MYuh5yErdfA",
+     "provider": "ThePenguinProf",
+     "type": "video",
+     "level": "beginner",
+     "length": "18:14",
+     "description": "Video lesson (18:14) from ThePenguinProf.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Penguinprof",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "The Nucleus: Crash Course Chemistry #1",
+     "url": "https://www.youtube.com/watch?v=FSyAehMdpyI",
+     "provider": "CrashCourse",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from CrashCourse.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@crashcourse",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Introduction to Chemistry",
+     "url": "https://www.youtube.com/watch?v=ZuWa827qAao",
+     "provider": "Professor Dave Explains",
+     "type": "video",
+     "level": "beginner",
+     "length": "2:22",
+     "description": "Video lesson (2:22) from Professor Dave Explains.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ProfessorDaveExplains",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "geometry": {
+   "field": "Science",
+   "label": "Geometry",
+   "tags": [
+    "geometry"
+   ],
+   "items": [
+    {
+     "title": "Geometry (all content) (Khan Academy)",
+     "url": "https://www.khanacademy.org/math/geometry-home",
+     "provider": "Khan Academy",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Free geometry lessons and practice.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Math Antics - Angle Basics",
+     "url": "https://www.youtube.com/watch?v=DGKwdHMiqCg",
+     "provider": "mathantics",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from mathantics.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@mathantics",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Basic geometry: language and labels | Introduction to Euclidean geometry | Geometry | Khan Academy",
+     "url": "https://www.youtube.com/watch?v=il0EJrY64qE",
+     "provider": "Khan Academy",
+     "type": "video",
+     "level": "beginner",
+     "length": "12:58",
+     "description": "Video lesson (12:58) from Khan Academy.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@khanacademy",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "astronomy-basics": {
+   "field": "Science",
+   "label": "Astronomy basics",
+   "tags": [
+    "astronomy"
+   ],
+   "items": [
+    {
+     "title": "Khan Academy: Free lessons from the scale of the universe to stars",
+     "url": "https://www.khanacademy.org/science/cosmology-and-astronomy",
+     "provider": "Khan Academy",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Free lessons from the scale of the universe to stars.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Introduction to Astronomy: Crash Course Astronomy #1",
+     "url": "https://www.youtube.com/watch?v=0rHUDWjR5gg",
+     "provider": "CrashCourse",
+     "type": "video",
+     "level": "beginner",
+     "length": "12:12",
+     "description": "Video lesson (12:12) from CrashCourse.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@crashcourse",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Getting oriented to better learn the night sky: Stargazing Basics 1 of 3",
+     "url": "https://www.youtube.com/watch?v=XUbG8jboh4M",
+     "provider": "Eyes on the Sky",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:59",
+     "description": "Video lesson (5:59) from Eyes on the Sky.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Eyesonthesky",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "civics": {
+   "field": "Government",
+   "label": "How government works",
+   "tags": [
+    "civics",
+    "government"
+   ],
+   "items": [
+    {
+     "title": "Khan Academy: Free lessons on how a government works (US focus)",
+     "url": "https://www.khanacademy.org/humanities/us-government-and-civics",
+     "provider": "Khan Academy",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Free lessons on how a government works (US focus).",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "iCivics: Free games and lessons about government and citizenship",
+     "url": "https://www.icivics.org/",
+     "provider": "iCivics",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Free games and lessons about government and citizenship.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Introduction: Crash Course U.S. Government and Politics",
+     "url": "https://www.youtube.com/watch?v=lrk4oY7UxpQ",
+     "provider": "CrashCourse",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:47",
+     "description": "Video lesson (6:47) from CrashCourse.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@crashcourse",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "American Government 101",
+     "url": "https://www.youtube.com/watch?v=e6L0Nj3wabQ",
+     "provider": "City of Fort Collins",
+     "type": "video",
+     "level": "beginner",
+     "length": "40:11",
+     "description": "Video lesson (40:11) from City of Fort Collins.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@fortcollinsgov",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "public-speaking": {
+   "field": "Government",
+   "label": "Public speaking",
+   "tags": [
+    "public speaking",
+    "oratory",
+    "speech"
+   ],
+   "items": [
+    {
+     "title": "Toastmasters International -Resources",
+     "url": "https://www.toastmasters.org/resources",
+     "provider": "Toastmasters",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Free public speaking resources.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Public Speaking For Beginners",
+     "url": "https://www.youtube.com/watch?v=i5mYphUoOCs",
+     "provider": "Alexander Lyon Communication Coach",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:52",
+     "description": "Video lesson (5:52) from Alexander Lyon Communication Coach.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@alexanderlyon",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "debate": {
+   "field": "Government",
+   "label": "Debate",
+   "tags": [
+    "debate",
+    "debating"
+   ],
+   "items": [
+    {
+     "title": "Debating skills - Introduction",
+     "url": "https://www.youtube.com/watch?v=1TSkkxu8on0",
+     "provider": "HUB Scuola",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:00",
+     "description": "Video lesson (3:00) from HUB Scuola.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@HUBScuola",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Debate world champion explains how to argue | Bo Seo",
+     "url": "https://www.youtube.com/watch?v=2pVdSEp-tT8",
+     "provider": "Big Think",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:06",
+     "description": "Video lesson (5:06) from Big Think.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@bigthink",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "volunteering": {
+   "field": "Government",
+   "label": "Community organising",
+   "tags": [
+    "volunteer",
+    "volunteering",
+    "community organizing"
+   ],
+   "items": [
+    {
+     "title": "Community Organizing 101",
+     "url": "https://www.youtube.com/watch?v=67WvqV2hxAg",
+     "provider": "Kentucky Climate Strike",
+     "type": "video",
+     "level": "beginner",
+     "length": "24:03",
+     "description": "Video lesson (24:03) from Kentucky Climate Strike.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@kentuckyclimatestrike1963",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Get Involved in Your Local Community",
+     "url": "https://www.youtube.com/watch?v=MtOXxlUE2Zg",
+     "provider": "How to Adult",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from How to Adult.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@learnhowtoadult",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Start a Community Project in 10 Steps",
+     "url": "https://www.youtube.com/watch?v=n8b2A7ThU4Y",
+     "provider": "HealthWest TV",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from HealthWest TV.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@healthwesttv3780",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "tajwid": {
+   "field": "Education",
+   "label": "Tajwid basics",
+   "tags": [
+    "tajwid",
+    "tajweed",
+    "recitation"
+   ],
+   "items": [
+    {
+     "title": "Free Tajweed lessons (Book 1)",
+     "url": "https://simplyquran.com/tajwid/",
+     "provider": "SimplyQuran",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Ten free Tajweed lessons: articulation points, letter qualities, ghunna, madd and stopping.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Makharij",
+     "url": "https://imamfaisal.com/articulation/",
+     "provider": "ImamFaisal.com",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Free audio lessons on the Arabic articulation points, letter by letter.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "The EASIEST explanation for Makharij & Sifaat - Lesson 1 | Arabic101",
+     "url": "https://www.youtube.com/watch?v=-YrfRpwFMe8",
+     "provider": "Arabic 101",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:46",
+     "description": "Video lesson (9:46) from Arabic 101.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Arabic101",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "[24] Introduction to Makharij and Sifaat - Tajweed in English",
+     "url": "https://www.youtube.com/watch?v=ipNwBH9kjew",
+     "provider": "قرّاء الكتب",
+     "type": "video",
+     "level": "beginner",
+     "length": "2:27",
+     "description": "Video lesson (2:27) from قرّاء الكتب.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Tajweed-easyway",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "arabic-alphabet": {
+   "field": "Education",
+   "label": "Arabic alphabet",
+   "tags": [
+    "arabic alphabet",
+    "alphabet"
+   ],
+   "items": [
+    {
+     "title": "Learn Arabic - Arabic Alphabet Made Easy - Alef and Nun",
+     "url": "https://www.youtube.com/watch?v=QSLtNmRflBU",
+     "provider": "Learn Arabic with ArabicPod101.com",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:50",
+     "description": "Video lesson (6:50) from Learn Arabic with ArabicPod101.com.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ArabicPod101",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Learn Arabic: Alphabet Lesson Part 1",
+     "url": "https://www.youtube.com/watch?v=K83YZYcpExc",
+     "provider": "Let's Learn Arabic",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:47",
+     "description": "Video lesson (9:47) from Let's Learn Arabic.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@LetsLearnArabic",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "noorani-qaida": {
+   "field": "Education",
+   "label": "Reading Arabic (Noorani Qaida)",
+   "tags": [
+    "qaida",
+    "noorani"
+   ],
+   "items": [
+    {
+     "title": "How to Learn Alif Baa Taa | Noorani Qaida Lesson 1 - Arabic Alphabets for Beginners",
+     "url": "https://www.youtube.com/watch?v=wBKDNVdU5Kc",
+     "provider": "TPQ Online Official",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:25",
+     "description": "Video lesson (4:25) from TPQ Online Official.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@tpqonlineofficial",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "القاعدة النورانية - الدرس 1 (الأول) - قراءة معلم - Nuraniah -  Lesson 1 - Teacher",
+     "url": "https://www.youtube.com/watch?v=wO2DRVC-g9w",
+     "provider": "القاعدة النورانية®️",
+     "type": "video",
+     "level": "beginner",
+     "length": "2:05",
+     "description": "Video lesson (2:05) from القاعدة النورانية®️.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@qaidahnuraniah",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "persian-basics": {
+   "field": "Education",
+   "label": "Persian (Farsi) basics",
+   "tags": [
+    "persian",
+    "farsi"
+   ],
+   "items": [
+    {
+     "title": "Learn Persian/Farsi as a beginner - Lesson 1: Greetings",
+     "url": "https://www.youtube.com/watch?v=t5Qo7W5a8qQ",
+     "provider": "Persian Learning",
+     "type": "video",
+     "level": "beginner",
+     "length": "15:54",
+     "description": "Video lesson (15:54) from Persian Learning.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@PersianLearning",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Lesson 1- Learn Persian / Farsi Reading & Writing - (Chai and Conversation Read / Write Course)",
+     "url": "https://www.youtube.com/watch?v=aMptjT2Dn6o",
+     "provider": "Learn Persian with Chai and Conversation",
+     "type": "video",
+     "level": "beginner",
+     "length": "15:31",
+     "description": "Video lesson (15:31) from Learn Persian with Chai and Conversation.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@chai_and_conversation",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "turkish-basics": {
+   "field": "Education",
+   "label": "Turkish basics",
+   "tags": [
+    "turkish"
+   ],
+   "items": [
+    {
+     "title": "Learn Turkish with lessons that work",
+     "url": "https://www.duolingo.com/course/tr/en/Learn-Turkish",
+     "provider": "Duolingo",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "Free Turkish lessons in small steps.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Learn Turkish Lesson 1 Greetings |  Animated",
+     "url": "https://www.youtube.com/watch?v=vGlEuv2bers",
+     "provider": "Language Animated",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:40",
+     "description": "Video lesson (6:40) from Language Animated.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@LanguageAnimated",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Learn Turkish in 25 Minutes - ALL the Basics You Need",
+     "url": "https://www.youtube.com/watch?v=YCu45ILtikE",
+     "provider": "Learn Turkish with TurkishClass101.com",
+     "type": "video",
+     "level": "beginner",
+     "length": "26:22",
+     "description": "Video lesson (26:22) from Learn Turkish with TurkishClass101.com.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TurkishClass101",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "urdu-basics": {
+   "field": "Education",
+   "label": "Urdu basics",
+   "tags": [
+    "urdu"
+   ],
+   "items": [
+    {
+     "title": "Learn Urdu Lesson 1 - The Urdu alphabet",
+     "url": "https://www.youtube.com/watch?v=08A9EebaiXU",
+     "provider": "Language Animated",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:41",
+     "description": "Video lesson (9:41) from Language Animated.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@LanguageAnimated",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Learn Urdu in 30 Minutes - ALL the Basics You Need",
+     "url": "https://www.youtube.com/watch?v=npXBm2nvLfI",
+     "provider": "Learn Urdu with UrduPod101.com",
+     "type": "video",
+     "level": "beginner",
+     "length": "27:01",
+     "description": "Video lesson (27:01) from Learn Urdu with UrduPod101.com.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@UrduPod101",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "study-skills": {
+   "field": "Education",
+   "label": "Study skills",
+   "tags": [
+    "study skills",
+    "learning how to learn"
+   ],
+   "items": [
+    {
+     "title": "Learning How to Learn: Powerful mental tools to help you master tough subjects | Coursera",
+     "url": "https://www.coursera.org/learn/learning-how-to-learn",
+     "provider": "Coursera (audit free)",
+     "type": "course",
+     "level": "beginner",
+     "length": null,
+     "description": "\"Learning How to Learn\": free to audit.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "3 tips on how to study effectively",
+     "url": "https://www.youtube.com/watch?v=TjPFZaMe2yw",
+     "provider": "TED-Ed",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:09",
+     "description": "Video lesson (5:09) from TED-Ed.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TEDEd",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "biryani": {
+   "field": "Food",
+   "label": "Biryani",
+   "tags": [
+    "biryani"
+   ],
+   "items": [
+    {
+     "title": "Chicken biryani recipe | Good Food",
+     "url": "https://www.bbcgoodfood.com/recipes/chicken-biryani",
+     "provider": "BBC Good Food",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "A straightforward chicken biryani recipe.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "SIMPLE CHICKEN BIRYANI FOR BEGINNERS | CHICKEN BIRYANI RECIPE FOR BACHELORS",
+     "url": "https://www.youtube.com/watch?v=95BCU1n268w",
+     "provider": "Spice Eats",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:09",
+     "description": "Video lesson (5:09) from Spice Eats.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@SpiceEats",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "THE BEST CHICKEN BIRYANI FOR BEGINNERS|QUICK AND EASY",
+     "url": "https://www.youtube.com/watch?v=-KbvRRrTSbo",
+     "provider": "Phil's Kitchen",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:08",
+     "description": "Video lesson (5:08) from Phil's Kitchen.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@phils_kitchen",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "hummus": {
+   "field": "Food",
+   "label": "Hummus and mezze",
+   "tags": [
+    "hummus",
+    "mezze"
+   ],
+   "items": [
+    {
+     "title": "Hummus recipe | Good Food",
+     "url": "https://www.bbcgoodfood.com/recipes/hummus",
+     "provider": "BBC Good Food",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "A simple hummus recipe with tips.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How To Make Authentic Lebanese Hummus",
+     "url": "https://www.youtube.com/watch?v=_JNhOq14irM",
+     "provider": "Maha's Lebanese Cuisine",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:52",
+     "description": "Video lesson (5:52) from Maha's Lebanese Cuisine.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@mahaslebanesecuisine",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "HOW TO MAKE HUMMUS | healthy & easy hummus recipe",
+     "url": "https://www.youtube.com/watch?v=GbxnB53IExY",
+     "provider": "Downshiftology",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:08",
+     "description": "Video lesson (3:08) from Downshiftology.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Downshiftology",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "falafel": {
+   "field": "Food",
+   "label": "Falafel",
+   "tags": [
+    "falafel"
+   ],
+   "items": [
+    {
+     "title": "Easy falafel recipe | Good Food",
+     "url": "https://www.bbcgoodfood.com/recipes/falafel",
+     "provider": "BBC Good Food",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "A beginner falafel recipe.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Make Falafel | Falafel Recipe",
+     "url": "https://www.youtube.com/watch?v=NZcWedPKysk",
+     "provider": "The Cooking Foodie",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:14",
+     "description": "Video lesson (3:14) from The Cooking Foodie.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TheCookingFoodie",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Make Falafel? Falafel Recipe That Will Make You So Happy Every Time!",
+     "url": "https://www.youtube.com/watch?v=sF7DiC9ECy8",
+     "provider": "Refika's Kitchen",
+     "type": "video",
+     "level": "beginner",
+     "length": "16:11",
+     "description": "Video lesson (16:11) from Refika's Kitchen.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Refika",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "baklava": {
+   "field": "Food",
+   "label": "Baklava",
+   "tags": [
+    "baklava",
+    "pastry"
+   ],
+   "items": [
+    {
+     "title": "Baklava recipe | Good Food",
+     "url": "https://www.bbcgoodfood.com/recipes/baklava",
+     "provider": "BBC Good Food",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "A step-by-step baklava recipe.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How To Make The Best Baklava Recipe - Natasha's Kitchen",
+     "url": "https://www.youtube.com/watch?v=VI7Bj1_P99Q",
+     "provider": "Natashas Kitchen",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:11",
+     "description": "Video lesson (4:11) from Natashas Kitchen.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Natashaskitchen",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Make Baklava | Preppy Kitchen",
+     "url": "https://www.youtube.com/watch?v=EBHlZQn14C0",
+     "provider": "Preppy Kitchen",
+     "type": "video",
+     "level": "beginner",
+     "length": "8:14",
+     "description": "Video lesson (8:14) from Preppy Kitchen.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@PreppyKitchen",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "tagine": {
+   "field": "Food",
+   "label": "Moroccan tagine",
+   "tags": [
+    "tagine",
+    "moroccan"
+   ],
+   "items": [
+    {
+     "title": "How to Make a Tagine with Chef Mourad Lahlou | Williams-Sonoma",
+     "url": "https://www.youtube.com/watch?v=YJLitxHXOOE",
+     "provider": "Williams Sonoma",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:55",
+     "description": "Video lesson (5:55) from Williams Sonoma.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Williams-Sonoma",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Master Chef Hamid - How to make authentic Moroccan Tagine",
+     "url": "https://www.youtube.com/watch?v=k5grI8mJM7c",
+     "provider": "TagineDining",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:34",
+     "description": "Video lesson (4:34) from TagineDining.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TagineDining",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "flatbread": {
+   "field": "Food",
+   "label": "Flatbread (pita, naan)",
+   "tags": [
+    "bread",
+    "pita",
+    "naan"
+   ],
+   "items": [
+    {
+     "title": "Pitta bread recipe | Good Food",
+     "url": "https://www.bbcgoodfood.com/recipes/pitta-bread",
+     "provider": "BBC Good Food",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "An easy homemade pitta recipe.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Make Pita Bread (Easy At Home Recipe) | Food Wishes",
+     "url": "https://www.youtube.com/watch?v=NPiA69p4gqE",
+     "provider": "Food Wishes",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:49",
+     "description": "Video lesson (6:49) from Food Wishes.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@foodwishes",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to bake the Perfect Pitta Bread | Paul Hollywood's Easy Bakes",
+     "url": "https://www.youtube.com/watch?v=LzepJPYyEM0",
+     "provider": "Paul Hollywood",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Paul Hollywood.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@PaulHollywoodEasyBakes",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "arabic-coffee": {
+   "field": "Food",
+   "label": "Coffee ceremony",
+   "tags": [
+    "coffee",
+    "qahwa",
+    "ceremony"
+   ],
+   "items": [
+    {
+     "title": "How To Make Arabic Coffee (Saudi Style)",
+     "url": "https://www.youtube.com/watch?v=vFtE76sBRpc",
+     "provider": "Ms Sara مس ساره",
+     "type": "video",
+     "level": "beginner",
+     "length": "2:49",
+     "description": "Video lesson (2:49) from Ms Sara مس ساره.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@mssara6589",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Make Arabic Coffee UAE Style 🇦🇪 Emirati Qahwa ☕️",
+     "url": "https://www.youtube.com/watch?v=SO_zIXHYQlQ",
+     "provider": "ReviewAE",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:25",
+     "description": "Video lesson (3:25) from ReviewAE.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@reviewae",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "turkish-coffee": {
+   "field": "Food",
+   "label": "Turkish coffee",
+   "tags": [
+    "coffee",
+    "turkish"
+   ],
+   "items": [
+    {
+     "title": "How to Make Turkish Coffee (for Beginners)",
+     "url": "https://www.youtube.com/watch?v=hQwIjfX6i_Q",
+     "provider": "Brodie Vissers",
+     "type": "video",
+     "level": "beginner",
+     "length": "7:46",
+     "description": "Video lesson (7:46) from Brodie Vissers.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Brodievissersbarcelona",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Make Turkish Coffee | Authentic and Delicious",
+     "url": "https://www.youtube.com/watch?v=TvNWLrRzIAM",
+     "provider": "defragmenteur",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:43",
+     "description": "Video lesson (3:43) from defragmenteur.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@defragmenteur808",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "mint-tea": {
+   "field": "Food",
+   "label": "Moroccan mint tea",
+   "tags": [
+    "tea",
+    "mint"
+   ],
+   "items": [
+    {
+     "title": "How to Make Moroccan Mint Tea - Atay Tutorial",
+     "url": "https://www.youtube.com/watch?v=6Fk04CSbE6w",
+     "provider": "Moribyan",
+     "type": "video",
+     "level": "beginner",
+     "length": "5:16",
+     "description": "Video lesson (5:16) from Moribyan.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Moribyan",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Alia's Tips: How to Make Moroccan Mint Tea!",
+     "url": "https://www.youtube.com/watch?v=HB2Uxyyz-Rg",
+     "provider": "cookingwithalia",
+     "type": "video",
+     "level": "beginner",
+     "length": "2:08",
+     "description": "Video lesson (2:08) from cookingwithalia.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@cookingwithalia",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "samosa": {
+   "field": "Food",
+   "label": "Samosa and street snacks",
+   "tags": [
+    "samosa",
+    "snack"
+   ],
+   "items": [
+    {
+     "title": "Vegetable samosas recipe | Good Food",
+     "url": "https://www.bbcgoodfood.com/recipes/vegetable-samosas",
+     "provider": "BBC Good Food",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "A simple vegetable samosa recipe.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Make Samosa | Perfect Samosa Recipe",
+     "url": "https://www.youtube.com/watch?v=3OZn-iCGf5s",
+     "provider": "The Cooking Foodie",
+     "type": "video",
+     "level": "beginner",
+     "length": "6:16",
+     "description": "Video lesson (6:16) from The Cooking Foodie.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TheCookingFoodie",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How To Make Samosas with Chintan Pandya",
+     "url": "https://www.youtube.com/watch?v=lfJ5TjUAnJM",
+     "provider": "Munchies",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Munchies.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Munchies",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "kebab": {
+   "field": "Food",
+   "label": "Kebab and grilling",
+   "tags": [
+    "kebab",
+    "grill"
+   ],
+   "items": [
+    {
+     "title": "BEEF SHISH KABOBS (with the best marinade) for the ultimate summer grilling recipe!",
+     "url": "https://www.youtube.com/watch?v=IJDUoAi2eeM",
+     "provider": "Downshiftology",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Downshiftology.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Downshiftology",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "MAKE RESTAURANT QUALITY SHISH KEBAB AT HOME! SIMPLE RECIPE!",
+     "url": "https://www.youtube.com/watch?v=LbcEYAN-ytw",
+     "provider": "Latifs Inspired",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Latifs Inspired.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@LatifsInspired",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "dates-dessert": {
+   "field": "Food",
+   "label": "Date sweets (ma'amoul)",
+   "tags": [
+    "dates",
+    "maamoul",
+    "sweets"
+   ],
+   "items": [
+    {
+     "title": "How to make Date Maamoul | Date filled Maamoul Cookies | Easy Recipe #maamoul #dates #cookies",
+     "url": "https://www.youtube.com/watch?v=MP6sZ_8k94s",
+     "provider": "Zoha's Miracle Kitchen",
+     "type": "video",
+     "level": "beginner",
+     "length": "3:38",
+     "description": "Video lesson (3:38) from Zoha's Miracle Kitchen.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@zohasmiraclekitchen928",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Maamoul Recipe | Semolina Stuffed Cookies",
+     "url": "https://www.youtube.com/watch?v=tMcDJKhp2IU",
+     "provider": "The Cooking Foodie",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from The Cooking Foodie.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TheCookingFoodie",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to make Maamoul - Levantine Semolina Cookies",
+     "url": "https://www.youtube.com/watch?v=G40J4DnCAa8",
+     "provider": "Middle Eats",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Middle Eats.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@MiddleEats",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "arch-sketch": {
+   "field": "Architecture & Design",
+   "label": "Architecture sketching",
+   "tags": [
+    "sketching",
+    "urban sketching"
+   ],
+   "items": [
+    {
+     "title": "Urban Sketchers | A Global Community of Artists - Home",
+     "url": "https://www.urbansketchers.org/",
+     "provider": "Urban Sketchers",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "A global community with free guides to sketching on location.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How To Start URBAN SKETCHING For Beginners - FUNDAMENTALS GUIDE",
+     "url": "https://www.youtube.com/watch?v=yocInfqlYqw",
+     "provider": "Sketching Scottie",
+     "type": "video",
+     "level": "beginner",
+     "length": "23:33",
+     "description": "Video lesson (23:33) from Sketching Scottie.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@SketchingScottie",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How To Sketch Any Building | Urban Sketching For Beginners",
+     "url": "https://www.youtube.com/watch?v=fJGa_NS0_l0",
+     "provider": "Sketching Scottie",
+     "type": "video",
+     "level": "beginner",
+     "length": "20:31",
+     "description": "Video lesson (20:31) from Sketching Scottie.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@SketchingScottie",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "perspective": {
+   "field": "Architecture & Design",
+   "label": "Perspective drawing",
+   "tags": [
+    "perspective",
+    "drawing"
+   ],
+   "items": [
+    {
+     "title": "How to Draw a Room in 1-Point Perspective for Beginners",
+     "url": "https://www.youtube.com/watch?v=qOojGBEsWQw",
+     "provider": "Circle Line Art School",
+     "type": "video",
+     "level": "beginner",
+     "length": "10:04",
+     "description": "Video lesson (10:04) from Circle Line Art School.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Circlelineartschool",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Draw a Simple Road using One-Point Perspective for Beginners",
+     "url": "https://www.youtube.com/watch?v=fL967_0vYA0",
+     "provider": "Circle Line Art School",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:00",
+     "description": "Video lesson (4:00) from Circle Line Art School.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Circlelineartschool",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "muqarnas": {
+   "field": "Architecture & Design",
+   "label": "Muqarnas and domes",
+   "tags": [
+    "muqarnas",
+    "dome",
+    "vault"
+   ],
+   "items": [
+    {
+     "title": "A Practical Introduction to Muqarnas",
+     "url": "https://www.youtube.com/watch?v=GH7N38vX-6I",
+     "provider": "Eric Broug",
+     "type": "video",
+     "level": "beginner",
+     "length": "13:10",
+     "description": "Video lesson (13:10) from Eric Broug.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@EricBroug",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "The complex geometry of Islamic design - Eric Broug",
+     "url": "https://www.youtube.com/watch?v=pg1NpMmPv48",
+     "provider": "TED-Ed",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from TED-Ed.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TEDEd",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "arabic-type": {
+   "field": "Architecture & Design",
+   "label": "Arabic typography",
+   "tags": [
+    "typography",
+    "arabic type"
+   ],
+   "items": [
+    {
+     "title": "Fonts Knowledge - Google Fonts",
+     "url": "https://fonts.google.com/knowledge",
+     "provider": "Google Fonts Knowledge",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Free introductions to type design, including non-Latin scripts.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Arabic Font Design for Beginners: Using FontForge and Microsoft VOLT",
+     "url": "https://www.youtube.com/watch?v=wmR1jF1MNyY",
+     "provider": "paktype",
+     "type": "video",
+     "level": "beginner",
+     "length": "31:51",
+     "description": "Video lesson (31:51) from paktype.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@paktype-f4o",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "graphic-design": {
+   "field": "Architecture & Design",
+   "label": "Graphic design basics",
+   "tags": [
+    "graphic design"
+   ],
+   "items": [
+    {
+     "title": "Canva Design School: Free graphic design basics and tutorials",
+     "url": "https://www.canva.com/learn/design/",
+     "provider": "Canva Design School",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Free graphic design basics and tutorials.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Understanding the Principles of Design | Graphic Design Basic",
+     "url": "https://www.youtube.com/watch?v=UmHMVU6dceA",
+     "provider": "Canva",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:56",
+     "description": "Video lesson (9:56) from Canva.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@canva",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Learn the Basics of Graphic Design",
+     "url": "https://www.youtube.com/watch?v=ZhTNQFWc_qg",
+     "provider": "4 The Creatives",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from 4 The Creatives.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@4TheCreatives",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "blender": {
+   "field": "Architecture & Design",
+   "label": "3D modelling a building",
+   "tags": [
+    "blender",
+    "3d modelling",
+    "3d model"
+   ],
+   "items": [
+    {
+     "title": "Complete Beginner's Guide to Blender for Architecture",
+     "url": "https://www.youtube.com/watch?v=9oNltPoCFEE",
+     "provider": "My 3D POV",
+     "type": "video",
+     "level": "beginner",
+     "length": "50:48",
+     "description": "Video lesson (50:48) from My 3D POV.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@My3D_POV",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Beginner Blender Tutorial (2026)",
+     "url": "https://www.youtube.com/watch?v=z-Xl9tGqH14",
+     "provider": "Blender Guru",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Blender Guru.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@blenderguru",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "poetry": {
+   "field": "Literature",
+   "label": "Poetry writing",
+   "tags": [
+    "poetry",
+    "poem"
+   ],
+   "items": [
+    {
+     "title": "Poetry Foundation: learn about poetry",
+     "url": "https://www.poetryfoundation.org/learn",
+     "provider": "Poetry Foundation",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Free guides to reading and writing poems.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Young Poets Network",
+     "url": "https://youngpoetsnetwork.org.uk/",
+     "provider": "Young Poets Network",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "Free writing challenges and advice for new poets.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "how to write poetry in 5 easy steps!! (for beginners + beyond)",
+     "url": "https://www.youtube.com/watch?v=DhqJ32U1OcA",
+     "provider": "Danielle Langin",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:53",
+     "description": "Video lesson (9:53) from Danielle Langin.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@DanielleLangin",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Writing Poetry is EASY! | Poetry For Beginners",
+     "url": "https://www.youtube.com/watch?v=yID4kF5a6_Q",
+     "provider": "Adam Gary Poetry",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:33",
+     "description": "Video lesson (4:33) from Adam Gary Poetry.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@AdamGaryPoetry",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "spoken-word": {
+   "field": "Literature",
+   "label": "Spoken word performance",
+   "tags": [
+    "spoken word",
+    "poetry"
+   ],
+   "items": [
+    {
+     "title": "How to Perform Spoken Word with Deborah Magdalena",
+     "url": "https://www.youtube.com/watch?v=a004e9-atQ4",
+     "provider": "Kennedy Center Education Digital Learning",
+     "type": "video",
+     "level": "beginner",
+     "length": "9:00",
+     "description": "Video lesson (9:00) from Kennedy Center Education Digital Learning.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@ArtsEdge",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "SPOKEN WORD POETRY | TIPS FOR BEGINNERS",
+     "url": "https://www.youtube.com/watch?v=QAVN7ypuTNI",
+     "provider": "Cynthia Amoah",
+     "type": "video",
+     "level": "beginner",
+     "length": "8:49",
+     "description": "Video lesson (8:49) from Cynthia Amoah.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@CynthiaAmoah",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "creative-writing": {
+   "field": "Literature",
+   "label": "Creative writing",
+   "tags": [
+    "creative writing",
+    "novelist",
+    "fiction"
+   ],
+   "items": [
+    {
+     "title": "How to write descriptively - Nalo Hopkinson",
+     "url": "https://www.youtube.com/watch?v=RSoRzTtwgP4",
+     "provider": "TED-Ed",
+     "type": "video",
+     "level": "beginner",
+     "length": "4:42",
+     "description": "Video lesson (4:42) from TED-Ed.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TEDEd",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Creative Writing 101",
+     "url": "https://www.youtube.com/watch?v=pRBhZpdnAa8",
+     "provider": "Jerry B. Jenkins",
+     "type": "video",
+     "level": "beginner",
+     "length": "18:16",
+     "description": "Video lesson (18:16) from Jerry B. Jenkins.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@NovelistJerryJenkins",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "storytelling": {
+   "field": "Literature",
+   "label": "Storytelling",
+   "tags": [
+    "storytelling",
+    "storyteller"
+   ],
+   "items": [
+    {
+     "title": "Introduction to Oral Storytelling",
+     "url": "https://www.youtube.com/watch?v=8VlyAb2qaGI",
+     "provider": "Emily McGuff",
+     "type": "video",
+     "level": "beginner",
+     "length": "2:08",
+     "description": "Video lesson (2:08) from Emily McGuff.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@emilymcguff6296",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "The Secret to Telling a Great Story — in Less Than 60 Seconds | Jenny Hoyos | TED",
+     "url": "https://www.youtube.com/watch?v=ZmNpeXTj2c4",
+     "provider": "TED",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from TED.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@TED",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Give me 9min, and I'll improve your storytelling skills by 176%",
+     "url": "https://www.youtube.com/watch?v=hNuAv-42jzY",
+     "provider": "Philipp Humm",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from Philipp Humm.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@Philipp-Humm",
+      "beginner_signal": false,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "ghazal": {
+   "field": "Literature",
+   "label": "Ghazal and Rumi-style poems",
+   "tags": [
+    "ghazal",
+    "rumi",
+    "poetry"
+   ],
+   "items": [
+    {
+     "title": "Ghazal",
+     "url": "https://poets.org/glossary/ghazal",
+     "provider": "Academy of American Poets",
+     "type": "site",
+     "level": "beginner",
+     "length": null,
+     "description": "What a ghazal is and how its refrain works.",
+     "verified": {
+      "http": 200,
+      "paywall_signals": 0,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How To Write A Ghazal Poem",
+     "url": "https://www.youtube.com/watch?v=6_WRJimeaNA",
+     "provider": "BlackCoffeePoet",
+     "type": "video",
+     "level": "beginner",
+     "length": "11:42",
+     "description": "Video lesson (11:42) from BlackCoffeePoet.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@BlackCoffeePoet",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "How to Write a Ghazal | Poetry Tutorial",
+     "url": "https://www.youtube.com/watch?v=9RVMyruJNVE",
+     "provider": "Josie Alford",
+     "type": "video",
+     "level": "beginner",
+     "length": "19:56",
+     "description": "Video lesson (19:56) from Josie Alford.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@JosieAlfordPoet",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  },
+  "translation": {
+   "field": "Literature",
+   "label": "Translation basics",
+   "tags": [
+    "translation",
+    "translator"
+   ],
+   "items": [
+    {
+     "title": "Getting started in literary translation - Jen Calleja",
+     "url": "https://www.youtube.com/watch?v=mY5RvWnrL8c",
+     "provider": "British Centre for Literary Translation",
+     "type": "video",
+     "level": "beginner",
+     "length": "25:41",
+     "description": "Video lesson (25:41) from British Centre for Literary Translation.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@bcltUK",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    },
+    {
+     "title": "Getting Started in Literary Translation SD",
+     "url": "https://www.youtube.com/watch?v=-OdcyZ7-LUI",
+     "provider": "bcltuea",
+     "type": "video",
+     "level": "beginner",
+     "length": null,
+     "description": "Video lesson from bcltuea.",
+     "verified": {
+      "oembed": true,
+      "channel_url": "https://www.youtube.com/@bcltuea",
+      "beginner_signal": true,
+      "checked": "2026-10-27"
+     }
+    }
+   ],
+   "checked": "2026-10-27"
+  }
+ }
+}

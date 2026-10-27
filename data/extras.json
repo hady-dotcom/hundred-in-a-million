@@ -1,0 +1,302 @@
+{
+ "guilds_from_image": {
+  "_source": "Leon ring image 01M5WZNFBQKH5P0ZX8JYBN0BWA.png (outer labels, transcribed)",
+  "Art": [
+   "Visual Art",
+   "Illustration",
+   "Photography",
+   "Digital / 3D",
+   "Craft & Making"
+  ],
+  "Film": [
+   "Writing",
+   "Directing",
+   "Performance",
+   "Production",
+   "Post-production"
+  ],
+  "Music": [
+   "Performance",
+   "Composition",
+   "Production",
+   "Sound Engineering",
+   "Events & Media"
+  ],
+  "Sports": [
+   "Playing",
+   "Coaching",
+   "Performance Science",
+   "Sport Business"
+  ],
+  "Technology": [
+   "Software",
+   "Hardware",
+   "AI & Data",
+   "Web & Apps",
+   "Robotics & Engineering"
+  ],
+  "Business": [
+   "Enterprise",
+   "Finance",
+   "Operations",
+   "Sales",
+   "Investment"
+  ],
+  "Environment": [
+   "Conservation",
+   "Sustainability",
+   "Energy",
+   "Agriculture",
+   "Urban Planning"
+  ],
+  "Health": [
+   "Healthcare",
+   "Nutrition",
+   "Mental Health",
+   "Fitness",
+   "Research & Innovation"
+  ],
+  "Innovation": [
+   "Research",
+   "Invention",
+   "Entrepreneurship",
+   "Incubation",
+   "Social Innovation"
+  ],
+  "Travel": [
+   "Tourism",
+   "Hospitality",
+   "Cultural Exchange",
+   "Travel Media",
+   "Pilgrimage & Heritage"
+  ],
+  "Social Media": [
+   "Content Creation",
+   "Influencing",
+   "Education",
+   "Community Building",
+   "Ethical Media"
+  ],
+  "Space": [
+   "Space Science",
+   "Aerospace",
+   "Satellite Technology",
+   "Exploration",
+   "Space Industry"
+  ],
+  "Media": [
+   "Journalism",
+   "Writing",
+   "Broadcasting",
+   "Dialogue",
+   "Marketing",
+   "PR"
+  ],
+  "Fashion": [
+   "Design",
+   "Fashion Design",
+   "Textiles",
+   "Manufacturing",
+   "Branding",
+   "Retail"
+  ],
+  "Science": [
+   "Natural Sciences",
+   "Life Sciences",
+   "Applied Sciences",
+   "Research",
+   "Science Communication"
+  ],
+  "Government": [
+   "Law",
+   "Policy",
+   "Public Service",
+   "Community Development",
+   "Human Rights",
+   "International Relations"
+  ],
+  "Education": [
+   "Teaching",
+   "Curriculum Design",
+   "Educational Technology",
+   "Training",
+   "Research",
+   "Policy"
+  ]
+ },
+ "chain": {
+  "origin": "The_Book_of_Fixed_Stars",
+  "title": "Give Props to the Chain: The Book of Fixed Stars (al-Ṣūfī, 10th c.)",
+  "hops": [
+   {
+    "dir": "backwards",
+    "to": "Almagest",
+    "rel": "ADAPTS / extends star catalogue",
+    "evidence": "\"It was an attempt to create a synthesis of the comprehensive star catalogue in Ptolemy's Almagest (Books VII and VIII) with indigenous Arabic astronomical traditions on the constellations\"",
+    "url": "https://en.wikipedia.org/wiki/The_Book_of_Fixed_Stars",
+    "confidence": "documented (tertiary source)",
+    "uncertainty": "Wikipedia is tertiary; needs a scholarly source (e.g. Kunitzsch) before publication."
+   },
+   {
+    "dir": "backwards",
+    "to": "Arabic anwāʾ tradition",
+    "rel": "INSPIRED_BY (indigenous constellation lore)",
+    "evidence": "same passage: \"…indigenous Arabic astronomical traditions on the constellations (notably the Arabic constellation system of the Anwā')\"",
+    "url": "https://en.wikipedia.org/wiki/The_Book_of_Fixed_Stars",
+    "confidence": "documented (tertiary)",
+    "uncertainty": "The anwāʾ is a tradition, not one person. No named predecessor yet: no_evidence_yet."
+   },
+   {
+    "dir": "sideways",
+    "to": "al-ʻIjliyyah (astrolabe maker, Aleppo)",
+    "rel": "CONTEMPORARY (10th c.). No contact claimed",
+    "evidence": "She was employed by Sayf al-Dawla, \"who reigned from 944 to 967\"",
+    "url": "https://en.wikipedia.org/wiki/Mariam_al-Asturlabi",
+    "confidence": "no_evidence_yet for any link",
+    "uncertainty": "The two overlap in time only. The brief forbids treating overlap as contact."
+   },
+   {
+    "dir": "sideways",
+    "to": "132 stars not in Ptolemy",
+    "rel": "REFUTES / extends (independent observation)",
+    "evidence": "\"Ihsan Hafez has recorded 132 stars in al-Sufi's work not mentioned by Ptolemy.\"",
+    "url": "https://en.wikipedia.org/wiki/The_Book_of_Fixed_Stars",
+    "confidence": "documented (tertiary, citing Hafez)",
+    "uncertainty": "The count depends on Hafez's analysis. Check it against Hafez (2010)."
+   },
+   {
+    "dir": "forwards",
+    "to": "Persian translation by Naṣīr al-Dīn Ṭūsī",
+    "rel": "TRANSLATES",
+    "evidence": "\"Facsimile edition of the Persian translation by Naṣīr-al-dīn Ṭūsī (Ayasofya 2595, autograph, from Uluḡ Beg's library)\"",
+    "url": "https://en.wikipedia.org/wiki/The_Book_of_Fixed_Stars",
+    "confidence": "documented (tertiary, cites edition)",
+    "uncertainty": "Calendar note: the edition is dated 1348 Š. (Solar Hijri) / 1969. The original string is kept."
+   },
+   {
+    "dir": "forwards",
+    "to": "Castilian & Italian versions → European star names",
+    "rel": "TRANSLATES / circulation",
+    "evidence": "\"The star nomenclature of the Castilian version, and of an Italian translation made from Castilian, was critically edited…\"",
+    "url": "https://en.wikipedia.org/wiki/The_Book_of_Fixed_Stars",
+    "confidence": "documented (tertiary)",
+    "uncertainty": "Which modern star names came through this route rather than through the Almagest translations is disputed and still to be sourced (Kunitzsch 1959)."
+   },
+   {
+    "dir": "forwards",
+    "to": "English rediscovery (Hafez 2010)",
+    "rel": "REVIVAL",
+    "evidence": "\"Partial English translation; Hafez, Ihsan (2010) Abd al-Rahman al-Sufi and his book of the fixed stars: a journey of re-discovery.\"",
+    "url": "https://en.wikipedia.org/wiki/The_Book_of_Fixed_Stars",
+    "confidence": "documented (tertiary)",
+    "uncertainty": ""
+   }
+  ]
+ },
+ "sky": {
+  "title": "Aldebaran: the follower",
+  "steps": [
+   {
+    "h": "Look up",
+    "t": "The bright orange star in Taurus. Find it in the sky by following the Pleiades.",
+    "quote": "\"The traditional name Aldebaran derives from the Arabic al Dabarān (الدبران), meaning 'the follower', because it seems to follow the Pleiades.\"",
+    "url": "https://en.wikipedia.org/wiki/Aldebaran"
+   },
+   {
+    "h": "Its other names",
+    "t": "The names come from separate sources. They are kept apart here and not merged into one.",
+    "quote": "\"other traditional Arabic names are ʽAin al-Thaur, the eye of Taurus, and al-Fanīq, the large or male camel, with the Hyades being al-Qilāṣ, the small camels.\"",
+    "url": "https://en.wikipedia.org/wiki/Aldebaran"
+   },
+   {
+    "h": "The Moon's 28 houses",
+    "t": "Arabic tradition divides the Moon's path into manāzil. China and India have their own systems, which differ.",
+    "quote": "\"Various cultures developed systems of lunar stations, including the Jyotisha nakshatras of India, the Arabic manāzil al-qamar, and the Twenty-Eight Mansions of Chinese astronomy.\"",
+    "url": "https://en.wikipedia.org/wiki/Lunar_station"
+   },
+   {
+    "h": "Which manzil is al-Dabarān?",
+    "t": "no_evidence_yet: none of the fetched pages states the mapping in a quotable line, so it is not shown. The Wikipedia table also mixes in astrology and numerology notes that are flagged as needing citation. Needs a scholarly source (e.g. Kunitzsch).",
+    "quote": "",
+    "url": "https://en.wikipedia.org/wiki/Lunar_station"
+   },
+   {
+    "h": "Into the manuscript",
+    "t": "al-Ṣūfī catalogued the stars of Taurus in the Book of Fixed Stars.",
+    "quote": "\"The Book of Fixed Stars follows the 48 Ptolemaic constellations described in the Almagest, with a chapter dedicated to each individual constellation.\"",
+    "url": "https://en.wikipedia.org/wiki/The_Book_of_Fixed_Stars"
+   }
+  ]
+ },
+ "place": {
+  "name": "Kampong Glam, Singapore",
+  "label": "Living Place Book (pilot)",
+  "then": [
+   {
+    "t": "A treaty, then a plan",
+    "quote": "\"It became prominent and more populous after the signing of a treaty between the British East India Company, Sultan Hussein Shah of Johor and Temenggong Abdul Rahman in 1819.\"",
+    "url": "https://en.wikipedia.org/wiki/Kampong_Glam"
+   },
+   {
+    "t": "Merchants' quarter",
+    "quote": "\"Kampong Glam was designated for the Sultan and his household, as well as the Malay and Arab communities, many of whom were merchants.\"",
+    "url": "https://en.wikipedia.org/wiki/Kampong_Glam"
+   }
+  ],
+  "now": [
+   {
+    "t": "Still a gathering place",
+    "quote": "\"The area remains a centre for Muslim activities and the Sultan Mosque remains a major landmark and congregation point for the Singapore Muslims.\"",
+    "url": "https://en.wikipedia.org/wiki/Kampong_Glam"
+   },
+   {
+    "t": "Haji Lane",
+    "quote": "see record",
+    "url": "https://en.wikipedia.org/wiki/Haji_Lane"
+   },
+   {
+    "t": "Loss and change",
+    "quote": "\"On 16 December 2006, a fire destroyed four shophouses at Sultan Gate\"",
+    "url": "https://en.wikipedia.org/wiki/Kampong_Glam"
+   }
+  ],
+  "next": [
+   {
+    "t": "Visit",
+    "quote": "No verified opportunity record yet (no_evidence_yet). Links go only to the source pages.",
+    "url": "https://en.wikipedia.org/wiki/Sultan_Mosque"
+   }
+  ],
+  "compare_label": "No verified Then/Now photo pair. Any comparison would be labelled 'related historical view'."
+ },
+ "sciences": {
+  "status": "LOCKED (Leon, 2026-10-26): working list, not final",
+  "source": "Leon ring image, ring 3 labels (duplicate Grammar dropped)",
+  "list": [
+   "Qur'an",
+   "Hadith",
+   "Tafsir",
+   "Aqidah",
+   "Fiqh",
+   "Usul al-Fiqh",
+   "Grammar",
+   "Logic",
+   "Maths",
+   "Medicine",
+   "Astronomy",
+   "Geography",
+   "History",
+   "Philosophy",
+   "Ethics",
+   "Arts",
+   "Other Sciences"
+  ]
+ },
+ "ghunya": {
+  "display": "Sufficient Provision for the Traveller (al-Ghunya)",
+  "work": "al-Ghunya li-Talibi Tariq al-Haqq, attributed to Shaykh Abd al-Qadir al-Jilani",
+  "about_quote": "\"Sufficient Provision for Seekers of the Path of Truth): a work dealing with Islamic belief, jurisprudence, ethics, and Sufi practice.\"",
+  "about_url": "https://en.wikipedia.org/wiki/Abdul_Qadir_Gilani",
+  "parts": "Five volumes (Volume One to Five) in Muhtar Holland's English translation (Al-Baz, 2nd ed. 2008), per the title pages in Leon's files /workspace/ghunya/vol1-5.txt. The work's own internal part structure is to be confirmed."
+ }
+}

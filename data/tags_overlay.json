@@ -1,0 +1,27 @@
+{
+ "_note": "Tags applied by the prototype without editing harvester files. hell_imagery = depictions of hell or punishment (LOCKED rule 2026-10-26). Reviewed by title and summary only.",
+ "hell_imagery": [
+  "wmc-81911409",
+  "wmc-171789877"
+ ],
+ "_review": "Not tagged, needs a human look: wmc-171885380 (Siyar-i Nabi fol. 57r, may include the Prophet), wmc-127566724 (Israfil miniature).",
+ "viewing_preference": {
+  "wmc-159179483": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "wmc-60896303": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "wmc-60896298": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "wmc-60896290": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "wmc-81911409": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "wmc-4137203": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "wmc-4949760": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "wmc-4141608": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "wmc-290445": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "wmc-32907708": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "wmc-171789877": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "wmc-171851096": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "wmc-79788763": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "wmc-171763034": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "met-823223": "Depicts the Prophet ﷺ; some people prefer not to view such images",
+  "met-452670": "Depicts the Prophet ﷺ; some people prefer not to view such images"
+ },
+ "_classes": "edgy = content_advisory about controversial, edgy or mature content (counts toward the 1% cap). viewing_preference = gated but not capped (depictions of the Prophet ﷺ). rights_note = an advisory starting 'rights unclear', shown as context only, not gated and not capped (prototype call). hell_imagery = separate 1% cap."
+}

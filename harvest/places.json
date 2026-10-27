@@ -1,0 +1,1972 @@
+[
+ {
+  "id": "turkey-turkey",
+  "label": "Turkey (city not recorded)",
+  "country": "Turkey",
+  "timezone": "Europe/Istanbul",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125608793",
+   "ev-Q111219390",
+   "ev-Q125608804",
+   "ev-Q125608814",
+   "ev-Q125608823",
+   "ev-Q125608845",
+   "ev-Q125608854",
+   "ev-Q125608873",
+   "ev-Q125608877",
+   "ev-Q125608879",
+   "ev-Q125608940",
+   "ev-Q125608973",
+   "ev-Q125608992",
+   "ev-Q125609009",
+   "ev-Q125609044",
+   "ev-Q125609045",
+   "ev-Q125609067",
+   "ev-Q125609164",
+   "ev-Q125609197",
+   "ev-Q56702748",
+   "ev-Q125608970",
+   "ev-Q125609070",
+   "ev-Q125609193"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-453274",
+   "met-451686",
+   "met-450359",
+   "met-451832",
+   "met-445228",
+   "met-452729",
+   "met-444985",
+   "met-453024",
+   "met-451992",
+   "met-446220",
+   "met-448044",
+   "met-453205",
+   "met-901923",
+   "met-451849",
+   "met-446648",
+   "met-451837",
+   "met-451841",
+   "met-444880",
+   "met-444881",
+   "met-453563",
+   "met-453166",
+   "met-450587",
+   "aic-5049",
+   "aic-69109",
+   "aic-7668",
+   "aic-64984",
+   "aic-77170",
+   "aic-65208",
+   "aic-65442",
+   "aic-65466"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "dubai-united-arab-emirates",
+  "label": "Dubai",
+  "country": "United Arab Emirates",
+  "timezone": "Asia/Dubai",
+  "neighbourhoods": [],
+  "venues": [
+   "Emirate of Dubai"
+  ],
+  "festivals": [
+   "ev-Q128214465",
+   "ev-Q3070706",
+   "ev-Q3180486",
+   "ev-arab-fashion-week",
+   "ev-art-dubai",
+   "ev-dubai-design-week",
+   "ev-dubai-food-festival",
+   "ev-emirates-airline-festival-of-literature",
+   "ev-Q125608083"
+  ],
+  "discovery_ids": [
+   "wd-Q6853500",
+   "wd-Q4671535"
+  ],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "indonesia-indonesia",
+  "label": "Indonesia (city not recorded)",
+  "country": "Indonesia",
+  "timezone": "Asia/Jakarta",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q109918362",
+   "ev-Q125611490",
+   "ev-Q139677971",
+   "ev-Q24075152",
+   "ev-Q286060",
+   "ev-Q28687631",
+   "ev-Q48731497",
+   "ev-Q61362219"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "riyadh-saudi-arabia",
+  "label": "Riyadh",
+  "country": "Saudi Arabia",
+  "timezone": "Asia/Riyadh",
+  "neighbourhoods": [],
+  "venues": [
+   "Riyadh Province"
+  ],
+  "festivals": [
+   "ev-Q121546575",
+   "ev-Q131644281",
+   "ev-Q79354173",
+   "ev-noor-riyadh",
+   "ev-riyadh-international-book-fair",
+   "ev-riyadh-season"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "kazakhstan-kazakhstan",
+  "label": "Kazakhstan (city not recorded)",
+  "country": "Kazakhstan",
+  "timezone": null,
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125611764",
+   "ev-Q125611802",
+   "ev-Q125611849",
+   "ev-Q125612203",
+   "ev-Q125612394",
+   "ev-Q60851667"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "toronto-canada",
+  "label": "Toronto",
+  "country": "Canada",
+  "timezone": "America/Toronto",
+  "neighbourhoods": [
+   "Nathan Phillips Square"
+  ],
+  "venues": [],
+  "festivals": [
+   "ev-aga-khan-museum-festivals",
+   "ev-halal-food-fest-to",
+   "ev-night-market-toronto-nmto-halal-food-festivals-inc",
+   "ev-toronto-arab-film-festival",
+   "ev-toronto-halal-bites-festival"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "london-united-kingdom",
+  "label": "London",
+  "country": "United Kingdom",
+  "timezone": "Europe/London",
+  "neighbourhoods": [
+   "Brick Lane"
+  ],
+  "venues": [],
+  "festivals": [
+   "ev-brick-lane-banglatown-curry-and-boishakhi-mela",
+   "ev-eid-on-the-square-trafalgar-square-",
+   "ev-festival-of-muslim-cultures",
+   "ev-london-palestine-film-festival",
+   "ev-ramadan-pavilion-ramadan-tent-project-"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "eu-9200579-qex7qzm7",
+   "eu-9200579-q7s2guax",
+   "eu-2048087-ProvidedCHO_British_Museum_and_The_Portable_Antiquities_Scheme_PAS_22BC88",
+   "eu-9200579-kwm9jq2c"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "istanbul-turkey",
+  "label": "Istanbul",
+  "country": "Turkey",
+  "timezone": "Europe/Istanbul",
+  "neighbourhoods": [],
+  "venues": [
+   "Boğaziçi"
+  ],
+  "festivals": [
+   "ev-Q141671572",
+   "ev-Q55706909",
+   "ev-istanbul-biennial",
+   "ev-istanbul-film-festival",
+   "ev-istanbul-modest-fashion-week",
+   "ev-Q125608875"
+  ],
+  "discovery_ids": [
+   "cma-124005",
+   "oa-W3162320657",
+   "eu-90402-SK_A_2009",
+   "wd-Q509775",
+   "wd-Q1167080"
+  ],
+  "country_discovery_ids": [
+   "met-453274",
+   "met-451686",
+   "met-450359",
+   "met-451832",
+   "met-445228",
+   "met-452729",
+   "met-444985",
+   "met-453024",
+   "met-451992",
+   "met-446220",
+   "met-448044",
+   "met-453205",
+   "met-901923",
+   "met-451849",
+   "met-446648",
+   "met-451837",
+   "met-451841",
+   "met-444880",
+   "met-444881",
+   "met-453563",
+   "met-453166",
+   "met-450587",
+   "aic-5049",
+   "aic-69109",
+   "aic-7668",
+   "aic-64984",
+   "aic-77170",
+   "aic-65208",
+   "aic-65442",
+   "aic-65466"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "jakarta-indonesia",
+  "label": "Jakarta",
+  "country": "Indonesia",
+  "timezone": "Asia/Jakarta",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q109563034",
+   "ev-Q85770548",
+   "ev-indonesia-fashion-week",
+   "ev-indonesia-international-book-fair",
+   "ev-java-jazz-festival"
+  ],
+  "discovery_ids": [
+   "oa-W7220888303",
+   "wd-Q16162990"
+  ],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "tehran-iran",
+  "label": "Tehran",
+  "country": "Iran",
+  "timezone": "Asia/Tehran",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q141108",
+   "ev-Q20987731",
+   "ev-Q25938139",
+   "ev-fajr-film-festival",
+   "ev-tehran-international-book-fair"
+  ],
+  "discovery_ids": [
+   "wd-Q5937096",
+   "wd-Q5946147"
+  ],
+  "country_discovery_ids": [
+   "cma-128302",
+   "cma-128303",
+   "met-770740",
+   "met-449863",
+   "met-449458",
+   "met-449473",
+   "met-452957",
+   "met-451444",
+   "met-451358",
+   "met-450761",
+   "met-452652",
+   "met-446160",
+   "met-451394",
+   "met-449474",
+   "met-452135",
+   "met-451414",
+   "met-444523",
+   "met-450598",
+   "met-451305",
+   "met-446889",
+   "met-446099",
+   "met-452413",
+   "met-449450",
+   "met-451699",
+   "met-448685",
+   "met-449932",
+   "met-449931",
+   "met-449667",
+   "met-449933",
+   "met-449934"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "egypt-egypt",
+  "label": "Egypt (city not recorded)",
+  "country": "Egypt",
+  "timezone": "Africa/Cairo",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125607276",
+   "ev-Q125607312",
+   "ev-Q125607320",
+   "ev-Q125607469"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-444604",
+   "met-444602",
+   "met-453506",
+   "met-698583",
+   "met-444600",
+   "met-444405",
+   "met-444400",
+   "met-444401",
+   "met-444404",
+   "met-444402",
+   "met-447107",
+   "met-453587",
+   "met-448289",
+   "met-448290",
+   "met-452203",
+   "met-448251",
+   "met-444286",
+   "met-456947",
+   "met-442912",
+   "met-452908",
+   "met-452530",
+   "met-452531",
+   "met-452907",
+   "met-452905",
+   "aic-936",
+   "aic-831"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "united-arab-emirates-united-arab-emirates",
+  "label": "United Arab Emirates (city not recorded)",
+  "country": "United Arab Emirates",
+  "timezone": "Asia/Dubai",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125607661",
+   "ev-Q125607860",
+   "ev-Q125608669"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "cairo-egypt",
+  "label": "Cairo",
+  "country": "Egypt",
+  "timezone": "Africa/Cairo",
+  "neighbourhoods": [],
+  "venues": [
+   "Cairo Governorate"
+  ],
+  "festivals": [
+   "ev-Q1025968",
+   "ev-Q22936225",
+   "ev-cairo-international-book-fair",
+   "ev-Q125607318"
+  ],
+  "discovery_ids": [
+   "cma-123967",
+   "ia-The_Sacred_World_Music_Festival_in_Fes_2004",
+   "eu-122-https___www_searchculture_gr_aggregator_edm_ELIA_000100_25_515577",
+   "eu-122-https___www_searchculture_gr_aggregator_edm_ELIA_000100_25_515521",
+   "eu-122-https___www_searchculture_gr_aggregator_edm_ELIA_000100_25_515757",
+   "eu-122-https___www_searchculture_gr_aggregator_edm_ELIA_000100_25_515427"
+  ],
+  "country_discovery_ids": [
+   "met-444604",
+   "met-444602",
+   "met-453506",
+   "met-698583",
+   "met-444600",
+   "met-444405",
+   "met-444400",
+   "met-444401",
+   "met-444404",
+   "met-444402",
+   "met-447107",
+   "met-453587",
+   "met-448289",
+   "met-448290",
+   "met-452203",
+   "met-448251",
+   "met-444286",
+   "met-456947",
+   "met-442912",
+   "met-452908",
+   "met-452530",
+   "met-452531",
+   "met-452907",
+   "met-452905",
+   "aic-936",
+   "aic-831"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "marrakech-morocco",
+  "label": "Marrakech",
+  "country": "Morocco",
+  "timezone": "Africa/Casablanca",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q130278953",
+   "ev-Q3070717",
+   "ev-marrakech-biennale-1-54-marrakech",
+   "ev-marrakech-international-film-festival"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-453262"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "doha-qatar",
+  "label": "Doha",
+  "country": "Qatar",
+  "timezone": "Asia/Qatar",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-ajyal-film-festival",
+   "ev-doha-international-book-fair",
+   "ev-islamic-design-week-design-doha",
+   "ev-qatar-international-food-festival"
+  ],
+  "discovery_ids": [
+   "cm-71497811"
+  ],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "jeddah-saudi-arabia",
+  "label": "Jeddah",
+  "country": "Saudi Arabia",
+  "timezone": "Asia/Riyadh",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q63224859",
+   "ev-islamic-arts-biennale"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "sharjah-united-arab-emirates",
+  "label": "Sharjah",
+  "country": "United Arab Emirates",
+  "timezone": "Asia/Dubai",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-islamic-arts-festival-sharjah-",
+   "ev-sharjah-biennial",
+   "ev-sharjah-international-book-fair"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "abu-dhabi-united-arab-emirates",
+  "label": "Abu Dhabi",
+  "country": "United Arab Emirates",
+  "timezone": "Asia/Dubai",
+  "neighbourhoods": [],
+  "venues": [
+   "Etihad Park"
+  ],
+  "festivals": [
+   "ev-Q127679600",
+   "ev-abu-dhabi-art",
+   "ev-abu-dhabi-international-book-fair"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "dhaka-bangladesh",
+  "label": "Dhaka",
+  "country": "Bangladesh",
+  "timezone": "Asia/Dhaka",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q141738701",
+   "ev-dhaka-art-summit",
+   "ev-dhaka-lit-fest"
+  ],
+  "discovery_ids": [
+   "cm-145307933"
+  ],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "yogyakarta-indonesia",
+  "label": "Yogyakarta",
+  "country": "Indonesia",
+  "timezone": "Asia/Jakarta",
+  "neighbourhoods": [],
+  "venues": [
+   "Sleman"
+  ],
+  "festivals": [
+   "ev-Q137652540",
+   "ev-jogja-biennale",
+   "ev-jogja-netpac-asian-film-festival"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "i-zmir-turkey",
+  "label": "İzmir",
+  "country": "Turkey",
+  "timezone": "Europe/Istanbul",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q111219390",
+   "ev-Q6052569",
+   "ev-Q6061210"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-453274",
+   "met-451686",
+   "met-450359",
+   "met-451832",
+   "met-445228",
+   "met-452729",
+   "met-444985",
+   "met-453024",
+   "met-451992",
+   "met-446220",
+   "met-448044",
+   "met-453205",
+   "met-901923",
+   "met-451849",
+   "met-446648",
+   "met-451837",
+   "met-451841",
+   "met-444880",
+   "met-444881",
+   "met-453563",
+   "met-453166",
+   "met-450587",
+   "aic-5049",
+   "aic-69109",
+   "aic-7668",
+   "aic-64984",
+   "aic-77170",
+   "aic-65208",
+   "aic-65442",
+   "aic-65466"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "kuala-lumpur-malaysia",
+  "label": "Kuala Lumpur",
+  "country": "Malaysia",
+  "timezone": "Asia/Kuala_Lumpur",
+  "neighbourhoods": [
+   "Kampung Baru"
+  ],
+  "venues": [],
+  "festivals": [
+   "ev-kuala-lumpur-international-book-fair",
+   "ev-ramadan-bazaar-kampung-baru"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "mississauga-canada",
+  "label": "Mississauga",
+  "country": "Canada",
+  "timezone": "America/Toronto",
+  "neighbourhoods": [],
+  "venues": [
+   "Mississauga / Toronto"
+  ],
+  "festivals": [
+   "ev-muslimfest",
+   "ev-universal-halal-food-festivals-mississauga-milton-"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "fes-morocco",
+  "label": "Fes",
+  "country": "Morocco",
+  "timezone": "Africa/Casablanca",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-expo-f-s-crafts-fez-medina",
+   "ev-fes-festival-of-world-sacred-music"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-453262"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "essaouira-morocco",
+  "label": "Essaouira",
+  "country": "Morocco",
+  "timezone": "Africa/Casablanca",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q114650671",
+   "ev-gnaoua-world-music-festival"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-453262"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "konya-turkey",
+  "label": "Konya",
+  "country": "Turkey",
+  "timezone": "Europe/Istanbul",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-mevlana-commemoration-ceremonies-seb-i-arus-",
+   "ev-rumi-festival-konya-mystic-music-festival"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-453274",
+   "met-451686",
+   "met-450359",
+   "met-451832",
+   "met-445228",
+   "met-452729",
+   "met-444985",
+   "met-453024",
+   "met-451992",
+   "met-446220",
+   "met-448044",
+   "met-453205",
+   "met-901923",
+   "met-451849",
+   "met-446648",
+   "met-451837",
+   "met-451841",
+   "met-444880",
+   "met-444881",
+   "met-453563",
+   "met-453166",
+   "met-450587",
+   "aic-5049",
+   "aic-69109",
+   "aic-7668",
+   "aic-64984",
+   "aic-77170",
+   "aic-65208",
+   "aic-65442",
+   "aic-65466"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "rabat-morocco",
+  "label": "Rabat",
+  "country": "Morocco",
+  "timezone": "Africa/Casablanca",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q3045874"
+  ],
+  "discovery_ids": [
+   "wd-Q3578067"
+  ],
+  "country_discovery_ids": [
+   "met-453262"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "bali-indonesia",
+  "label": "Bali",
+  "country": "Indonesia",
+  "timezone": "Asia/Makassar",
+  "neighbourhoods": [
+   "Ubud"
+  ],
+  "venues": [],
+  "festivals": [
+   "ev-Q28163618",
+   "ev-ubud-writers-readers-festival"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "lahore-pakistan",
+  "label": "Lahore",
+  "country": "Pakistan",
+  "timezone": "Asia/Karachi",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-lahore-biennale",
+   "ev-lahore-literary-festival"
+  ],
+  "discovery_ids": [
+   "oa-W2897995998"
+  ],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "kuching-malaysia",
+  "label": "Kuching",
+  "country": "Malaysia",
+  "timezone": "Asia/Kuala_Lumpur",
+  "neighbourhoods": [],
+  "venues": [
+   "Sarawak Stadium"
+  ],
+  "festivals": [
+   "ev-Q129757860",
+   "ev-rainforest-world-music-festival"
+  ],
+  "discovery_ids": [
+   "wd-Q7683409"
+  ],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "baku-azerbaijan",
+  "label": "Baku",
+  "country": "Azerbaijan",
+  "timezone": "Asia/Baku",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q133852415",
+   "ev-Q20987610"
+  ],
+  "discovery_ids": [
+   "wd-Q4058247"
+  ],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "ramallah-palestine",
+  "label": "Ramallah",
+  "country": "Palestine",
+  "timezone": "Asia/Hebron",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q119265974",
+   "ev-Q124900549"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-126647"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "azerbaijan-azerbaijan",
+  "label": "Azerbaijan (city not recorded)",
+  "country": "Azerbaijan",
+  "timezone": "Asia/Baku",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125605741",
+   "ev-Q65279581"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "malaysia-malaysia",
+  "label": "Malaysia (city not recorded)",
+  "country": "Malaysia",
+  "timezone": "Asia/Kuala_Lumpur",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q128379511",
+   "ev-Q127978140"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "tunisia-tunisia",
+  "label": "Tunisia (city not recorded)",
+  "country": "Tunisia",
+  "timezone": "Africa/Tunis",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125608863",
+   "ev-Q125608916"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "kyrgyzstan-kyrgyzstan",
+  "label": "Kyrgyzstan (city not recorded)",
+  "country": "Kyrgyzstan",
+  "timezone": "Asia/Bishkek",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125585350",
+   "ev-Q125585351"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "delhi-india",
+  "label": "Delhi",
+  "country": "India",
+  "timezone": "Asia/Kolkata",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-jahan-e-khusrau-sufi-music-festival"
+  ],
+  "discovery_ids": [
+   "ia-The_Role_of_Islam_in_History_Urdu_Jan_09_11"
+  ],
+  "country_discovery_ids": [
+   "met-825610",
+   "met-838375",
+   "met-838376",
+   "met-888894",
+   "met-453356",
+   "met-453271",
+   "met-453348",
+   "met-825603",
+   "met-448491",
+   "met-455032",
+   "met-446562",
+   "met-448476",
+   "met-448213",
+   "met-908812",
+   "met-924762",
+   "met-451186",
+   "met-446987",
+   "met-457019",
+   "met-443097",
+   "met-454087",
+   "met-444866",
+   "met-444868",
+   "met-444865",
+   "met-453435",
+   "met-444859",
+   "met-444857",
+   "met-453386",
+   "met-452963",
+   "met-817378",
+   "met-453078"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "jodhpur-india",
+  "label": "Jodhpur",
+  "country": "India",
+  "timezone": "Asia/Kolkata",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-rajasthan-international-folk-festival"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-825610",
+   "met-838375",
+   "met-838376",
+   "met-888894",
+   "met-453356",
+   "met-453271",
+   "met-453348",
+   "met-825603",
+   "met-448491",
+   "met-455032",
+   "met-446562",
+   "met-448476",
+   "met-448213",
+   "met-908812",
+   "met-924762",
+   "met-451186",
+   "met-446987",
+   "met-457019",
+   "met-443097",
+   "met-454087",
+   "met-444866",
+   "met-444868",
+   "met-444865",
+   "met-453435",
+   "met-444859",
+   "met-444857",
+   "met-453386",
+   "met-452963",
+   "met-817378",
+   "met-453078"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "segou-mali",
+  "label": "Segou",
+  "country": "Mali",
+  "timezone": "Africa/Bamako",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-festival-on-the-niger"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "zanzibar-tanzania",
+  "label": "Zanzibar",
+  "country": "Tanzania",
+  "timezone": "Africa/Dar_es_Salaam",
+  "neighbourhoods": [
+   "Stone Town"
+  ],
+  "venues": [],
+  "festivals": [
+   "ev-sauti-za-busara"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "lamu-kenya",
+  "label": "Lamu",
+  "country": "Kenya",
+  "timezone": "Africa/Nairobi",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-lamu-cultural-festival"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "beirut-lebanon",
+  "label": "Beirut",
+  "country": "Lebanon",
+  "timezone": "Asia/Beirut",
+  "neighbourhoods": [],
+  "venues": [
+   "Beirut (online)"
+  ],
+  "festivals": [
+   "ev-aflamuna"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "el-gouna-egypt",
+  "label": "El Gouna",
+  "country": "Egypt",
+  "timezone": "Africa/Cairo",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q60572824"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-444604",
+   "met-444602",
+   "met-453506",
+   "met-698583",
+   "met-444600",
+   "met-444405",
+   "met-444400",
+   "met-444401",
+   "met-444404",
+   "met-444402",
+   "met-447107",
+   "met-453587",
+   "met-448289",
+   "met-448290",
+   "met-452203",
+   "met-448251",
+   "met-444286",
+   "met-456947",
+   "met-442912",
+   "met-452908",
+   "met-452530",
+   "met-452531",
+   "met-452907",
+   "met-452905",
+   "aic-936",
+   "aic-831"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "tunis-tunisia",
+  "label": "Tunis",
+  "country": "Tunisia",
+  "timezone": "Africa/Tunis",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-carthage-film-festival-jcc-"
+  ],
+  "discovery_ids": [
+   "eu-90402-RP_F_F01091_L"
+  ],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "san-francisco-united-states",
+  "label": "San Francisco",
+  "country": "United States",
+  "timezone": "America/Los_Angeles",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-arab-film-festival-san-francisco-"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "palestine-touring-palestine",
+  "label": "Palestine (touring)",
+  "country": "Palestine",
+  "timezone": "Asia/Hebron",
+  "neighbourhoods": [],
+  "venues": [
+   "Palestine (touring)"
+  ],
+  "festivals": [
+   "ev-palestine-festival-of-literature-palfest-"
+  ],
+  "discovery_ids": [
+   "cma-95001",
+   "met-126647"
+  ],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "karachi-pakistan",
+  "label": "Karachi",
+  "country": "Pakistan",
+  "timezone": "Asia/Karachi",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-karachi-literature-festival"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "alula-saudi-arabia",
+  "label": "AlUla",
+  "country": "Saudi Arabia",
+  "timezone": "Asia/Riyadh",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-desert-x-alula"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "dakar-senegal",
+  "label": "Dakar",
+  "country": "Senegal",
+  "timezone": "Africa/Dakar",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-dak-art-biennale",
+   "ev-Q125609390"
+  ],
+  "discovery_ids": [
+   "oa-W2885633041"
+  ],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "bradford-united-kingdom",
+  "label": "Bradford",
+  "country": "United Kingdom",
+  "timezone": "Europe/London",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-bradford-literature-festival"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "eu-9200579-qex7qzm7",
+   "eu-9200579-q7s2guax",
+   "eu-2048087-ProvidedCHO_British_Museum_and_The_Portable_Antiquities_Scheme_PAS_22BC88",
+   "eu-9200579-kwm9jq2c"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "agadir-morocco",
+  "label": "Agadir",
+  "country": "Morocco",
+  "timezone": "Africa/Casablanca",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-festival-international-de-timitar"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-453262"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "carthage-tunisia",
+  "label": "Carthage",
+  "country": "Tunisia",
+  "timezone": "Africa/Tunis",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-festival-international-de-carthage"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "baalbek-lebanon",
+  "label": "Baalbek",
+  "country": "Lebanon",
+  "timezone": "Asia/Beirut",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-baalbeck-international-festival"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "jerash-jordan",
+  "label": "Jerash",
+  "country": "Jordan",
+  "timezone": "Asia/Amman",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-jerash-festival-of-culture-and-arts"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "dearborn-united-states",
+  "label": "Dearborn",
+  "country": "United States",
+  "timezone": "America/Detroit",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-ramadan-night-market-dearborn-"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "birmingham-united-kingdom",
+  "label": "Birmingham",
+  "country": "United Kingdom",
+  "timezone": "Europe/London",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-eid-festival-birmingham-small-heath-park-"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "eu-9200579-qex7qzm7",
+   "eu-9200579-q7s2guax",
+   "eu-2048087-ProvidedCHO_British_Museum_and_The_Portable_Antiquities_Scheme_PAS_22BC88",
+   "eu-9200579-kwm9jq2c"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "manchester-united-kingdom",
+  "label": "Manchester",
+  "country": "United Kingdom",
+  "timezone": "Europe/London",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-muslim-lifestyle-expo"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "eu-9200579-qex7qzm7",
+   "eu-9200579-q7s2guax",
+   "eu-2048087-ProvidedCHO_British_Museum_and_The_Portable_Antiquities_Scheme_PAS_22BC88",
+   "eu-9200579-kwm9jq2c"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "muscat-oman",
+  "label": "Muscat",
+  "country": "Oman",
+  "timezone": "Asia/Muscat",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-sultan-qaboos-grand-mosque-visits-muscat-nights"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "manama-bahrain",
+  "label": "Manama",
+  "country": "Bahrain",
+  "timezone": "Asia/Bahrain",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-ramadan-expo-bahrain-spring-of-culture"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "kuwait-city-kuwait",
+  "label": "Kuwait City",
+  "country": "Kuwait",
+  "timezone": "Asia/Kuwait",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-kuwait-book-fair"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "antalya-turkey",
+  "label": "Antalya",
+  "country": "Turkey",
+  "timezone": "Europe/Istanbul",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-antalya-golden-orange-film-festival"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-453274",
+   "met-451686",
+   "met-450359",
+   "met-451832",
+   "met-445228",
+   "met-452729",
+   "met-444985",
+   "met-453024",
+   "met-451992",
+   "met-446220",
+   "met-448044",
+   "met-453205",
+   "met-901923",
+   "met-451849",
+   "met-446648",
+   "met-451837",
+   "met-451841",
+   "met-444880",
+   "met-444881",
+   "met-453563",
+   "met-453166",
+   "met-450587",
+   "aic-5049",
+   "aic-69109",
+   "aic-7668",
+   "aic-64984",
+   "aic-77170",
+   "aic-65208",
+   "aic-65442",
+   "aic-65466"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "malmo-sweden",
+  "label": "Malmo",
+  "country": "Sweden",
+  "timezone": "Europe/Stockholm",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-malm-arab-film-festival"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "eu-1391-raa_dokumentation_638438cb_7cb7_431c_9412_b5177bd46d89",
+   "eu-1391-raa_dokumentation_62f0726a_a5a9_45a6_9efb_655d0ce543e2",
+   "eu-1391-raa_dokumentation_ee468079_1593_4239_887e_ad2ee7858c39",
+   "eu-1391-raa_dokumentation_ce2e4998_b1b0_42c1_951d_0ebe77cb5831",
+   "eu-1391-raa_dokumentation_30c18f48_c2b4_4c0a_9ae0_9227b091a2b6",
+   "eu-91639-SMVK_MM_objekt_3211723",
+   "eu-91639-SMVK_MM_objekt_3205292",
+   "eu-91639-SMVK_MM_objekt_3300751",
+   "eu-91639-SMVK_MM_objekt_3300375",
+   "eu-91639-SMVK_MM_objekt_3300316",
+   "eu-91619-SMVK_EM_objekt_1302313",
+   "eu-91619-SMVK_EM_objekt_1569866"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "leeds-united-kingdom",
+  "label": "Leeds",
+  "country": "United Kingdom",
+  "timezone": "Europe/London",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-muslim-international-film-festival"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "eu-9200579-qex7qzm7",
+   "eu-9200579-q7s2guax",
+   "eu-2048087-ProvidedCHO_British_Museum_and_The_Portable_Antiquities_Scheme_PAS_22BC88",
+   "eu-9200579-kwm9jq2c"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "ottawa-canada",
+  "label": "Ottawa",
+  "country": "Canada",
+  "timezone": "America/Toronto",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-ottawa-muslim-film-festival-mosaic"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "alexandria-egypt",
+  "label": "Alexandria",
+  "country": "Egypt",
+  "timezone": "Africa/Cairo",
+  "neighbourhoods": [],
+  "venues": [
+   "Bibliotheca Alexandrina"
+  ],
+  "festivals": [
+   "ev-Q4720982"
+  ],
+  "discovery_ids": [
+   "eu-122-https___www_searchculture_gr_aggregator_edm_ELIA_000100_25_513765",
+   "eu-122-https___www_searchculture_gr_aggregator_edm_ELIA_000100_25_514103",
+   "eu-122-https___www_searchculture_gr_aggregator_edm_ELIA_000100_25_513763",
+   "eu-122-https___www_searchculture_gr_aggregator_edm_ELIA_000100_25_513619",
+   "eu-122-https___www_searchculture_gr_aggregator_edm_ELIA_000100_25_514814",
+   "wd-Q10997672"
+  ],
+  "country_discovery_ids": [
+   "met-444604",
+   "met-444602",
+   "met-453506",
+   "met-698583",
+   "met-444600",
+   "met-444405",
+   "met-444400",
+   "met-444401",
+   "met-444404",
+   "met-444402",
+   "met-447107",
+   "met-453587",
+   "met-448289",
+   "met-448290",
+   "met-452203",
+   "met-448251",
+   "met-444286",
+   "met-456947",
+   "met-442912",
+   "met-452908",
+   "met-452530",
+   "met-452531",
+   "met-452907",
+   "met-452905",
+   "aic-936",
+   "aic-831"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "red-sea-governorate-egypt",
+  "label": "Red Sea Governorate",
+  "country": "Egypt",
+  "timezone": "Africa/Cairo",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q60572824"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-444604",
+   "met-444602",
+   "met-453506",
+   "met-698583",
+   "met-444600",
+   "met-444405",
+   "met-444400",
+   "met-444401",
+   "met-444404",
+   "met-444402",
+   "met-447107",
+   "met-453587",
+   "met-448289",
+   "met-448290",
+   "met-452203",
+   "met-448251",
+   "met-444286",
+   "met-456947",
+   "met-442912",
+   "met-452908",
+   "met-452530",
+   "met-452531",
+   "met-452907",
+   "met-452905",
+   "aic-936",
+   "aic-831"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "hammamet-tunisia",
+  "label": "Hammamet",
+  "country": "Tunisia",
+  "timezone": "Africa/Tunis",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q3070569"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "midelt-province-morocco",
+  "label": "Midelt Province",
+  "country": "Morocco",
+  "timezone": "Africa/Casablanca",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q3092853"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-453262"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "el-djem-tunisia",
+  "label": "El Djem",
+  "country": "Tunisia",
+  "timezone": "Africa/Tunis",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q3070620"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "sepang-malaysia",
+  "label": "Sepang",
+  "country": "Malaysia",
+  "timezone": "Asia/Kuala_Lumpur",
+  "neighbourhoods": [],
+  "venues": [
+   "Sepang International Circuit"
+  ],
+  "festivals": [
+   "ev-Q120824207"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "tashkent-uzbekistan",
+  "label": "Tashkent",
+  "country": "Uzbekistan",
+  "timezone": "Asia/Tashkent",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q13416957"
+  ],
+  "discovery_ids": [
+   "wd-Q136668302"
+  ],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "hac-k-nd-azerbaijan",
+  "label": "Hacıkənd",
+  "country": "Azerbaijan",
+  "timezone": "Asia/Baku",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q66421540"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "pakistan-pakistan",
+  "label": "Pakistan (city not recorded)",
+  "country": "Pakistan",
+  "timezone": "Asia/Karachi",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q42425905"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "morocco-morocco",
+  "label": "Morocco (city not recorded)",
+  "country": "Morocco",
+  "timezone": "Africa/Casablanca",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q16034450"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-453262"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "kelibia-tunisia",
+  "label": "Kelibia",
+  "country": "Tunisia",
+  "timezone": "Africa/Tunis",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125608918"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "almaty-kazakhstan",
+  "label": "Almaty",
+  "country": "Kazakhstan",
+  "timezone": "Asia/Almaty",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q139586267"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "gab-s-tunisia",
+  "label": "Gabès",
+  "country": "Tunisia",
+  "timezone": "Africa/Tunis",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q109038024"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "uzbekistan-uzbekistan",
+  "label": "Uzbekistan (city not recorded)",
+  "country": "Uzbekistan",
+  "timezone": "Asia/Tashkent",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q141777180"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "algiers-algeria",
+  "label": "Algiers",
+  "country": "Algeria",
+  "timezone": "Africa/Algiers",
+  "neighbourhoods": [],
+  "venues": [
+   "Algiers Opera House Boualem Bessaïh"
+  ],
+  "festivals": [
+   "ev-Q136463103"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "senegal-senegal",
+  "label": "Senegal (city not recorded)",
+  "country": "Senegal",
+  "timezone": "Africa/Dakar",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "iran-iran",
+  "label": "Iran (city not recorded)",
+  "country": "Iran",
+  "timezone": "Asia/Tehran",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q134411020"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "cma-128302",
+   "cma-128303",
+   "met-770740",
+   "met-449863",
+   "met-449458",
+   "met-449473",
+   "met-452957",
+   "met-451444",
+   "met-451358",
+   "met-450761",
+   "met-452652",
+   "met-446160",
+   "met-451394",
+   "met-449474",
+   "met-452135",
+   "met-451414",
+   "met-444523",
+   "met-450598",
+   "met-451305",
+   "met-446889",
+   "met-446099",
+   "met-452413",
+   "met-449450",
+   "met-451699",
+   "met-448685",
+   "met-449932",
+   "met-449931",
+   "met-449667",
+   "met-449933",
+   "met-449934"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "lankaran-azerbaijan",
+  "label": "Lankaran",
+  "country": "Azerbaijan",
+  "timezone": "Asia/Baku",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q141858175"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "iraq-iraq",
+  "label": "Iraq (city not recorded)",
+  "country": "Iraq",
+  "timezone": "Asia/Baghdad",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125611131"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-451400",
+   "met-448839",
+   "met-449723",
+   "met-448737",
+   "met-447646",
+   "met-448733",
+   "met-448736",
+   "met-448741",
+   "met-451768",
+   "met-447461",
+   "met-448689",
+   "met-448729"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "t-touan-morocco",
+  "label": "Tétouan",
+  "country": "Morocco",
+  "timezone": "Africa/Casablanca",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125543595"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-453262"
+  ],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "bangladesh-bangladesh",
+  "label": "Bangladesh (city not recorded)",
+  "country": "Bangladesh",
+  "timezone": "Asia/Dhaka",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125585334"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "switzerland-senegal",
+  "label": "Switzerland",
+  "country": "Senegal",
+  "timezone": "Africa/Dakar",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125601363"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "saudi-arabia-saudi-arabia",
+  "label": "Saudi Arabia (city not recorded)",
+  "country": "Saudi Arabia",
+  "timezone": "Asia/Riyadh",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125601637"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "dubai-world-trade-centre-united-arab-emirates",
+  "label": "Dubai World Trade Centre",
+  "country": "United Arab Emirates",
+  "timezone": "Asia/Dubai",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q141420956"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "discovery_ids: our records naming this city; country_discovery_ids: records whose place field is this country"
+ },
+ {
+  "id": "ras-al-khaimah-united-arab-emirates",
+  "label": "Ras Al Khaimah",
+  "country": "United Arab Emirates",
+  "timezone": "Asia/Dubai",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125608368"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [],
+  "note": "city hub created from an official event page that states the city",
+  "created": "2026-10-26"
+ },
+ {
+  "id": "afyonkarahisar-turkey",
+  "label": "Afyonkarahisar",
+  "country": "Turkey",
+  "timezone": "Europe/Istanbul",
+  "neighbourhoods": [],
+  "venues": [],
+  "festivals": [
+   "ev-Q125608779"
+  ],
+  "discovery_ids": [],
+  "country_discovery_ids": [
+   "met-453274",
+   "met-451686",
+   "met-450359",
+   "met-451832",
+   "met-445228",
+   "met-452729",
+   "met-444985",
+   "met-453024",
+   "met-451992",
+   "met-446220",
+   "met-448044",
+   "met-453205",
+   "met-901923",
+   "met-451849",
+   "met-446648",
+   "met-451837",
+   "met-451841",
+   "met-444880",
+   "met-444881",
+   "met-453563",
+   "met-453166",
+   "met-450587",
+   "aic-5049",
+   "aic-69109",
+   "aic-7668",
+   "aic-64984",
+   "aic-77170",
+   "aic-65208",
+   "aic-65442",
+   "aic-65466"
+  ],
+  "note": "city hub created from an official event page that states the city",
+  "created": "2026-10-26"
+ }
+]

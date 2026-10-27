@@ -1,0 +1,1719 @@
+[
+ {
+  "id": "D001",
+  "slug": "The_Book_of_Fixed_Stars",
+  "title": "The Book of Fixed Stars",
+  "hook": "A 10th-century sky atlas that drew every constellation twice: as seen on a globe, and as seen looking up.",
+  "field": "Space",
+  "domain": "Science, engineering and technology",
+  "media": "manuscript",
+  "gate1_type": "astronomical manuscript",
+  "summary": "The Book of Fixed Stars is an astronomical text written by Abd al-Rahman al-Sufi (Azophi) around 964. Following the Graeco-Arabic translation movement in the 9th century AD, the book was written in Arabic, the common language of scholars across the vast Islamic territories, although the author himself was Persian. It was an attempt to create a synthesis of the comprehensive star catalogue in Ptolemy's Almagest with indigenous Arabic astronomical traditions on the constellations. The original manuscript no longer survives as an autograph; however, the importance of tradition and the practice of diligence, central to Islamic manuscript culture, have ensured the survival of the Book of Fixed Stars in later copies.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/The_Book_of_Fixed_Stars",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:26-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "The Book of Fixed Stars is an astronomical text written by Abd al-Rahman al-Sufi (Azophi) around 964."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Unknown%2C_Iraq_-_The_Book_of_Fixed_Stars_-_Google_Art_Project_%28cropped%29.jpg/960px-Unknown%2C_Iraq_-_The_Book_of_Fixed_Stars_-_Google_Art_Project_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Unknown,_Iraq_-_The_Book_of_Fixed_Stars_-_Google_Art_Project_(cropped).jpg",
+   "licence": "Public domain",
+   "credit": "Abd al-Rahman al-Sufi"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D002",
+  "slug": "Abd_al-Rahman_al-Sufi",
+  "title": "Abd al-Rahman al-Sufi",
+  "hook": "The astronomer the West called Azophi, who recorded a faint smudge we now call the Andromeda Galaxy.",
+  "field": "Space",
+  "domain": "Science, engineering and technology",
+  "media": "person",
+  "gate1_type": null,
+  "summary": "ʿAbd al-Raḥmān al-Ṣūfī was a Persian astronomer.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Abd_al-Rahman_al-Sufi",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:26-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "ʿAbd al-Raḥmān al-Ṣūfī was a Persian astronomer."
+   }
+  ],
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Al-Sufi_depicted_in_Albrecht_D%C3%BCrers_%27The_Northern_Celestial_Hemisphere%27_%281515%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Al-Sufi_depicted_in_Albrecht_D%C3%BCrers_%27The_Northern_Celestial_Hemisphere%27_(1515).jpg",
+   "licence": "CC BY-SA 4.0",
+   "credit": "Albrecht Dürer"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY-SA 4.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D003",
+  "slug": "Al-Biruni",
+  "title": "Al-Biruni",
+  "hook": "A polymath who estimated the size of the Earth from a mountain top.",
+  "field": "Science",
+  "domain": "Science, engineering and technology",
+  "media": "person",
+  "gate1_type": null,
+  "summary": "Abu Reyhan Muhammad ibn Ahmad al-Biruni, known as Biruni (بیرونی), was an Iranian Khwarazmian polymath of the Islamic Golden Age. Well versed in physics, mathematics, astronomy and the natural sciences, he also distinguished himself as a historian, chronologist and linguist, and has been described as the first anthropologist and a founding figure in comparative religion, geodesy and Indology.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Al-Biruni",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:26-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Abu Reyhan Muhammad ibn Ahmad al-Biruni, known as Biruni (بیرونی), was an Iranian Khwarazmian polymath of the Islamic Golden Age."
+   }
+  ],
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Biruni-russian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Biruni-russian.jpg",
+   "licence": "Public domain",
+   "credit": "The original uploader was Romanm at <a href=\"https://en.wikipedia.org/wiki/sl:\" class=\"extiw\" title=\"w"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Geography",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D004",
+  "slug": "Mariam_al-Asturlabi",
+  "title": "Al-ʻIjliyyah",
+  "hook": "A woman in 10th-century Aleppo who made astrolabes for the emir. Even her popular first name is disputed.",
+  "field": "Technology",
+  "domain": "Science, engineering and technology",
+  "media": "person",
+  "gate1_type": "contemporary maker (historical maker)",
+  "summary": "Al-ʻIjliyyah bint al-ʻIjliyy was a 10th-century maker of astrolabes active in Aleppo, in what is now northern Syria.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Al-%CA%BBIjliyyah",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:26-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Al-ʻIjliyyah bint al-ʻIjliyy was a 10th-century maker of astrolabes active in Aleppo, in what is now northern Syria."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D005",
+  "slug": "Lunar_station",
+  "title": "Lunar station",
+  "hook": "The Moon moves through 28 \"houses\" across the sky. Many cultures counted them, and they didn't all count the same way.",
+  "field": "Space",
+  "domain": "Science, engineering and technology",
+  "media": "concept",
+  "gate1_type": "lunar mansion",
+  "summary": "Often called lunar mansion, a lunar station or lunar house is a segment of the ecliptic through which the Moon passes in its orbit around the Earth. The concept was used by several ancient cultures as part of their calendrical system.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Lunar_station",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:26-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Often called lunar mansion, a lunar station or lunar house is a segment of the ecliptic through which the Moon passes in its orbit around the Earth."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D006",
+  "slug": "Aldebaran",
+  "title": "Aldebaran",
+  "hook": "The red eye of Taurus is called \"the follower\", because it trails the Pleiades across the sky.",
+  "field": "Space",
+  "domain": "Science, engineering and technology",
+  "media": "star",
+  "gate1_type": "lunar mansion",
+  "summary": "Aldebaran is a red giant star in the zodiac constellation of Taurus. It has the Bayer designation α Tauri, which is Latinized to Alpha Tauri and abbreviated Alpha Tau or α Tau. Aldebaran varies in brightness from an apparent visual magnitude of 0.75 down to 0.95, making it the brightest star in the constellation, as well as (typically) the fourteenth-brightest star in the night sky. It is at a distance of approximately 67 light-years. The star lies along the line of sight to the nearby Hyades cluster, but is unrelated and much older than the young cluster.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Aldebaran",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:26-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Aldebaran is a red giant star in the zodiac constellation of Taurus."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D007",
+  "slug": "Ulugh_Beg_Observatory",
+  "title": "Ulugh Beg Observatory",
+  "hook": "A prince built a giant curved instrument into a hillside in Samarkand to measure the sky.",
+  "field": "Space",
+  "domain": "Architecture, design and urbanism",
+  "media": "place",
+  "gate1_type": "scientific record",
+  "summary": "The Ulugh Beg Observatory is an observatory in modern day Samarkand, Uzbekistan, which was built in the 1420s by the Timurid astronomer Ulugh Beg. This school of astronomy was constructed under the Timurid Empire, and was the last of its kind from the Islamic Medieval period. Islamic astronomers who worked at the observatory include Jamshid al-Kashi, Ali Qushji, and Ulugh Beg himself. The observatory was destroyed in 1449 and rediscovered in 1908.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Ulugh_Beg_Observatory",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:27-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "The Ulugh Beg Observatory is an observatory in modern day Samarkand, Uzbekistan, which was built in the 1420s by the Timurid astronomer Ulugh Beg."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D008",
+  "slug": "Astrolabe",
+  "title": "Astrolabe",
+  "hook": "A pocket model of the sky: you could tell the time, find stars and survey land with it.",
+  "field": "Technology",
+  "domain": "Science, engineering and technology",
+  "media": "object",
+  "gate1_type": null,
+  "summary": "An astrolabe is an astronomical instrument dating to ancient times. It serves as a star chart and physical model of the visible half-dome of the sky. Its various functions also make it an elaborate inclinometer and an analog calculation device capable of working out several kinds of problems in astronomy. In its simplest form it is a metal disc with a pattern of wires, cutouts, and perforations that allows a user to calculate astronomical positions precisely. It is able to measure the altitude above the horizon of a celestial body, day or night; it can be used to identify stars or planets, to determine local latitude given local time, to survey, or to triangulate. It was used in classical antiquity, the Byzantine Empire, the Islamic Golden Age, the European Middle Ages and the Age of Discovery for all these purposes.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Astrolabe",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:27-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "An astrolabe is an astronomical instrument dating to ancient times."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Khalili_Collection_Islamic_Art_sci_0430_back.jpg/960px-Khalili_Collection_Islamic_Art_sci_0430_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Khalili_Collection_Islamic_Art_sci_0430_back.jpg",
+   "licence": "CC BY-SA 3.0 igo",
+   "credit": "Khalili Collections"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY-SA 3.0 igo); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D009",
+  "slug": "Zij",
+  "title": "Zij",
+  "hook": "Astronomical handbooks full of tables. They were the apps of their day for predicting the sky.",
+  "field": "Science",
+  "domain": "Science, engineering and technology",
+  "media": "text",
+  "gate1_type": "scientific record",
+  "summary": "\nA zij is an Islamic astronomical book that tabulates parameters used for astronomical calculations of the positions of the sun, moon, stars, and planets.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Zij",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:27-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "A zij is an Islamic astronomical book that tabulates parameters used for astronomical calculations of the positions of the sun, moon, stars, and planets."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/SanjufiniZij1.jpg/960px-SanjufiniZij1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:SanjufiniZij1.jpg",
+   "licence": "Public domain",
+   "credit": "BnF (Bibliotheque nationale de France)"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D010",
+  "slug": "Maragheh_observatory",
+  "title": "Maragheh observatory",
+  "hook": "A 13th-century observatory on a hill in Iran, with a library and a working team of astronomers.",
+  "field": "Science",
+  "domain": "Science, engineering and technology",
+  "media": "place",
+  "gate1_type": "scientific record",
+  "summary": "The Maragheh observatory, also spelled Maragha, Maragah, Marageh, and Maraga, was an astronomical observatory established in the mid 13th century under the patronage of the Ilkhanid Hulagu and the directorship of Nasir al-Din al-Tusi, a Persian scientist and astronomer. The observatory is located on the west side of Maragheh, which is situated in today's East Azerbaijan Province of Iran. It was considered one of the most advanced scientific institutions in Eurasia because it was a center for many groundbreaking calculations in mathematics and astronomy. It housed a large collection of astronomical instruments and books and it served as an educational institution. It was also used as a model for the later Ulugh Beg Observatory in Samarkand, the Taqi al-Din observatory in Constantinople, and Jantar Mantar observatory in Jaipur.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Maragheh_observatory",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:27-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "The Maragheh observatory, also spelled Maragha, Maragah, Marageh, and Maraga, was an astronomical observatory established in the mid 13th century under the patronage of the Ilkhanid Hulagu and the directorship of Nasir al-Din al-Tusi, a Persian scientist and astronomer."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Maraga_observatory.jpg/960px-Maraga_observatory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Maraga_observatory.jpg",
+   "licence": "CC BY-SA 3.0",
+   "credit": "ایوب فارابی اصل"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY-SA 3.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D011",
+  "slug": "Girih_tiles",
+  "title": "Girih tile",
+  "hook": "Five tile shapes that can build patterns which never quite repeat.",
+  "field": "Art",
+  "domain": "Architecture, design and urbanism",
+  "media": "pattern",
+  "gate1_type": "geometric detail",
+  "summary": "Girih tiles are a set of five tiles that were used in the creation of Islamic geometric patterns using strapwork (girih) for decoration of buildings in Islamic architecture. They have been used since about the year 1200 and their arrangements found significant improvement starting with the Darb-i Imam shrine in Isfahan in Iran built in 1453.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Girih_tile",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:27-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Girih tiles are a set of five tiles that were used in the creation of Islamic geometric patterns using strapwork (girih) for decoration of buildings in Islamic architecture."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Maths",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D012",
+  "slug": "Alhambra",
+  "title": "Alhambra",
+  "hook": "A red palace on a hill above Granada, covered in carved plaster and tile.",
+  "field": "Architecture & Design",
+  "domain": "Architecture, design and urbanism",
+  "media": "place",
+  "gate1_type": "geometric detail",
+  "summary": "The Alhambra is a palace and fortress complex located in Granada, Spain. It is one of the most famous monuments of Islamic architecture and the only well-preserved palace from the medieval Islamic world. Additionally, the palace contains notable examples of Spanish Renaissance architecture.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Alhambra",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:28-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "The Alhambra is a palace and fortress complex located in Granada, Spain."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Arts",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D013",
+  "slug": "Muqarnas",
+  "title": "Muqarnas",
+  "hook": "Honeycomb vaulting: thousands of small niches stepping up into a dome.",
+  "field": "Architecture & Design",
+  "domain": "Architecture, design and urbanism",
+  "media": "pattern",
+  "gate1_type": "geometric detail",
+  "summary": "Muqarnas, also known in Iberian architecture as Mocárabe, is a form of three-dimensional decoration in Islamic architecture in which rows or tiers of niche-like elements are projected over others below. It is an archetypal form of Islamic architecture, integral to the vernacular of Islamic buildings, and typically featured in domes and vaults, as well as iwans, entrance portals, or other niches. It is sometimes referred to as honeycombs or stalactites.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Muqarnas",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:28-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Muqarnas, also known in Iberian architecture as Mocárabe, is a form of three-dimensional decoration in Islamic architecture in which rows or tiers of niche-like elements are projected over others below."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Maths",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D014",
+  "slug": "Zellij",
+  "title": "Zellij",
+  "hook": "Hand-chipped glazed tiles, cut one piece at a time and set into star patterns.",
+  "field": "Art",
+  "domain": "Fashion, textiles and adornment",
+  "media": "craft",
+  "gate1_type": "geometric detail",
+  "summary": "Zellij, also spelled zillij or zellige, is a style of mosaic tilework made from individually hand-chiseled tile pieces. The pieces were typically of different colours and fitted together to form various patterns on the basis of tessellations, most notably elaborate Islamic geometric motifs such as radiating star patterns composed of various polygons. This form of Islamic art is one of the main characteristics of architecture in the western Islamic world. It is found in the architecture of Morocco, the architecture of Algeria, early Islamic sites in Tunisia, and in the historic monuments of al-Andalus. From the 14th century onwards, zellij became a standard decorative element along lower walls, in fountains and pools, on minarets, and for the paving of floors.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Zellij",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:28-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Zellij, also spelled zillij or zellige, is a style of mosaic tilework made from individually hand-chiseled tile pieces."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/%D9%86%D8%B8%D8%B1%D8%A9_%D9%85%D9%82%D8%B1%D8%A8%D8%A9_%D9%84%D9%84%D8%B2%D9%84%D9%8A%D8%AC_%D9%81%D9%8A_%D9%85%D8%AF%D8%B1%D8%B3%D8%A9_%D8%A7%D8%A8%D9%86_%D9%8A%D9%88%D8%B3%D9%81.jpeg/960px-%D9%86%D8%B8%D8%B1%D8%A9_%D9%85%D9%82%D8%B1%D8%A8%D8%A9_%D9%84%D9%84%D8%B2%D9%84%D9%8A%D8%AC_%D9%81%D9%8A_%D9%85%D8%AF%D8%B1%D8%B3%D8%A9_%D8%A7%D8%A8%D9%86_%D9%8A%D9%88%D8%B3%D9%81.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:%D9%86%D8%B8%D8%B1%D8%A9_%D9%85%D9%82%D8%B1%D8%A8%D8%A9_%D9%84%D9%84%D8%B2%D9%84%D9%8A%D8%AC_%D9%81%D9%8A_%D9%85%D8%AF%D8%B1%D8%B3%D8%A9_%D8%A7%D8%A8%D9%86_%D9%8A%D9%88%D8%B3%D9%81.jpeg",
+   "licence": "CC BY-SA 4.0",
+   "credit": "إيان"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY-SA 4.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Arts",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D015",
+  "slug": "Zaha_Hadid",
+  "title": "Zaha Hadid",
+  "hook": "The architect of buildings that look as if they are in motion.",
+  "field": "Architecture & Design",
+  "domain": "Architecture, design and urbanism",
+  "media": "person",
+  "gate1_type": "contemporary maker",
+  "summary": "Dame Zaha Mohammad Hadid was an Iraqi and British architect, artist, and designer. She is recognised as a key figure in the architecture of the late-20th and early-21st centuries. Born in Baghdad, Iraq, Hadid studied mathematics as an undergraduate and later enrolled at the Architectural Association School of Architecture in 1972. In search of an alternative to traditional architectural drawing, and influenced by Suprematism and the Russian avant-garde, Hadid adopted painting as a design tool and abstraction as a method to \"reinvestigate the aborted and untested experiments of Modernism [...] to unveil new fields of building\".",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Zaha_Hadid",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:28-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Dame Zaha Mohammad Hadid was an Iraqi and British architect, artist, and designer."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Zaha_Hadid_in_Heydar_Aliyev_Cultural_center_in_Baku_nov_2013.jpg/960px-Zaha_Hadid_in_Heydar_Aliyev_Cultural_center_in_Baku_nov_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Zaha_Hadid_in_Heydar_Aliyev_Cultural_center_in_Baku_nov_2013.jpg",
+   "licence": "FAL",
+   "credit": "Dmitry Ternovoy"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (FAL); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Arts",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D016",
+  "slug": "Anousheh_Ansari",
+  "title": "Anousheh Ansari",
+  "hook": "An engineer who flew to the International Space Station and blogged from orbit.",
+  "field": "Space",
+  "domain": "Science, engineering and technology",
+  "media": "person",
+  "gate1_type": "contemporary maker",
+  "summary": "Anousheh Ansari is an Iranian-American engineer, space tourist, and entrepreneur. Ansari is the CEO of XPRIZE Foundation. Ansari and her family sponsored XPRIZE’s first venture in 1994: the $10 million Ansari XPRIZE. Prior to XPRIZE, Ansari was the CEO and Chairwoman of Prodea Systems, an Internet of Things (IoT) technology firm she co-founded in 2006. While under her leadership, the company earned recognition as one of Inc. Magazine’s 500 fastest-growing companies and Deloitte & Touche’s Fast 500 technology companies.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Anousheh_Ansari",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:28-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Anousheh Ansari is an Iranian-American engineer, space tourist, and entrepreneur."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/AnoushehAnsari.jpg/960px-AnoushehAnsari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:AnoushehAnsari.jpg",
+   "licence": "Public domain",
+   "credit": "NASA"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D017",
+  "slug": "Sultan_Al_Neyadi",
+  "title": "Sultan Al Neyadi",
+  "hook": "An astronaut who spent six months on the ISS and made the first Arab spacewalk.",
+  "field": "Space",
+  "domain": "Science, engineering and technology",
+  "media": "person",
+  "gate1_type": "contemporary maker",
+  "summary": "Sultan Saif Al Neyadi is the UAE Minister of State for Youth Affairs and an astronaut. He is one of the first two Arab astronauts or najmonauts from the United Arab Emirates, along with Hazzaa Al Mansoori. He is the first Arab to serve on the International Space Station (ISS) for a 6-month mission as part of Expedition 69 and the first Arab astronaut to perform a spacewalk. He was sworn in on 11 January 2024 as the UAE Minister of Youth.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Sultan_Al_Neyadi",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:29-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Sultan Saif Al Neyadi is the UAE Minister of State for Youth Affairs and an astronaut."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/SpaceX-Crew-6_Sultan-Alneyadi-MBRSC-scaled.jpg/960px-SpaceX-Crew-6_Sultan-Alneyadi-MBRSC-scaled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:SpaceX-Crew-6_Sultan-Alneyadi-MBRSC-scaled.jpg",
+   "licence": "Public domain",
+   "credit": "Robert Markowitz"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D018",
+  "slug": "Halima_Aden",
+  "title": "Halima Aden",
+  "hook": "A model who walked major runways in a hijab, and later walked away from the industry on her own terms.",
+  "field": "Fashion",
+  "domain": "Fashion, textiles and adornment",
+  "media": "person",
+  "gate1_type": "contemporary maker",
+  "summary": "Halima Aden is an American fashion model. She is noted for being the first woman to wear a hijab in the Miss Minnesota USA 2016 pageant, where she was a semi-finalist. Following her participation in the pageant, Halima received national attention and was signed to IMG Models. She was also the first model to wear a hijab and burkini in the Sports Illustrated Swimsuit Issue.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Halima_Aden",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:29-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Halima Aden is an American fashion model."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Halima_Aden_%282020%29_0-13_screenshot.jpg/960px-Halima_Aden_%282020%29_0-13_screenshot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Halima_Aden_(2020)_0-13_screenshot.jpg",
+   "licence": "CC BY 3.0",
+   "credit": "TheOfficialPandora"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY 3.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Other Sciences",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "no_evidence_yet"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D019",
+  "slug": "The_Message_(1976_film)",
+  "title": "The Message (1976 film)",
+  "hook": "An epic filmed twice at the same time, in English and in Arabic, with two different casts.",
+  "field": "Film",
+  "domain": "Film, television, moving image and games",
+  "media": "film",
+  "gate1_type": null,
+  "summary": "The Message originally known as Mohammed, Messenger of God is a 1976 epic film directed and produced by Moustapha Akkad that chronicles the life and times of Muhammad, who is never directly depicted.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/The_Message_(1976_film)",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:29-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "The Message originally known as Mohammed, Messenger of God is a 1976 epic film directed and produced by Moustapha Akkad that chronicles the life and times of Muhammad, who is never directly depicted."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "History",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D020",
+  "slug": "Umm_Kulthum",
+  "title": "Umm Kulthum",
+  "hook": "Her concerts ran for hours. On Thursday nights, a whole region tuned in to listen.",
+  "field": "Music",
+  "domain": "Music, sound, recitation and performance",
+  "media": "person",
+  "gate1_type": "archival recording",
+  "summary": "Fatima Ibrahim es-Sayyid el-Beltagi, known by her stage name Umm Kulthum, was an Egyptian singer and film actress. She was given the honorific title Kawkab el-Sharq. Immensely popular throughout the Middle East and beyond, Umm Kulthum is a national icon in her native Egypt; she has been dubbed \"The Voice of Egypt\" and \"Egypt's Fourth Pyramid\". In 2023, Rolling Stone ranked Umm Kulthum at number 61 on its list of the 200 Greatest Singers of All Time.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Umm_Kulthum",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:29-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Fatima Ibrahim es-Sayyid el-Beltagi, known by her stage name Umm Kulthum, was an Egyptian singer and film actress."
+   }
+  ],
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/Umm_Kulthum_as_Fatimah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Umm_Kulthum_as_Fatimah.jpg",
+   "licence": "Public domain",
+   "credit": "Production company"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Arts",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D021",
+  "slug": "Nusrat_Fateh_Ali_Khan",
+  "title": "Nusrat Fateh Ali Khan",
+  "hook": "A qawwali voice that took Sufi devotional song to film soundtracks around the world.",
+  "field": "Music",
+  "domain": "Music, sound, recitation and performance",
+  "media": "person",
+  "gate1_type": "archival recording",
+  "summary": "Ustad Nusrat Fateh Ali Khan, also known as NFAK, was a Pakistani singer, Hindustani classical vocalist, songwriter, multi-instrumentalist, composer, and music director. While primarily being associated with qawwali, a form of Sufi devotional music from Pakistan and India, he belonged to the historic Qawwal Bachchon ka Gharana and was trained in pure classical khayal architecture under his father Ustad Fateh Ali Khan and later uncle Ustad Mubarak Ali Khan and Ustad Salamat Ali Khan. Though widely celebrated for his qawwali performances, his standing as a master of Shastriya Sangeet was validated by the classical community when he received the Hafiz Ali Khan Award in 1997. He ranks as one of the most influential South Asian singers of all time. Widely recognised as the \"Shahanshah-e-Qawwali\", he has been recognised as one of the 50 Great Voices by NPR and 200 Greatest Singers of All Time by Rolling Stone. The New York Times named Khan the greatest qawwali singer of his generation. while Credited with introducing Qawwali music to international audiences, he was known for his vocal abilities and could perform at a high level of intensity for several hours.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Nusrat_Fateh_Ali_Khan",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:29-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Ustad Nusrat Fateh Ali Khan, also known as NFAK, was a Pakistani singer, Hindustani classical vocalist, songwriter, multi-instrumentalist, composer, and music director."
+   }
+  ],
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Nusrat_Fateh_Ali_Khan_%281948-1997%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Nusrat_Fateh_Ali_Khan_(1948-1997).jpg",
+   "licence": "CC BY 2.0",
+   "credit": "Thomas Rome"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY 2.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Arts",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D022",
+  "slug": "Cairo_Congress_of_Arab_Music",
+  "title": "Cairo Congress of Arab Music",
+  "hook": "In 1932 musicians from across the Arab world met in Cairo, and the sessions were recorded.",
+  "field": "Music",
+  "domain": "Music, sound, recitation and performance",
+  "media": "event",
+  "gate1_type": "archival recording",
+  "summary": "The Congrès du Caire was a large international symposium and music festival that was convened by King Fuad I in Cairo, Egypt, from 14 March to 3 April 1932. The idea had been suggested to Fuad by the French ethnomusicologist Baron Rodolphe d'Erlanger, and the congress was the first large-scale forum to present, discuss, document and record many musical traditions of the Arab world from North Africa and the Middle East.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Cairo_Congress_of_Arab_Music",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:30-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "The Congrès du Caire was a large international symposium and music festival that was convened by King Fuad I in Cairo, Egypt, from 14 March to 3 April 1932."
+   }
+  ],
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Congreso_de_m%C3%BAsica_%C3%A1rabe_de_El_Cairo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Congreso_de_m%C3%BAsica_%C3%A1rabe_de_El_Cairo.jpg",
+   "licence": "Public domain",
+   "credit": "Unknown authorUnknown author"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Arts",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D023",
+  "slug": "Book_of_Optics",
+  "title": "Book of Optics",
+  "hook": "A thousand-year-old argument about how we see: light comes into the eye, not out of it.",
+  "field": "Science",
+  "domain": "Science, engineering and technology",
+  "media": "text",
+  "gate1_type": "scientific record",
+  "summary": "The Book of Optics is a seven-volume treatise on optics and other fields of study composed by the medieval Arab scholar Ibn al-Haytham, known in the West as Alhazen or Alhacen.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Book_of_Optics",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:30-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "The Book of Optics is a seven-volume treatise on optics and other fields of study composed by the medieval Arab scholar Ibn al-Haytham, known in the West as Alhazen or Alhacen."
+   }
+  ],
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/Book_of_Optics_Cover_Page.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Book_of_Optics_Cover_Page.jpg",
+   "licence": "Public domain",
+   "credit": "Ibn al-Haytham, Vitello, Friedrich Risner"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Other Sciences",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "no_evidence_yet"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D024",
+  "slug": "Muhammad_ibn_Musa_al-Khwarizmi",
+  "title": "Al-Khwarizmi",
+  "hook": "The word \"algorithm\" comes from his name.",
+  "field": "Science",
+  "domain": "Science, engineering and technology",
+  "media": "person",
+  "gate1_type": null,
+  "summary": "Muhammad ibn Musa al-Khwarizmi, or simply al-Khwarizmi was a mathematician active during the Islamic Golden Age, who produced Arabic-language works in mathematics, astronomy, and geography. Around 820, he worked at the House of Wisdom in Baghdad, the contemporary capital city of the Abbasid Caliphate. One of the most prominent scholars of the period, his works were widely influential on later authors, both in the Islamic world and Europe.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Al-Khwarizmi",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:30-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Muhammad ibn Musa al-Khwarizmi, or simply al-Khwarizmi was a mathematician active during the Islamic Golden Age, who produced Arabic-language works in mathematics, astronomy, and geography."
+   }
+  ],
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Madrid_-_Ciudad_Universitaria%2C_Monumento_a_Muhammad_al-Juarismi_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Madrid_-_Ciudad_Universitaria,_Monumento_a_Muhammad_al-Juarismi_(cropped).jpg",
+   "licence": "CC0",
+   "credit": "Zarateman"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Maths",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D025",
+  "slug": "The_Canon_of_Medicine",
+  "title": "The Canon of Medicine",
+  "hook": "A medical encyclopedia that was still being taught centuries after it was written.",
+  "field": "Health",
+  "domain": "Medicine, health and life sciences",
+  "media": "text",
+  "gate1_type": "scientific record",
+  "summary": "The Canon of Medicine is an encyclopedia of medicine in five books compiled by Ibn Sina and completed in 1025. It is among the most influential works of its time. It presents an overview of the contemporary medical knowledge of the Islamic world, which had been influenced by earlier traditions including Greco-Roman medicine, Persian medicine, Chinese medicine and Indian medicine. Its translation from Arabic to Latin in 12th century Toledo greatly influenced the development of medieval medicine. It became the standard textbook for teaching in European universities into the early modern period.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/The_Canon_of_Medicine",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:30-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "The Canon of Medicine is an encyclopedia of medicine in five books compiled by Ibn Sina and completed in 1025."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/The_Canon_of_Medicine.jpg/960px-The_Canon_of_Medicine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:The_Canon_of_Medicine.jpg",
+   "licence": "CC BY-SA 3.0",
+   "credit": "Coffeetalkh"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY-SA 3.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Medicine",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D026",
+  "slug": "University_of_al-Qarawiyyin",
+  "title": "University of al-Qarawiyyin",
+  "hook": "In Fez, a mosque and centre of learning has been at work since the 9th century.",
+  "field": "Education",
+  "domain": "Social innovation and human endeavour",
+  "media": "place",
+  "gate1_type": "local story",
+  "summary": "The University of al-Qarawiyyin, also written Al-Karaouine or Al Quaraouiyine, is a university located in Fez, Morocco. It was founded as a mosque by Fatima al-Fihri in 857–859 and subsequently became one of the leading spiritual and educational centers of the Islamic Golden Age. It was incorporated into Morocco's modern state university system in 1963 and officially renamed \"University of Al Quaraouiyine\" two years later. The mosque building itself is also a significant complex of historical Moroccan and Islamic architecture that features elements from many different periods of Moroccan history.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/University_of_al-Qarawiyyin",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:31-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "The University of al-Qarawiyyin, also written Al-Karaouine or Al Quaraouiyine, is a university located in Fez, Morocco."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/University_of_Al_Qaraouiyine.jpg/960px-University_of_Al_Qaraouiyine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:University_of_Al_Qaraouiyine.jpg",
+   "licence": "CC BY-SA 4.0",
+   "credit": "Abdel Hassouni"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY-SA 4.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "History",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D027",
+  "slug": "Fatima_al-Fihri",
+  "title": "Fatima al-Fihriya",
+  "hook": "The woman credited with founding al-Qarawiyyin. Historians debate how much of her story can be documented.",
+  "field": "Education",
+  "domain": "Social innovation and human endeavour",
+  "media": "person",
+  "gate1_type": "local story",
+  "summary": "Fatima bint Muhammad al-Fihriya al-Qurashiyya, known in shorter form as Fatima al-Fihriya or Fatima al-Fihri, was an Arab woman who is credited with founding the al-Qarawiyyin Mosque in 857–859 CE in Fez, Morocco. She is also known as Umm al-Banīn. Al-Fihriya died around 880 CE. The al-Qarawiyyin Mosque subsequently developed into a teaching institution, which became the modern University of al-Qarawiyyin in 1963. Her story is told by Ibn Abi Zar' in The Garden of Pages  as founder of the mosque. Since she was first mentioned many centuries after her death, her story has been hard to substantiate and some modern historians doubt her existence.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Fatima_al-Fihriya",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:31-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Fatima bint Muhammad al-Fihriya al-Qurashiyya, known in shorter form as Fatima al-Fihriya or Fatima al-Fihri, was an Arab woman who is credited with founding the al-Qarawiyyin Mosque in 857–859 CE in Fez, Morocco."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "History",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D028",
+  "slug": "Kampong_Glam",
+  "title": "Kampong Glam",
+  "hook": "A quarter in Singapore shaped by a treaty, by merchants, and by the shophouses that are still standing.",
+  "field": "Travel",
+  "domain": "Architecture, design and urbanism",
+  "media": "place",
+  "gate1_type": "local story",
+  "summary": "Kampong Glam is a neighbourhood and ethnic enclave in Singapore. It is located north of the Singapore River, in the planning area of Rochor, known as the Malay-Muslim quarter.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Kampong_Glam",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:31-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Kampong Glam is a neighbourhood and ethnic enclave in Singapore."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Geography",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D029",
+  "slug": "Sultan_Mosque",
+  "title": "Sultan Mosque",
+  "hook": "A golden-domed landmark at the heart of Kampong Glam.",
+  "field": "Travel",
+  "domain": "Architecture, design and urbanism",
+  "media": "place",
+  "gate1_type": "local story",
+  "summary": "The Sultan Mosque is a historic congregational mosque located in the Kampong Glam district of Rochor, Singapore. First built in 1826 and later rebuilt into its current form in 1932, the Sultan Mosque is one of the national monuments of Singapore and is considered to be the most well-known mosque in the country.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Sultan_Mosque",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:31-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "The Sultan Mosque is a historic congregational mosque located in the Kampong Glam district of Rochor, Singapore."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "History",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D030",
+  "slug": "Haji_Lane",
+  "title": "Haji Lane",
+  "hook": "A narrow lane of murals and small independent shops.",
+  "field": "Fashion",
+  "domain": "Fashion, textiles and adornment",
+  "media": "place",
+  "gate1_type": "local story",
+  "summary": "Haji Lane is a street in the Kampong Glam neighbourhood of Singapore. Young people frequent the shophouses along this lane for the independent stores and cafes, such as Pizza Fabbrica, Good Luck Beerhouse, and Monocle.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Haji_Lane",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:31-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Haji Lane is a street in the Kampong Glam neighbourhood of Singapore."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Haji_Lane%2C_November_2016.jpg/960px-Haji_Lane%2C_November_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Haji_Lane,_November_2016.jpg",
+   "licence": "CC BY-SA 4.0",
+   "credit": "Nick-D"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY-SA 4.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Geography",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D031",
+  "slug": "Hassan_Fathy",
+  "title": "Hassan Fathy",
+  "hook": "An architect who built with mud brick and local hands, not concrete.",
+  "field": "Architecture & Design",
+  "domain": "Architecture, design and urbanism",
+  "media": "person",
+  "gate1_type": null,
+  "summary": "Hassan Fathy was a noted Egyptian architect who pioneered appropriate technology for building in Egypt, especially by working to reestablish the use of adobe and traditional mud construction as opposed to western building designs, material configurations, and lay-outs. Fathy was recognized with the Aga Khan Chairman's Award for Architecture in 1980.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Hassan_Fathy",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:32-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Hassan Fathy was a noted Egyptian architect who pioneered appropriate technology for building in Egypt, especially by working to reestablish the use of adobe and traditional mud construction as opposed to western building designs, material configurations, and lay-outs."
+   }
+  ],
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/1/19/Hassan_Fathy_in_Cairo_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Hassan_Fathy_in_Cairo_(cropped).jpg",
+   "licence": "CC BY-SA 3.0",
+   "credit": "Dimitri Papadimos personal archive with his son Ioannis D.Papadimos"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY-SA 3.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Other Sciences",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "no_evidence_yet"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D032",
+  "slug": "New_Gourna",
+  "title": "Kurna",
+  "hook": "A village designed for the people it was meant to house. What happened next is a contested story.",
+  "field": "Environment",
+  "domain": "Architecture, design and urbanism",
+  "media": "place",
+  "gate1_type": "local story",
+  "summary": "Kurna is a group of three closely related villages located on the West Bank of the River Nile opposite the modern city of Luxor in Egypt near the Theban Hills.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Kurna",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:32-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Kurna is a group of three closely related villages located on the West Bank of the River Nile opposite the modern city of Luxor in Egypt near the Theban Hills."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Gournah.jpg/960px-Gournah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Gournah.jpg",
+   "licence": "CC BY-SA 3.0",
+   "credit": "Bernard Gagnon"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY-SA 3.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Other Sciences",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "no_evidence_yet"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D033",
+  "slug": "Muhammad_Ali",
+  "title": "Muhammad Ali",
+  "hook": "\"Float like a butterfly, sting like a bee.\" He was a champion inside the ring and outside it.",
+  "field": "Sports",
+  "domain": "Social innovation and human endeavour",
+  "media": "person",
+  "gate1_type": "archival recording",
+  "summary": "Muhammad Ali was an American professional boxer and activist. A global cultural icon, widely known by the nickname \"the Greatest\", he is often regarded as the greatest heavyweight boxer of all time. He held the Ring magazine heavyweight title from 1964 to 1970, was the undisputed champion from 1974 to 1978, and was the WBA and Ring heavyweight champion from 1978 to 1979. In 1999, he was named Sportsman of the Century by Sports Illustrated and the Sports Personality of the Century by the BBC.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Muhammad_Ali",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:32-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Muhammad Ali was an American professional boxer and activist."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/960px-Muhammad_Ali_NYWTS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_NYWTS.jpg",
+   "licence": "Public domain",
+   "credit": "Ira Rosenberg"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Ethics",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D034",
+  "slug": "Mohamed_Salah",
+  "title": "Mohamed Salah",
+  "hook": "A forward from a village in Egypt who became one of the Premier League's top scorers.",
+  "field": "Sports",
+  "domain": "Social innovation and human endeavour",
+  "media": "person",
+  "gate1_type": "contemporary maker",
+  "summary": "Mohamed Salah Hamed Mahrous Ghaly is an Egyptian professional footballer who plays as a right winger for Süper Lig club Trabzonspor and captains the Egypt national team. He is widely regarded as one of the best players of his generation and one of the greatest African players of all time. Dubbed the \"Egyptian King\", he is the all-time top foreign goalscorer in the Premier League and the all-time top African goalscorer in the UEFA Champions League.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Mohamed_Salah",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:32-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Mohamed Salah Hamed Mahrous Ghaly is an Egyptian professional footballer who plays as a right winger for Süper Lig club Trabzonspor and captains the Egypt national team."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg/960px-Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_(cropped).jpg",
+   "licence": "CC BY-SA 4.0",
+   "credit": "Bryan Berlin"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY-SA 4.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Other Sciences",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "no_evidence_yet"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D035",
+  "slug": "Mansa_Musa",
+  "title": "Mansa Musa",
+  "hook": "A Mali ruler whose journey to Mecca became legendary for the amount of gold he carried.",
+  "field": "Business",
+  "domain": "Social innovation and human endeavour",
+  "media": "person",
+  "gate1_type": null,
+  "summary": "Mansa Musa was the ninth Mansa of the Mali Empire, which reached its territorial peak during his reign. Musa's reign is often regarded as the zenith of Mali's power and prestige, although he features less in Mandinka oral traditions than his predecessors.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Mansa_Musa",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:32-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Mansa Musa was the ninth Mansa of the Mali Empire, which reached its territorial peak during his reign."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_%28cropped%29.jpg/960px-Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_(cropped).jpg",
+   "licence": "Public domain",
+   "credit": "attributed to Abraham Cresques"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "History",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D036",
+  "slug": "Qanat",
+  "title": "Qanat",
+  "hook": "Underground channels that carry water for miles across a desert with no pumps at all.",
+  "field": "Environment",
+  "domain": "Food, ecology and material culture",
+  "media": "technique",
+  "gate1_type": null,
+  "summary": "A qanāt or kārīz (کَارِیز) is a water supply system that was developed in ancient Iran for the purpose of transporting usable water to the surface from an aquifer or a well through an underground aqueduct. Originating approximately 3,000 years ago, its function is essentially the same in systems across Asia and North Africa, but it is known by a variety of regional names beyond modern Iran, including: kārēz in Afghanistan and Pakistan; foggāra in Algeria; khettāra in the Atlas Mountains; the daoudi-type falaj in Oman and the United Arab Emirates; and ʿuyūn in Saudi Arabia. In addition to those in Iran, the largest extant and functional qanats are located in Afghanistan, Xinjiang in China, Oman, and Pakistan. Qanat-style systems were also introduced to parts of Europe under the Roman Empire and were later implemented on a larger scale in Muslim-ruled Spain. This laid the foundation for their introduction to parts of the Americas, although some archaeologists have asserted that similar systems may have already been developed and in use in the pre-Columbian era.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Qanat",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:33-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "A qanāt or kārīz (کَارِیز) is a water supply system that was developed in ancient Iran for the purpose of transporting usable water to the surface from an aquifer or a well through an underground aqueduct."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ghasabe_Qanats_of_Gonabad2.jpg/960px-Ghasabe_Qanats_of_Gonabad2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Ghasabe_Qanats_of_Gonabad2.jpg",
+   "licence": "CC BY-SA 4.0",
+   "credit": "Tavasoli mohsen"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY-SA 4.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Geography",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D037",
+  "slug": "Al-Zahrawi",
+  "title": "Al-Zahrawi",
+  "hook": "A surgeon in Córdoba who drew pictures of his surgical instruments.",
+  "field": "Health",
+  "domain": "Medicine, health and life sciences",
+  "media": "person",
+  "gate1_type": null,
+  "summary": "Abū al-Qāsim Khalaf ibn al-'Abbās al-Zahrāwī al-Ansari, popularly known as al-Zahrawi, Latinised as Albucasis or Abulcasis, was an Arab physician, surgeon and chemist from al-Andalus. He is considered one of the greatest surgeons of the Middle Ages.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Al-Zahrawi",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:33-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Abū al-Qāsim Khalaf ibn al-'Abbās al-Zahrāwī al-Ansari, popularly known as al-Zahrawi, Latinised as Albucasis or Abulcasis, was an Arab physician, surgeon and chemist from al-Andalus."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Medicine",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D038",
+  "slug": "Ibn_Battuta",
+  "title": "Ibn Battuta",
+  "hook": "He set out for a pilgrimage and kept travelling for about thirty years.",
+  "field": "Literature",
+  "domain": "Literature, publishing and intellectual life",
+  "media": "person",
+  "gate1_type": null,
+  "summary": "Ibn Battuta was a Maghrebi Muslim traveller, explorer, and scholar from Tangier, Morocco. Over a 30-year period (1325–1354) he visited much of Africa, Asia, and the Iberian Peninsula. Near the end of his life, Ibn Battuta dictated an account of his journeys, titled A Gift to Those Who Contemplate the Wonders of Cities and the Marvels of Travelling, commonly known as The Rihla.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Ibn_Battuta",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:33-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Ibn Battuta was a Maghrebi Muslim traveller, explorer, and scholar from Tangier, Morocco."
+   }
+  ],
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt%2C_a_painting_by_Hippolyte_Leon_Benett..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt,_a_painting_by_Hippolyte_Leon_Benett..jpg",
+   "licence": "Public domain",
+   "credit": "Léon Benett"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Geography",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D039",
+  "slug": "Emirates_Mars_Mission",
+  "title": "Emirates Mars Mission",
+  "hook": "A probe called Hope, orbiting Mars and watching its weather.",
+  "field": "Space",
+  "domain": "Science, engineering and technology",
+  "media": "mission",
+  "gate1_type": "scientific record",
+  "summary": "The Emirates Mars Mission is a United Arab Emirates Space Agency uncrewed space exploration mission to Mars. The Hope probe was launched on 20 July 2020, and went into orbit around Mars on 9 February 2021.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Emirates_Mars_Mission",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:33-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "The Emirates Mars Mission is a United Arab Emirates Space Agency uncrewed space exploration mission to Mars."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D040",
+  "slug": "Timbuktu_manuscripts",
+  "title": "Timbuktu Manuscripts",
+  "hook": "Family libraries in the desert, and people who smuggled manuscripts to safety.",
+  "field": "Literature",
+  "domain": "Literature, publishing and intellectual life",
+  "media": "manuscript",
+  "gate1_type": "local story",
+  "summary": "Timbuktu Manuscripts, or Tombouctou Manuscripts, is a blanket term for the large number of historically significant manuscripts that have been preserved for centuries in private households in Timbuktu, a city in northern Mali. The collections include manuscripts about art, medicine, philosophy, and science, as well as copies of the Quran. Timbuktu manuscripts are the most well known set of West African manuscripts.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Timbuktu_Manuscripts",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:33-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Timbuktu Manuscripts, or Tombouctou Manuscripts, is a blanket term for the large number of historically significant manuscripts that have been preserved for centuries in private households in Timbuktu, a city in northern Mali."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Timbuktu-manuscripts-astronomy-mathematics.jpg/960px-Timbuktu-manuscripts-astronomy-mathematics.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Timbuktu-manuscripts-astronomy-mathematics.jpg",
+   "licence": "Public domain",
+   "credit": "Elias Altmimi"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "History",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D041",
+  "slug": "Shatranj",
+  "title": "Shatranj",
+  "hook": "The ancestor of chess, with an elephant where the bishop now stands.",
+  "field": "Sports",
+  "domain": "Film, television, moving image and games",
+  "media": "game",
+  "gate1_type": null,
+  "summary": "Shatranj is an old form of chess, as played in the Sasanian Empire. Its origins lie in the Indian game of chaturanga. Modern chess gradually developed from this game, as it was introduced to Europe by contacts in Muslim-occupied Spain and in Sicily in the 10th century. In modern Persian, the term is also used as the translation of chess.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Shatranj",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:34-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Shatranj is an old form of chess, as played in the Sasanian Empire."
+   }
+  ],
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Bayasanghori_Shahnameh_5_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Bayasanghori_Shahnameh_5_(cropped).jpg",
+   "licence": "Public domain",
+   "credit": "The Shâhnâmeh (Book of Kings) is major epic work of persian poetry \"Ferdowsi Tousi\"."
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Logic",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D042",
+  "slug": "Almagest",
+  "title": "Almagest",
+  "hook": "Ptolemy's star catalogue, which travelled from Greek into Arabic and then into Latin.",
+  "field": "Science",
+  "domain": "Science, engineering and technology",
+  "media": "text",
+  "gate1_type": "scientific record",
+  "summary": "The Almagest is a 2nd-century mathematical and astronomical treatise on the apparent motions of the stars and planetary paths, written by Claudius Ptolemy in Koine Greek. One of the most influential scientific texts in history, it canonized a geocentric model of the Universe that was accepted for more than 1,200 years from its origin in ancient Greece, through to the medieval Byzantine and Islamic worlds, and in Western Europe through the Middle Ages and early Renaissance until the Scientific Revolution. It is also a key source of information about ancient Greek astronomy.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Almagest",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:34-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "The Almagest is a 2nd-century mathematical and astronomical treatise on the apparent motions of the stars and planetary paths, written by Claudius Ptolemy in Koine Greek."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D043",
+  "slug": "Ptolemy",
+  "title": "Ptolemy",
+  "hook": "An astronomer of Roman Alexandria whose model of the sky lasted for over a thousand years.",
+  "field": "Science",
+  "domain": "Science, engineering and technology",
+  "media": "person",
+  "gate1_type": null,
+  "summary": "Claudius Ptolemy, better known mononymously as Ptolemy, was a Greco-Roman who wrote about a dozen scientific treatises, three of which were important to later Byzantine, Islamic, and Western European science. The first was his astronomical treatise now known as the Almagest, originally entitled Mathēmatikḗ Syntaxis. The second is the Geography, which is a thorough discussion on maps and the geographic knowledge of the Greco-Roman world. The third is the astrological treatise in which he attempted to adapt horoscopic astrology to the Aristotelian natural philosophy of his day. This is sometimes known as the Apotelesmatika but more commonly known as the Tetrábiblos.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Ptolemy",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:34-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Claudius Ptolemy, better known mononymously as Ptolemy, was a Greco-Roman who wrote about a dozen scientific treatises, three of which were important to later Byzantine, Islamic, and Western European science."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Ptolemy_1476_with_armillary_sphere_model.jpg/960px-Ptolemy_1476_with_armillary_sphere_model.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Ptolemy_1476_with_armillary_sphere_model.jpg",
+   "licence": "Public domain",
+   "credit": "Justus van Gent / <a href=\"ht"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D044",
+  "slug": "Arabic_star_names",
+  "title": "List of Arabic star names",
+  "hook": "Look up tonight: Vega, Altair, Deneb, Rigel. Many of the stars you can see still carry Arabic names.",
+  "field": "Space",
+  "domain": "Science, engineering and technology",
+  "media": "concept",
+  "gate1_type": null,
+  "summary": "This is a list of Arabic star names. In Western astronomy, most of the accepted star names are Arabic, a few are Greek and some are of unknown origin. Typically only bright stars have names.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/List_of_Arabic_star_names",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:34-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "This is a list of Arabic star names."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Book_of_the_Fixed_Stars_Auv0333_Orion.jpg/960px-Book_of_the_Fixed_Stars_Auv0333_Orion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Book_of_the_Fixed_Stars_Auv0333_Orion.jpg",
+   "licence": "CC BY 4.0",
+   "credit": "Abd al-Rahman al-Sufi"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY 4.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D045",
+  "slug": "Ibn_Sina",
+  "title": "Avicenna",
+  "hook": "Physician, philosopher and the author of the Canon of Medicine.",
+  "field": "Health",
+  "domain": "Medicine, health and life sciences",
+  "media": "person",
+  "gate1_type": null,
+  "summary": "Ibn Sina, commonly known in the West as Avicenna, was a preeminent philosopher and physician of the Muslim world. He was a seminal figure of the Islamic Golden Age, serving in the courts of various Iranian rulers, and was influential to medieval European medical and Scholastic thought. Avicenna is considered one of the greatest thinkers and medical scholars in history.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Avicenna",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:35-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Ibn Sina, commonly known in the West as Avicenna, was a preeminent philosopher and physician of the Muslim world."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Avicenna_Bust%2C_left_profile_%28cropped%29.jpg/960px-Avicenna_Bust%2C_left_profile_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Avicenna_Bust,_left_profile_(cropped).jpg",
+   "licence": "No restrictions",
+   "credit": "National Library of Medicine"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (No restrictions); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Medicine",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D046",
+  "slug": "Ibn_al-Haytham",
+  "title": "Ibn al-Haytham",
+  "hook": "He tested his ideas about light in darkened rooms.",
+  "field": "Science",
+  "domain": "Science, engineering and technology",
+  "media": "person",
+  "gate1_type": null,
+  "summary": "Ibn al-Haytham, Latinized as Alhazen, was a mathematician, astronomer, and physicist of the Islamic Golden Age from Iraq. Referred to as \"the father of modern optics\", he made significant contributions to the principles of optics and visual perception in particular. His most influential work is titled Kitāb al-Manāẓir, written during 1011–1021, which survived in a Latin edition. The works of Alhazen were frequently cited during the Scientific Revolution by Galileo Galilei, René Descartes, Johannes Kepler, and Christiaan Huygens.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Ibn_al-Haytham",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:35-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Ibn al-Haytham, Latinized as Alhazen, was a mathematician, astronomer, and physicist of the Islamic Golden Age from Iraq."
+   }
+  ],
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ibn_al-Haytham_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Ibn_al-Haytham_crop.jpg",
+   "licence": "Public domain",
+   "credit": "Adolph Boÿ, engraved by Jeremias Falck. Used as the frontispiece to Johannes Hevelius, Selenographia, 1647"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Other Sciences",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "no_evidence_yet"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D047",
+  "slug": "Mimar_Sinan",
+  "title": "Mimar Sinan",
+  "hook": "The chief architect of an empire, credited with hundreds of buildings.",
+  "field": "Architecture & Design",
+  "domain": "Architecture, design and urbanism",
+  "media": "person",
+  "gate1_type": null,
+  "summary": "Mimar Sinan also known as Koca Mi'mâr Sinân Âğâ, was the chief Ottoman architect, engineer and mathematician for sultans Suleiman the Magnificent, Selim II and Murad III. He was responsible for the construction of more than 300 major structures, including the Selimiye Mosque in Edirne, the Kanuni Sultan Suleiman Bridge in Büyükçekmece, and the Mehmed Paša Sokolović Bridge in Višegrad, as well as other more modest projects such as madrasas, külliyes, and bridges. His apprentices would later design the Sultan Ahmed Mosque in Istanbul and the Stari Most bridge in Mostar.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Mimar_Sinan",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:35-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Mimar Sinan also known as Koca Mi'mâr Sinân Âğâ, was the chief Ottoman architect, engineer and mathematician for sultans Suleiman the Magnificent, Selim II and Murad III."
+   }
+  ],
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Mimar_Sinan_signature.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Mimar_Sinan_signature.png",
+   "licence": "Public domain",
+   "credit": "Mimar Sinan"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (Public domain); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Maths",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D048",
+  "slug": "Süleymaniye_Mosque",
+  "title": "Süleymaniye Mosque",
+  "hook": "A hilltop complex in Istanbul by Sinan, with kitchens, schools and baths around the mosque.",
+  "field": "Architecture & Design",
+  "domain": "Architecture, design and urbanism",
+  "media": "place",
+  "gate1_type": null,
+  "summary": "The Süleymaniye Mosque is an Ottoman imperial mosque located on the Third Hill of Istanbul, Turkey. The mosque was commissioned by Suleiman the Magnificent and designed by the imperial architect Mimar Sinan. An inscription specifies the foundation date as 1550 and the inauguration date as 1557, although work on the complex probably continued for a few years after this.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/S%C3%BCleymaniye_Mosque",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:35-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "The Süleymaniye Mosque is an Ottoman imperial mosque located on the Third Hill of Istanbul, Turkey."
+   }
+  ],
+  "image": null,
+  "rights_status": "link only (no openly licensed image confirmed)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Arts",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D049",
+  "slug": "Kente_cloth",
+  "title": "Kente cloth",
+  "hook": "Strips woven on narrow looms, sewn together into cloth whose colours carry meaning.",
+  "field": "Fashion",
+  "domain": "Fashion, textiles and adornment",
+  "media": "craft",
+  "gate1_type": "contemporary maker",
+  "summary": "Kente is a Ghanaian textile, officially recognised as a geographical indication of Ghana to safeguard its authenticity and origin. It is made of hand-woven strips of silk and cotton. Historically, the fabric was worn in a toga-like fashion among the Asante, Akan and Ewe people. According to Asante oral tradition, it originated from Bonwire in the Ashanti Region of Ghana. In modern-day Ghana, the wearing of kente cloth has become widespread to commemorate special occasions, and kente brands led by master weavers are in high demand.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Kente_cloth",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:35-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Kente is a Ghanaian textile, officially recognised as a geographical indication of Ghana to safeguard its authenticity and origin."
+   }
+  ],
+  "image": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Kent_wove.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Kent_wove.jpg",
+   "licence": "CC BY-SA 3.0",
+   "credit": "User:Bottracker"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY-SA 3.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Arts",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D050",
+  "slug": "Ibn_Khaldun",
+  "title": "Ibn Khaldun",
+  "hook": "He tried to explain why dynasties rise and fall.",
+  "field": "Literature",
+  "domain": "Literature, publishing and intellectual life",
+  "media": "person",
+  "gate1_type": null,
+  "summary": "Ibn Khaldūn was an Arab Tunisian scholar, historian, philosopher, and sociologist. He is widely acknowledged to be one of the greatest social scientists of the Middle Ages, and is considered by a number of scholars to be a major forerunner of historiography, sociology, economics, and demography studies.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Ibn_Khaldun",
+    "kind": "tertiary (Wikipedia)",
+    "fetched_at": "2026-10-26T16:53:36-0400",
+    "locator": "Lead paragraph, first sentence",
+    "quote": "Ibn Khaldūn was an Arab Tunisian scholar, historian, philosopher, and sociologist."
+   }
+  ],
+  "image": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Bust_of_Ibn_Khaldun_%28Casbah_of_Bejaia%2C_Algeria%29.jpg/960px-Bust_of_Ibn_Khaldun_%28Casbah_of_Bejaia%2C_Algeria%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Bust_of_Ibn_Khaldun_(Casbah_of_Bejaia,_Algeria).jpg",
+   "licence": "CC BY-SA 4.0",
+   "credit": "Reda Kerbush"
+  },
+  "rights_status": "openly licensed image via Wikimedia Commons (CC BY-SA 4.0); text: link only",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "History",
+   "science_source": "Leon ring image (01M5WZNF…png)",
+   "relation": "editorial association, not a documented claim",
+   "jibril": "editorial: Ihsan (excellence in craft) is a curatorial reading, not a claim about the subject"
+  },
+  "go_there": null
+ },
+ {
+  "id": "D051",
+  "slug": "met-444408",
+  "title": "Astrolabe of ‘Umar ibn Yusuf ibn ‘Umar ibn ‘Ali ibn Rasul al-Muzaffari",
+  "hook": "A Yemeni sultan made this astrolabe himself, and dated it 690 AH.",
+  "field": "Technology",
+  "domain": "Science, engineering and technology",
+  "media": "object",
+  "gate1_type": "astronomical instrument / scientific record",
+  "summary": "Brass; cast and hammered, pierced, chased, inlaid with silver. Edward C. Moore Collection, Bequest of Edward C. Moore, 1891. Country: Yemen.",
+  "sources": [
+   {
+    "url": "https://www.metmuseum.org/art/collection/search/444408",
+    "kind": "museum record (The Met, Open Access API)",
+    "fetched_at": "2026-10-26",
+    "locator": "Object record fields: objectDate, medium",
+    "quote": "objectDate: \"dated 690 AH/1291 CE\""
+   }
+  ],
+  "date_original": {
+   "string": "dated 690 AH/1291 CE",
+   "calendars": [
+    "Hijri",
+    "Gregorian"
+   ],
+   "note": "original string preserved as recorded by the museum"
+  },
+  "image": {
+   "src": "https://images.metmuseum.org/CRDImages/is/web-large/DP170386.jpg",
+   "commons_page": "https://www.metmuseum.org/art/collection/search/444408",
+   "licence": "CC0 (Met Open Access, isPublicDomain=true)",
+   "credit": "The Metropolitan Museum of Art"
+  },
+  "rights_status": "open access CC0 image (The Met)",
+  "verification_status": "candidate - unreviewed",
+  "deeper": {
+   "science_ring_label": "Astronomy",
+   "science_source": "Leon ring image",
+   "relation": "editorial association",
+   "jibril": "no_evidence_yet"
+  }
+ }
+]
