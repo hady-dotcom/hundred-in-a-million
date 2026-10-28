@@ -195,13 +195,9 @@ function deeper(r){if(!r)return'';const g=(X.guilds_from_image||{})[r.field];con
  ${ring('#7c3aed','Culture field',esc(r.field)+'<div style="margin-top:6px">'+teaser(r)+'</div>')}
  <details><summary class="row" style="cursor:pointer">Continue inward ›</summary>
  ${ring('#15803d','The Islamic sciences · 18, from Golden Age Sciences',esc(d.science_ring_label||'no_evidence_yet')+' <span class="tag ed">editorial</span><div style="margin-top:6px;opacity:.85;font-size:13px">The list of 18 is still being drafted.</div>')}
- ${ring('#0f766e','The 99 Names of Allah','<small>The ring the sciences are built from.</small>')}
- ${ring('#a16207','Hadith Jibril','Islam · Iman · Ihsan · the Hour<br><small>'+esc(d.jibril||'no_evidence_yet')+'</small>'+hourList())}</details></div>`}
+ ${ring('#0f766e','Something of the 99 Names of Allah','<small>The centre. The Names create reality; the sciences documented how it works.</small>')}</details></div>`}
 boot();
 
-function hourList(){const h=ALL.filter(r=>(r.deep_tags||[]).includes('jibril:the_hour'));
- return `<div style="margin-top:10px;background:rgba(0,0,0,.18);border-radius:12px;padding:10px"><b>The Hour</b> <small>creative works on the Last Day (tag jibril:the_hour)</small>
- ${h.length?h.slice(0,8).map(x=>`<button class="row" style="color:#fff" data-go="#/d/${esc(x.id)}">${esc(x.title)}<span class="chev">›</span></button>`).join('')+`<small>${h.length} tagged</small>`:'<div><span class="tag warn">no_evidence_yet: no tagged works loaded yet</span></div>'}</div>`}
 function earlyWeb(r){const m=(r.wayback_url||'').match(/\/web\/(\d{4})/);return r.wayback_url?(m?m[1]:(String(r.era||'').match(/\d{4}/)||[''])[0]):''}
 function hires(u){if(!u)return u;return u.replace('/web-large/','/original/').replace(/_web\.jpg$/,'_print.jpg').replace(/\/(\d+)px-([^/?]+)(\?.*)?$/,'/2560px-$2')}
 window.loupe=(e,el)=>{const L=el.querySelector('.loupe'),b=el.getBoundingClientRect(),x=e.clientX-b.left,y=e.clientY-b.top,z=3;
@@ -307,14 +303,13 @@ function countLabel(c){const n=Number(c.total??c.count);return /^loose/i.test(c.
 /* ---- How it fits together: 3D rings demo (CSS 3D; stepped 2D under reduced motion) ---- */
 const RM=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
 let FT=null,FS=0,FITEMS=[];
-const FIT_RINGS=[{k:'jibril',n:'Hadith Jibril',c:'#a16207'},{k:'names',n:'The 99 Names',c:'#0f766e'},{k:'sci',n:'The Islamic sciences',c:'#15803d'},{k:'fields',n:'20 culture fields',c:'#7c3aed'},{k:'items',n:'The finds',c:'#2563eb'}];
+const FIT_RINGS=[{k:'names',n:'Something of the 99 Names',c:'#0f766e'},{k:'sci',n:'The Islamic sciences',c:'#15803d'},{k:'fields',n:'20 culture fields',c:'#7c3aed'},{k:'items',n:'The finds',c:'#2563eb'}];
 function fitSteps(){const it=FITEMS;const t=it.map(r=>esc(r.title)).join(' and ');return [
- {r:0,h:'It starts at the centre',t:'One conversation: Islam, Iman, Ihsan and the Hour. Everything here grows out from it.'},
- {r:1,h:'The 99 Names of Allah',t:'Around it, something of the 99 Names. The Names create reality.'},
- {r:2,h:'Then the Islamic sciences',t:'Eighteen of them. The sciences documented how that reality works, a firm base for everything after.'},
- {r:3,h:'Then the culture fields',t:'Light flows out from the sciences into everything in culture. Twenty fields: '+FIELD_ORDER.slice(0,6).map(esc).join(', ')+' and more.'},
- {r:4,h:'Then the finds',t:it.length?'Real things, like '+t+'. Built from the Names, through the sciences, to what exists in culture. This is where you start.':'Real things you can see, watch and hear. This is where you start.'},
- {r:-1,h:'And back again',t:'Every find has a way back to the centre. Open one, tap “Go deeper”, and follow it in, one ring at a time.'}]}
+ {r:0,h:'It starts at the centre',t:'Something of the 99 Names of Allah. The Names create reality.'},
+ {r:1,h:'Then the Islamic sciences',t:'Eighteen of them. The sciences documented how that reality works, a firm base for everything after.'},
+ {r:2,h:'Then the culture fields',t:'Light flows out from the sciences into everything in culture. Twenty fields: '+FIELD_ORDER.slice(0,6).map(esc).join(', ')+' and more.'},
+ {r:3,h:'Then the finds',t:it.length?'Real things, like '+t+'. Built from the Names, through the sciences, to what exists in culture. This is where you start.':'Real things you can see, watch and hear. This is where you start.'},
+ {r:-1,h:'And back again',t:'Every find has a way back to the centre, the Names. Open one, tap “Go deeper”, and follow it in, one ring at a time.'}]}
 function fits(){const S=fitSteps();const flat=RM();
  return `<div class="pad fits ${flat?'flat':''}"><h2>How it fits together</h2>
  <div class="fstage" id="fstage" role="button" tabindex="0" aria-label="Next step"><div class="fworld" id="fworld">
@@ -327,7 +322,7 @@ function fits(){const S=fitSteps();const flat=RM();
 function fitsShow(i){const S=fitSteps();FS=Math.max(0,Math.min(S.length-1,i));const s=S[FS];const w=$('#fworld');if(!w)return;
  $('#fh').textContent=s.h;$('#ft').innerHTML=s.t;
  document.querySelectorAll('.fring').forEach(e=>{const r=+e.dataset.r;e.classList.toggle('on',s.r<0?true:r===s.r);e.classList.toggle('lit',s.r<0||r<=s.r)});
- $('#fstage').classList.toggle('rev',s.r<0);$('#fstage').classList.toggle('flash',s.r>=3||s.r<0);$('#fstage').classList.toggle('showitems',s.r===4||s.r<0);
+ $('#fstage').classList.toggle('rev',s.r<0);$('#fstage').classList.toggle('flash',s.r>=1||s.r<0);$('#fstage').classList.toggle('showitems',s.r===3||s.r<0);
  document.querySelectorAll('.fdots i').forEach((d,k)=>d.classList.toggle('on',k===FS));
  $('#fnext').textContent=FS===S.length-1?'Done':'Next'}
 function fitsStart(r){const pool=ALL.filter(x=>!isGated(x)&&x.image&&x.image.src);FITEMS=r&&!isGated(r)?[r,...pool.filter(x=>x.id!==r.id&&x.field!==r.field).slice(0,1)]:pool.slice(0,2);
@@ -344,7 +339,7 @@ function hundred(){const n=likes.size,pct=Math.min(100,n);
  <p><small>Matching isn’t built yet. It’s coming. When it arrives you choose whether to join, and your likes stay on this device until you do.</small></p>
  <p><button class="btn ghost" data-go="#/shelf">See your hearts ›</button></p></div>`}
 
-function bolts(){if(RM())return '';const C=170,out=[];for(let k=0;k<7;k++){const a=(k*51+13)*Math.PI/180,b=a+((k%3)-1)*.35;
- let pts=[],n=5;for(let s=0;s<=n;s++){const f=s/n,rr=93+(122-93)*f,an=a+(b-a)*f,j=(s>0&&s<n)?((s%2?1:-1)*6):0;pts.push([(C+Math.cos(an)*rr+Math.cos(an+1.57)*j).toFixed(1),(C+Math.sin(an)*rr+Math.sin(an+1.57)*j).toFixed(1)])}
+function bolts(){if(RM())return '';const C=170,out=[];for(let k=0;k<10;k++){const a=(k*51+13)*Math.PI/180,b=a+((k%3)-1)*.35,r0=k%2?35:64,r1=k%2?64:93;
+ let pts=[],n=5;for(let s=0;s<=n;s++){const f=s/n,rr=r0+(r1-r0)*f,an=a+(b-a)*f,j=(s>0&&s<n)?((s%2?1:-1)*6):0;pts.push([(C+Math.cos(an)*rr+Math.cos(an+1.57)*j).toFixed(1),(C+Math.sin(an)*rr+Math.sin(an+1.57)*j).toFixed(1)])}
  out.push(`<path d="M${pts.map(p=>p.join(' ')).join(' L')}" style="animation-delay:${(k*0.37%1.6).toFixed(2)}s"/>`)}
  return `<svg class="fbolts" viewBox="0 0 340 340" aria-hidden="true">${out.join('')}</svg>`}
