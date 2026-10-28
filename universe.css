@@ -1,0 +1,31 @@
+:root{--font:-apple-system,BlinkMacSystemFont,'SF Pro Text','SF Pro Display',system-ui,'Segoe UI',Roboto,'Inter',sans-serif}
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:#000;color:#f5f5f7;font-family:var(--font);-webkit-font-smoothing:antialiased;overflow:hidden}
+#gl{position:fixed;inset:0;width:100vw;height:100vh;display:block;touch-action:none;cursor:grab}#gl:active{cursor:grabbing}
+.glass{background:rgba(28,28,30,.52);backdrop-filter:saturate(180%) blur(26px);-webkit-backdrop-filter:saturate(180%) blur(26px);border:.5px solid rgba(255,255,255,.14);box-shadow:0 18px 50px rgba(0,0,0,.45);border-radius:22px}
+.bar{position:fixed;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:max(12px,env(safe-area-inset-top)) 16px 12px;pointer-events:none;z-index:5}
+.bar>*{pointer-events:auto}.title{text-align:center;display:flex;flex-direction:column;text-shadow:0 2px 12px #000}.title b{font-size:17px;font-weight:600;letter-spacing:-.01em}.title small{font-size:12px;color:#a1a1a6}
+.gbtn{min-height:44px;min-width:44px;padding:0 18px;border:0;border-radius:999px;background:rgba(255,255,255,.14);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);color:#f5f5f7;font:600 15px var(--font);display:inline-flex;align-items:center;justify-content:center;gap:4px;cursor:pointer;text-decoration:none;transition:transform .3s cubic-bezier(.22,1,.36,1),background .2s}
+.gbtn:hover{background:rgba(255,255,255,.22)}.gbtn:active{transform:scale(.96)}.gbtn.pri{background:#f5f5f7;color:#000}
+.gbtn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.gbtn:focus-visible{outline:2px solid #0a84ff;outline-offset:2px}
+.k{margin:0;font:600 12px var(--font);letter-spacing:.06em;text-transform:uppercase;color:#ffd27a}
+.hud{position:fixed;left:16px;bottom:max(16px,env(safe-area-inset-bottom));width:min(340px,calc(100vw - 32px));padding:14px 16px;z-index:4;transition:opacity .4s}
+.hud b{display:block;margin-top:3px;font-size:19px;letter-spacing:-.015em}.hud p#hudT{margin:4px 0 0;font-size:14px;line-height:1.4;color:#d1d1d6}
+.card,.cap{position:fixed;right:16px;bottom:max(16px,env(safe-area-inset-bottom));width:min(400px,calc(100vw - 32px));padding:20px 20px 14px;z-index:6;animation:rise .55s cubic-bezier(.22,1,.36,1)}
+.card h2,.cap h2{margin:4px 0 0;font-size:28px;line-height:1.12;letter-spacing:-.022em}.card p#cardT,.cap p#capT{margin:8px 0 0;font-size:16px;line-height:1.45;color:#d1d1d6}
+.row{display:flex;gap:8px;align-items:center;justify-content:flex-end;margin-top:14px}
+.dots{display:flex;gap:6px;margin-right:auto}.dots i{width:6px;height:6px;border-radius:3px;background:rgba(255,255,255,.3);transition:width .4s}.dots i.on{width:18px;background:#fff}
+@keyframes rise{from{opacity:0;transform:translateY(16px) scale(.98)}to{opacity:1;transform:none}}
+#labels{position:fixed;inset:0;pointer-events:none;z-index:3;overflow:hidden}
+.lb{position:absolute;left:0;top:0;white-space:nowrap;font-weight:600;letter-spacing:-.01em;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.95),0 0 14px rgba(0,0,0,.8);will-change:transform,opacity;transform-origin:50% 0}
+.lb.pl{font-size:15px}.lb.sci{font-size:12.5px;color:#d9ffe9}.lb.bk{font-size:12px;color:#ffe6a8}.lb.core{font-size:20px;font-weight:700;color:#fff3d0;text-align:center}
+.lb.core small{display:block;font-size:12px;font-weight:600;letter-spacing:.06em;color:#ffd27a}
+.lb.hl{color:#fff;font-size:17px}
+.legend{position:fixed;top:calc(max(12px,env(safe-area-inset-top)) + 64px);left:16px;padding:10px 12px;display:flex;flex-direction:column;gap:2px;z-index:4;font-size:13px}
+.legend button{display:flex;align-items:center;gap:10px;background:none;border:0;color:#f5f5f7;font:500 13px var(--font);min-height:36px;padding:0 6px;border-radius:10px;cursor:pointer;text-align:left}
+.legend button:hover{background:rgba(255,255,255,.1)}.legend i{width:10px;height:10px;border-radius:50%;flex:none;box-shadow:0 0 10px currentColor}
+.legend small{color:#8e8e93;margin-left:auto;padding-left:10px}
+@media (max-width:700px){.legend{display:none}.title small{display:none}.card,.cap{left:12px;right:12px;width:auto;bottom:max(12px,env(safe-area-inset-bottom))}.hud{display:none}.card h2,.cap h2{font-size:23px}}
+
+@media (max-width:520px){.bar .title b{font-size:15px;white-space:nowrap}.bar .title small{display:none}.bar .gbtn span{display:none}#tourBtn{padding:0 14px;font-size:14px;white-space:nowrap}}
+#cap .gbtn{white-space:nowrap}

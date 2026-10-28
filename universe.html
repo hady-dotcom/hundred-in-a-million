@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#000"><title>The Learning Universe · 1 (hundred) in a million</title>
+<link rel="stylesheet" href="universe.css">
+<script type="importmap">{"imports":{"three":"./vendor/three.module.min.js","three/addons/":"./vendor/addons/"}}</script>
+</head><body>
+<canvas id="gl" aria-label="The Learning Universe in 3D. Drag to orbit, pinch or scroll to zoom." role="img"></canvas>
+<div id="labels" aria-hidden="true"></div>
+<header class="bar">
+ <a class="gbtn" href="index.html" aria-label="Back to 1 (hundred) in a million"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg><span>Back</span></a>
+ <div class="title"><b>The Learning Universe</b><small>1 (hundred) in a million</small></div>
+ <button class="gbtn pri" id="tourBtn">Tour</button>
+</header>
+<aside class="hud glass" id="hud" aria-live="polite"><p class="k" id="hudK">You’re looking at</p><b id="hudH">The whole universe</b><p id="hudT">Drag to turn it. Go above, below, even inside the rings. Tap anything.</p></aside>
+<section class="card glass" id="card" hidden aria-live="polite"><p class="k" id="cardK"></p><h2 id="cardH"></h2><p id="cardT"></p><div class="row"><a class="gbtn pri" id="cardGo" hidden>See its finds</a><button class="gbtn" id="cardX">Close</button></div></section>
+<section class="cap glass" id="cap" hidden aria-live="polite"><p class="k" id="capK"></p><h2 id="capH"></h2><p id="capT"></p><div class="row"><div class="dots" id="capDots"></div><button class="gbtn" id="capPrev" aria-label="Previous">‹</button><button class="gbtn" id="capSkip">End tour</button><button class="gbtn pri" id="capNext">Next</button></div></section>
+<div class="legend glass" id="legend"></div>
+<noscript><p style="color:#fff;padding:40px">The Learning Universe needs JavaScript and WebGL.</p></noscript>
+<script type="module" src="universe.js"></script>
+</body></html>

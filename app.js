@@ -116,18 +116,34 @@ function toggleLike(id){likes.has(id)?likes.delete(id):likes.add(id);LS.set('lik
 function updateCount(){$('#likeCount').textContent=likes.size}
 const trail=LS.get('trail')||[];
 let feedY=0;function go(h){if(!location.hash||location.hash==='#/')feedY=scrollY;trail.push(h);LS.set('trail',trail.slice(-12));history.pushState({},'',h);route()}
-function route(){const h=location.hash||'';const s=$('#sheet');fitsStop();
+function route(){const h=location.hash||'';const s=$('#sheet');fitsStop();$('#sheet').classList.remove('dark');
   if(!h||h==='#/'){s.hidden=true;document.body.style.overflow='';scrollTo(0,feedY);return} // feed never re-rendered: exact position kept
   document.body.style.overflow='hidden';s.hidden=false;s.scrollTop=0;
   const [,v,id]=h.split('/');const r=ALL.find(x=>x.id===decodeURIComponent(id||''));
-  if(v==='watch'){s.innerHTML=watch(id);wireReels();return}if(v==='fits'){s.innerHTML=topBar()+fits();fitsStart(r);return}s.innerHTML=topBar()+({d:()=>detail(r),chain:chain,sky:sky,place:place,shelf:shelf,hundred:hundred,deeper:()=>deeper(r),watch:()=>watch(id),queue:queue,hub:()=>hub(id),places:places}[v]||(()=>'<div class="pad">Not found</div>'))()}
+  if(v==='fits'||v==='universe'){location.replace('universe.html'+(r?'?item='+encodeURIComponent(r.id):''));return}
+  if(v==='field'){history.replaceState({},'','#/');s.hidden=true;document.body.style.overflow='';applyFilter(decodeURIComponent(id||'All'));scrollTo(0,0);return}
+  if(v==='watch'){s.innerHTML=watch(id);wireReels();return}if(v==='fits'){s.classList.add('dark');s.innerHTML=topBar()+fits();fitsStart(r);return}s.innerHTML=topBar()+({d:()=>detail(r),chain:chain,sky:sky,place:place,shelf:shelf,hundred:hundred,deeper:()=>deeper(r),watch:()=>watch(id),queue:queue,hub:()=>hub(id),places:places}[v]||(()=>'<div class="pad">Not found</div>'))()}
 function topBar(){return `<div class="top"><button class="pill" onclick="history.back()" aria-label="Back">‹ Back</button>
  <div class="crumbs">${trail.slice(-4).map(t=>esc(t.replace('#/',''))).join(' › ')}</div>
  <button class="pill" onclick="trail.length=0;history.go(-(history.length));location.hash='';" aria-label="Back to feed">Feed</button></div>`}
 const row=(id,label,sub,open)=>`<button class="row" data-toggle="${id}">${label} <span><small>${sub||''}</small> <span class="chev">${open?'⌄':'›'}</span></span></button>`;
 function teaser(r){const sc=c=>String(c.scope||'');const hits=COUNTS.filter(c=>!/^DO NOT DISPLAY/i.test(c.reliability||'')&&Number(c.total??c.count)>0).filter(c=>[c.key,c.field,c.slug,c.id].some(k=>k&&(k===r?.field||k===r?.slug||k===r?.id))||sc(c)==='field:'+r?.field||(r?.source_name&&c.source===r.source_name));
-  return hits.length?hits.map(c=>`<p>📚 ${countLabel(c)} in ${c.url?`<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.source||c.collection||'open collections')}</a>`:esc(c.source||'open collections')} <span class="tag">${esc((c.query||'')+' · retrieved '+(c.retrieved||c.as_of||''))}</span></p>`).join('')
-   :'<p class="tag warn">No live count from an open collection yet (no_evidence_yet). No number is shown until one is fetched.</p>'}
+  return hits.length?hits.map(c=>{const u=browseURL(c);const nm=srcName(c);const n=Number(c.total??c.count),loose=/^loose/i.test(c.reliability||'');const tp=topicOf(c);const lab=`Browse ${loose?(n>=1000?'thousands more':'more'):n.toLocaleString()+' more'} in ${esc(nm)}${tp?` <small>· ${esc(tp)}</small>`:''}`;return u?`<a class="btn ghost brw" href="${esc(u)}" target="_blank" rel="noopener">${lab} <span class="ext">↗</span></a>`:''}).join('')
+   :''}
+function topicOf(c){const q=String(c.query||'');const m=q.match(/'q': '([^']+)'/)||q.match(/search=([^&]+)/)||q.match(/srsearch=(.+)$/)||q.match(/query=([^&]+)/)||q.match(/[?&]q=([^&]+)/)||q.match(/q=\((.+)\) AND/);return m?m[1].replace(/ OR /g,', ').replace(/[()]/g,''):''}
+function srcName(c){const s=c.source||'open collections';return /^Met/.test(s)?'the Met':/^Cleveland/.test(s)?'the Cleveland Museum of Art':s==='Art Institute of Chicago'?'the Art Institute of Chicago':s==='Internet Archive'?'the Internet Archive':s}
+function browseURL(c){const q=String(c.query||''),s=c.source||'',E=encodeURIComponent;let m;
+ if(/^Met/.test(s)&&(m=q.match(/'q': '([^']+)'/)))return 'https://www.metmuseum.org/art/collection/search?q='+E(m[1])+'&department=14&showOnly=openAccess';
+ if(/^Cleveland/.test(s))return 'https://www.clevelandart.org/art/collection/search?departments=Islamic%20Art&open_access=1';
+ if(s==='OpenAlex'&&(m=q.match(/search=([^&]+)/)))return 'https://openalex.org/works?filter=default.search:'+E(m[1])+',open_access.is_oa:true';
+ if(s==='Internet Archive'&&(m=q.match(/q=\((.+)\) AND mediatype:(\w+)/)))return 'https://archive.org/search?query='+E('('+m[1]+')')+'&and%5B%5D=mediatype%3A%22'+m[2]+'%22';
+ if(s==='Wikimedia Commons'&&(m=q.match(/srsearch=(.+)$/)))return 'https://commons.wikimedia.org/w/index.php?search='+E(m[1])+'&title=Special:MediaSearch&type=image';
+ if(s==='Europeana'&&(m=q.match(/query=([^&]+)/)))return 'https://www.europeana.eu/en/search?query='+E(m[1])+'&reusability=open';
+ if(s==='Art Institute of Chicago'&&(m=q.match(/q=([^&]+)/)))return 'https://www.artic.edu/collection?q='+E(m[1])+'&is_public_domain=1';
+ if(s==='Wikidata'&&q)return 'https://query.wikidata.org/#'+E(q);
+ return c.url||''}
+function rawCounts(r){const sc=c=>String(c.scope||'');const hits=COUNTS.filter(c=>!/^DO NOT DISPLAY/i.test(c.reliability||'')&&Number(c.total??c.count)>0).filter(c=>[c.key,c.field,c.slug,c.id].some(k=>k&&(k===r?.field||k===r?.slug||k===r?.id))||sc(c)==='field:'+r?.field||(r?.source_name&&c.source===r.source_name));
+ return hits.length?`<h4>Counts behind “Browse more”</h4>${hits.map(c=>`<p><small>${esc(c.source)}: <code>${esc(c.query||'')}</code> · ${esc(c.reliability||'')} · retrieved ${esc(c.retrieved||c.as_of||'')}</small></p>`).join('')}`:''}
 function detail(r){if(!r)return'<div class="pad">Not found</div>';const s=r.sources[0]||{};const saved=saves[r.id];
  return `${r.image?`<div class="herowrap" onmousemove="loupe(event,this)" onclick="openZoom('${esc(r.id)}')"><img class="hero" src="${esc(r.image.src)}" alt="${esc(r.title)}"><div class="loupe" style="background-image:url('${esc(hires(r.image.src))}')"></div><span class="zoomhint">⤢ Tap to zoom</span></div>`:''}<div class="pad">
  <h2>${esc(r.title)}</h2><p style="font-size:17px;color:var(--ink2)">${esc(r.hook)}</p>
@@ -142,13 +158,13 @@ function detail(r){if(!r)return'<div class="pad">Not found</div>';const s=r.sour
  <div class="group">
  ${row('p-look','Look closer',r.image?'image':'')}<div class="panel" id="p-look" hidden>${r.image?`<a href="${esc(r.image.src)}" target="_blank">Open full image</a> · licence <b>${esc(r.image.licence)}</b> · <a href="${esc(r.image.commons_page)}" target="_blank">file page</a><br><small>${esc(r.image.credit||'')}</small>`:'No openly licensed image yet. The source is linked below (link only).'}</div>
  ${row('p-story','Tell me its story','',true)}<div class="panel" id="p-story">${esc(r.summary)}${r.date_original?`<p><span class="tag">original date string</span> “${esc(r.date_original.string)}” (${esc(r.date_original.calendars.join(' / '))})</p>`:''}</div>
- ${row('p-world','Find it in the world')}<div class="panel" id="p-world" hidden><a class="btn" href="${esc(s.url)}" target="_blank" rel="noopener">Open source</a>
+ ${row('p-world','Find it in the world')}<div class="panel" id="p-world" hidden><a class="btn" href="${esc(s.url)}" target="_blank" rel="noopener">View at ${esc(s.name||s.publisher||r.source_name||'the source')} ↗</a>
    ${r.slug==='Kampong_Glam'||r.slug==='Sultan_Mosque'||r.slug==='Haji_Lane'?`<button class="btn ghost" data-go="#/place">Place Book</button>`:''}
-   ${hubsFor(r).map(h=>`<button class="btn ghost" data-go="#/hub/${esc(h.id)}">📍 ${esc(h.label)}</button>`).join('')}${hubsFor(r).map(h=>comingUp(h,2)).join('')||'<p><small>No verified visit or participation opportunity yet (no_evidence_yet).</small></p>'}${teaser(r)}</div>
+   ${hubsFor(r).map(h=>`<button class="btn ghost" data-go="#/hub/${esc(h.id)}">📍 ${esc(h.label)}</button>`).join('')}${hubsFor(r).map(h=>comingUp(h,2)).join('')||''}${teaser(r)}</div>
  ${row('p-conn','Follow a connection')}<div class="panel" id="p-conn" hidden>${['The_Book_of_Fixed_Stars','Abd_al-Rahman_al-Sufi','Almagest','Arabic_star_names','Mariam_al-Asturlabi'].includes(r.slug)?`<button class="btn" data-go="#/chain">Give Props to the Chain</button>`:''}
    ${['Aldebaran','Lunar_station','The_Book_of_Fixed_Stars','Arabic_star_names'].includes(r.slug)?`<button class="btn ghost" data-go="#/sky">Follow the follower ✦</button>`:''}
    <p>Also in ${esc(r.field)}:</p>${ALL.filter(x=>x.field===r.field&&x.id!==r.id).slice(0,4).map(x=>`<button class="row" data-go="#/d/${esc(x.id)}">${esc(x.title)}<span class="chev">›</span></button>`).join('')}</div>
- ${row('p-ev','Show me the evidence','Trust Passport')}<div class="panel" id="p-ev" hidden>${passport(r)}</div>
+ ${row('p-ev','Show me the evidence','Trust Passport')}<div class="panel" id="p-ev" hidden>${passport(r)}${rawCounts(r)}</div>
  ${row('p-keep','Keep this',saved?'saved':'')}<div class="panel" id="p-keep" hidden>
    <button class="btn" data-like="${esc(r.id)}">${likes.has(r.id)?'♥ Liked':'♡ Like'}</button>
    <button class="btn ghost" onclick="saves['${esc(r.id)}']={at:Date.now(),folder:prompt('Folder (optional)')||''};LS.set('saves',saves);this.textContent='Saved to Shelf'">${saved?'Saved':'Save to Shelf'}</button></div>
@@ -300,38 +316,83 @@ function places(){const withEv=p=>EVENTS.filter(e=>e.place_hub===p.id&&e.status=
 
 function countLabel(c){const n=Number(c.total??c.count);return /^loose/i.test(c.reliability||'')?(n>=1000?'<b>Thousands more</b>':'<b>More</b>'):`<b>${n.toLocaleString()}</b>`}
 
-/* ---- How it fits together: 3D rings demo (CSS 3D; stepped 2D under reduced motion) ---- */
+/* ---- How it fits together: The Learning Universe (Leon's artwork + accessible hotspots; stepped, reduced-motion safe) ---- */
 const RM=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
-let FT=null,FS=0,FITEMS=[];
-const FIT_RINGS=[{k:'names',n:'Something of the 99 Names',c:'#0f766e'},{k:'sci',n:'The Islamic sciences',c:'#15803d'},{k:'fields',n:'20 culture fields',c:'#7c3aed'},{k:'items',n:'The finds',c:'#2563eb'}];
-function fitSteps(){const it=FITEMS;const t=it.map(r=>esc(r.title)).join(' and ');return [
- {r:0,h:'It starts at the centre',t:'Something of the 99 Names of Allah. The Names create reality.'},
- {r:1,h:'Then the Islamic sciences',t:'Eighteen of them. The sciences documented how that reality works, a firm base for everything after.'},
- {r:2,h:'Then the culture fields',t:'Light flows out from the sciences into everything in culture. Twenty fields: '+FIELD_ORDER.slice(0,6).map(esc).join(', ')+' and more.'},
- {r:3,h:'Then the finds',t:it.length?'Real things, like '+t+'. Built from the Names, through the sciences, to what exists in culture. This is where you start.':'Real things you can see, watch and hear. This is where you start.'},
- {r:-1,h:'And back again',t:'Every find has a way back to the centre, the Names. Open one, tap “Go deeper”, and follow it in, one ring at a time.'}]}
-function fits(){const S=fitSteps();const flat=RM();
- return `<div class="pad fits ${flat?'flat':''}"><h2>How it fits together</h2>
- <div class="fstage" id="fstage" role="button" tabindex="0" aria-label="Next step"><div class="fworld" id="fworld">
- ${bolts()}${FIT_RINGS.map((g,i)=>`<div class="fring" data-r="${i}" style="--i:${i};--c:${g.c}"><span>${esc(g.n)}</span></div>`).join('')}
- </div><div class="fitems" aria-hidden="true">${FITEMS.map(r=>r.image?.src?`<img src="${esc(r.image.src)}" alt="">`:'').join('')}</div></div>
- <div class="fcap" aria-live="polite"><b id="fh"></b><p id="ft"></p></div>
- <div class="fdots">${S.map((_,i)=>`<i data-d="${i}"></i>`).join('')}</div>
- <div class="fctl"><button class="btn ghost" id="fprev" aria-label="Previous step">‹</button><button class="btn" id="fnext">Next</button><button class="btn ghost" id="fskip">Skip</button></div>
- ${FITEMS.length?`<p class="fsee"><small>The finds shown: ${FITEMS.map(r=>`<a href="#/d/${esc(r.id)}">${esc(r.title)}</a>`).join(' · ')}</small></p>`:''}</div>`}
-function fitsShow(i){const S=fitSteps();FS=Math.max(0,Math.min(S.length-1,i));const s=S[FS];const w=$('#fworld');if(!w)return;
- $('#fh').textContent=s.h;$('#ft').innerHTML=s.t;
- document.querySelectorAll('.fring').forEach(e=>{const r=+e.dataset.r;e.classList.toggle('on',s.r<0?true:r===s.r);e.classList.toggle('lit',s.r<0||r<=s.r)});
- $('#fstage').classList.toggle('rev',s.r<0);$('#fstage').classList.toggle('flash',s.r>=1||s.r<0);$('#fstage').classList.toggle('showitems',s.r===3||s.r<0);
+let FT=null,FB=null,FS=0,FITEMS=[];
+// Provisional sciences, read from Leon's reference image (2026-10-28) pending Golden Age Sciences; the 18th is unnamed (the image repeats 'Grammar').
+// Positions come from art/build/layout.json (2400-unit artwork, centre 1200,1200).
+const SCI=[["Qur'an", 1200.0, 798.0], ["Fiqh", 1337.5, 822.2], ["Usul al-Fiqh", 1458.4, 892.1], ["Aqidah", 1548.1, 999.0], ["Tafsir", 1595.9, 1130.2], ["Grammar", 1595.9, 1269.8], ["To confirm", 1548.1, 1401.0], ["Logic", 1458.4, 1507.9], ["Maths", 1337.5, 1577.8], ["Medicine", 1200.0, 1602.0], ["Astronomy", 1062.5, 1577.8], ["Geography", 941.6, 1507.9], ["History", 851.9, 1401.0], ["Philosophy", 804.1, 1269.8], ["Ethics", 804.1, 1130.2], ["Arts", 851.9, 999.0], ["Other sciences", 941.6, 892.1], ["Hadith", 1062.5, 822.2]];
+const PLANET={"Art": [1200.0, 500.0], "Film": [1416.3, 534.3], "Music": [1611.4, 633.7], "Sports": [1766.3, 788.6], "Technology": [1865.7, 983.7], "Business": [1900.0, 1200.0], "Environment": [1865.7, 1416.3], "Health": [1766.3, 1611.4], "Innovation": [1611.4, 1766.3], "Travel": [1416.3, 1865.7], "Social Media": [1200.0, 1900.0], "Space": [983.7, 1865.7], "Media": [788.6, 1766.3], "Fashion": [633.7, 1611.4], "Science": [534.3, 1416.3], "Government": [500.0, 1200.0], "Education": [534.3, 983.7], "Food": [633.7, 788.6], "Architecture & Design": [788.6, 633.7], "Literature": [983.7, 534.3]};
+const BOOKS=[[1200.0, 938.0], [1449.2, 1119.0], [1354.0, 1412.0], [1046.0, 1412.0], [950.8, 1119.0]];
+const FLD={'Art':['#ff375f','Visual art · Illustration · Photography'],'Film':['#ff9f0a','Writing · Directing · Post-production'],'Music':['#bf5af2','Performance · Composition · Sound'],'Sports':['#ff6b2c','Playing · Coaching · Sport business'],'Technology':['#0a84ff','Software · Hardware · AI and data'],'Business':['#ffb340','Enterprise · Finance · Operations'],'Environment':['#30d158','Conservation · Energy · Agriculture'],'Health':['#ff2d92','Healthcare · Nutrition · Wellbeing'],'Innovation':['#ffd60a','Research · Invention · Entrepreneurship'],'Travel':['#64d2ff','Tourism · Pilgrimage and heritage · Travel media'],'Social Media':['#da8fff','Creators · Community · Ethical media'],'Space':['#5e5ce6','Space science · Exploration · Satellites'],'Media':['#ff453a','Journalism · Broadcasting · Writing'],'Fashion':['#ff6482','Design · Textiles · Retail'],'Science':['#40c8e0','Natural · Life · Applied sciences'],'Government':['#ffcc66','Law · Policy · Community'],'Education':['#409cff','Teaching · Curriculum · Training'],'Food':['#a2e05a','Cuisine · Festivals · Recipes'],'Architecture & Design':['#5ac8c8','Buildings · Pattern · Design'],'Literature':['#9d8cff','Novels · Poetry · Stories']};
+// focus region per step: [cx, cy, scale] in artwork units
+const UVIEW={core:[1200,1200,3.6],course:[1200,1200,3.0],sci:[1200,1200,2.05],cult:[1200,1200,1.22],out:[1200,1200,1],all:[1200,1200,1]};
+function fitSteps(){const t=FITEMS.map(r=>`<a href="#/d/${esc(r.id)}">${esc(r.title)}</a>`).join(' and ');return [
+ {l:'core',k:'The centre',h:'Something of the 99 Names.',t:'The Names create reality. Everything here begins with them.'},
+ {l:'course',k:'Layer two',h:'A course around them.',t:'Five books, a guided journey for anyone who wants to walk it.'},
+ {l:'sci',k:'Layer three',h:'The Islamic sciences.',t:'Eighteen of them. They documented how reality works.'},
+ {l:'cult',k:'Layer four',h:'Out into culture.',t:'From the sciences it flows into everything people make. Tap a field to see its finds.'},
+ {l:'out',k:'Coming later',h:'Pathways, then guilds and jobs.',t:'Ways into each field, and the work around them. Not built yet.'},
+ {l:'all',k:'The way back',h:'Every find leads home.',t:'Each one has a path back to the centre, the Names.'+(t?' Try '+t+', then tap “Go deeper”.':'')}]}
+function uniHTML(){const sp=(x,y)=>`left:${x/24}%;top:${y/24}%`;
+ const outer=`<svg class="uouter" viewBox="0 0 2400 2400" aria-hidden="true">
+  <defs><path id="ap" d="M 230 1200 A 970 970 0 0 0 2170 1200"/><path id="ag" d="M 150 1200 A 1050 1050 0 0 0 2250 1200"/></defs>
+  <g data-l="path"><text class="uot"><textPath href="#ap" startOffset="50%" text-anchor="middle">PATHWAYS  ·  COMING LATER</textPath></text></g>
+  <g data-l="guild"><text class="uot"><textPath href="#ag" startOffset="50%" text-anchor="middle">GUILDS AND JOBS  ·  COMING LATER</textPath></text></g></svg>`;
+ const light=`<svg class="ulight" viewBox="0 0 2400 2400" aria-hidden="true"><defs>
+  <filter id="bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="b1"/><feGaussianBlur in="SourceGraphic" stdDeviation="30" result="b2"/><feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#fff7d6"/><stop offset="1" stop-color="#ffd27a"/></linearGradient></defs><g class="ubolts"></g></svg>`;
+ const lab=(x,y,t,cls,l)=>`<span class="ulab ${cls}" data-l="${l}" style="${sp(x,y)}">${t}</span>`;
+ const C=1200,ang=(x,y)=>Math.atan2(y-C,x-C);
+ const sciL=SCI.map(([n,x,y])=>{const a=ang(x,y),r=Math.hypot(x-C,y-C)+0;return lab(x,y+56,esc(n),'lsci','sci')}).join('');
+ const plL=Object.entries(PLANET).map(([f,[x,y]])=>lab(x,y+112,esc(f),'lpl','cult')).join('');
+ const bkL=BOOKS.map(([x,y],i)=>lab(x,y+52,'Book '+(i+1),'lbk','course')).join('');
+ const sci=SCI.map(([n,x,y])=>`<button class="uhot usci" data-l="sci" data-sci="${esc(n)}" style="${sp(x,y)}" aria-label="${esc(n)}, one of the Islamic sciences"></button>`).join('');
+ const pl=Object.entries(PLANET).map(([f,[x,y]])=>`<button class="uhot uplanet" data-l="cult" data-field="${esc(f)}" style="${sp(x,y)}" aria-label="${esc(f)}: see its finds"></button>`).join('');
+ return `<div class="uart" id="uni"><img class="uimg" src="data/universe2-1600.webp" srcset="data/universe2-800.webp 800w, data/universe2-1200.webp 1200w, data/universe2-1600.webp 1600w, data/universe2-2400.webp 2400w" sizes="(min-width: 1000px) 700px, 100vw" width="2400" height="2400" alt="The Learning Universe: a golden core for the 99 Names, a ring of five books, eighteen science tiles, and twenty culture planets around them.">${outer}${light}
+ <div class="ucorelab" data-l="core"><b>The 99 Names</b><small>al-Asma al-Husna</small></div>${bkL}${sciL}${plL}
+ <button class="uhot ucorehot" data-l="core" style="${sp(1200,1200)}" aria-label="The 99 Names, the centre"></button>${sci}${pl}</div>`}
+const line=d=>`<svg class="sfi" viewBox="0 0 24 24" aria-hidden="true"><path d="${d}"/></svg>`;
+const ICON={book:'M4 5.5C6.5 4.5 9.5 4.5 12 6c2.5-1.5 5.5-1.5 8-.5v13c-2.5-1-5.5-1-8 .5-2.5-1.5-5.5-1.5-8-.5z M12 6v13.5',path:'M5 19c3-1 3-6 7-7s4-6 7-7 M5 19h.01 M19 5h.01',hammer:'M14 4l6 6-3 3-6-6z M11 7L4 14l3 3 7-7'};
+function layerPanel(l){const n=f=>ALL.filter(r=>r.field===f).length;
+ if(l==='course')return `<div class="ugrid">${[1,2,3,4,5].map(i=>`<div class="utile">${line(ICON.book)}<b>Book ${i}</b><small>Title to come</small></div>`).join('')}</div>`;
+ if(l==='sci')return `<div class="ugrid sci">${SCI.map(([s])=>`<div class="utile"><b>${esc(s)}</b></div>`).join('')}</div><p class="unote">A working list from the artwork, still being confirmed.</p>`;
+ if(l==='cult')return `<div class="ugrid">${FIELD_ORDER.map(f=>{const[c,sub]=FLD[f]||['#8e8e93',''];return `<button class="utile ufield" data-field="${esc(f)}" style="--c:${c}"><i class="udot"></i><b>${esc(f)}</b><small>${esc(sub)}</small><em>${n(f).toLocaleString()} finds ›</em></button>`}).join('')}</div>`;
+ if(l==='out')return `<div class="ugrid"><div class="utile">${line(ICON.path)}<b>Pathways</b><small>Coming later</small></div><div class="utile">${line(ICON.hammer)}<b>Guilds and Jobs</b><small>Coming later</small></div></div>`;
+ return ''}
+function fits(){const S=fitSteps();
+ return `<div class="fits ${RM()?'flat':''}"><header class="uhead"><p class="ueyebrow">1 (hundred) in a million</p><h2>The Learning Universe.</h2><p class="usub">From the centre, out into everything.</p></header>
+ <div class="fstage" id="fstage"><div class="uclip">${uniHTML()}</div>
+  <div class="ucard" aria-live="polite"><p class="uk" id="fk"></p><b id="fh"></b><p id="ft"></p>
+   <div class="ucardrow"><div class="fdots">${S.map((_,i)=>`<i data-d="${i}"></i>`).join('')}</div>
+   <div class="fctl"><button class="ubtn" id="fprev" aria-label="Previous step"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button class="ubtn" id="fskip">Skip</button><button class="ubtn pri" id="fnext">Next</button></div></div></div></div>
+ <div class="upanel" id="fpanel"></div></div>`}
+function fitsShow(i){const S=fitSteps();FS=Math.max(0,Math.min(S.length-1,i));const s=S[FS];const u=$('#uni');if(!u)return;
+ $('#fk').textContent=s.k;$('#fh').textContent=s.h;$('#ft').innerHTML=s.t;
+ const[cx,cy,sc]=UVIEW[s.l];u.style.transform=`scale(${sc}) translate(${(1200-cx)/24}%,${(1200-cy)/24}%)`;
+ $('#fstage').dataset.step=s.l;
+ $('#fpanel').innerHTML=layerPanel(s.l);
  document.querySelectorAll('.fdots i').forEach((d,k)=>d.classList.toggle('on',k===FS));
- $('#fnext').textContent=FS===S.length-1?'Done':'Next'}
+ $('#fnext').textContent=FS===S.length-1?'Done':'Next';
+ if(!RM()&&['sci','cult','all'].includes(s.l))boltsOn();else boltsOff()}
+function boltsFire(){const g=document.querySelector('.ubolts');if(!g)return;const full=FS>=3;const P=Object.values(PLANET);let h='';
+ for(let k=0;k<5;k++){const s=SCI[Math.floor(Math.random()*18)],p=P[Math.floor(Math.random()*P.length)];
+  const mx=(1200+s[1])/2+(Math.random()-.5)*90,my=(1200+s[2])/2+(Math.random()-.5)*90;let d=`M1200 1200 Q${mx.toFixed(0)} ${my.toFixed(0)} ${s[1]} ${s[2]}`;
+  if(full){const qx=(s[1]+p[0])/2+(Math.random()-.5)*160,qy=(s[2]+p[1])/2+(Math.random()-.5)*160;d+=` Q${qx.toFixed(0)} ${qy.toFixed(0)} ${p[0]} ${p[1]}`}
+  const dl=(k*.3).toFixed(2);h+=`<path class="bg" d="${d}" pathLength="100" style="animation-delay:${dl}s"/><path class="bm" d="${d}" pathLength="100" style="animation-delay:${dl}s"/><path d="${d}" pathLength="100" style="animation-delay:${dl}s"/>`}
+ g.innerHTML=h}
+function boltsOn(){boltsFire();if(!FB)FB=setInterval(boltsFire,2400)}
+function boltsOff(){if(FB){clearInterval(FB);FB=null}const g=document.querySelector('.ubolts');if(g)g.innerHTML=''}
+function openField(f){fitsStop();trail.length=0;history.pushState({},'','#/');route();applyFilter(f);chips();setTimeout(()=>$('#fields')?.scrollIntoView({block:'start'}),50)}
 function fitsStart(r){const pool=ALL.filter(x=>!isGated(x)&&x.image&&x.image.src);FITEMS=r&&!isGated(r)?[r,...pool.filter(x=>x.id!==r.id&&x.field!==r.field).slice(0,1)]:pool.slice(0,2);
- const s=$('#sheet');s.innerHTML=topBar()+fits();FS=0;fitsShow(0);
+ FS=0;fitsShow(0);
  const nx=()=>{if(FS>=fitSteps().length-1){fitsStop();history.back();return}fitsShow(FS+1)};
- $('#fstage').onclick=()=>{fitsStop();fitsShow(FS+1)};$('#fstage').onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();$('#fstage').click()}};
+ $('#uni').onclick=e=>{const p=e.target.closest('[data-field]');if(p){openField(p.dataset.field);return}const s=e.target.closest('[data-sci]');if(s){fitsStop();fitsShow(2);$('#fk').textContent='One of the sciences';$('#fh').textContent=s.dataset.sci+'.';$('#ft').textContent='Part of the working list of eighteen.';return}if(e.target.closest('.ucorehot')){fitsStop();fitsShow(0);return}fitsStop();fitsShow(FS+1)};
+ $('#fpanel').onclick=e=>{const p=e.target.closest('[data-field]');if(p)openField(p.dataset.field)};
  $('#fnext').onclick=()=>{fitsStop();nx()};$('#fprev').onclick=()=>{fitsStop();fitsShow(FS-1)};$('#fskip').onclick=()=>{fitsStop();fitsShow(fitSteps().length-1)};
- if(!RM())FT=setInterval(()=>{if(FS>=fitSteps().length-1)return fitsStop();fitsShow(FS+1)},4200)}
-function fitsStop(){if(FT){clearInterval(FT);FT=null}}
+ if(!RM())FT=setInterval(()=>{if(FS>=fitSteps().length-1)return fitsStop();fitsShow(FS+1)},5600)}
+function fitsStop(){if(FT){clearInterval(FT);FT=null}boltsOff()}
+
 function hundred(){const n=likes.size,pct=Math.min(100,n);
  return `<div class="pad"><h2>1 (hundred) in a million</h2>
  <p>When you’ve liked 100 things, you’ll be able to meet other people who liked 100 things like you did. Your hundred, out of a million.</p>
@@ -339,7 +400,4 @@ function hundred(){const n=likes.size,pct=Math.min(100,n);
  <p><small>Matching isn’t built yet. It’s coming. When it arrives you choose whether to join, and your likes stay on this device until you do.</small></p>
  <p><button class="btn ghost" data-go="#/shelf">See your hearts ›</button></p></div>`}
 
-function bolts(){if(RM())return '';const C=170,out=[];for(let k=0;k<10;k++){const a=(k*51+13)*Math.PI/180,b=a+((k%3)-1)*.35,r0=k%2?35:64,r1=k%2?64:93;
- let pts=[],n=5;for(let s=0;s<=n;s++){const f=s/n,rr=r0+(r1-r0)*f,an=a+(b-a)*f,j=(s>0&&s<n)?((s%2?1:-1)*6):0;pts.push([(C+Math.cos(an)*rr+Math.cos(an+1.57)*j).toFixed(1),(C+Math.sin(an)*rr+Math.sin(an+1.57)*j).toFixed(1)])}
- out.push(`<path d="M${pts.map(p=>p.join(' ')).join(' L')}" style="animation-delay:${(k*0.37%1.6).toFixed(2)}s"/>`)}
- return `<svg class="fbolts" viewBox="0 0 340 340" aria-hidden="true">${out.join('')}</svg>`}
+
