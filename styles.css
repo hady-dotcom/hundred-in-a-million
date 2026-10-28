@@ -152,3 +152,33 @@ input[type=checkbox][role=switch]:checked{background:#34c759}input[type=checkbox
 .why{background:var(--paper);border-radius:16px;padding:14px 16px;margin:12px 0}.why h3{margin:0 0 6px;font:600 13px var(--font);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}.why p{margin:0 0 8px;font:400 17px/25px var(--font);color:var(--ink2)}.why small{color:var(--muted);font-size:13px}
 @media(min-width:900px){.thero{max-width:760px;margin:0 auto;aspect-ratio:16/10}.tcard{flex-basis:260px}.today{max-width:980px;margin-left:auto;margin-right:auto}}
 .tmedia .noimg{align-items:flex-start}
+
+/* fits demo + ? */
+.pill.q{font-weight:700;font-size:17px;padding:0}
+.fitslink{margin:-4px 16px 10px}.linkbtn{border:0;background:none;color:var(--accent);font:600 15px var(--font);min-height:44px;padding:0;cursor:pointer}
+.fstage{position:relative;height:340px;perspective:900px;cursor:pointer;outline:none;overflow:hidden;border-radius:22px;background:radial-gradient(circle at 50% 55%,#fff,#e9e9f0)}
+.fworld{position:absolute;inset:0;transform-style:preserve-3d;transform:rotateX(58deg) rotateZ(0);transition:transform 1.2s var(--spring);animation:fspin 40s linear infinite}
+.fstage.rev .fworld{transform:rotateX(20deg)}
+@keyframes fspin{to{transform:rotateX(58deg) rotateZ(360deg)}}
+.fring{position:absolute;left:50%;top:50%;--s:calc(70px + var(--i)*58px);width:var(--s);height:var(--s);margin:calc(var(--s)/-2);border-radius:50%;border:3px solid var(--c);background:color-mix(in srgb,var(--c) 8%,transparent);
+ transform:translateZ(calc((4 - var(--i))*14px));opacity:.25;transition:opacity .6s,transform .9s var(--spring),box-shadow .6s;display:flex;justify-content:center}
+.fring:first-child{background:var(--c)}
+.fring span{position:absolute;top:-24px;font:600 13px var(--font);color:#1f2937;white-space:nowrap;opacity:0;transition:opacity .4s;background:rgba(255,255,255,.85);padding:2px 8px;border-radius:99px}
+.fring.lit{opacity:.7}.fring.on{opacity:1;box-shadow:0 0 24px var(--c);transform:translateZ(calc((4 - var(--i))*14px + 30px))}.fring.on span{opacity:1}
+.fstage.rev .fring span{opacity:0}.fstage.rev .fring:first-child span{opacity:1}
+.fitems{position:absolute;inset:auto 0 14px 0;display:flex;gap:10px;justify-content:center;opacity:0;transform:translateY(20px);transition:.6s var(--spring)}
+.fstage.showitems .fitems{opacity:1;transform:none}.fitems img{width:64px;height:64px;object-fit:cover;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.2)}
+.fcap{min-height:96px;margin-top:14px}.fcap b{font-size:20px}.fcap p{color:var(--ink2);margin:6px 0}
+.fdots{display:flex;gap:6px;justify-content:center;margin:6px 0 12px}.fdots i{width:7px;height:7px;border-radius:50%;background:#c7c7cc}.fdots i.on{background:var(--ink)}
+.fctl{display:flex;gap:8px;justify-content:center}.fctl .btn{min-height:44px;min-width:56px}
+.fsee a{color:var(--accent)}
+.fits.flat .fworld,.fits.flat .fring,.fits.flat .fitems{animation:none;transition:none}
+.fits.flat .fworld{transform:none}.fits.flat .fring,.fits.flat .fring.on{transform:none;box-shadow:none}
+@media (prefers-reduced-motion:reduce){.fworld{animation:none!important;transform:none!important}.fring{transform:none!important;transition:none!important}}
+.fstage.rev .fworld{animation:none}
+
+.fbolts{position:absolute;left:50%;top:50%;width:340px;height:340px;margin:-170px;transform:translateZ(40px);pointer-events:none}
+.fbolts path{fill:none;stroke:#f59e0b;stroke-width:3.5;stroke-linejoin:round;filter:drop-shadow(0 0 6px #fbbf24);opacity:0}
+.fstage.flash .fbolts path{animation:bolt 1.6s steps(1) infinite}
+@keyframes bolt{0%{opacity:0}8%{opacity:1}12%{opacity:.2}16%{opacity:1}26%{opacity:0}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.fbolts{display:none}}
