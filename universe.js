@@ -10,6 +10,7 @@ import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 const $=s=>document.querySelector(s);
 const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const LOW=Math.min(innerWidth,innerHeight)<700||/iPhone|Android/i.test(navigator.userAgent);
+const compact=()=>innerWidth<700||innerHeight<500;
 const FONT="-apple-system,BlinkMacSystemFont,'SF Pro Display',system-ui,'Segoe UI',Roboto,sans-serif";
 
 // ---------- content ----------
@@ -32,7 +33,7 @@ const GUILDS={Art:['Illustrators','Photographers'],Film:['Directors','Editors'],
 const TIERS=[['1','First heart','Your first heart. The shelf starts here.'],['25','Twenty-five','A quarter of the way. Your taste is starting to show.'],['50','Halfway','Fifty hearts. Halfway to your hundred.'],['100','Your hundred','One hundred hearts: you can meet people who loved 100 things like you. Coming soon.'],['200','Contributor','Proposed: at 200, add discoveries of your own, after review. Not decided yet.']];
 const LAYERS={
  core:{k:'The centre',h:'The 99 Names',sub:'al-Asma al-Husna',t:'Something of the 99 Names of Allah. The Names create reality; everything here grows out from them.',c:'#ffd27a'},
- sci:{k:'Ring one',h:'The Islamic Sciences',t:'Eighteen sciences that documented how reality works. A working list, still being confirmed.',c:'#30d158',r:7,tilt:[-0.32,0,-0.36],spd:-0.055},
+ sci:{k:'Ring one',h:'The Islamic Sciences',t:'Eighteen sciences that documented how reality works. A working list, still being confirmed.',c:'#30d158',r:8,tilt:[-0.32,0,-0.36],spd:-0.055},
  cult:{k:'Ring two',h:'Culture',t:'Twenty fields where it all flows out into what people make. Tap a planet to open its finds.',c:'#ff7a3d',r:15,tilt:[0.12,0,0.06],spd:0.028},
  path:{k:'Ring three',h:'Five Pathways',t:'Five ways into every field. Each planet has five moons just outside it: the areas you can enter it through, like Composition or Sound Engineering for Music.',c:'#ff9f2e',r:19.6,tilt:[0.12,0,0.06],spd:0.028},
  guild:{k:'Ring four',h:'Guilds & Jobs',t:'Communities, livelihoods, contribution. Real guilds and jobs for all twenty fields, and the hearts milestones that open the way in.',c:'#e8c27a',r:23.5,tilt:[-0.62,0,0.5],spd:0.008}};
@@ -40,17 +41,20 @@ const LAYERS={
 // ---------- renderer ----------
 const canvas=$('#gl');
 const renderer=new THREE.WebGLRenderer({canvas,antialias:!LOW,powerPreference:'high-performance'});
-renderer.setPixelRatio(Math.min(devicePixelRatio,LOW?1.5:2));renderer.setSize(innerWidth,innerHeight);
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);
 renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;renderer.outputColorSpace=THREE.SRGBColorSpace;
 const scene=new THREE.Scene();
 const camera=new THREE.PerspectiveCamera(48,innerWidth/innerHeight,0.05,2000);
-camera.position.set(0,14,46);if(innerWidth<innerHeight)camera.position.multiplyScalar(1.55);
+// fit the whole universe (bounding sphere) to the screen for any aspect ratio
+const HOME_D=new THREE.Vector3(0,14,46).normalize(),HOME_P=new THREE.Vector3(0,30,34).normalize(),BOUND=24.5;
+function homePos(){const vf=THREE.MathUtils.degToRad(camera.fov)/2;const hf=Math.atan(Math.tan(vf)*camera.aspect);const half=Math.min(vf,hf);const pad=compact()?1.04:1.0;const d=Math.max(BOUND/Math.sin(half)*pad*(compact()?1:0.77),30);return (innerHeight>innerWidth*1.2?HOME_P:HOME_D).clone().multiplyScalar(d)}
+camera.position.copy(homePos());
 const controls=new OrbitControls(camera,canvas);
 controls.enableDamping=true;controls.dampingFactor=0.06;controls.minDistance=1.2;controls.maxDistance=120;
 controls.minPolarAngle=0;controls.maxPolarAngle=Math.PI;controls.rotateSpeed=0.6;controls.zoomSpeed=0.8;
 controls.autoRotate=!RM;controls.autoRotateSpeed=0.25;
 const composer=new EffectComposer(renderer);composer.addPass(new RenderPass(scene,camera));
-const bloom=new UnrealBloomPass(new THREE.Vector2(innerWidth/(LOW?2:1),innerHeight/(LOW?2:1)),0.42,0.4,0.88);composer.addPass(bloom);
+const bloom=new UnrealBloomPass(new THREE.Vector2(innerWidth/(LOW?2:1),innerHeight/(LOW?2:1)),LOW?0.3:0.42,0.4,0.88);composer.addPass(bloom);
 composer.addPass(new OutputPass());
 const ENV=new THREE.PMREMGenerator(renderer).fromScene(new RoomEnvironment(),.04).texture;
 const TL=new THREE.TextureLoader();
@@ -58,7 +62,7 @@ const tex=(u,srgb=true)=>{const t=TL.load(u);if(srgb)t.colorSpace=THREE.SRGBColo
 
 // ---------- sky ----------
 {const sky=new THREE.Mesh(new THREE.SphereGeometry(900,48,32),new THREE.MeshBasicMaterial({map:tex('data/tex/nebula.jpg'),side:THREE.BackSide,color:0x777788}));scene.add(sky)}
-const N=LOW?9000:22000;const sg=new THREE.BufferGeometry();const sp=new Float32Array(N*3),ss=new Float32Array(N),sph=new Float32Array(N),sc=new Float32Array(N*3);
+const N=LOW?5000:22000;const sg=new THREE.BufferGeometry();const sp=new Float32Array(N*3),ss=new Float32Array(N),sph=new Float32Array(N),sc=new Float32Array(N*3);
 for(let i=0;i<N;i++){const u=Math.random()*2-1,a=Math.random()*Math.PI*2,r=180+Math.random()*600,q=Math.sqrt(1-u*u);sp.set([Math.cos(a)*q*r,u*r,Math.sin(a)*q*r],i*3);ss[i]=Math.pow(Math.random(),5)*3.2+0.6;sph[i]=Math.random()*6.28;const w=Math.random();sc.set(w<.15?[1,.85,.7]:w<.3?[.75,.85,1]:[1,1,1],i*3)}
 sg.setAttribute('position',new THREE.BufferAttribute(sp,3));sg.setAttribute('size',new THREE.BufferAttribute(ss,1));sg.setAttribute('phase',new THREE.BufferAttribute(sph,1));sg.setAttribute('color',new THREE.BufferAttribute(sc,3));
 const starMat=new THREE.ShaderMaterial({transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,uniforms:{t:{value:0},pr:{value:renderer.getPixelRatio()}},
@@ -88,7 +92,7 @@ const halo=new THREE.Sprite(new THREE.SpriteMaterial({map:glowTex('#ffb347'),ble
  const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;
  const m=new THREE.Mesh(new THREE.PlaneGeometry(9,9),new THREE.MeshBasicMaterial({map:t,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,side:THREE.DoubleSide,opacity:.55}));m.name='calli';core.add(m);core.userData.calli=m}
 const coreHit=new THREE.Mesh(new THREE.SphereGeometry(2.4,24,16),new THREE.MeshBasicMaterial({visible:false}));coreHit.userData={layer:'core',name:'The 99 Names'};core.add(coreHit);pickables.push(coreHit);
-addLabel(core,'The 99 Names<small>al-Asma al-Husna</small>','core',coreHit.userData,{off:-3.6,near:4,far:140});
+addLabel(core,'The 99 Names<small>al-Asma al-Husna</small>','core',coreHit.userData,{off:-2.1,near:4,far:140});
 const light=new THREE.PointLight(0xffe2b0,1100,0,2);scene.add(light);scene.add(new THREE.AmbientLight(0x30324a,0.55));
 
 // ---------- rings ----------
@@ -104,12 +108,12 @@ function makeRing(key){const L=LAYERS[key];const pivot=new THREE.Group();pivot.r
 // sciences ring: glass tiles with icon sprites
 const sciBodies=[];
 {const s=makeRing('sci');const glass=new THREE.MeshPhysicalMaterial({color:0x1db36b,metalness:0,roughness:.12,transmission:LOW?0:.55,thickness:.4,transparent:true,opacity:LOW?.78:.9,clearcoat:1,clearcoatRoughness:.08,emissive:0x0b5a33,emissiveIntensity:.16,ior:1.4});
- const geo=new THREE.BoxGeometry(1.15,1.15,.22);
+ const geo=new THREE.BoxGeometry(1.45,1.45,.24);
  SCI.forEach((n,i)=>{const a=i/18*Math.PI*2;const g=new THREE.Group();g.position.set(Math.cos(a)*LAYERS.sci.r,0,Math.sin(a)*LAYERS.sci.r);
   const tile=new THREE.Mesh(geo,glass);tile.userData={layer:'sci',name:n,desc:'One of the Islamic sciences on the working list of eighteen.'};g.add(tile);
   const edge=new THREE.LineSegments(new THREE.EdgesGeometry(geo),new THREE.LineBasicMaterial({color:0xbfffe0,transparent:true,opacity:.55}));g.add(edge);
-  iconFaces(g,iconTex(ICON[n]),.95,.22);
-  g.userData.tile=tile;s.add(g);pickables.push(tile);sciBodies.push(g);addLabel(g,n,'sci',tile.userData,{off:.85,near:3,far:80})})}
+  iconFaces(g,iconTex(ICON[n]),1.2,.24);
+  g.userData.tile=tile;s.add(g);pickables.push(tile);sciBodies.push(g);addLabel(g,n,'sci',tile.userData,{off:1.0,near:3,far:80})})}
 // culture ring: planets
 const planets=[];
 {const s=makeRing('cult');
@@ -159,30 +163,38 @@ let boltOn=!RM,boltTimer=0;
 
 // ---------- camera travel ----------
 let fly=null;const ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
-function flyTo(pos,target,dur=2.2,obj=null){if(innerWidth<innerHeight){pos=target.clone().add(pos.clone().sub(target).multiplyScalar(1.8))}if(RM){if(obj){follow=obj}camera.position.copy(pos);controls.target.copy(target);controls.update();return}fly={p0:camera.position.clone(),t0:controls.target.clone(),p1:pos.clone(),t1:target.clone(),t:0,d:dur,obj,off:pos.clone().sub(target)}}
+function flyTo(pos,target,dur=2.2,obj=null){if(innerWidth<innerHeight&&obj){pos=target.clone().add(pos.clone().sub(target).multiplyScalar(1.35))}else if(innerWidth<innerHeight){pos=target.clone().add(pos.clone().sub(target).multiplyScalar(1.6))}if(RM){if(obj){follow=obj}camera.position.copy(pos);controls.target.copy(target);controls.update();return}fly={p0:camera.position.clone(),t0:controls.target.clone(),p1:pos.clone(),t1:target.clone(),t:0,d:dur,obj,off:pos.clone().sub(target)}}
 let follow=null;
 function focusBody(o){const ud=o.userData;const w=wp(o);const L=LAYERS[ud.layer];
  const dist=ud.layer==='cult'?4.6:ud.layer==='sci'?4.2:ud.layer==='path'?4.4:ud.layer==='guild'?4.4:ud.layer==='core'?12:L.r*1.6;
  const out=w.clone().normalize();if(out.lengthSq()<.01)out.set(0,0,1);let pos=w.clone().add(out.clone().multiplyScalar(dist)).add(new THREE.Vector3(0,dist*.35,0));
+ if(ud.layer==='cult'||ud.layer==='path'){const tg=new THREE.Vector3(-w.z,0,w.x).normalize();pos=w.clone().add(out.clone().multiplyScalar(-dist*.55)).add(tg.multiplyScalar(dist*.6)).add(new THREE.Vector3(0,dist*.55,0))}
  if(ud.layer==='guild'){const n=new THREE.Vector3(0,1,0).applyQuaternion(rings[ud.layer].pivot.quaternion);if(n.y<0)n.negate();pos=w.clone().add(n.multiplyScalar(dist*.85)).add(out.multiplyScalar(dist*.5))}
  const keep=ud.ring||ud.layer==='core'?null:o;flyTo(pos,w,2.2,keep);follow=keep;controls.autoRotate=false;showCard(ud)}
-function frameFor(on){const w=innerWidth,h=innerHeight;if(on&&w>900){camera.setViewOffset(w,h,Math.min(220,w*.14),0,w,h)}else camera.clearViewOffset()}
-function showCard(ud){frameFor(true);const L=LAYERS[ud.layer];$('#card').hidden=false;$('#cardK').textContent=ud.ring?L.k:L.k+' · '+L.h;$('#cardH').textContent=ud.name;$('#cardT').textContent=ud.ring||ud.layer==='core'?L.t:ud.desc;
+function frameFor(on){const w=innerWidth,h=innerHeight;if(on&&w>900){camera.setViewOffset(w,h,Math.min(220,w*.14),0,w,h)}else if(on&&h>w){camera.setViewOffset(w,h,0,h*.17,w,h)}else if(on&&h<500){camera.setViewOffset(w,h,w*.2,0,w,h)}else camera.clearViewOffset()}
+function showCard(ud){$('#legend').classList.remove('open');frameFor(true);const L=LAYERS[ud.layer];$('#card').hidden=false;$('#cardK').textContent=ud.ring?L.k:L.k+' · '+L.h;$('#cardH').textContent=ud.name;$('#cardT').textContent=ud.ring||ud.layer==='core'?L.t:ud.desc;
  const go=$('#cardGo');if(ud.field&&(ud.layer==='cult'||ud.layer==='guild'||ud.layer==='path')){go.hidden=false;go.href='index.html#/field/'+encodeURIComponent(ud.field)}else go.hidden=true}
-$('#cardX').onclick=()=>{$('#card').hidden=true;frameFor(false);follow=null;flyTo(new THREE.Vector3(0,14,46),new THREE.Vector3());controls.autoRotate=!RM};
+$('#cardX').onclick=()=>{$('#card').hidden=true;frameFor(false);follow=null;flyTo(homePos(),new THREE.Vector3());controls.autoRotate=!RM};
 
 // ---------- picking / HUD ----------
 const ray=new THREE.Raycaster();const mouse=new THREE.Vector2();let hover=null,downAt=null;
-function pick(e){mouse.set(e.clientX/innerWidth*2-1,-(e.clientY/innerHeight)*2+1);ray.setFromCamera(mouse,camera);const h=ray.intersectObjects(pickables,false);const body=h.find(x=>!x.object.userData.ring);return (body||h[0])?.object||null}
+const MINPX=22;const _v=new THREE.Vector3(),_s=new THREE.Vector3();
+function pick(e){const w=innerWidth,h=innerHeight,x=e.clientX,y=e.clientY;const f=(h/2)/Math.tan(THREE.MathUtils.degToRad(camera.fov)/2);let best=null,bd=1e9;
+ for(const o of pickables){if(o.userData.ring)continue;o.getWorldPosition(_v);const d=_v.distanceTo(camera.position);_s.copy(_v).project(camera);if(_s.z>1||_s.z<-1)continue;
+  const sx=(_s.x*.5+.5)*w,sy=(-_s.y*.5+.5)*h;if(!o.geometry.boundingSphere)o.geometry.computeBoundingSphere();const rpx=Math.max(MINPX,o.geometry.boundingSphere.radius*o.getWorldScale(_s.set(1,1,1)).x*f/d);
+  if(Math.hypot(sx-x,sy-y)<=rpx&&d<bd){bd=d;best=o}}
+ if(best)return best;mouse.set(x/w*2-1,-(y/h)*2+1);ray.setFromCamera(mouse,camera);const hh=ray.intersectObjects(pickables,false);return hh[0]?.object||null}
+window.__pickAt=(x,y)=>{const o=pick({clientX:x,clientY:y});return o?o.userData.name:null};
 canvas.addEventListener('pointermove',e=>{const o=pick(e);if(o!==hover){hover=o;canvas.style.cursor=o?'pointer':'grab';hud(o?o.userData:null)}});
 canvas.addEventListener('pointerdown',e=>{downAt=[e.clientX,e.clientY];if(tour.on)return;controls.autoRotate=false});
 canvas.addEventListener('pointerup',e=>{if(!downAt)return;const moved=Math.hypot(e.clientX-downAt[0],e.clientY-downAt[1]);downAt=null;if(moved>6||tour.on)return;const o=pick(e);if(o)focusBody(o)});
 function hud(ud){if(!ud){$('#hudK').textContent='You’re looking at';$('#hudH').textContent=nearestLayer();$('#hudT').textContent='Drag to turn it. Go above, below, even inside the rings. Tap anything.';return}
  const L=LAYERS[ud.layer];$('#hudK').textContent=ud.ring?L.k:L.h;$('#hudH').textContent=ud.name;$('#hudT').textContent=ud.ring||ud.layer==='core'?L.t:ud.desc}
 function nearestLayer(){const cd=camera.position.distanceTo(controls.target),r=controls.target.length();if(cd<12&&r>1){return r<11?'The Islamic Sciences':r<17.5?'Culture':r<21.7?'Five Pathways':'Guilds & Jobs'}const d=camera.position.distanceTo(controls.target)+controls.target.length();if(d<7)return'The 99 Names';if(d<17)return'The Islamic Sciences';if(d<18.5)return'Culture';if(d<22)return'Five Pathways';if(d<27)return'Guilds & Jobs';return'The whole universe'}
-// legend
+// legend (side list on desktop; pill + bottom sheet on phones)
+$('#ringPill').onclick=()=>{const o=$('#legend').classList.toggle('open');$('#ringPill').setAttribute('aria-expanded',o);if(o)$('#card').hidden=true};
 $('#legend').innerHTML='<p class="lk">Rings</p>'+['core','sci','cult','path','guild'].map(k=>`<button data-k="${k}"><i style="color:${LAYERS[k].c};background:${LAYERS[k].c}"></i>${LAYERS[k].h}</button>`).join('');
-$('#legend').onclick=e=>{const b=e.target.closest('[data-k]');if(!b)return;const k=b.dataset.k;if(k==='core'){focusBody(coreHit);return}const R=rings[k];focusRing(k)};
+$('#legend').onclick=e=>{const b=e.target.closest('[data-k]');if(!b)return;$('#legend').classList.remove('open');$('#ringPill').setAttribute('aria-expanded','false');const k=b.dataset.k;if(k==='core'){focusBody(coreHit);return}const R=rings[k];focusRing(k)};
 function focusRing(k){const R=rings[k];const n=new THREE.Vector3(0,1,0).applyQuaternion(R.pivot.quaternion);if(n.y<0)n.negate();const pos=R.L.r>16?n.clone().multiplyScalar(R.L.r*2.3).add(new THREE.Vector3(R.L.r*.35,R.L.r*.2,R.L.r*.35)):n.clone().multiplyScalar(R.L.r*1.25).add(new THREE.Vector3(R.L.r*.9,0,R.L.r*.9));flyTo(pos,new THREE.Vector3());follow=null;controls.autoRotate=false;showCard({layer:k,name:R.L.h,ring:true})}
 
 // ---------- tour ----------
@@ -200,8 +212,8 @@ function tourShow(i){frameFor(true);tour.i=Math.max(0,Math.min(TOUR.length-1,i))
  $('#capDots').innerHTML=TOUR.map((_,k)=>`<i class="${k===tour.i?'on':''}"></i>`).join('');$('#capNext').textContent=tour.i===TOUR.length-1?'Finish':'Next';
  follow=null;if(s.body&&s.body()){const o=s.body();const w=wp(o);const out=w.clone().normalize();flyTo(w.clone().add(out.multiplyScalar(s.d)).add(new THREE.Vector3(0,s.d*.4,0)),w,2.6);follow=o.userData.tile||o.userData.planet?o:null}
  else flyTo(new THREE.Vector3(...s.cam),new THREE.Vector3(...s.tg),2.8);tour.timer=0}
-function tourStart(){tour.on=true;controls.autoRotate=false;$('#legend').style.opacity=.0;$('#hud').style.opacity=0;tourShow(0)}
-function tourEnd(){frameFor(false);tour.on=false;$('#cap').hidden=true;$('#legend').style.opacity=1;$('#hud').style.opacity=1;follow=null;flyTo(new THREE.Vector3(0,14,46),new THREE.Vector3());controls.autoRotate=!RM}
+function tourStart(){tour.on=true;controls.autoRotate=false;$('#legend').style.opacity=.0;$('#ringPill').style.visibility='hidden';$('#hud').style.opacity=0;tourShow(0)}
+function tourEnd(){frameFor(false);tour.on=false;$('#cap').hidden=true;$('#legend').style.opacity=1;$('#ringPill').style.visibility='';$('#hud').style.opacity=1;follow=null;flyTo(homePos(),new THREE.Vector3());controls.autoRotate=!RM}
 $('#tourBtn').onclick=()=>tour.on?tourEnd():tourStart();$('#capNext').onclick=()=>{if(tour.i>=TOUR.length-1)tourEnd();else tourShow(tour.i+1)};$('#capPrev').onclick=()=>tourShow(tour.i-1);$('#capSkip').onclick=tourEnd;
 addEventListener('keydown',e=>{if(e.key==='Escape'){if(tour.on)tourEnd();else $('#cardX').click()}if(tour.on&&e.key==='ArrowRight')$('#capNext').click();if(tour.on&&e.key==='ArrowLeft')$('#capPrev').click()});
 
@@ -216,11 +228,11 @@ function updateLabels(){const w=innerWidth,h=innerHeight;for(const L of labels){
   const s=THREE.MathUtils.clamp(14/d,.62,1.7)*L.base;const x=(p.x*.5+.5)*w,y=(-p.y*.5+.5)*h;
   L.el.style.opacity=o.toFixed(2);L.el.style.transform=`translate(${x.toFixed(1)}px,${y.toFixed(1)}px) translate(-50%,0) scale(${s.toFixed(3)})`;L.el.classList.toggle('hl',!!hover&&L.info===hover.userData);if(!L.w){L.w=L.el.offsetWidth;L.h=L.el.offsetHeight}L._r=[x-L.w*s/2,y,L.w*s,L.h*s,d]}
  declutter()}
-const PRI={core:0,pl:1,sci:2,bk:2,pw:3,gd:4};
+const PRI={pl:1,sci:2,core:2.5,bk:2,pw:3,gd:4};
 function declutter(){const vis=labels.filter(L=>L.el.style.opacity>0.02&&L._r);vis.sort((a,b)=>(PRI[a.el.classList[1]]-PRI[b.el.classList[1]])||(a._r[4]-b._r[4]));const kept=[];for(const L of vis){const [x,y,w,h]=L._r;const hit=kept.some(([X,Y,W,H])=>x<X+W+4&&x+w+4>X&&y<Y+H&&y+h>Y);if(hit&&!(hover&&L.info===hover.userData)){L.el.style.opacity=0}else kept.push(L._r)}}
 
 // ---------- loop ----------
-const clock=new THREE.Clock();let frames=0,fpsT=0;window.__fps=0;
+const KEEPBLOOM=new URLSearchParams(location.search).has('keepbloom');let slow=0;const clock=new THREE.Clock();let frames=0,fpsT=0;window.__fps=0;
 function frame(){const dt=Math.min(clock.getDelta(),.05);const t=clock.elapsedTime;starMat.uniforms.t.value=t;
  if(!RM){for(const k in rings){rings[k].spin.rotation.y+=rings[k].L.spd*dt;rings[k].pivot.rotation.x=rings[k].L.tilt[0]+Math.sin(t*.07+rings[k].L.r)*.06}
   core.userData.calli.rotation.z+=dt*.05;planets.forEach((p,i)=>p.userData.planet.rotation.y+=dt*(.12+i%3*.03));sciBodies.forEach(g=>g.rotation.y+=dt*.2);pathBodies.forEach(g=>g.userData.moon.rotation.y+=dt*.25);guildBodies.forEach(g=>g.rotation.y+=dt*.12)}
@@ -234,9 +246,11 @@ function frame(){const dt=Math.min(clock.getDelta(),.05);const t=clock.elapsedTi
  else if(follow){const w=wp(follow);const delta=w.clone().sub(controls.target);controls.target.add(delta);camera.position.add(delta)}
  {const lc=new THREE.Vector3();for(const k in rings){const Rg=rings[k];lc.copy(camera.position);Rg.spin.worldToLocal(lc);const d=Math.hypot(Math.hypot(lc.x,lc.z)-Rg.L.r,lc.y);const f=THREE.MathUtils.smoothstep(d,4.5,10);Rg.band.material.opacity=Rg.bo*f;Rg.tor.material.opacity=Rg.to*f;Rg.sheen.material.opacity=Rg.so*f}}
  updThreads();controls.update();composer.render();updateLabels();
- frames++;fpsT+=dt;if(fpsT>1){window.__fps=Math.round(frames/fpsT);frames=0;fpsT=0}
+ frames++;fpsT+=dt;if(fpsT>1){window.__fps=Math.round(frames/fpsT);frames=0;fpsT=0;if(t>5&&bloom.enabled&&!KEEPBLOOM){slow=window.__fps<28?slow+1:0;if(slow>=3){bloom.enabled=false;window.__bloomOff=true}}}
  requestAnimationFrame(frame)}
-addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();frameFor(!$('#card').hidden||tour.on);renderer.setSize(innerWidth,innerHeight);composer.setSize(innerWidth,innerHeight)});
-hud(null);requestAnimationFrame(frame);setInterval(()=>{if(!hover)hud(null);const nl=nearestLayer();document.querySelectorAll('#legend button').forEach(b=>b.classList.toggle('on',LAYERS[b.dataset.k].h===nl))},700);
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();if(!follow&&!fly&&$('#card').hidden&&!tour.on)camera.position.copy(homePos());frameFor(!$('#card').hidden||tour.on);renderer.setSize(innerWidth,innerHeight);composer.setSize(innerWidth,innerHeight)});
+['gesturestart','gesturechange'].forEach(ev=>document.addEventListener(ev,e=>e.preventDefault(),{passive:false}));document.addEventListener('touchmove',e=>{if(e.touches.length>1||e.target===canvas)e.preventDefault()},{passive:false});
+controls.touches={ONE:THREE.TOUCH.ROTATE,TWO:THREE.TOUCH.DOLLY_PAN};controls.screenSpacePanning=true;
+hud(null);requestAnimationFrame(frame);setInterval(()=>{if(!hover)hud(null);const nl=nearestLayer();document.querySelectorAll('#legend button').forEach(b=>b.classList.toggle('on',LAYERS[b.dataset.k].h===nl));const k=Object.keys(LAYERS).find(k=>LAYERS[k].h===nl);$('#pillT').textContent=nl;$('#pillDot').style.background=k?LAYERS[k].c:'#f5f5f7'},700);
 if(new URLSearchParams(location.search).get('tour')==='1')setTimeout(tourStart,600);
-window.__U={pathBodies,guildBodies,focusRing,tourStart,tourShow,tourEnd,focusBody,planets,sciBodies,coreHit,camera,controls,flyTo,THREE,labels,get flying(){return !!fly},get boltCount(){return bolts.length},get tour(){return tour}};
+window.__U={bloom,homePos,pathBodies,guildBodies,focusRing,tourStart,tourShow,tourEnd,focusBody,planets,sciBodies,coreHit,camera,controls,flyTo,THREE,labels,get flying(){return !!fly},get boltCount(){return bolts.length},get tour(){return tour}};
