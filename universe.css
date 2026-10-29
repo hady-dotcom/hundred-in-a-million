@@ -20,6 +20,7 @@
 .lb{position:absolute;left:0;top:0;white-space:nowrap;font-weight:600;letter-spacing:-.01em;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.95),0 0 14px rgba(0,0,0,.8);will-change:transform,opacity;transform-origin:50% 0}
 .lb.pl{font-size:15px}.lb.sci{font-size:12.5px;color:#d9ffe9}.lb.bk{font-size:12px;color:#ffe6a8}.lb.core{font-size:20px;font-weight:700;color:#fff3d0;text-align:center}
 .lb.core small{display:block;font-size:12px;font-weight:600;letter-spacing:.06em;color:#ffd27a}
+.lb.pw{font-size:12.5px;color:#ffe2bf}.lb.gd{font-size:12px;color:#f3e2b8}
 .lb.hl{color:#fff;font-size:17px}
 .legend{position:fixed;top:calc(max(12px,env(safe-area-inset-top)) + 64px);left:16px;padding:10px 12px;display:flex;flex-direction:column;gap:2px;z-index:4;font-size:13px}
 .legend button{display:flex;align-items:center;gap:10px;background:none;border:0;color:#f5f5f7;font:500 13px var(--font);min-height:36px;padding:0 6px;border-radius:10px;cursor:pointer;text-align:left}
@@ -29,3 +30,4 @@
 
 @media (max-width:520px){.bar .title b{font-size:15px;white-space:nowrap}.bar .title small{display:none}.bar .gbtn span{display:none}#tourBtn{padding:0 14px;font-size:14px;white-space:nowrap}}
 #cap .gbtn{white-space:nowrap}
+[hidden]{display:none!important}
