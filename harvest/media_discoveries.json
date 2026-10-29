@@ -31,7 +31,9 @@
   "relevance_evidence": "Surah",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/Ali_Jaber_Recitation_of_Surah_Nisa.wav/Ali_Jaber_Recitation_of_Surah_Nisa.wav.mp3",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Ali Jaber Recitation of Surah Nisa comes from Global and dates to 1987. Ali Abdullah Jaber Recitation of Surah Nisa(4) verse 137 to 139. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-165886626",
@@ -63,7 +65,9 @@
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Surah",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "May 24, 2025 - Surah Al-Mu’minoon verses 1-16, تلاوة سورة المؤمنون comes from Global. Recitation of Surah Al-Mu'minoon, verses 1-16. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100476351",
@@ -97,7 +101,9 @@
   "relevance_evidence": "Qur'an",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Qur%27anic_teaching.ogg/Qur%27anic_teaching.ogg.mp3",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Qur'anic teaching comes from Global. Teacher teaching students how to recite Qur'an. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-94331319",
@@ -131,7 +137,9 @@
   "relevance_evidence": "Quran",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d5/Quran_Tilwat_by_Azhar_Ali_Anwar_Shah.ogg/Quran_Tilwat_by_Azhar_Ali_Anwar_Shah.ogg.mp3",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Quran Tilwat by Azhar Ali Anwar Shah comes from Global. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-185859597",
@@ -165,7 +173,9 @@
   "relevance_evidence": "Quran",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/59/Quran_recitation_1.wav/Quran_recitation_1.wav.mp3",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Quran recitation 1 comes from Global. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-136085760",
@@ -199,7 +209,9 @@
   "relevance_evidence": "Quran",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0f/Quran_recitation_at_islamic_college_brent.ogg/Quran_recitation_at_islamic_college_brent.ogg.mp3",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Quran recitation at islamic college brent comes from Global. recording of quran recitation at the islamic college of london. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-94467636",
@@ -233,7 +245,9 @@
   "relevance_evidence": "Quran",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Quran_recitation_training_by_Qari_belayet.ogg/Quran_recitation_training_by_Qari_belayet.ogg.mp3",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Quran recitation training by Qari belayet comes from Global. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381440",
@@ -269,7 +283,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة البلد ٩٠ comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381444",
@@ -305,7 +321,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة البينة ٩٨ comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381443",
@@ -341,7 +359,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة التكاثر ١٠٢ comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381453",
@@ -377,7 +397,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة التين ٩٥ comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100279923",
@@ -413,7 +435,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة الحاقة comes from Global. A Qur'anic recitation by Chapters (Sura) by the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381452",
@@ -449,7 +473,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة الزلزلة comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381454",
@@ -485,7 +511,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة الشرح٩٤ comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381462",
@@ -521,7 +549,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة الشمس ٩١ comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381464",
@@ -557,7 +587,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة الضحى ٩٣ comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381465",
@@ -593,7 +625,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة العاديات ١٠٠ comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381469",
@@ -629,7 +663,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة العصر ١٠٣ comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381473",
@@ -665,7 +701,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة العلق ٩٦ comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100279916",
@@ -701,7 +739,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة الفاتحة الكتاب comes from Global. A Qur'anic recitation by Chapters (Sura) by the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381476",
@@ -737,7 +777,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة القارعة ١٠١ comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381482",
@@ -773,7 +815,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة القدر ٩٧ comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381484",
@@ -809,7 +853,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة الليل ٩٢ comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-100381488",
@@ -845,7 +891,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة الهمزة ١٠٥ comes from Global. Qur'anic recitation with the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-195737742",
@@ -878,7 +926,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Adhan",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/Adhan.ogg/Adhan.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Adhan comes from Global. Adhan announcement that prayer is about to start. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-1859554",
@@ -911,7 +961,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Adhan",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/16/Adhan_wiki.oga/Adhan_wiki.oga.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Adhan wiki comes from Global. This file is a simple lecture of the fr:Adhan in arabic. (Sunni version). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-128451540",
@@ -944,7 +996,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "azan",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/Aku%E1%BA%B9_y%E1%BB%8Dy%E1%BB%8D_naira_t%E1%BB%8Dn_l%E1%BB%8D_yin_bibasi_nado_d%E1%BB%8Dn_h%C3%B9nyanh%C3%B9nyan_l%E1%BA%B9_dote_na_azan_v%C3%B2bibla_t%E1%BB%8Dn_nido_s%E1%BB%8Dgan_yin_sis%E1%BA%B9%CC%80_do_nuk%E1%BB%8Dn_w%E1%BA%B9_Wike_d%E1%BB%8D.ogg/Aku%E1%BA%B9_y%E1%BB%8Dy%E1%BB%8D_naira_t%E1%BB%8Dn_l%E1%BB%8D_yin_bibasi_nado_d%E1%BB%8Dn_h%C3%B9nyanh%C3%B9nyan_l%E1%BA%B9_dote_na_azan_v%C3%B2bibla_t%E1%BB%8Dn_nido_s%E1%BB%8Dgan_yin_sis%E1%BA%B9%CC%80_do_nuk%E1%BB%8Dn_w%E1%BA%B9_Wike_d%E1%BB%8D.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Akuẹ yọyọ naira tọn lọ yin bibasi nado dọn hùnyanhùnyan lẹ dote na azan vòbibla tọn nido sọgan yin sisẹ̀ do nukọn wẹ Wike dọ comes from Global. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-122584255",
@@ -977,7 +1031,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Azan",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/Azan.ogg/Azan.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Azan comes from Global. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-117597882",
@@ -1010,7 +1066,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "adhan",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b0/Beautiful_adhan.ogg/Beautiful_adhan.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Beautiful adhan comes from Global. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-174904245",
@@ -1041,7 +1099,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
-  "relevance_evidence": "Adhan"
+  "relevance_evidence": "Adhan",
+  "story": "Call to prayer by Sabah Fakhry comes from Global. Call to prayer (Adhan) by Sabah Fakhry. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-64282053",
@@ -1074,7 +1134,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Islam",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d2/Islamic_call_to_worship.oga/Islamic_call_to_worship.oga.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Islamic call to worship comes from Global. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-183040618",
@@ -1107,7 +1169,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "adhan",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fc/LL-Q1860_%28eng%29-Vealhurl-adhan.wav/LL-Q1860_%28eng%29-Vealhurl-adhan.wav.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "LL-Q1860 (eng)-Vealhurl-adhan comes from Global. Audio pronunciation file from the Lingua Libre project. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-81535504",
@@ -1173,7 +1237,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "ش",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Maliki_doctrine.oga/Maliki_doctrine.oga.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Maliki doctrine comes from Global. شروط صحة الأذان على مذهب الامام مالك رحمه الله. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-129009396",
@@ -1206,7 +1272,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "ṣ",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/M%E1%BA%B9he_jlo_na_d%C3%BA_a%E1%B9%A3%E1%BA%B9pat%E1%BB%8D_ot%C3%B2_t%E1%BB%8Dn_to_t%C3%B2nud%E1%BB%8Dgb%E1%BA%B9_Labour_Party_t%E1%BB%8Dn_m%E1%BA%B9_ko_yin_huhu_po_oso_po_to_v%C3%B2bibla_po_azan_awe_po.ogg/M%E1%BA%B9he_jlo_na_d%C3%BA_a%E1%B9%A3%E1%BA%B9pat%E1%BB%8D_ot%C3%B2_t%E1%BB%8Dn_to_t%C3%B2nud%E1%BB%8Dgb%E1%BA%B9_Labour_Party_t%E1%BB%8Dn_m%E1%BA%B9_ko_yin_huhu_po_oso_po_to_v%C3%B2bibla_po_azan_awe_po.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Mẹhe jlo na dú aṣẹpatọ otò tọn to tònudọgbẹ Labour Party tọn mẹ ko yin huhu po oso po to vòbibla po azan awe po comes from Global. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-127783240",
@@ -1239,7 +1307,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "azan",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/Ogb%E1%BA%B9_INEC_t%E1%BB%8Dn_ko_y%C3%AD_os%E1%BA%B9_dopo_dog%E1%BB%8D_azan_he_ji_gb%E1%BA%B9t%E1%BB%8D_l%E1%BA%B9_na_y%C3%AD_kalti_v%C3%B2bibla_t%E1%BB%8Dn_yet%E1%BB%8Dn_l%E1%BA%B9_j%E1%BA%B9.ogg/Ogb%E1%BA%B9_INEC_t%E1%BB%8Dn_ko_y%C3%AD_os%E1%BA%B9_dopo_dog%E1%BB%8D_azan_he_ji_gb%E1%BA%B9t%E1%BB%8D_l%E1%BA%B9_na_y%C3%AD_kalti_v%C3%B2bibla_t%E1%BB%8Dn_yet%E1%BB%8Dn_l%E1%BA%B9_j%E1%BA%B9.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Ogbẹ INEC tọn ko yí osẹ dopo dogọ azan he ji gbẹtọ lẹ na yí kalti vòbibla tọn yetọn lẹ jẹ comes from Global. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-82893612",
@@ -1304,7 +1374,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
-  "relevance_evidence": "Adhan"
+  "relevance_evidence": "Adhan",
+  "story": "The Adhan - Muslim Call to Prayer - Aaqib Azeez comes from Global. The Muslim call to prayer, is known as the \"Adhan\". Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-26013385",
@@ -1370,7 +1442,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Nasheed",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Jawad_Syed_-_Alhamdulilah_%28Vocal_Only_Nasheed%29.flac/Jawad_Syed_-_Alhamdulilah_%28Vocal_Only_Nasheed%29.flac.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Jawad Syed - Alhamdulilah (Vocal Only Nasheed) comes from Global and dates to Feb 13, 2025. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-200128",
@@ -1403,7 +1477,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Oud",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cf/Nl-Oud-Beijerland.ogg/Nl-Oud-Beijerland.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Nl-Oud-Beijerland comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-68284737",
@@ -1434,7 +1510,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
-  "relevance_evidence": "Oud"
+  "relevance_evidence": "Oud",
+  "story": "Oud music by Andy R. Jordan 1V2 long comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-68284744",
@@ -1467,7 +1545,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Oud",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/Oud_music_by_Andy_R._Jordan_1V2_long.wav/Oud_music_by_Andy_R._Jordan_1V2_long.wav.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Oud music by Andy R. Jordan 1V2 long comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-68284755",
@@ -1498,7 +1578,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
-  "relevance_evidence": "Oud"
+  "relevance_evidence": "Oud",
+  "story": "Oud music by Andy R. Jordan 1V2 short comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-68284746",
@@ -1531,7 +1613,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Oud",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Oud_music_by_Andy_R._Jordan_1V2_short.wav/Oud_music_by_Andy_R._Jordan_1V2_short.wav.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Oud music by Andy R. Jordan 1V2 short comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-68284735",
@@ -1562,7 +1646,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
-  "relevance_evidence": "Oud"
+  "relevance_evidence": "Oud",
+  "story": "Oud music by Andy R. Jordan 2v2 comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-68284742",
@@ -1595,7 +1681,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Oud",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Oud_music_by_Andy_R._Jordan_2v2.wav/Oud_music_by_Andy_R._Jordan_2v2.wav.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Oud music by Andy R. Jordan 2v2 comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-6145134",
@@ -1628,7 +1716,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Oud",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/77/Oud_open_Strings.ogg/Oud_open_Strings.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Oud open Strings comes from Middle East. Open strings of the Oud (common Arab tuning). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-136167319",
@@ -1661,7 +1751,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "ت",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Q191000-ar.oga/Q191000-ar.oga.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Q191000-ar comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-144301529",
@@ -1727,7 +1819,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Arab",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Arabic-scale_bayati.ogg/Arabic-scale_bayati.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Arabic-scale bayati comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-117067",
@@ -1760,7 +1854,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Arab",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Arabic-scale_el_houzam.ogg/Arabic-scale_el_houzam.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Arabic-scale el houzam comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-116888",
@@ -1793,7 +1889,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Arab",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/Arabic-scale_hijaz.ogg/Arabic-scale_hijaz.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Arabic-scale hijaz comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-117082",
@@ -1826,7 +1924,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Arab",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/Arabic-scale_jiharkah.ogg/Arabic-scale_jiharkah.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Arabic-scale jiharkah comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-116843",
@@ -1859,7 +1959,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Arab",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Arabic-scale_nawa_atar.ogg/Arabic-scale_nawa_atar.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Arabic-scale nawa atar comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-117109",
@@ -1892,7 +1994,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Arab",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/Arabic-scale_ouchairan-houssaini.ogg/Arabic-scale_ouchairan-houssaini.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Arabic-scale ouchairan-houssaini comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-116775",
@@ -1925,7 +2029,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Arab",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Arabic-scale_rast.ogg/Arabic-scale_rast.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Arabic-scale rast comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-116876",
@@ -1958,7 +2064,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Arab",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/98/Arabic-scale_saba.ogg/Arabic-scale_saba.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Arabic-scale saba comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-70785268",
@@ -2024,7 +2132,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Arab",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/73/Arabic_pronunciation_of_Arabs.ogg/Arabic_pronunciation_of_Arabs.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Arabic pronunciation of Arabs comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-79574209",
@@ -2057,7 +2167,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "arab",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/Ary-chyaDma.ogg/Ary-chyaDma.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Ary-chyaDma comes from Middle East. prononçaedje di \" chyaDma \" e-n arabe marokin. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-146785994",
@@ -2090,7 +2202,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "ل",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/99/Ary-ma_tferrez_jdik_men_j-jdian.ogg/Ary-ma_tferrez_jdik_men_j-jdian.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Ary-ma tferrez jdik men j-jdian comes from Middle East. prononçaedje d' on spot so l' \"deujhinme ivier\" ليالي حيّان e-n arabe marokin. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-123921896",
@@ -2123,7 +2237,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "و",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9b/Ary_wekha_%D9%88%D8%AE%D8%A7.ogg/Ary_wekha_%D9%88%D8%AE%D8%A7.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Ary wekha وخا comes from Middle East. prononçaedje di \" وخا \" (wekha) e-n arabe marokin. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-99085843",
@@ -2156,7 +2272,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "ي",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/Ary_yyah_%D9%8A%D9%91%D8%A7%D9%87.ogg/Ary_yyah_%D9%8A%D9%91%D8%A7%D9%87.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Ary yyah يّاه comes from Middle East. Prononçaedje do mot \" يّاه \" (weyyah) e-n arabe marokin . Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-57981767",
@@ -2189,7 +2307,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Arab",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/51/Coffee_pronunciation_in_Arabic.ogg/Coffee_pronunciation_in_Arabic.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Coffee pronunciation in Arabic comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-186083430",
@@ -2222,7 +2342,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "ش",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9f/Shukran_%D8%B4%D9%83%D8%B1%D8%A7_%28Arabic_pronunciation_by_Escuela_Internacional_de_%C3%81rabe%29.ogg/Shukran_%D8%B4%D9%83%D8%B1%D8%A7_%28Arabic_pronunciation_by_Escuela_Internacional_de_%C3%81rabe%29.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Shukran شكرا (Arabic pronunciation by Escuela Internacional de Árabe) comes from Middle East. Pronunciation of the word \"Shukran\" (thank you) in Arabic by Escuela Internacional de Árabe. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-58057693",
@@ -2255,7 +2377,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Arab",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/Tea_pronunciation_in_Arabic.ogg/Tea_pronunciation_in_Arabic.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Tea pronunciation in Arabic comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-111190142",
@@ -2320,7 +2444,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Islam"
+  "relevance_evidence": "Islam",
+  "story": "86th International Islamic Conference of Al-Jamia Al-Islamia Patiya dates to 28 November 2025. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-156538350",
@@ -2351,7 +2477,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Islam"
+  "relevance_evidence": "Islam",
+  "story": "Jamia Islamia Obaidia Nanupur's 2024 Annual Islamic Gathering 01. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-156538349",
@@ -2382,7 +2510,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Islam"
+  "relevance_evidence": "Islam",
+  "story": "Jamia Islamia Obaidia Nanupur's 2024 Annual Islamic Gathering 02. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-156581694",
@@ -2413,7 +2543,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Islam"
+  "relevance_evidence": "Islam",
+  "story": "Junaid Al Habib Addresses the 85th International Islamic Conference of Al-Jamia Al-Islamia Patiya. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-163952172",
@@ -2599,7 +2731,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Adhan"
+  "relevance_evidence": "Adhan",
+  "story": "Adhan, Great Mosque of Mecca - Jan 21, 2013. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-66096822",
@@ -2630,7 +2764,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Mosque"
+  "relevance_evidence": "Mosque",
+  "story": "Great Mosque of Mecca (video) - Mar 18, 2015. MECCA IS THE MOST BEAUTIFUL CITY IN THE WORLD !!! Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-12048270",
@@ -2692,7 +2828,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Hajj"
+  "relevance_evidence": "Hajj",
+  "story": "Hajj in1360-1361H dates to between 1939 and 1940 date QS:P,+1950-00. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-51664863",
@@ -2822,7 +2960,9 @@
   "retrieved": "2026-10-26",
   "context_note": "Historic Persian/Timurid/Ilkhanid manuscript depicting the Prophet; many Muslims avoid such images. Offer as a deeper, opt-in view with that note.",
   "region_basis": null,
-  "relevance_evidence": "Mi'raj"
+  "relevance_evidence": "Mi'raj",
+  "story": "\"The Mi'raj or The Night Flight of Muhammad on his Steed Buraq\", Folio 3v from a Bustan of Sa`di. Folio from an illustrated manuscript; Codices. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-60896298",
@@ -2856,7 +2996,9 @@
   "retrieved": "2026-10-26",
   "context_note": "Historic Persian/Timurid/Ilkhanid manuscript depicting the Prophet; many Muslims avoid such images. Offer as a deeper, opt-in view with that note.",
   "region_basis": null,
-  "relevance_evidence": "Mi'raj"
+  "relevance_evidence": "Mi'raj",
+  "story": "\"The Mi'raj or The Night Flight of Muhammad on his Steed Buraq\", Folio 3v from a Bustan of Sa`di. Folio from an illustrated manuscript; Codices. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-60896290",
@@ -2890,7 +3032,9 @@
   "retrieved": "2026-10-26",
   "context_note": "Historic Persian/Timurid/Ilkhanid manuscript depicting the Prophet; many Muslims avoid such images. Offer as a deeper, opt-in view with that note.",
   "region_basis": null,
-  "relevance_evidence": "Mi'raj"
+  "relevance_evidence": "Mi'raj",
+  "story": "\"The Mi'raj or The Night Flight of Muhammad on his Steed Buraq\", Folio 3v from a Bustan of Sa`di. Folio from an illustrated manuscript; Codices. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-81911409",
@@ -3191,7 +3335,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "zalzal"
+  "relevance_evidence": "zalzal",
+  "story": "Alzalzala. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-79119159",
@@ -3224,7 +3370,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Zalzal"
+  "relevance_evidence": "Zalzal",
+  "story": "Az-Zalzala. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-6464147",
@@ -3257,7 +3405,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Sura"
+  "relevance_evidence": "Sura",
+  "story": "Sura99. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-104247115",
@@ -3290,7 +3440,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Surah"
+  "relevance_evidence": "Surah",
+  "story": "Surah 99 of 114. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-128848070",
@@ -3323,7 +3475,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Surah"
+  "relevance_evidence": "Surah",
+  "story": "Surah Az-Zalzala. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-127566724",
@@ -3389,7 +3543,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Isra"
+  "relevance_evidence": "Isra",
+  "story": "The Angel Israfil dates to 1717 AD (1121 AH ) ( Ottoman Empire era. This folio from Walters manuscript W.659 depicts the angel Israfil. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-76614825",
@@ -3455,7 +3611,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Islam"
+  "relevance_evidence": "Islam",
+  "story": "Folio from a Aja-ib al-Makhluqat (Wonders of Creation) by al-Qazvini title QS:P1476,en:\"Folio from a Aja-ib al-Makhluqat (Wonders of Creation) by al-Qazvini \" label QS:Len,\"Folio from a Aja-ib al-Makhluqat (Wonders of Creation) by al-Qazvini \" label QS:Lde,\"Die Wunder der Schöpfung des al-Qazwînî, Szene: Der Erzengel Isrâfîl\"\". Islamic drawing of an angel blowing a horn, probably Israfel. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-31595051",
@@ -3521,7 +3679,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Qaria"
+  "relevance_evidence": "Qaria",
+  "story": "Al-Qaria. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-128659908",
@@ -3554,7 +3714,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Surah"
+  "relevance_evidence": "Surah",
+  "story": "Surah Al-Qaria. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-78843147",
@@ -3587,7 +3749,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Takwir"
+  "relevance_evidence": "Takwir",
+  "story": "At-Takwir. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-115917182",
@@ -3621,7 +3785,9 @@
   "retrieved": "2026-10-26",
   "region_basis": null,
   "relevance_evidence": "Takwir",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Chapter 81, At-Takwir (Murattal) - Recitation of the Holy Qur'an. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-129496357",
@@ -3654,7 +3820,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Surah"
+  "relevance_evidence": "Surah",
+  "story": "Surah Al-Takwir. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-128835610",
@@ -3720,7 +3888,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Qiyam"
+  "relevance_evidence": "Qiyam",
+  "story": "Al-Qiyama. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-129702687",
@@ -3753,7 +3923,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Surah"
+  "relevance_evidence": "Surah",
+  "story": "Surah Al-Qiyama. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "ia-sheik-karana-khatabeh-arabi-part-1",
@@ -4214,7 +4386,9 @@
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Oud",
-  "media_url_mp3_hint": "MP3 derivative listed in https://archive.org/metadata/ethnomite-pux-desert-storms (files[] format \"VBR MP3\")"
+  "media_url_mp3_hint": "MP3 derivative listed in https://archive.org/metadata/ethnomite-pux-desert-storms (files[] format \"VBR MP3\")",
+  "story": "Ethnomite Pux Desert Storms comes from Middle East. Internet Archive gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "ia-jamendo-477567",
@@ -4314,7 +4488,9 @@
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "سورة النّاس comes from Global. A Qur'anic recitation by Chapters (Sura) by the ruwaya of Hafs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-117086",
@@ -4347,7 +4523,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Arab",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ea/Arabic-scale_chadda_arabane.ogg/Arabic-scale_chadda_arabane.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Arabic-scale chadda arabane comes from Middle East. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-99085845",
@@ -4380,7 +4558,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "ا",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dd/Ary_ah_%D8%A7%D9%87.ogg/Ary_ah_%D8%A7%D9%87.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Ary ah اه comes from Middle East. Prononçaedje do mot \" اه \" (ah) e-n arabe marokin . Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "ia-54614-egypts-hollywood-vwr",
@@ -4570,7 +4750,9 @@
   "retrieved": "2026-10-26",
   "context_note": "Historic Persian/Timurid/Ilkhanid manuscript depicting the Prophet; many Muslims avoid such images. Offer as a deeper, opt-in view with that note.",
   "region_basis": null,
-  "relevance_evidence": "Miraj"
+  "relevance_evidence": "Miraj",
+  "story": "Miraj. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-145367681",
@@ -4694,7 +4876,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
-  "relevance_evidence": "Morocc"
+  "relevance_evidence": "Morocc",
+  "story": "L'Halqa the Art of Storytelling In Morocco comes from Morocco. A short documentary about L'Halqa:The Art of Storytelling In Morocco. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-112190763",
@@ -4850,7 +5034,9 @@
   "retrieved": "2026-10-26",
   "region_basis": null,
   "relevance_evidence": "Iran",
-  "context_note": " Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use."
+  "context_note": " Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use.",
+  "story": "Newsreel - Iran's Bride, 1959 dates to 1959. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-188720958",
@@ -4914,7 +5100,9 @@
   "region_basis": null,
   "relevance_evidence": "Palestin",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/Folk-Music-Palestinian-Sha3beyyat.ogg/Folk-Music-Palestinian-Sha3beyyat.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Folk-Music-Palestinian-Sha3beyyat. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-114031745",
@@ -4947,7 +5135,9 @@
   "region_basis": null,
   "relevance_evidence": "iran",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/Gangwondo_Arirang.wav/Gangwondo_Arirang.wav.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Gangwondo Arirang. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-114031744",
@@ -4980,7 +5170,9 @@
   "region_basis": null,
   "relevance_evidence": "iran",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6f/Gyeonggi_Arirang.wav/Gyeonggi_Arirang.wav.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Gyeonggi Arirang. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-193956951",
@@ -5115,7 +5307,9 @@
   "relevance_evidence": "Juz",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/ba/Juz_%28sas%29.wav/Juz_%28sas%29.wav.mp3",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Juz (sas). Audio kosakata bahasa Sasak (sas) pengumpulan WikiKathā di Lombok 4–6 Mei2026. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-199942391",
@@ -5149,7 +5343,9 @@
   "relevance_evidence": "Juz",
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Juz 30 (جزء عم). Juz 30, An-Naba (78) - An-Nas (112) , Hafs an Asim. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-191518249",
@@ -5183,7 +5379,9 @@
   "relevance_evidence": "Juz",
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Juz 5 (وَٱلْمُحْصَنَاتُ). Juz 5, An-Nisa v24-147, Hafs an Asim. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-191682304",
@@ -5217,7 +5415,9 @@
   "relevance_evidence": "Juz",
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Juz 6 (لَا يُحِبُّ ٱللهُ). Juz 6, An-Nisa v148-176 + Al-Ma'idah v1-v81, Hafs an Asim. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-192600794",
@@ -5251,7 +5451,9 @@
   "relevance_evidence": "Juz",
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Juz 7 (وَإِذَا سَمِعُوا). Juz 7, Al-Ma'idah v82-v120 + Al-An'am v1-v110, Hafs an Asim. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-192602002",
@@ -5285,7 +5487,9 @@
   "relevance_evidence": "Juz",
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Juz 8 (وَلَوْ أَنَّنَا). Juz 8, Al-An'am v111-165 + Al-A'raf v1-v87, Hafs an Asim. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-162948111",
@@ -5421,7 +5625,9 @@
   "relevance_evidence": "Surah",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6e/Surah_Ala_-_Abdulbari_ath-Thubaity.wav/Surah_Ala_-_Abdulbari_ath-Thubaity.wav.mp3",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Surah Ala - Abdulbari ath-Thubaity dates to 2020. Recitation of Surah al-'Ala by Sheikh Abdulbari ath-Thubaity. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-152944753",
@@ -5455,7 +5661,9 @@
   "relevance_evidence": "Surah",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/Surah_Qadr_-_Abdullah_Al_Matroud.wav/Surah_Qadr_-_Abdullah_Al_Matroud.wav.mp3",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Surah Qadr - Abdullah Al Matroud dates to 2019. Recitation of Surah Al-Qadr by Abdullah Al Matroud. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-195974777",
@@ -5488,7 +5696,9 @@
   "region_basis": null,
   "relevance_evidence": "Hadith",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f5/De-Hadith-Sammlung.ogg/De-Hadith-Sammlung.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "De-Hadith-Sammlung. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-195974779",
@@ -5521,7 +5731,9 @@
   "region_basis": null,
   "relevance_evidence": "Hadith",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/58/De-Hadith-Sammlungen.ogg/De-Hadith-Sammlungen.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "De-Hadith-Sammlungen. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-61471640",
@@ -5587,7 +5799,9 @@
   "region_basis": null,
   "relevance_evidence": "Hadith",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Hadith_Nabawi_Arabic_pronunciation.ogg/Hadith_Nabawi_Arabic_pronunciation.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Hadith Nabawi Arabic pronunciation. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-144548856",
@@ -5620,7 +5834,9 @@
   "region_basis": null,
   "relevance_evidence": "hadith",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/LL-Q150_%28fra%29-J%C3%A9r%C3%A9my-G%C3%BCnther-Heinz_J%C3%A4hnick-hadiths.wav/LL-Q150_%28fra%29-J%C3%A9r%C3%A9my-G%C3%BCnther-Heinz_J%C3%A4hnick-hadiths.wav.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "LL-Q150 (fra)-Jérémy-Günther-Heinz Jähnick-hadiths. Audio pronunciation file from the Lingua Libre project. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-107084586",
@@ -5653,7 +5869,9 @@
   "region_basis": null,
   "relevance_evidence": "hadith",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/LL-Q150_%28fra%29-Lyoko%C3%AF-hadith.wav/LL-Q150_%28fra%29-Lyoko%C3%AF-hadith.wav.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "LL-Q150 (fra)-Lyokoï-hadith. Audio pronunciation file from the Lingua Libre project. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-117861231",
@@ -5686,7 +5904,9 @@
   "region_basis": null,
   "relevance_evidence": "hadith",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/LL-Q1860_%28eng%29-Vealhurl-hadith.wav/LL-Q1860_%28eng%29-Vealhurl-hadith.wav.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "LL-Q1860 (eng)-Vealhurl-hadith. Audio pronunciation file from the Lingua Libre project. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-31819844",
@@ -5719,7 +5939,9 @@
   "region_basis": null,
   "relevance_evidence": "Hadith",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ac/Nl-Hadith.ogg/Nl-Hadith.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Nl-Hadith. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-160905124",
@@ -5752,7 +5974,9 @@
   "region_basis": null,
   "relevance_evidence": "hadith",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/51/Nl-hadith.ogg/Nl-hadith.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Nl-hadith. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-160905125",
@@ -5785,7 +6009,9 @@
   "region_basis": null,
   "relevance_evidence": "hadith",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/Nl-hadiths.ogg/Nl-hadiths.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Nl-hadiths. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-122508039",
@@ -5847,7 +6073,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "ū"
+  "relevance_evidence": "ū",
+  "story": "Amin aumi aūfi(Zuhair bin Abi salma) beginning of the poem. The Beginning of Zuhair bin Abi Salma's poem. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-122047879",
@@ -5878,7 +6106,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "ā"
+  "relevance_evidence": "ā",
+  "story": "Hl ġādr ālšʿrāʾ (ʿntrة ābn šdād) beginning of poem. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-121835625",
@@ -5909,7 +6139,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "ū"
+  "relevance_evidence": "ū",
+  "story": "Lẖūlẗ aṭlāl (ṭrfẗ bn al-ʿbd) beginning of poem. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-18620757",
@@ -5973,7 +6205,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "ā"
+  "relevance_evidence": "ā",
+  "story": "Qfā nbk (āmruʾ al-qīs) beginning of poem. تسجيل صوتي لمطلع قصيدة قفا نبك لامرئ القيس (4 أبيات). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-122440943",
@@ -6004,7 +6238,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "ṣ"
+  "relevance_evidence": "ṣ",
+  "story": "Qṣīdẗ ṣẖrẗ al-multaqi(Ibrahim naji)the beginning of poem. The beginning of the poem The meeting Rock by Ibrahim Naji. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-122334286",
@@ -6035,7 +6271,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "ʿ"
+  "relevance_evidence": "ʿ",
+  "story": "ʿīnāk ġābtā(bdr šākr al-sīāb)beginning of poem. أول ثلاثة أبيات من أنشودة المطر. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-122605181",
@@ -6066,7 +6304,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "ʿ"
+  "relevance_evidence": "ʿ",
+  "story": "ʿīnāk ġābtā nẖīlā(bdr šākr al-sīāb)beginning of poem. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-107675736",
@@ -6098,7 +6338,9 @@
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Persian",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Az Amadanam Nabud Gardun Ra Sud comes from Iran. A Persian poem recited by Reza Davari Ardakani. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-107675739",
@@ -6130,7 +6372,9 @@
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Persian",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Bahar-e Ghamangiz+intro comes from Iran. A Persian poem recited by Reza Davari Ardakani. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-107675744",
@@ -6162,7 +6406,9 @@
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Persian",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Ghasedak comes from Iran. A Persian poem recited by Reza Davari Ardakani. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-107675751",
@@ -6194,7 +6440,9 @@
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Persian",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Hekayat+intro comes from Iran. A Persian poem recited by Reza Davari Ardakani. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-107675772",
@@ -6226,7 +6474,9 @@
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Persian",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Marsieh comes from Iran. A Persian poem recited by Reza Davari Ardakani. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-107675795",
@@ -6258,7 +6508,9 @@
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Persian",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Poems Recited By Reza Davari comes from Iran. A Persian poem recited by Reza Davari Ardakani. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-107675779",
@@ -6290,7 +6542,9 @@
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Ruba'i",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Two Ruba'is comes from Iran. A Persian poem recited by Reza Davari Ardakani. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-107675787",
@@ -6322,7 +6576,9 @@
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
   "relevance_evidence": "iran",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Vah Che Birang-o Bineshan comes from Iran. A Persian poem recited by Reza Davari Ardakani. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-66216364",
@@ -6356,7 +6612,9 @@
   "relevance_evidence": "Shikwa",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Jawab_e_Shikwa.ogg/Jawab_e_Shikwa.ogg.mp3",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Jawab e Shikwa comes from South Asia. Allama lqbal's poem Jawaab-e-Shikwa recited by Jamal Nasir. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-66237532",
@@ -6390,7 +6648,9 @@
   "relevance_evidence": "Shikwa",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/Shikwa_Second_split_half.ogg/Shikwa_Second_split_half.ogg.mp3",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Shikwa Second split half comes from South Asia. Allama Iqbal's poems Shikwa, recited by Jamal Nasir (Second split half). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-66230865",
@@ -6424,7 +6684,9 @@
   "relevance_evidence": "Shikwa",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/Shikwa_first_split_half.ogg/Shikwa_first_split_half.ogg.mp3",
   "recording_date_source": "source metadata date field",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Shikwa first split half comes from South Asia. Allama Iqbal's poem Shikwa recited by Jamal Nasir (first split half). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-121870274",
@@ -6521,7 +6783,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
-  "relevance_evidence": "Indonesia"
+  "relevance_evidence": "Indonesia",
+  "story": "Gamelan slendro comes from Indonesia. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-193160333",
@@ -6554,7 +6818,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Indonesia",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e2/Jineman_Uler_Kambang_Slendro_Sanga.oga/Jineman_Uler_Kambang_Slendro_Sanga.oga.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Jineman Uler Kambang Slendro Sanga comes from Indonesia. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-193160391",
@@ -6587,7 +6853,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Indonesia",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Ketawang_Mijil_Wigaringtyas_Pelog_Nem.oga/Ketawang_Mijil_Wigaringtyas_Pelog_Nem.oga.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Ketawang Mijil Wigaringtyas Pelog Nem comes from Indonesia. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-193160433",
@@ -6620,7 +6888,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Indonesia",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/Ketawang_Retna_Wigena_Pelog_Nem.oga/Ketawang_Retna_Wigena_Pelog_Nem.oga.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Ketawang Retna Wigena Pelog Nem comes from Indonesia. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-193160544",
@@ -6653,7 +6923,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Indonesia",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/Ketawang_Sekar_Teja_Slendro_Manyura.oga/Ketawang_Sekar_Teja_Slendro_Manyura.oga.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Ketawang Sekar Teja Slendro Manyura comes from Indonesia. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-19471440",
@@ -6684,7 +6956,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
-  "relevance_evidence": "Indonesia"
+  "relevance_evidence": "Indonesia",
+  "story": "Western gamelan notation slendro comes from Indonesia. A short melody in slendro approximated using Western notation (on slentam ). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-189642917",
@@ -6717,7 +6991,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Iran",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/Calamatiano_%281924%29.ogg/Calamatiano_%281924%29.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Calamatiano (1924) comes from Iran. Greek folk song recorded in 1924 and enhanced with FFmpeg. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-88757430",
@@ -6812,7 +7088,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Santur",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Payvar-Dehlavi-Concertino_for_Santur.ogg/Payvar-Dehlavi-Concertino_for_Santur.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Payvar-Dehlavi-Concertino for Santur comes from Iran and dates to 1958. Concertino for Santur and Orchestra by Hossein Dehlavi and Faramarz Payvar. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-35357117",
@@ -6845,7 +7123,9 @@
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Santur",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/96/Santur_by_Mohammad_R_Azadehfar.wav/Santur_by_Mohammad_R_Azadehfar.wav.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Santur by Mohammad R Azadehfar comes from Iran. This is Santur (Dulcimer) Performance in Iranian style By Mohammad R Azadehfar. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-137698989",
@@ -6878,7 +7158,9 @@
   "region_basis": null,
   "relevance_evidence": "ney",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/LL-Q36163_%28kmr%29-Ebulf%C3%AEda-ney.wav/LL-Q36163_%28kmr%29-Ebulf%C3%AEda-ney.wav.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "LL-Q36163 (kmr)-Ebulfîda-ney. Audio pronunciation file from the Lingua Libre project. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-89415843",
@@ -6911,7 +7193,9 @@
   "region_basis": null,
   "relevance_evidence": "ney",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/Nl-ney.ogg/Nl-ney.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Nl-ney. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-6664541",
@@ -6944,7 +7228,9 @@
   "region_basis": null,
   "relevance_evidence": "Senegal",
   "media_url_mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/98/Wo-%C3%B1ey.ogg/Wo-%C3%B1ey.ogg.mp3",
-  "mp3_verified": "HEAD 200 audio/mpeg"
+  "mp3_verified": "HEAD 200 audio/mpeg",
+  "story": "Wo-ñey. Pronunciation of word \"ñey\" in Wolof language. Male voice. Speaker from Dakar, Senegal. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "ia-fatenah",
@@ -7448,7 +7734,9 @@
   "retrieved": "2026-10-26",
   "region_basis": null,
   "relevance_evidence": "Muslim",
-  "context_note": "Political event (US White House iftar 2018); shown as news context, not endorsement."
+  "context_note": "Political event (US White House iftar 2018); shown as news context, not endorsement.",
+  "story": "Trump Iftar Dinner 2018. Trump Hosts Iftar Dinner in Switch from Anti-Muslim Rhetoric. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-190659734",
@@ -7479,7 +7767,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Eid"
+  "relevance_evidence": "Eid",
+  "story": "Ariel View Of Eid Prayer In Keffi, Nasarawa State. This is an image with the theme \" Rites and Rituals \" from:. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-194328252",
@@ -7511,7 +7801,9 @@
   "retrieved": "2026-10-26",
   "region_basis": null,
   "relevance_evidence": "Eid",
-  "mp3_verified": "FAILED HTTP Error 404: Not Found"
+  "mp3_verified": "FAILED HTTP Error 404: Not Found",
+  "story": "Eid Adha Kashgar 2014 dates to October 5 2014. The instruction for performing the Aidil Adha prayer was announced by the mosque. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-69502026",
@@ -7573,7 +7865,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Eid"
+  "relevance_evidence": "Eid",
+  "story": "Eid al-Fitr greeting after prayer, Sennestadt, Germany - 9 September 2010. Eid al-Fitr greeting after praying, Sennestadt, Germany - 9 September 2010. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-69510275",
@@ -7635,7 +7929,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Eid"
+  "relevance_evidence": "Eid",
+  "story": "Eid al-Fitr prayer, Zenica, Bosnia and Herzegovina - 25 June 2017. Eid al-Fitr prayer, Zenica, Bosnia and Herzegovina - 25 June 2017 by IML TV. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-75118918",
@@ -7698,7 +7994,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
-  "relevance_evidence": "Ramadan"
+  "relevance_evidence": "Ramadan",
+  "story": "Jamaran Zoorkhaneh, Ramadan nights - Jul 16, 2013 comes from Iran and dates to Taken on 16 July 2013. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-117435757",
@@ -7823,7 +8121,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
-  "relevance_evidence": "ب"
+  "relevance_evidence": "ب",
+  "story": "بازار تهران - ۲ comes from Turkey. ازدحام همیشگی جمعیت در دالان‌های بازار تهران. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-150465008",
@@ -7886,7 +8186,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Mosque"
+  "relevance_evidence": "Mosque",
+  "story": "Кішки мечеті Шехзаде 06. Cats living on the territory of the Şehzade Mosque. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-180070042",
@@ -7917,7 +8219,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Mosque"
+  "relevance_evidence": "Mosque",
+  "story": "Кішки мечеті Шехзаде 07. Cats living on the territory of the Şehzade Mosque. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-180070051",
@@ -7948,7 +8252,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Mosque"
+  "relevance_evidence": "Mosque",
+  "story": "Кішки мечеті Шехзаде 08. Cats living on the territory of the Şehzade Mosque. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-198838088",
@@ -8041,7 +8347,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
-  "relevance_evidence": "Turk"
+  "relevance_evidence": "Turk",
+  "story": "02018 0934 Drehender Derwisch comes from Turkey. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-112255151",
@@ -8073,7 +8381,9 @@
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Turk",
-  "mp3_verified": "FAILED HTTP Error 404: Not Found"
+  "mp3_verified": "FAILED HTTP Error 404: Not Found",
+  "story": "Dervisci in onore di Franco Battiato a Milo comes from Turkey. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-46908184",
@@ -8136,7 +8446,9 @@
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
   "relevance_evidence": "dervish",
-  "mp3_verified": "FAILED HTTP Error 404: Not Found"
+  "mp3_verified": "FAILED HTTP Error 404: Not Found",
+  "story": "Kerengő dervisek comes from Turkey. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-195085478",
@@ -8291,7 +8603,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
-  "relevance_evidence": "ف"
+  "relevance_evidence": "ف",
+  "story": "\"Afsoongar\", 1953, Pars Film Production. \"فیلم ایرانی \"افسونگر comes from Iran. Eighth production of Pars Film Studio. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-143043385",
@@ -8322,7 +8636,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
-  "relevance_evidence": "گ"
+  "relevance_evidence": "گ",
+  "story": "\"The Luminescent Jewel\", 1967, Pars Film Production. \" گوهر شب چراغ\" comes from Iran. Producer and director Esmail Koushan Cinematographer Mahmoud Koushan Pars Film Studio, Tehran 1967. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-142522701",
@@ -8417,7 +8733,9 @@
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
   "relevance_evidence": "Iran",
-  "context_note": " Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use."
+  "context_note": " Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use.",
+  "story": "The Traveler 1974 (Iranian Film) comes from Iran. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-170952472",
@@ -8481,7 +8799,9 @@
   "retrieved": "2026-10-26",
   "region_basis": "search query (unverified)",
   "relevance_evidence": "ف",
-  "context_note": " Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use."
+  "context_note": " Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use. Public-domain status rests on Commons PD-Iran tag (Iran not in Berne); verify before commercial use.",
+  "story": "فیلم ایرانی قدیمی مرغ همسایه -Old Iranian movie comes from Iran. فیلم ایرانی قدیمی مرغ همسایه /Old Iranian movie. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-32907708",
@@ -8580,7 +8900,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Muhammad"
+  "relevance_evidence": "Muhammad",
+  "story": "Muhammad and the Angel Gabriel by Abd al-Razzak dates to 1494-05. Abd al-Razzak Абд ал-Раззак. Мирадж. Хамсе Низами. 1494. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-171885380",
@@ -8745,7 +9067,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Islam"
+  "relevance_evidence": "Islam",
+  "story": "Islam, a challenge to faith; studies on the Mohammedan religion and the needs and opportunities of the Mohammedan world from the standpoint of Christian missions. Subjects: Islam; Islam -- Muslims; Islam; Zending; Missie; Christendom. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-85520673",
@@ -8844,7 +9168,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Islam"
+  "relevance_evidence": "Islam",
+  "story": "The Latter-day saints' tour... Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-91477749",
@@ -8877,7 +9203,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Islam"
+  "relevance_evidence": "Islam",
+  "story": "The day-star of American freedom; or, The birth and early growth of toleration in the province of Maryland ... Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-96224779",
@@ -8910,7 +9238,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Islam"
+  "relevance_evidence": "Islam",
+  "story": "The religion of Islám. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-171763034",
@@ -9042,7 +9372,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "ط"
+  "relevance_evidence": "ط",
+  "story": "Al-Infitar. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-104246962",
@@ -9075,7 +9407,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Surah"
+  "relevance_evidence": "Surah",
+  "story": "Surah 82 of 114. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-104246964",
@@ -9108,7 +9442,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Surah"
+  "relevance_evidence": "Surah",
+  "story": "Surah 82 of 114 (modified). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-129496331",
@@ -9141,7 +9477,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Surah"
+  "relevance_evidence": "Surah",
+  "story": "Surah Al-Infitar. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-70707493",
@@ -9207,7 +9545,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Surah"
+  "relevance_evidence": "Surah",
+  "story": "Surah 56 of 114. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-104246252",
@@ -9240,7 +9580,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Surah"
+  "relevance_evidence": "Surah",
+  "story": "Surah 56 of 114 (modified). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-129942300",
@@ -9273,7 +9615,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "region_basis": null,
-  "relevance_evidence": "Surah"
+  "relevance_evidence": "Surah",
+  "story": "Surah Al-Waqi'a. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-110430554",
@@ -9342,7 +9686,9 @@
   "relevance_evidence": "Surah",
   "riwaya": "Hafs",
   "riwaya_source": "stated in source title/description",
-  "recording_date_source": "source metadata date field"
+  "recording_date_source": "source metadata date field",
+  "story": "Chapter 99, Surah Al-Zalzalah (Mujawwad) - Recitation of the Holy Qur'an. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "yt-dAr-jnASsG0",
@@ -9374,7 +9720,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "relevance_evidence": "ARAB",
-  "film_form": "fiction/short (curator channel)"
+  "film_form": "fiction/short (curator channel)",
+  "story": "AN ARAB FAMILY. YouTube (official channel: Omeleto Drama) gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "yt-QGq_FAIepKU",
@@ -10755,7 +11103,9 @@
   "retrieved": "2026-10-26",
   "relevance_evidence": "Iranian",
   "context_note": "Conflict/activism subject; documentary context. Some scenes may distress younger viewers.",
-  "film_form": "documentary"
+  "film_form": "documentary",
+  "story": "The Ghosts of the Iranian Revolution | I Am Trying to Remember | The New Yorker Documentary. YouTube (official channel: The New Yorker) gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "yt-NR0uIPXY37g",
@@ -11372,7 +11722,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "relevance_evidence": "Bangladesh",
-  "film_form": "documentary"
+  "film_form": "documentary",
+  "story": "Debunking Fake News in Bangladesh | Witness Documentary. YouTube (official channel: Al Jazeera English) gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "yt-xX3CoZelh6Q",
@@ -13269,7 +13621,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "\"The Elephant Clock\", Folio from a Book of the Knowledge of Ingenious Mechanical Devices by al-Jazari dates to dated A.H. 715/A.D. 1315. Folio from an illustrated manuscript; Codices. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-105990610",
@@ -13327,7 +13681,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Al-Jazari Automata 1205. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-8669792",
@@ -13356,7 +13712,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Al-jazari robots. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-29191316",
@@ -13414,7 +13772,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "\"Figure for Use at Drinking Parties\", Folio from a Book of the Knowledge of Ingenious Mechanical Devices by al-Jazari dates to dated A.H. 715/A.D. 1315. Folio from an illustrated manuscript; Codices. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-60942010",
@@ -13443,7 +13803,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "\"Figure for Use at Drinking Parties\", Folio from a Book of the Knowledge of Ingenious Mechanical Devices by al-Jazari dates to dated A.H. 715/A.D. 1315. Folio from an illustrated manuscript; Codices. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-57855755",
@@ -13472,7 +13834,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "\"The Elephant Clock\", Folio from a Book of the Knowledge of Ingenious Mechanical Devices by al-Jazari label QS:Len,\"\"The Elephant Clock\", Folio from a Book of the Knowledge of Ingenious Mechanical Devices by al-Jazari\" label QS:Lar,\"ساعة الفيل، مخطوطٌ من كتاب الجامع بين العلم والعمل النافع في صناعة الحيل\" dates to dated A.H. 715/A.D. 1315. Folio from an illustrated manuscript; Codices. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-57855747",
@@ -13501,7 +13865,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "\"The Elephant Clock\", Folio from a Book of the Knowledge of Ingenious Mechanical Devices by al-Jazari dates to dated A.H. 715/A.D. 1315. Folio from an illustrated manuscript; Codices. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-131599682",
@@ -13530,7 +13896,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ismail al jazari. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-4039338",
@@ -13617,7 +13985,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Islamic Astrolabe (28417763470). Gallery of Islamic Art, Pergamon Museum, Berlin, Germany. Complete indexed photo collection at WorldHistoryPics.com. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-71497811",
@@ -13646,7 +14016,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Islamic Astrolabe Doha. Islamic Astrolabe, Doha Museum of Islamic Art. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-146575355",
@@ -13762,7 +14134,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Kitāb-al-Daraj-page0013 dates to before 1193. Kitāb al-Daraj, by Ibn Shākir, Aḥmad ibn Mūsá. Treatise on astrology. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-159235798",
@@ -13878,7 +14252,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Qanat Quartier buildings and a bridge. Townhouses overlooking the Persian Gulf in the Qanat Quartier section of The Pearl-Qatar. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-102437877",
@@ -13907,7 +14283,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Qanat cross section Persian. برش عرضی قنات. بر اساس File:Qanat_cross_section.svg. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-78296639",
@@ -13936,7 +14314,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Qanat persian dates to ۳ تیر ۱۳۹۱. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-6075668",
@@ -13965,7 +14345,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Qanat technology diffusion. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-75367728",
@@ -13994,7 +14376,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Qasabeh Qanat 139701030 02. قنات جهانی قصبه میزبان مسافران نوروزی. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-8666767",
@@ -14052,7 +14436,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Dolat Abad Garden - Pavilion 01 dates to Taken on 23 October 2016. Pavilion in the Dolat Abad Garden, Yazd, Iran. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-54781527",
@@ -14081,7 +14467,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Iran - Yazd - Fahadan - Badgir (Windcatcher) - panoramio dates to Taken on 11 November 2011. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-52080297",
@@ -14110,7 +14498,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Shish Badgiri, Yazd, Irán, 2016-09-21, DD 01. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-56167772",
@@ -14139,7 +14529,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Yazd - Badgir - Windcatcher - panoramio dates to Taken on 11 November 2011. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-76611992",
@@ -14168,7 +14560,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Istanbul Museum of the History of Science and Technology in Islam 9254. Model of a water clock in Fez (Morocco), from 1362. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-76611993",
@@ -14197,7 +14591,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Istanbul Museum of the History of Science and Technology in Islam 9255. Detail of a model of a water clock in Fez (Morocco), from 1362. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-76611996",
@@ -14313,7 +14709,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ulugh Beg Observatory 01. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-142098469",
@@ -14342,7 +14740,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ulugh Beg Observatory 02. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-142098366",
@@ -14371,7 +14771,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ulugh Beg Observatory Museum 02. Ulugh Beg Observatory Museum, Samarkand , Uzbekistan. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-78895442",
@@ -14400,7 +14802,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ulugh Beg Observatory sectional view. Sectional view of the Ulugh Beg Observatory in Samarkand, Uzbekistan. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-175893487",
@@ -14429,7 +14833,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Обсерватория Улугбека, Самарканд (Ulugh Beg Observatory, Samarkand). Ulugh Beg Observatory, with the Museum behind, Samarkand, Uzbekistan. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-144727036",
@@ -14574,7 +14980,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Kitab suwar al-kawakib al-thabita (Book of the Images of the Fixed Stars) of al-Sufi. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-49917822",
@@ -14632,7 +15040,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Celestial Globe with Stand, Iran, 1144-45, Louvre. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-107985656",
@@ -14661,7 +15071,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Khalili Collection Islamic Art sci 0021.5. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-107985694",
@@ -14690,7 +15102,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Khalili Collection Islamic Art sci 0285.1. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-133063050",
@@ -14806,7 +15220,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Bust of Ibn Battuta at Ibn Battuta museum dates to 10 March 2022 (according to Exif data). Bust of Ibn Battuta at Ibn Battuta museum, Tangier, Morocco. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-110810101",
@@ -14835,7 +15251,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ibn Battuta, Sayr mulhimah min al-Sharq wa-al-Gharb dates to 1961. An imaginary sketch representing Muslim explorer and traveller Ibn Battuta. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-26591910",
@@ -14864,7 +15282,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ibn Battuta 1349-1354. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-2954513",
@@ -14922,7 +15342,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "The travels of Ibn Batuta : translated from the abridged Arabic manuscript copies, preserved in the Public Library of Cambridge. with notes, illustrative of the history, geography, botany, antiquities, &c. occurring throughout the work. Translation of: Mulakhkhas rihlat Ibn Battutah by Muhammad ibn Fath Allah al-Bayluni. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-4926814",
@@ -15067,7 +15489,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Pharmacy, canon of avicenna manuscript. A Pharmacy, Canon of Avicenna manuscript, Ferrera, 15th century. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-756411",
@@ -15244,7 +15668,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Bimaristan Argun 01. Plaque of Bimaristan Argun, Aleppo, Syria. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-11759794",
@@ -15273,7 +15699,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Bimaristan Argun 03. Courtyard of Bimaristan Argun, Aleppo, Syria. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-11759878",
@@ -15302,7 +15730,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Bimaristan Argun fountain. Şadirvan fountain in the Bimaristan Argun, Aleppo, Syria. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-90668630",
@@ -15331,7 +15761,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Bimaristans of Maghreb-ar. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-90674409",
@@ -15360,7 +15792,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Bimaristans of Maghreb-en. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-36690643",
@@ -15389,7 +15823,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Bench hammam, Alhambra, Granada, Spain. Sitting places in the hammam in the Nasrid palaces, Granada, Andalusia, Spain. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-12125518",
@@ -15418,7 +15854,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Kavarna Turkish bath Hammam dates to 2010. The recently renovated Turkish bath in Kavarna, Bulgaria. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-80460412",
@@ -15563,7 +16001,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "18th c. Ottoman Bellows Topkapi Kitchen. 18th century Ottoman bralzer bellows, Topkapı Palace Kitchens Museum. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-140544561",
@@ -15592,7 +16032,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "18th century Ottoman coffee Grinder Topkapi Kitchen. 18th century Ottoman coffee grinder, Topkapı Palace Kitchens Museum. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-165001444",
@@ -15621,7 +16063,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "An Ottoman kitchen utensil inside the Topkapi Palace Museum. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-87143384",
@@ -15679,7 +16123,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Utensils Used in the Ottoman Kitchen Gold & Silver. Palace kitchens of the Topkapı Palace. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-121329192",
@@ -15795,7 +16241,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Chicken Veg Tagine Rabat Nov25 A7CR 08908. Chicken and vegetable tagine , served on a platter, by Ameena Layachi, Rabat, Morocco. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-40530064",
@@ -15824,7 +16272,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Moroccan Tagine (17349530745). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-130145608",
@@ -15853,7 +16303,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Moroccan food tagine. A Moroccan meal famous in the world is the Moroccan tagine with meat. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-35889604",
@@ -15882,7 +16334,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Tajines in a pottery shop in Morocco. This is an image of food from. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-179924234",
@@ -15911,7 +16365,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Traditional Moroccan Tagine Pot with Blue Patterns. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-3309613",
@@ -15940,7 +16396,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Palestinian women grinding coffee beans dates to 1905. 1905 Stereoscope. Original caption reads: The native mode of grinding coffee , women . Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-92327329",
@@ -15969,7 +16427,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Turkish Coffee with Crema. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-10908252",
@@ -16027,7 +16487,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Turkish coffee in Jajce. Turkish coffee in Jajce, Bosnia and Herzegovina. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-164969418",
@@ -16056,7 +16518,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ottoman kaftan Inside of Topkapi palace Museum 2. Ottoman kaftan Inside of Topkapi palace Museum : Ceremonial kaftan, 16th century. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-164969417",
@@ -16085,7 +16549,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ottoman kaftan Inside of Topkapi palace Museum 3. Ottoman kaftan Inside of Topkapi palace Museum : 16th century. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-164969422",
@@ -16114,7 +16580,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ottoman kaftan Inside of Topkapi palace Museum 4. Ottoman kaftan Inside of Topkapi palace Museum : : 15th century. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-164969424",
@@ -16143,7 +16611,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ottoman kaftan Inside of Topkapi palace Museum 5. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-164969428",
@@ -16172,7 +16642,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ottoman kaftan Inside of Topkapi palace Museum 9. Ottoman kaftan Inside of Topkapi palace Museum : Ceremonial kaftan, 16th century. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-57850371",
@@ -16201,7 +16673,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Dagger with Scabbard dates to 1605–27. Indian, Mughal; Dagger with scabbard; Daggers. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-57850374",
@@ -16230,7 +16704,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Dagger with Scabbard dates to 1605–27. Indian, Mughal; Dagger with scabbard; Daggers. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-57850376",
@@ -16259,7 +16735,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Dagger with Scabbard dates to 1605–27. Indian, Mughal; Dagger with scabbard; Daggers. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-58746397",
@@ -16288,7 +16766,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Helmet. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-58746395",
@@ -16317,7 +16797,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Helmet. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-22584702",
@@ -16346,7 +16828,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Silk Velvet Textile title QS:P1476,en:\"Silk Velvet Textile\" label QS:Len,\"Silk Velvet Textile\" dates to (1600 - 1700). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-22575548",
@@ -16375,7 +16859,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Silk Velvet Textile title QS:P1476,en:\"Silk Velvet Textile\" label QS:Len,\"Silk Velvet Textile\" dates to (1600 - 1700). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-150967109",
@@ -16433,7 +16919,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ulu Camii - Kaaba Curtain - Kabe Örtüsü (2). The Mamluk Kaaba Curtain in the Bursa Grand Mosque, Turkey. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-65212593",
@@ -16462,7 +16950,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ulu Camii - Kaaba Curtain - Kabe Örtüsü (3). The Mamluk Kaaba Curtain in the Bursa Grand Mosque, Turkey. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-65212598",
@@ -16491,7 +16981,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Ulu Camii - Kaaba Curtain - Kabe Örtüsü (4). The Mamluk Kaaba Curtain in the Bursa Grand Mosque, Turkey. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-65212597",
@@ -16549,7 +17041,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Game of polo - miniature from the manuscript of the Divan by Hafez. label QS:Len,\"Game of polo - miniature from the manuscript of the Divan by Hafez.\" label QS:Lpl,\"Gra w polo - miniatura z rękopisu Divan Hafeza.\" label QS:Lfr,\"Jeu de polo - miniature du manuscrit du Divan par Hafez.\". Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-28959292",
@@ -16607,7 +17101,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "A Zurkhaneh, Tehran - 1973 dates to 1973. A Zurkhaneh, Tehran - 1973 (certainly Fahmideh Zurkhaneh). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-23334884",
@@ -16636,7 +17132,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Shahid Fahmideh Zurkhaneh dates to Taken on 28 August 2011. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-121900608",
@@ -16665,7 +17163,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Zurkhaneh pictogram. Pictogram of Zurkhaneh. This is unofficial sample picture. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-121901014",
@@ -16694,7 +17194,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Zurkhaneh pictogram. Pictogram of Zurkhaneh. This is unofficial sample picture. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-146241987",
@@ -16723,7 +17225,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Aiming Stone at Okmeydani, Istanbul. Aiming Stone of Sultan Mahmud II at Okmeydani, Istanbul (today Keçecipîrî Neighbourhood, Ufuk Sokak). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-93884934",
@@ -16752,7 +17256,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Horn Archery Thumb Ring. It's a Horn Archery Thumb Ring for Traditional Archery. Inspired by Ottoman Empire. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-198718265",
@@ -16781,7 +17287,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Target stone of Selim III. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-5877965",
@@ -16839,7 +17347,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Topkapı Target stone of Selim III in 2017 01 2043. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-47263480",
@@ -16868,7 +17378,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Kırkpınar 2008. Kırkpınar Yağlı Güreşleri 2008 yılı kürsü görüntüsü. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-33504288",
@@ -16926,7 +17438,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Yagli gures3 dates to 6 August 2006 (according to Exif data). Yağlı güreş tournament in Istanbul on 6th August 2006. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-25772012",
@@ -16955,7 +17469,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Yagli gures5. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-146967194",
@@ -17013,7 +17529,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Grand Bazaar, Istanbul 2. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-148539521",
@@ -17042,7 +17560,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Grand Bazaar, Istanbul 3. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-148539560",
@@ -17071,7 +17591,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Grand Bazaar, Istanbul 6. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-93981980",
@@ -17100,7 +17622,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Roof of the qom grand bazaar, qom, iran. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-38102138",
@@ -17129,7 +17653,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Sample of Tee - Grand Bazaar. Tea sold in the Grand Bazaar, Istanbul. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-7886702",
@@ -17245,7 +17771,11 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Khalili Collection Islamic Art av-1071. Gold Dinar (Umayyad Post-Reform Type), 697 AD. Islamic coins came in gold (dinars), silver (dirhams) and copper (fals), and the Islamic world soon developed its own style of coin instead of copying older empires.",
+  "story_sources": [
+   "https://en.wikipedia.org/wiki/Islamic_coinage"
+  ]
  },
  {
   "id": "wmc-12267678",
@@ -17274,7 +17804,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Umayyad Mosque, Damascus. View of the Umayyad Mosque , Damascus, Syria. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-142668792",
@@ -17303,7 +17835,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Alla Kouli Khan caravanserai 02. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-66989467",
@@ -17332,7 +17866,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Golshan Caravanserai, Kerman 01. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-73434468",
@@ -17390,7 +17926,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "کاروانسرای روستای در. عکس از کاروانسرای شاه عباسی روستای در. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-27422049",
@@ -17419,7 +17957,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Bazaar-of-Khan-el-Khalili-Cairo. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-1535873",
@@ -17448,7 +17988,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Khan El Khalili bazar. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-95366892",
@@ -17535,7 +18077,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "The Khan el-Khalili market in Cairo, Egypt (2743501345). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-168481387",
@@ -17738,7 +18282,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "\"The Tortoise\", Folio from an `Aja'ib al-Makhluqat (Wonders of Creation) of Qazwini dates to second half 16th century. Folio from an illustrated manuscript; Codices. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-60931203",
@@ -17767,7 +18313,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "\"The Tortoise\", Folio from an `Aja'ib al-Makhluqat (Wonders of Creation) of Qazwini dates to second half 16th century. Folio from an illustrated manuscript; Codices. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-127411560",
@@ -17854,7 +18402,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Takvim-i Vekayi - 0070 dates to 1249. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-136101540",
@@ -17883,7 +18433,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Takvim-i Vekayi - 0475 dates to 1268. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-82260732",
@@ -17941,7 +18493,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Takvim-i Vekayi - 3727 dates to 1338. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-136062476",
@@ -17970,7 +18524,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Takvim-i Vekayi - 4529 dates to 1340. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-449157",
@@ -17999,7 +18555,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "FirstSurahKoran. The first Sura Al-Fātiha from a Qur'an manuscript by Hattat Aziz Efendi . Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-4002717",
@@ -18086,7 +18644,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Thr muze art islam 29 dates to 2006-04. Quran, Mohaqaq script, signé par Emâd al-Mahalati, XVth century. National Iran Museum, Tehran . Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-194509558",
@@ -18231,7 +18791,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Persian children of the royal family; the narrative of an English tutor at the court of H. I. H. Zillus-Sultán, G. C. S. I. Subjects: Iran -- Court and courtiers; Iran -- Social life and customs. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-31379523",
@@ -18347,7 +18909,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Generalife Garden Alhambra 02 2014. Yard of Cypresses ( Patio del Ciprés de la Sultana ). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-31635518",
@@ -18376,7 +18940,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Generalife Garden Alhambra 03 2014. Yard of Cypresses ( Patio del Ciprés de la Sultana ). Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-31613028",
@@ -18405,7 +18971,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Generalife Garden Alhambra 2014. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-36710498",
@@ -18434,7 +19002,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Tower of the Princesses, Alhambra, from Generalife gardens, Granada, Spain. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-35764945",
@@ -18463,7 +19033,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Kings-Seat-Shalimar-Bagh-Lahore. This is a photo of a monument in Pakistan identified as the. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-91703203",
@@ -18550,7 +19122,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Terrace-to-Mid-Level-Shalimar-Bagh-Lahore. This is a photo of a monument in Pakistan identified as the. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-61370780",
@@ -18579,7 +19153,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Arabic Wikipedia Day. Wikimedia DC and Arabic Wikipedia Day. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-67285940",
@@ -18608,7 +19184,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Arabic Wikipedia Day 7333. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-193358405",
@@ -18637,7 +19215,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "World Cup Arabic Edit-a-thon Poster. Arabic Wikipedia WorldCup 2026 Edit-a-thon poster. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-163887904",
@@ -18666,7 +19246,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "Bissap-seche-hibiscus-seche-transformation-jus-bissap-realisatrice-ramadan-bine-wiki-loves-africa-fan-club. This is an image with the theme \" Farm to Plate \" from:. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "wmc-163966239",
@@ -18695,7 +19277,9 @@
   "guild_job": null,
   "deep_tags": [],
   "verification_status": "candidate - unreviewed",
-  "retrieved": "2026-10-26"
+  "retrieved": "2026-10-26",
+  "story": "De-la-cannette-a-la-marmite-realisatrice-ramadan-bine-wiki-loves-africa-cote-divoire-fan-club. This is an image with the theme \" Farm to Plate \" from:. Wikimedia Commons gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "yt-3H6w--lVHlQ",
@@ -18791,7 +19375,9 @@
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
   "relevance_evidence": "Pakistan",
-  "film_form": "fiction/short (curator channel)"
+  "film_form": "fiction/short (curator channel)",
+  "story": "Mabrook (Drama) | India Vs. Pakistan. On Eid. In America...WTF. YouTube (official channel: Film Shortage) gives little more than this, so open the source to look closely and judge for yourself.",
+  "story_thin": true
  },
  {
   "id": "yt-FUMY7JDy5Dg",
