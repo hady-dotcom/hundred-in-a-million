@@ -528,9 +528,7 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5",
-  "story": "Parker Bilal (Jamal Mahjoub): the Makana Investigations comes from Cairo and dates to 2012. Bloomsbury (publisher) gives little more than this, so open the source to look closely and judge for yourself.",
-  "story_thin": true
+  "batch": "round5"
  },
  {
   "id": "lit-sw-kassir-airplane",
@@ -567,9 +565,7 @@
   "retrieved": "2026-10-26",
   "batch": "round5",
   "embed_url": "https://www.youtube-nocookie.com/embed/UIAm1g_Vgn0",
-  "media_url": null,
-  "story": "The Muslim on the airplane (TEDxMileHighWomen) comes from Denver and dates to 2017. YouTube - TEDx Talks gives little more than this, so open the source to look closely and judge for yourself.",
-  "story_thin": true
+  "media_url": null
  },
  {
   "id": "lit-sw-akram",
@@ -606,9 +602,7 @@
   "retrieved": "2026-10-26",
   "batch": "round5",
   "embed_url": "https://www.youtube-nocookie.com/embed/kxMpVR4ZYME",
-  "media_url": null,
-  "story": "Poetry Performance (TEDxWolverhampton) comes from Wolverhampton and dates to 2013. YouTube - TEDx Talks gives little more than this, so open the source to look closely and judge for yourself.",
-  "story_thin": true
+  "media_url": null
  },
  {
   "id": "lit-sw-boonaa-daughter",
@@ -645,9 +639,7 @@
   "retrieved": "2026-10-26",
   "batch": "round5",
   "embed_url": "https://www.youtube-nocookie.com/embed/u0YwnSVxxxU",
-  "media_url": null,
-  "story": "Letter To My Daughter comes from Toronto and dates to 2015. YouTube - Boonaa Mohammed gives little more than this, so open the source to look closely and judge for yourself.",
-  "story_thin": true
+  "media_url": null
  },
  {
   "id": "lit-sw-boonaa-prophet",
@@ -684,9 +676,7 @@
   "retrieved": "2026-10-26",
   "batch": "round5",
   "embed_url": "https://www.youtube-nocookie.com/embed/iJaDMxn-B4c",
-  "media_url": null,
-  "story": "Prophet (pbuh) Among Us! comes from Texas and dates to 2018. YouTube - ICNA gives little more than this, so open the source to look closely and judge for yourself.",
-  "story_thin": true
+  "media_url": null
  },
  {
   "id": "lit-sw-haydar-hijabi",
@@ -723,9 +713,7 @@
   "retrieved": "2026-10-26",
   "batch": "round5",
   "embed_url": "https://www.youtube-nocookie.com/embed/XOX9O_kVPeo",
-  "media_url": null,
-  "story": "Hijabi (Wrap My Hijab) comes from Cambridge, Massachusetts and dates to 2017. YouTube - mona haydar gives little more than this, so open the source to look closely and judge for yourself.",
-  "story_thin": true
+  "media_url": null
  },
  {
   "id": "lit-sw-sulaiman-ancestor",
@@ -761,9 +749,7 @@
   "retrieved": "2026-10-26",
   "batch": "round5",
   "embed_url": "https://www.youtube-nocookie.com/embed/pfTTRsaYSDU",
-  "media_url": null,
-  "story": "You will be someone's ancestor. Act accordingly. comes from United States and dates to 2017. YouTube - Amir Sulaiman - Topic gives little more than this, so open the source to look closely and judge for yourself.",
-  "story_thin": true
+  "media_url": null
  },
  {
   "id": "lit-sw-hammad-ted",
@@ -800,11 +786,7 @@
   "retrieved": "2026-10-26",
   "batch": "round5",
   "embed_url": "https://embed.ted.com/talks/suheir_hammad_poems_of_war_peace_women_power",
-  "media_url": null,
-  "story": "Suheir Hammad: \"What I Will\" and \"break (clustered)\" (TEDWomen 2010) comes from New York and dates to 2010. Lustre gets its metallic shine from a thin film of silver and copper fired onto the glaze, a technique potters in Iraq developed in the 800s.",
-  "story_sources": [
-   "https://en.wikipedia.org/wiki/Lustreware"
-  ]
+  "media_url": null
  },
  {
   "id": "lit-sw-boonaa-site",
@@ -839,8 +821,6 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5",
-  "story": "Boonaa Mohammed: official site (poet, storyteller, filmmaker) comes from Toronto and dates to 2007. Poet's own site gives little more than this, so open the source to look closely and judge for yourself.",
-  "story_thin": true
+  "batch": "round5"
  }
 ]
