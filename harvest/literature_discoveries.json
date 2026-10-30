@@ -33,7 +33,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "Ayesha at Last by Uzma Jalaluddin is a modern Muslim retelling of Pride and Prejudice, set in a Toronto mosque community. A would-be poet teaching to pay off her debts meets a conservative suitor, with family and marriage expectations all around. Jane Austen, relocated.",
+  "story_sources": [
+   "https://www.penguinrandomhouse.com/books/599656/ayesha-at-last-by-uzma-jalaluddin/"
+  ]
  },
  {
   "id": "lit-hana-khan",
@@ -69,7 +73,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "Hana Khan Carries On is a 2021 Toronto rom-com by Uzma Jalaluddin, inspired by You've Got Mail. A young woman's family runs a halal restaurant, a rival opens across the street, and there's an anonymous radio correspondent. An old movie plot, given a new neighbourhood.",
+  "story_sources": [
+   "https://www.penguinrandomhouse.com/books/672984/hana-khan-carries-on-by-uzma-jalaluddin/"
+  ]
  },
  {
   "id": "lit-unmarriageable",
@@ -105,7 +113,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "Unmarriageable (2019) by Soniah Kamal retells Jane Austen's Pride and Prejudice during wedding season in 2000s Pakistan: marriage, class, and what a family expects of its daughters. The same questions, two centuries and a continent apart.",
+  "story_sources": [
+   "https://www.penguinrandomhouse.com/books/567399/unmarriageable-by-soniah-kamal/"
+  ]
  },
  {
   "id": "lit-jalaluddin-author",
@@ -140,7 +152,12 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "Where to start with Uzma Jalaluddin, the Toronto author: Ayesha at Last, Hana Khan Carries On and the novella Much Ado About Nada. Her author page lists them all. Three books, each borrowing a famous love story and moving it to Toronto.",
+  "story_sources": [
+   "https://www.penguinrandomhouse.com/authors/2189608/uzma-jalaluddin/"
+  ],
+  "story_thin": true
  },
  {
   "id": "lit-ms-marvel-marvel",
@@ -175,7 +192,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "Kamala Khan, Ms. Marvel, is a Pakistani-American teenage superhero from Jersey City, created by G. Willow Wilson and Sana Amanat in a 2014 series. This is her official page on Marvel's own website. A Muslim girl from New Jersey, given her own comic.",
+  "story_sources": [
+   "https://www.marvel.com/characters/ms-marvel-kamala-khan/in-comics/profile"
+  ]
  },
  {
   "id": "lit-persepolis",
@@ -210,7 +231,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "Persepolis (2000) is Marjane Satrapi's graphic memoir of growing up in Iran. It shows the Islamic Revolution and what followed through a child's eyes, drawn in black and white. A big history, told by a kid.",
+  "story_sources": [
+   "https://www.penguinrandomhouse.com/books/160890/persepolis-by-marjane-satrapi/"
+  ]
  },
  {
   "id": "lit-big-time",
@@ -246,7 +271,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "We Are Big Time (2022) by Hena Khan, illustrated by Safiya Zerrougui, is a middle-grade graphic novel inspired by a true story: a new girl joins an all-girls basketball team whose players all wear hijab. A team that plays the way it dresses.",
+  "story_sources": [
+   "https://www.penguinrandomhouse.com/books/678287/we-are-big-time-by-hena-khan-illustrated-by-safiya-zerrougui/"
+  ]
  },
  {
   "id": "lit-nayra-djinn",
@@ -281,7 +310,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "Nayra and the Djinn (2020) by Iasmin Omar Ata is about a Muslim American girl with a strict family and a djinn who helps her find who she is. A spirit from old stories, helping a modern kid.",
+  "story_sources": [
+   "https://www.penguinrandomhouse.com/books/623012/nayra-and-the-djinn-by-iasmin-omar-ata/"
+  ]
  },
  {
   "id": "lit-huda-f-are-you",
@@ -316,7 +349,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "Huda F Are You? (2021) is a funny, honest graphic novel about identity by Huda Fahmy, who also made Yes, I'm Hot in This and Huda F Cares? Comedy that asks who you are.",
+  "story_sources": [
+   "https://www.penguinrandomhouse.com/books/663680/huda-f-are-you-a-graphic-novel-by-huda-fahmy/"
+  ]
  },
  {
   "id": "lit-piece-by-piece",
@@ -352,7 +389,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "Piece by Piece is a 2022 middle-grade graphic novel by Priya Huq. In 2002, a girl, Nisrin, chooses to wear the hijab, and after a hate-crime incident she leans on her faith, friends and family. It includes that hate-crime scene and is written for ages 10 and up.",
+  "story_sources": [
+   "https://www.abramsbooks.com/product/piece-by-piece-the-story-of-nisrins-hijab_9781419740190/"
+  ]
  },
  {
   "id": "lit-zaydo-potato",
@@ -387,7 +428,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "Zaydo Potato (2020) by Randa Taftaf is a comic series for 6-to-8-year-olds. A Muslim superhero and his sidekick show generosity and Islamic values. A superhero whose superpower is being good.",
+  "story_sources": [
+   "https://www.meccabooks.com/products/zaydo-potato-a-muslim-superhero"
+  ]
  },
  {
   "id": "lit-throne-crescent-moon",
@@ -422,7 +467,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "Throne of the Crescent Moon (2012) is Saladin Ahmed's epic fantasy inspired by the Arabian Nights, with a ghul-hunter, a khalif and a rebel prince. It was a finalist for the Hugo and Nebula awards and won the Locus award for best first novel.",
+  "story_sources": [
+   "https://www.penguinrandomhouse.com/books/309569/throne-of-the-crescent-moon-by-saladin-ahmed/"
+  ]
  },
  {
   "id": "lit-alif-unseen",
@@ -457,7 +506,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "Alif the Unseen (2012) by G. Willow Wilson is a fantasy thriller of the Arab Spring era. A hacker is hunted by a state surveillance force, and there is a forbidden book written by the jinn. Computer code and ancient spirits in the same story.",
+  "story_sources": [
+   "https://groveatlantic.com/book/alif-the-unseen/"
+  ]
  },
  {
   "id": "lit-unquiet-dead",
@@ -493,7 +546,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "The Unquiet Dead (2015) by Ausma Zehanat Khan is the first Esa Khattak and Rachel Getty police mystery. It opens in Toronto with a death linked to the Bosnian war. A Canadian crime that leads back to a war across the world.",
+  "story_sources": [
+   "https://www.ausmazehanatkhan.com/the-unquiet-dead.html"
+  ]
  },
  {
   "id": "lit-parker-bilal",
@@ -528,7 +585,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "Parker Bilal is the pen name of Jamal Mahjoub, a Sudanese-British novelist. His Makana Investigations are detective novels set in Cairo, starring Makana, a former Sudanese policeman. A detective who is an outsider in his own city.",
+  "story_sources": [
+   "https://www.bloomsbury.com/us/author/parker-bilal/"
+  ]
  },
  {
   "id": "lit-sw-kassir-airplane",
@@ -565,7 +626,12 @@
   "retrieved": "2026-10-26",
   "batch": "round5",
   "embed_url": "https://www.youtube-nocookie.com/embed/UIAm1g_Vgn0",
-  "media_url": null
+  "media_url": null,
+  "story": "The Muslim on the Airplane is a 2017 spoken-word performance by Amal Kassir on the TEDxMileHighWomen stage, from the official TEDx channel. The record says little more, so this one is thin.",
+  "story_sources": [
+   "https://www.youtube.com/watch?v=UIAm1g_Vgn0"
+  ],
+  "story_thin": true
  },
  {
   "id": "lit-sw-akram",
@@ -602,7 +668,12 @@
   "retrieved": "2026-10-26",
   "batch": "round5",
   "embed_url": "https://www.youtube-nocookie.com/embed/kxMpVR4ZYME",
-  "media_url": null
+  "media_url": null,
+  "story": "Bilal Akram performed poetry at TEDxWolverhampton in 2013. The video is on the official TEDx YouTube channel. The record says little more, so this one is thin. The words are in the performance.",
+  "story_sources": [
+   "https://www.youtube.com/watch?v=kxMpVR4ZYME"
+  ],
+  "story_thin": true
  },
  {
   "id": "lit-sw-boonaa-daughter",
@@ -639,7 +710,12 @@
   "retrieved": "2026-10-26",
   "batch": "round5",
   "embed_url": "https://www.youtube-nocookie.com/embed/u0YwnSVxxxU",
-  "media_url": null
+  "media_url": null,
+  "story": "Letter to My Daughter is a 2015 spoken-word piece by Toronto poet Boonaa Mohammed, posted on his own channel. A father's words, written as a letter and spoken aloud. The record says little more, so this one is thin.",
+  "story_sources": [
+   "https://www.youtube.com/watch?v=u0YwnSVxxxU"
+  ],
+  "story_thin": true
  },
  {
   "id": "lit-sw-boonaa-prophet",
@@ -676,7 +752,12 @@
   "retrieved": "2026-10-26",
   "batch": "round5",
   "embed_url": "https://www.youtube-nocookie.com/embed/iJaDMxn-B4c",
-  "media_url": null
+  "media_url": null,
+  "story": "Prophet (pbuh) Among Us! is a 2018 spoken-word piece by Boonaa Mohammed, performed at the ICNA-MAS convention and posted on the convention's own channel. The record says little more, so this one is thin.",
+  "story_sources": [
+   "https://www.youtube.com/watch?v=iJaDMxn-B4c"
+  ],
+  "story_thin": true
  },
  {
   "id": "lit-sw-haydar-hijabi",
@@ -713,7 +794,12 @@
   "retrieved": "2026-10-26",
   "batch": "round5",
   "embed_url": "https://www.youtube-nocookie.com/embed/XOX9O_kVPeo",
-  "media_url": null
+  "media_url": null,
+  "story": "Hijabi (Wrap My Hijab) is the 2017 debut single and video by poet-rapper Mona Haydar, posted on her own channel. A song about the hijab, sung by someone who wears one. The record says little more.",
+  "story_sources": [
+   "https://www.youtube.com/watch?v=XOX9O_kVPeo"
+  ],
+  "story_thin": true
  },
  {
   "id": "lit-sw-sulaiman-ancestor",
@@ -749,7 +835,12 @@
   "retrieved": "2026-10-26",
   "batch": "round5",
   "embed_url": "https://www.youtube-nocookie.com/embed/pfTTRsaYSDU",
-  "media_url": null
+  "media_url": null,
+  "story": "\"You will be someone's ancestor. Act accordingly.\" That is the title of a 2017 spoken-word piece by Amir Sulaiman, from his official artist channel. One sentence that makes you think about the people who come after you.",
+  "story_sources": [
+   "https://www.youtube.com/watch?v=pfTTRsaYSDU"
+  ],
+  "story_thin": true
  },
  {
   "id": "lit-sw-hammad-ted",
@@ -786,7 +877,11 @@
   "retrieved": "2026-10-26",
   "batch": "round5",
   "embed_url": "https://embed.ted.com/talks/suheir_hammad_poems_of_war_peace_women_power",
-  "media_url": null
+  "media_url": null,
+  "story": "At TEDWomen 2010, Suheir Hammad performed two spoken-word poems, What I Will and break (clustered), about war and peace, women and power. They are on TED's own site with a transcript, so you can read along.",
+  "story_sources": [
+   "https://www.ted.com/talks/suheir_hammad_poems_of_war_peace_women_power"
+  ]
  },
  {
   "id": "lit-sw-boonaa-site",
@@ -821,6 +916,11 @@
   "gated": false,
   "verification_status": "candidate - unreviewed",
   "retrieved": "2026-10-26",
-  "batch": "round5"
+  "batch": "round5",
+  "story": "Boonaa Mohammed is a Toronto spoken-word poet, storyteller and filmmaker. His official site has his biography, books and performances. The record says little more, so this one is thin.",
+  "story_sources": [
+   "https://www.boonaa.com/"
+  ],
+  "story_thin": true
  }
 ]
