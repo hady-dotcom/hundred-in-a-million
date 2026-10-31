@@ -256,3 +256,6 @@ input[type=checkbox][role=switch]:checked{background:#34c759}input[type=checkbox
 .card .media img{max-height:125cqw;object-fit:cover;object-position:50% 50%}
 .card .media img.tall{aspect-ratio:4/5;height:auto;max-height:none}
 .hero{max-height:min(60vh,125vw);object-fit:contain}
+
+/* reels: 16:9 frame, poster, fallback */
+.reel video,.reel iframe{height:auto;aspect-ratio:16/9;max-height:100%}.reel .rfail{width:100%;display:grid;place-items:center;gap:16px}.reel .rfail img{width:100%;aspect-ratio:16/9;object-fit:cover}
