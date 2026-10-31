@@ -250,3 +250,9 @@ input[type=checkbox][role=switch]:checked{background:#34c759}input[type=checkbox
 /* generated-illustration covers */
 .genlbl{position:absolute;right:8px;top:8px;z-index:2;padding:3px 8px;border-radius:99px;font:600 10px/1.4 var(--font);letter-spacing:.01em;color:#fff;background:rgba(20,20,24,.42);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);pointer-events:none}
 .ht{position:relative}.card img.gen{aspect-ratio:4/5;object-fit:cover}.herowrap.gen{cursor:default}.herowrap.gen .hero{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+
+/* never let a tall or thin photo run for screens: at most 4:5 portrait (1.25x width), centred crop */
+.card .media{container-type:inline-size;overflow:hidden}
+.card .media img{max-height:125cqw;object-fit:cover;object-position:50% 50%}
+.card .media img.tall{aspect-ratio:4/5;height:auto;max-height:none}
+.hero{max-height:min(60vh,125vw);object-fit:contain}
