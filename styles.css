@@ -246,3 +246,7 @@ input[type=checkbox][role=switch]:checked{background:#34c759}input[type=checkbox
 .ubolts path.bm{stroke:#ffd27a!important;stroke-width:22!important;opacity:0;filter:blur(8px)}
 .ubolts path.bg{stroke:#ffb347!important;stroke-width:70!important;filter:blur(26px)}
 @keyframes ulight{0%{stroke-dashoffset:46;opacity:0}10%{opacity:1}62%{stroke-dashoffset:-100;opacity:.95}80%{opacity:0}100%{stroke-dashoffset:-100;opacity:0}}
+
+/* generated-illustration covers */
+.genlbl{position:absolute;right:8px;top:8px;z-index:2;padding:3px 8px;border-radius:99px;font:600 10px/1.4 var(--font);letter-spacing:.01em;color:#fff;background:rgba(20,20,24,.42);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);pointer-events:none}
+.ht{position:relative}.card img.gen{aspect-ratio:4/5;object-fit:cover}.herowrap.gen{cursor:default}.herowrap.gen .hero{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
