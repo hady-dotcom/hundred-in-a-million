@@ -150,7 +150,7 @@ const bolts=[];const boltGroup=new THREE.Group();scene.add(boltGroup);
 const wp=(o)=>o.getWorldPosition(new THREE.Vector3());
 function jag(a,b,depth,disp,out){if(depth===0){out.push(b.clone());return}const m=a.clone().lerp(b,.5);const d=b.clone().sub(a);const len=d.length();const r=new THREE.Vector3(Math.random()-.5,Math.random()-.5,Math.random()-.5).normalize().multiplyScalar(len*disp*(Math.random()*.9+.3));m.add(r);jag(a,m,depth-1,disp,out);jag(m,b,depth-1,disp,out)}
 function boltLine(pts,col,op){const g=new THREE.BufferGeometry().setFromPoints(pts);const m=new THREE.LineBasicMaterial({color:col,transparent:true,opacity:op,blending:THREE.AdditiveBlending,depthWrite:false});m.userData.o=op;return new THREE.Line(g,m)}
-function spawnBolt(){const si=sciBodies[Math.floor(Math.random()*18)],pl=planets[Math.floor(Math.random()*20)];const A=new THREE.Vector3(0,0,0),B=wp(si),Cc=wp(pl);
+function spawnBolt(si,pl){si=si||sciBodies[Math.floor(Math.random()*18)];pl=pl||planets[Math.floor(Math.random()*20)];const A=new THREE.Vector3(0,0,0),B=wp(si),Cc=wp(pl);
  const dir=B.clone().normalize();A.copy(dir.multiplyScalar(2.6));
  const grp=new THREE.Group();const chain=Math.random()<.7?[A,B,Cc]:[A,B];
  for(let k=0;k<chain.length-1;k++){const pts=[chain[k].clone()];jag(chain[k],chain[k+1],6,.17,pts);
@@ -173,7 +173,16 @@ function focusBody(o){const ud=o.userData;const w=wp(o);const L=LAYERS[ud.layer]
  const keep=ud.ring||ud.layer==='core'?null:o;flyTo(pos,w,2.2,keep);follow=keep;controls.autoRotate=false;showCard(ud)}
 function frameFor(on){const w=innerWidth,h=innerHeight;if(on&&w>900){camera.setViewOffset(w,h,Math.min(220,w*.14),0,w,h)}else if(on&&h>w){camera.setViewOffset(w,h,0,h*.17,w,h)}else if(on&&h<500){camera.setViewOffset(w,h,w*.2,0,w,h)}else camera.clearViewOffset()}
 function showCard(ud){$('#legend').classList.remove('open');frameFor(true);const L=LAYERS[ud.layer];$('#card').hidden=false;$('#cardK').textContent=ud.ring?L.k:L.k+' · '+L.h;$('#cardH').textContent=ud.name;$('#cardT').textContent=ud.ring||ud.layer==='core'?L.t:ud.desc;
- const go=$('#cardGo');if(ud.field&&(ud.layer==='cult'||ud.layer==='guild'||ud.layer==='path')){go.hidden=false;go.href='index.html#/field/'+encodeURIComponent(ud.field)}else go.hidden=true}
+ const go=$('#cardGo');const lk=cardLink(ud);if(lk){go.hidden=false;go.href=lk[0];go.textContent=lk[1]}else go.hidden=true}
+function cardLink(ud){const E=encodeURIComponent;if(ud.ring)return null;
+ if(ud.layer==='cult')return['app.html#/field/'+E(ud.field),'See '+ud.field+' entries'];
+ if(ud.layer==='path')return['app.html#/field/'+E(ud.field)+'/'+E(ud.name),'See '+ud.name+' in '+ud.field];
+ if(ud.layer==='guild')return ud.field?['app.html#/field/'+E(ud.field),'See '+ud.field+' entries']:['app.html','Explore entries'];
+ if(ud.layer==='sci')return /^(To confirm|Other sciences)$/.test(ud.name)?null:['app.html?q='+E(ud.name.replace(/^Usul al-/,'')),'Find '+ud.name+' entries'];
+ if(ud.layer==='core')return['#names','See what the Names created'];return null}
+// soft fade when leaving for the entries
+document.addEventListener('click',e=>{const a=e.target.closest('a[href^="app.html"]');if(!a||e.metaKey||e.ctrlKey||RM)return;e.preventDefault();document.body.classList.add('leaving');setTimeout(()=>location.href=a.href,260)});
+$('#cardGo').addEventListener('click',e=>{if($('#cardGo').getAttribute('href')==='#names'){e.preventDefault();openNames()}});
 $('#cardX').onclick=()=>{$('#card').hidden=true;frameFor(false);follow=null;flyTo(homePos(),new THREE.Vector3());controls.autoRotate=!RM};
 
 // ---------- picking / HUD ----------
@@ -223,7 +232,7 @@ function updateLabels(){const w=innerWidth,h=innerHeight;for(const L of labels){
   const up=camera.up.clone();v.addScaledVector(new THREE.Vector3(0,-1,0).applyQuaternion(camera.quaternion),L.off*-1);
   const p=v.clone().project(camera);const behind=p.z>1;let o=behind?0:1;
   const fadeFar=1-THREE.MathUtils.smoothstep(d,L.far*.7,L.far),fadeNear=THREE.MathUtils.smoothstep(d,.6,1.4);o*=fadeFar*fadeNear;
-  if(follow&&L.info===coreHit.userData)o=0;if(hover&&L.info===hover.userData)o=1;
+  if(follow&&L.info===coreHit.userData)o=0;if(NM.lit){if(NM.lit.has(L.info))o=behind?0:Math.max(o,.95);else if(L.el.classList[1]!=='core')o*=.3}if(hover&&L.info===hover.userData)o=1;
   if(o<0.02){L.el.style.opacity=0;L._r=null;continue}
   const s=THREE.MathUtils.clamp(14/d,.62,1.7)*L.base;const x=(p.x*.5+.5)*w,y=(-p.y*.5+.5)*h;
   L.el.style.opacity=o.toFixed(2);L.el.style.transform=`translate(${x.toFixed(1)}px,${y.toFixed(1)}px) translate(-50%,0) scale(${s.toFixed(3)})`;L.el.classList.toggle('hl',!!hover&&L.info===hover.userData);if(!L.w){L.w=L.el.offsetWidth;L.h=L.el.offsetHeight}L._r=[x-L.w*s/2,y,L.w*s,L.h*s,d]}
@@ -239,13 +248,13 @@ function frame(){const dt=Math.min(clock.getDelta(),.05);const t=clock.elapsedTi
  {const f=follow&&follow.parent;if(f&&f.userData.tile===follow&&!f.userData.moon){const q=f.quaternion.clone();f.lookAt(camera.position);const q2=f.quaternion.clone();f.quaternion.copy(q).slerp(q2,RM?1:.12)}}
  core.userData.calli.quaternion.copy(camera.quaternion);halo.material.opacity=.2+.03*Math.sin(t*1.3);
  // keep science tiles facing outward-ish & readable
- if(boltOn){boltTimer-=dt;if(boltTimer<=0){const n=1+Math.floor(Math.random()*3);for(let i=0;i<n;i++)spawnBolt();boltTimer=.12+Math.random()*.45}}
+ if(boltOn){boltTimer-=dt;if(boltTimer<=0){const n=1+Math.floor(Math.random()*3);for(let i=0;i<n;i++)spawnBolt(...nmPick());boltTimer=NM.sel?.08+Math.random()*.25:.12+Math.random()*.45}}
  for(let i=bolts.length-1;i>=0;i--){const b=bolts[i];b.t+=dt;const k=b.t/b.life;const fl=(Math.sin(b.t*90+b.flick)>-.2?1:.25)*(1-k);b.grp.children.forEach(c=>{if(c.material){c.material.opacity=c.material.userData.o*fl}else if(c.isLight)c.intensity=40*fl});
   if(k>=1){boltGroup.remove(b.grp);b.grp.traverse(c=>{c.geometry?.dispose();c.material?.dispose()});bolts.splice(i,1)}}
  if(fly){if(fly.obj){fly.t1.copy(wp(fly.obj));fly.p1.copy(fly.t1).add(fly.off)}fly.t+=dt/fly.d;const e=ease(Math.min(fly.t,1));camera.position.lerpVectors(fly.p0,fly.p1,e);controls.target.lerpVectors(fly.t0,fly.t1,e);if(fly.t>=1)fly=null}
  else if(follow){const w=wp(follow);const delta=w.clone().sub(controls.target);controls.target.add(delta);camera.position.add(delta)}
  {const lc=new THREE.Vector3();for(const k in rings){const Rg=rings[k];lc.copy(camera.position);Rg.spin.worldToLocal(lc);const d=Math.hypot(Math.hypot(lc.x,lc.z)-Rg.L.r,lc.y);const f=THREE.MathUtils.smoothstep(d,4.5,10);Rg.band.material.opacity=Rg.bo*f;Rg.tor.material.opacity=Rg.to*f;Rg.sheen.material.opacity=Rg.so*f}}
- updThreads();controls.update();composer.render();updateLabels();
+ nmTick(dt);updThreads();controls.update();composer.render();updateLabels();
  frames++;fpsT+=dt;if(fpsT>1){window.__fps=Math.round(frames/fpsT);frames=0;fpsT=0;if(t>5&&bloom.enabled&&!KEEPBLOOM){slow=window.__fps<28?slow+1:0;if(slow>=3){bloom.enabled=false;window.__bloomOff=true}}}
  requestAnimationFrame(frame)}
 addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();if(!follow&&!fly&&$('#card').hidden&&!tour.on)camera.position.copy(homePos());frameFor(!$('#card').hidden||tour.on);renderer.setSize(innerWidth,innerHeight);composer.setSize(innerWidth,innerHeight)});
@@ -254,3 +263,40 @@ controls.touches={ONE:THREE.TOUCH.ROTATE,TWO:THREE.TOUCH.DOLLY_PAN};controls.scr
 hud(null);requestAnimationFrame(frame);setInterval(()=>{if(!hover)hud(null);const nl=nearestLayer();document.querySelectorAll('#legend button').forEach(b=>b.classList.toggle('on',LAYERS[b.dataset.k].h===nl));const k=Object.keys(LAYERS).find(k=>LAYERS[k].h===nl);$('#pillT').textContent=nl;$('#pillDot').style.background=k?LAYERS[k].c:'#f5f5f7'},700);
 if(new URLSearchParams(location.search).get('tour')==='1')setTimeout(tourStart,600);
 window.__U={bloom,homePos,pathBodies,guildBodies,focusRing,tourStart,tourShow,tourEnd,focusBody,planets,sciBodies,coreHit,camera,controls,flyTo,THREE,labels,get flying(){return !!fly},get boltCount(){return bolts.length},get tour(){return tour}};
+
+// ---------- the 99 Names: what they created (optional, provisional) ----------
+const NM={on:false,sel:null,t:0,lit:null,auto:null,data:null};
+fetch('data/names_links.json').then(r=>r.json()).then(d=>NM.data=d).catch(()=>{});
+const nmPanel=document.createElement('section');nmPanel.id='names';nmPanel.className='names glass';nmPanel.hidden=true;nmPanel.setAttribute('aria-label','What the Names created');document.body.appendChild(nmPanel);
+const wave=new THREE.Mesh(new THREE.RingGeometry(.96,1,160),new THREE.MeshBasicMaterial({color:new THREE.Color(2.2,1.7,.9),transparent:true,opacity:0,side:THREE.DoubleSide,blending:THREE.AdditiveBlending,depthWrite:false}));wave.rotation.x=Math.PI/2;scene.add(wave);
+planets.forEach(g=>{const atm=g.children.find(c=>c.isSprite);g.userData.atm=atm;g.userData.ao=atm.material.opacity});
+pathBodies.forEach(g=>{g.userData.atm=g.children.find(c=>c.isSprite)});
+function nmLinks(n){const F=new Set(n.fields);const S=new Set(n.sciences.includes('*')?SCI.filter(x=>!/^(To confirm|Other sciences)$/.test(x)):n.sciences);return{F,S}}
+function nmPick(){if(!NM.sel)return[];const{F,S}=NM.sel.L;const ps=planets.filter(g=>F.has(g.userData.planet.userData.field)),ss=sciBodies.filter(g=>S.has(g.userData.tile.userData.name));const r=a=>a.length?a[Math.floor(Math.random()*a.length)]:undefined;return[r(ss),r(ps)]}
+function nmHref(n){return'app.html?fields='+encodeURIComponent(n.fields.join(','))+'&name='+encodeURIComponent(n.tr)}
+function openNames(){if(!NM.data)return;$('#card').hidden=true;frameFor(false);follow=null;NM.on=true;document.body.classList.add('nm');
+ const D=NM.data;nmPanel.innerHTML=`<header><div><p class="k">The 99 Names · provisional</p><h2>What the Names created</h2></div><button class="gbtn" id="nmX">Close</button></header><div class="nmsel" id="nmSel" aria-live="polite"></div><div class="nmgrid" role="listbox" aria-label="The 99 Names">${D.names.map((n,i)=>`<button role="option" data-i="${i}" aria-label="${n.tr}, ${n.en}"><b lang="ar" dir="rtl">${n.ar}</b><span>${n.tr}</span></button>`).join('')}</div><p class="nmnote">An optional, gentle map, awaiting scholarly review. <a href="app.html#/deeper/D001">Go deeper</a></p>`;
+ nmPanel.hidden=false;nmFrame();nmPanel.querySelectorAll('.nmgrid button').forEach(b=>b.onclick=()=>{stopAuto();nmSelect(+b.dataset.i)});$('#nmX').onclick=closeNames;
+ const hp=homePos();flyTo(hp.clone().multiplyScalar(1.04).add(new THREE.Vector3(0,hp.length()*.12,0)),new THREE.Vector3(),2.2);controls.autoRotate=!RM;
+ const feat=D.featured.map(t=>D.names.findIndex(n=>n.tr===t)).filter(i=>i>=0);let k=0;nmSelect(feat[0]);
+ if(!RM)NM.auto=setInterval(()=>{k=(k+1)%feat.length;nmSelect(feat[k])},3400)}
+function nmFrame(){const w=innerWidth,h=innerHeight;if(h>w&&w<=700)camera.setViewOffset(w,h,0,h*.24,w,h);else if(h<500)camera.setViewOffset(w,h,-w*.22,0,w,h);else camera.setViewOffset(w,h,-Math.min(200,w*.14),0,w,h)}
+addEventListener('resize',()=>{if(NM.on)nmFrame()});
+function stopAuto(){clearInterval(NM.auto);NM.auto=null}
+function nmSelect(i){const n=NM.data.names[i];NM.sel={n,L:nmLinks(n)};NM.t0=performance.now();const{F,S}=NM.sel.L;
+ const lit=new Set();planets.forEach(g=>{const u=g.userData.planet.userData;if(F.has(u.field))lit.add(u)});sciBodies.forEach(g=>{const u=g.userData.tile.userData;if(S.has(u.name))lit.add(u)});lit.add(coreHit.userData);NM.lit=lit;
+ nmPanel.querySelectorAll('.nmgrid button').forEach(b=>{const on=+b.dataset.i===i;b.classList.toggle('on',on);b.setAttribute('aria-selected',on);if(on)b.scrollIntoView({block:'nearest',inline:'nearest',behavior:RM?'auto':'smooth'})});
+ $('#nmSel').innerHTML=`<div class="nmh"><b lang="ar" dir="rtl">${n.ar}</b><div><h3>${n.tr}</h3><small>${n.en}</small></div></div><p>${n.line}</p><div class="nmchips">${n.fields.map(f=>`<i>${f}</i>`).join('')}${[...S].length>6?'<i class="s">All the sciences</i>':[...S].map(x=>`<i class="s">${x}</i>`).join('')}</div><a class="gbtn pri" id="nmGo" href="${nmHref(n)}">See the entries</a>`;
+ for(let b=0;b<4;b++)spawnBolt(...nmPick())}
+function closeNames(){stopAuto();NM.on=false;NM.sel=null;NM.lit=null;nmPanel.hidden=true;document.body.classList.remove('nm');camera.clearViewOffset();flyTo(homePos(),new THREE.Vector3())}
+const _lp=(a,b,k)=>a+(b-a)*k;
+function nmTick(dt){const k=Math.min(1,dt*(RM?60:5));const s=NM.sel,t=s?(performance.now()-NM.t0)/1000:0;
+ // outward reveal: sciences, then planets, then pathway moons
+ const on=(d)=>!s||t>(RM?0:d);
+ planets.forEach(g=>{const u=g.userData.planet.userData,L=s&&s.L.F.has(u.field)&&on(.45);const dim=s&&!L&&on(.45);
+  g.scale.setScalar(_lp(g.scale.x,L?1.32:1,k));g.userData.planet.material.emissiveIntensity=_lp(g.userData.planet.material.emissiveIntensity,L?.55:dim?.015:.05,k);g.userData.atm.material.opacity=_lp(g.userData.atm.material.opacity,L?.95:dim?.08:g.userData.ao,k)});
+ sciBodies.forEach(g=>{const L=s&&s.L.S.has(g.userData.tile.userData.name)&&on(.15),dim=s&&!L&&on(.15);g.scale.setScalar(_lp(g.scale.x,L?1.3:dim?.88:1,k));g.children[1].material.opacity=_lp(g.children[1].material.opacity,L?1:dim?.12:.55,k)});
+ pathBodies.forEach(g=>{const f=FIELDS[g.userData.parent][0],L=s&&s.L.F.has(f)&&on(.8),dim=s&&!L&&on(.8);g.scale.setScalar(_lp(g.scale.x,L?1.5:1,k));g.userData.moon.material.emissiveIntensity=_lp(g.userData.moon.material.emissiveIntensity,L?.7:dim?.03:.14,k);g.userData.atm.material.opacity=_lp(g.userData.atm.material.opacity,L?.95:dim?.1:.42,k)});
+ threads.material.opacity=_lp(threads.material.opacity,s?.5:.22,k);
+ if(s&&!RM&&t<1.6){const r=2.6+(LAYERS.path.r+2)*ease(t/1.6);wave.scale.setScalar(r);wave.material.opacity=.55*(1-t/1.6)}else wave.material.opacity=0}
+Object.assign(window.__U,{openNames,closeNames,nmSelect,get names(){return NM}});
