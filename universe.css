@@ -67,3 +67,28 @@ body{transition:opacity .26s ease}body.leaving{opacity:0}
 body.nm .legend,body.nm .hud,body.nm #ringPill{opacity:0;pointer-events:none;transition:opacity .4s}
 @media (max-width:700px){.names{left:0;right:0;top:auto;width:auto;height:min(56vh,480px);bottom:0;border-radius:22px 22px 0 0;padding:14px 14px max(10px,env(safe-area-inset-bottom))}.names h2{font-size:20px}.nmgrid{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:96px;grid-template-rows:repeat(2,56px);flex:none;overflow-x:auto;overflow-y:hidden;mask-image:none}.nmh>b{font-size:28px}.nmsel{margin:8px 0}.nmsel p{margin:6px 0;font-size:14px}}
 @media (max-height:500px){.names{left:max(12px,env(safe-area-inset-left));right:auto;width:min(380px,50vw);top:max(8px,env(safe-area-inset-top));height:auto;bottom:max(8px,env(safe-area-inset-bottom));border-radius:22px}.nmgrid{grid-auto-flow:row;grid-template-columns:repeat(3,1fr);grid-template-rows:none;overflow:auto;flex:1}}
+
+.sky{position:fixed;z-index:30;right:16px;top:74px;width:min(400px,calc(100vw - 32px));max-height:calc(100vh - 160px);overflow:auto;border-radius:24px;padding:18px 18px 14px;color:#f5f5f7}
+.sky .k{margin:0;font:600 12px var(--font);letter-spacing:.06em;text-transform:uppercase;color:#ffd27a}
+.sky h2{margin:2px 0 0;font:700 22px/1.15 var(--font);letter-spacing:-.01em}
+.skyhd{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.skyloc{margin:4px 0 0;font:13px var(--font);color:rgba(235,235,245,.6)}
+#skyMoon{width:64px;height:64px;flex:none;filter:drop-shadow(0 0 14px rgba(255,236,200,.35))}
+.skygrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0 10px}.skygrid div{background:rgba(255,255,255,.06);border-radius:14px;padding:9px 10px}.skygrid b{display:block;font:600 17px var(--font)}.skygrid small{font:12px var(--font);color:rgba(235,235,245,.6)}
+.skypr{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.skypr span{font:500 12.5px var(--font);padding:5px 9px;border-radius:99px;background:rgba(255,255,255,.07);color:rgba(235,235,245,.85)}.skypr span.nx{background:#ffd27a;color:#1c1c1e}
+.skyf{list-style:none;margin:0;padding:0;display:grid;gap:10px}.skyf li{display:grid;grid-template-columns:64px 1fr;gap:12px;align-items:start;background:rgba(255,255,255,.05);border-radius:16px;padding:10px}
+.skyf img{width:64px;height:64px;object-fit:cover;border-radius:12px}.skyf a{color:#fff;text-decoration:none}.skyf b{display:block;font:600 15px/1.25 var(--font)}.skyf .why{display:block;margin:3px 0 6px;font:13px/1.35 var(--font);color:rgba(235,235,245,.7)}
+.skyf blockquote{margin:0;padding-left:10px;border-left:2px solid #ffd27a;font:italic 13px/1.4 var(--font);color:rgba(245,245,247,.9)}.skyf cite{display:block;font:normal 600 11.5px var(--font);color:#ffd27a;margin-top:3px}.skyf cite a{color:#ffd27a}
+.skyn{margin:12px 0 8px;font:11.5px/1.4 var(--font);color:rgba(235,235,245,.5)}
+@media (max-width:640px){.sky{left:10px;right:10px;width:auto;top:auto;bottom:10px;max-height:62vh;border-radius:22px}}
+#skyBtn{white-space:nowrap}.sk-s{display:none}@media (max-width:640px){.sk-l{display:none}.sk-s{display:inline}body.skyon #hud{opacity:0;pointer-events:none}}
+@media (max-width:640px){#skyBtn .sk-s{display:inline!important}#skyBtn .sk-l{display:none!important}body.skyon .hud,body.skyon #hud{display:none!important}}
+
+.sky{top:auto;bottom:20px;right:20px;width:340px;max-height:min(520px,calc(100vh - 120px));padding:14px 14px 10px;border-radius:22px;transform-origin:100% 100%;animation:skyIn .28s cubic-bezier(.2,.9,.3,1.1)}
+.sky[hidden]{display:none!important}
+@keyframes skyIn{from{opacity:0;transform:scale(.92) translateY(8px)}to{opacity:1;transform:none}}
+.sky h2{font-size:18px}#skyMoon{width:46px;height:46px}.skygrid{margin:10px 0 8px;gap:6px}.skygrid div{padding:7px 8px}.skygrid b{font-size:15px}
+.skyf li{grid-template-columns:48px 1fr;padding:8px;gap:10px}.skyf img{width:48px;height:48px}.skyf b{font-size:14px}.skyn{margin:8px 0 4px}
+.skyx{position:absolute;top:10px;right:10px;width:28px;height:28px;border-radius:50%;border:0;background:rgba(255,255,255,.12);color:#fff;font:600 15px var(--font);cursor:pointer}
+.sky .skyhd{padding-right:30px}.sky .row{display:none}
+@media (max-width:640px){.sky{left:8px;right:8px;bottom:8px;width:auto;max-height:56vh;border-radius:24px;transform-origin:50% 100%}
+ body.skyon #ringPill,body.skyon .legend,body.skyon #hud{display:none!important}}
