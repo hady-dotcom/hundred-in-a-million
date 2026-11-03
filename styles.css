@@ -283,3 +283,15 @@ body{animation:pagein .45s ease-out both}
 .vtrow{margin:0 0 6px -8px}
 img.pers{object-position:50% 18%!important}
 .herowrap.gen .hero.pers{aspect-ratio:auto;max-height:64vh;object-fit:contain;background:#111}
+
+.ordrow{display:flex;align-items:center;gap:12px;margin:4px 16px 10px;flex-wrap:wrap}
+.oseg{display:inline-flex;padding:2px;border-radius:10px;background:rgba(118,118,128,.14)}
+.oseg button{border:0;background:transparent;font:600 13px var(--font);color:var(--ink2);padding:6px 16px;border-radius:8px;cursor:pointer;transition:background .2s,box-shadow .2s}
+.oseg button[aria-checked=true]{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.14),0 0 0 .5px rgba(0,0,0,.04)}
+#ordHint{font:12.5px var(--font);color:var(--ink3,#8e8e93)}
+.nbadge{position:absolute;left:10px;top:10px;display:inline-flex;align-items:center;gap:4px;padding:3px 8px 3px 6px;border-radius:99px;background:rgba(255,255,255,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#0a84ff;font:600 11px var(--font);letter-spacing:.02em}
+.nbadge svg{width:11px;height:11px;stroke:currentColor;stroke-width:2.2;fill:none;stroke-linecap:round}
+
+/* r36 law + english */
+.card .b small.orig,.detail small.orig,small.orig{display:block;font-size:12px;line-height:1.35;color:var(--ink3,#8a8a8e);margin:2px 0 6px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.card .b p.why{font-size:13px;line-height:1.4;color:var(--ink2);border-left:2px solid var(--accent,#0a84ff);padding-left:8px;margin:6px 0 4px}
