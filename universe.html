@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 <meta name="theme-color" content="#000"><title>The Learning Universe · 1 (hundred) in a million</title>
-<link rel="stylesheet" href="universe.css">
+<link rel="stylesheet" href="universe.css"><link rel="stylesheet" href="learn.css">
 <script>(function(){var q=new URLSearchParams(location.search);if(q.get('field')||q.get('q'))location.replace('app.html'+location.search)})()</script>
 <script type="importmap">{"imports":{"three":"./vendor/three.module.min.js","three/addons/":"./vendor/addons/"}}</script>
 </head><body>
@@ -19,5 +19,5 @@
 <section class="sky glass" id="sky" hidden aria-live="polite" role="dialog" aria-label="Sky of the day"><button class="skyx" id="skyX2" aria-label="Close"><svg viewBox="0 0 24 24" width="12" height="12" style="stroke:currentColor;stroke-width:2.4;fill:none;stroke-linecap:round"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div class="skyhd"><div><p class="k">Sky of the day</p><h2 id="skyH">Today’s sky</h2><p class="skyloc" id="skyLoc"></p></div><svg id="skyMoon" viewBox="-50 -50 100 100" aria-hidden="true"></svg></div><div class="skygrid" id="skyGrid"></div><div class="skypr" id="skyPr"></div><ol class="skyf" id="skyF"></ol><p class="skyn">Astronomy only: real positions computed on your device. No horoscopes, no fortunes. Prayer times use the ISNA method; check your local mosque.</p><div class="row"><button class="gbtn" id="skyX">Close</button></div></section>
 <div class="legend glass" id="legend" role="menu" aria-label="Rings"></div>
 <noscript><p style="color:#fff;padding:40px">The Learning Universe needs JavaScript and WebGL.</p></noscript>
-<script type="module" src="universe.js"></script>
+<script src="learn.js"></script><script type="module" src="universe.js"></script>
 </body></html>

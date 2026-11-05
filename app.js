@@ -160,6 +160,7 @@ function card(r,i){const c=PALETTE[[...r.field].reduce((a,ch)=>a+ch.charCodeAt(0
 function more(){if(shown>=VIEW.length)return;const f=document.createDocumentFragment(),t=document.createElement('template');
   t.innerHTML=VIEW.slice(shown,shown+BATCH).map(card).join('');f.append(t.content);$('#feed').append(f);shown+=BATCH}
 document.addEventListener('click',e=>{
+  const ne=e.target.closest('[data-next-entry]');if(ne){e.preventDefault();e.stopImmediatePropagation();window.NEXT&&NEXT.openById(ne.dataset.nextEntry);return}
   const l=e.target.closest('[data-like]');if(l){e.stopPropagation();toggleLike(l.dataset.like);document.querySelectorAll(`[data-like="${CSS.escape(l.dataset.like)}"]`).forEach(b=>{b.classList.toggle('on',likes.has(l.dataset.like));b.textContent=likes.has(l.dataset.like)?'♥':'♡'});return}
   const c=e.target.closest('.card');if(c){if(c.classList.contains('gated')){REVEALED.add(c.dataset.id);c.classList.remove('gated');c.querySelector('.gate')?.remove();return}go('#/d/'+c.dataset.id);return}
   const n=e.target.closest('[data-go]');if(n){go(n.dataset.go);return}
@@ -202,6 +203,7 @@ function rawCounts(r){const sc=c=>String(c.scope||'');const hits=COUNTS.filter(c
 function detail(r){if(!r)return'<div class="pad">Not found</div>';markOpened(r.id);const s=r.sources[0]||{};const saved=saves[r.id];
  return `${r.image?`<div class="herowrap" onmousemove="loupe(event,this)" onclick="openZoom('${esc(r.id)}')"><img class="hero" src="${esc(r.image.src)}" data-fb="${esc(r.cover)}" alt="${esc(r.title)}" onerror="fbImg(this)"><div class="loupe" style="background-image:url('${esc(hires(r.image.src))}')"></div><span class="zoomhint">⤢ Tap to zoom</span></div>`:`<div class="herowrap gen"><img class="hero${(r.media==="person"||r.voice_tag==="creator")?" pers":""}" src="${esc(r.cover)}" alt="">${covLbl(r,1)}</div>`}<div class="pad">${vtag(r)?`<div class="vtrow">${vtag(r)}</div>`:''}<h2>${esc(r.title)}</h2>${r.orig_title?`<small class="orig">Original title: ${esc(r.orig_title)}</small>`:''}<p style="font-size:17px;color:var(--ink2)">${esc(r.hook)}</p>${r.translated?`<small class="orig">English title and caption added by us${typeof r.translated==='string'?'; the source is in '+esc(r.translated):''}.</small>`:''}
  <button class="btn ghost ra" id="raBtn" data-ra="${esc(r.id)}" aria-pressed="false"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 9.5h3l4-3.5v12l-4-3.5H4z"/><path d="M15 9a4 4 0 0 1 0 6M17.5 6.5a7.5 7.5 0 0 1 0 11"/></g></svg><span>Read aloud</span></button><p class="ramsg" id="raMsg" role="status" aria-live="polite" hidden></p>
+ <button class="btn ghost next-entry-btn" type="button" data-next-entry="${esc(r.id)}">What happens next?</button>
  ${hlText(r)?`<section class="why" aria-labelledby="whyh"><h3 id="whyh">Why it matters</h3><p>${esc(hlText(r))}</p><small>About a one-minute read. Editorial note written from the sources linked on this record; candidate, unreviewed.</small></section>`:''}
  ${r.content_advisory||r.viewing_preference?`<div class="advisory">ⓘ Context: ${esc(r.viewing_preference||r.content_advisory)}</div>`:''}
  ${tabOf(r)==='Listen'&&r.media_url?`<button class="btn" onclick="enqueue('${esc(r.id)}',true)">▶︎ Play</button><button class="btn ghost" onclick="enqueue('${esc(r.id)}')">+ Queue</button>`:''}
@@ -267,7 +269,7 @@ function deeper(r){if(!r)return'';const g=(X.guilds_from_image||{})[r.field];con
  <details><summary class="row" style="cursor:pointer">Continue inward ›</summary>
  ${ring('#15803d','The Islamic sciences · 18, from Golden Age Sciences',esc(d.science_ring_label||'no_evidence_yet')+' <span class="tag ed">editorial</span><div style="margin-top:6px;opacity:.85;font-size:13px">The list of 18 is still being drafted.</div>')}
  ${ring('#0f766e','Something of the 99 Names of Allah','<small>The centre. The Names create reality; the sciences documented how it works.</small>')}</details></div>`}
-boot();
+Object.defineProperty(window,'__entries',{get:()=>ALL});boot();
 
 function earlyWeb(r){const m=(r.wayback_url||'').match(/\/web\/(\d{4})/);return r.wayback_url?(m?m[1]:(String(r.era||'').match(/\d{4}/)||[''])[0]):''}
 function hires(u){if(!u)return u;return u.replace('/web-large/','/original/').replace(/_web\.jpg$/,'_print.jpg').replace(/\/(\d+)px-([^/?]+)(\?.*)?$/,'/2560px-$2')}
