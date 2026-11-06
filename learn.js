@@ -28,10 +28,10 @@ function render(){if(!current)return;const r=current,list=courseList(r),moon=lis
   const pl=list.find(c=>c.playlist),start=list.find(c=>c.kind==='start')||list[0],first=pl||start;
   h=`<button class="next-back" type="button" data-next="back">${ic('back',18)} Back</button><div class="next-hero view">${ic('play',34)}</div><p class="next-kicker">View · ${esc(r.field)} / ${esc((list[0]&&list[0]._moon)||r.field)}</p><h2 id="nextTitle">${moon} linked talks on YouTube</h2><p class="next-sub">${pl?'The playlist opens first.':'Start with this talk.'} Each talk opens in a new tab.</p>
   <a class="next-primary" href="${esc(first.url)}" target="_blank" rel="noopener noreferrer">${ic('play',20)} ${pl?'Open playlist':'Open first talk'}${ic('ext',17)}</a>
-  <div class="next-talks" role="list" aria-label="Linked talks">${list.map(c=>`<a class="next-talk" role="listitem" href="${esc(c.url)}" target="_blank" rel="noopener noreferrer"><span class="next-kind ${c.kind}">${c.kind==='start'?'Start':c.kind==='deeper'?'Go deeper':'Watch it made'}</span><span class="next-talktxt"><b>${esc(c.title)}</b><small>${esc(c.channel)} · ${esc(c.length)}</small></span>${ic('ext',17)}</a>`).join('')}</div><p class="next-note">Free on YouTube. Every talk is at least 5 minutes. Candidate – unreviewed.</p>`;
+  <div class="next-talks" role="list" aria-label="Linked talks">${list.map(c=>`<a class="next-talk" role="listitem" href="${esc(c.url)}" target="_blank" rel="noopener noreferrer"><span class="next-kind ${c.kind}">${c.kind==='start'?'Start':c.kind==='deeper'?'Go deeper':'Watch it made'}</span><span class="next-talktxt"><b>${esc(c.title)}</b><small>${esc(c.channel)} · ${esc(c.length)}</small></span>${ic('ext',17)}</a>`).join('')}</div><p class="next-note">Free on YouTube. Every talk is at least 5 minutes.</p>`;
  }else h=`<p class="next-kicker">What happens next?</p><h2 id="nextTitle">${esc(title)}</h2><p class="next-sub">${moon?moon+' linked talks from this entry’s moon.':'Courses for this moon are being checked.'}</p><div class="next-options">
  <button class="next-option" type="button" data-next="view" ${moon?'':'disabled'}><span class="next-optic view">${ic('play',28)}</span><span><b>View</b><small>${moon?'Watch the course on YouTube':'No checked talks yet'}</small></span><span class="next-chev">${ic('ext',18)}</span></button>
- <button class="next-option" type="button" data-next="learn"><span class="next-optic learn">${ic('cap',28)}</span><span><b>Learn</b><small>LSJ · coming soon</small></span><span class="next-chev">${ic('cap',18)}</span></button></div><p class="next-note">Take your time. One good talk is a good start.</p>`;
+ <button class="next-option" type="button" data-next="learn"><span class="next-optic learn">${ic('cap',28)}</span><span><b>Learn</b><small>LSJ · Learning Support Journey, coming soon</small></span><span class="next-chev">${ic('cap',18)}</span></button></div><p class="next-note">Take your time. One good talk is a good start.</p>`;
  $('#nextBody').innerHTML=h;root.classList.toggle('is-learn',step==='learn');root.classList.toggle('is-view',step==='view');
  const f=$('.next-sheet');if(f)f.scrollTop=0;
  if(step!=='choice')setTimeout(()=>{const b=root.querySelector('.next-back')||root.querySelector('.next-done');if(b)b.focus({preventScroll:true})},0)}
@@ -41,8 +41,6 @@ L.close=()=>{if(!root||root.hidden)return;root.hidden=true;document.body.classLi
 L.isOpen=()=>!!(root&&!root.hidden);
 document.addEventListener('keydown',e=>{if(!L.isOpen())return;if(e.key==='Escape'){e.preventDefault();L.close();return}if(e.key==='Tab'){const f=focusables();if(!f.length)return;const first=f[0],last=f[f.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}},true);
 
-// Feed card taps: intercept before the app's normal route. Direct #/d/ links keep working and expose the same sheet from the entry.
-document.addEventListener('click',e=>{if(L.isOpen())return;const c=e.target.closest('#feed .card');if(!c)return;if(e.target.closest('a,button,input,select,textarea,label,[data-like],[data-go],[data-toggle]'))return;
- const r=window.__entries&&__entries.find(x=>x.id===c.dataset.id);if(!r)return;if(c.classList.contains('gated'))return;e.preventDefault();e.stopImmediatePropagation();openEntry(r)},true);
+// Round 40: feed taps open the full detail page first; the sheet opens only from the end-of-page "What happens next?" section.
 window.NEXT=L;
 })();

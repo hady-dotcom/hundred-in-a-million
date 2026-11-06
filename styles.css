@@ -295,3 +295,6 @@ img.pers{object-position:50% 18%!important}
 /* r36 law + english */
 .card .b small.orig,.detail small.orig,small.orig{display:block;font-size:12px;line-height:1.35;color:var(--ink3,#8a8a8e);margin:2px 0 6px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 .card .b p.why{font-size:13px;line-height:1.4;color:var(--ink2);border-left:2px solid var(--accent,#0a84ff);padding-left:8px;margin:6px 0 4px}
+
+/* Round 39: keep the entry navigation to Back and Feed only. */
+.topspace{flex:1;min-width:0}

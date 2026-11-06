@@ -1,5 +1,5 @@
 'use strict';
-const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const $=s=>document.querySelector(s), pub=s=>String(s??'').replace(/no[_]evidence[_]yet/gi,'not yet documented').replace(/candidate\s*[-–—]\s*link and image checked/gi,'source links checked').replace(/candidate\s*[-–—]\s*link checked/gi,'source link checked').replace(/candidate\s*[-–—]\s*image checked/gi,'image link checked').replace(/candidate\s*[-–—]\s*unreviewed/gi,'awaiting review'), esc=s=>pub(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const LS={get:k=>JSON.parse(localStorage.getItem(k)||'null'),set:(k,v)=>localStorage.setItem(k,JSON.stringify(v))};
 let PLACES=[],EVENTS=[],OVL={},RES=new Set();let MEDIA={resolved:{},curated:[]},TAB='All';let PTAG={},PKW={},PKRE={},PW=null,PWRE=null,FSET=null,FNAME=null;let ALL=[],VIEW=[],shown=0,FIELD='All',X={},COUNTS=[];const BATCH=24;
 const likes=new Set(LS.get('likes')||[]);const saves=LS.get('saves')||{};
@@ -127,7 +127,7 @@ const PWSYN={law:'law\\b|laws\\b|legal|hukum|hukuk|court|qanun|kanun|mahkam|judi
 function pwRegex(p){const words=p.toLowerCase().split(/[^a-zà-ÿ]+/).filter(w=>(w.length>=4||PWSYN[w])&&!['with','from','into'].includes(w));const parts=words.map(w=>PWSYN[w]||w.slice(0,Math.max(5,Math.min(7,w.length-2))));return parts.length?new RegExp('\\b('+parts.join('|')+')','i'):null}
 function pwmatch(r){const t=PTAG[r.id];if(t)return t.pathway===PW||t.pathway2===PW;const kp=PKW[r.field]&&PKW[r.field][PW];if(kp){const k=r.field+'|'+PW;const re=PKRE[k]||(PKRE[k]=new RegExp('(?<![a-z])(?:'+kp+')','i'));return re.test([r.title,r.summary,r.subtitle,(r.deep_tags||[]).join(' '),r.locator].join(' '))}return !!PWRE&&PWRE.test([r.title,r.summary,r.subtitle,(r.deep_tags||[]).join(' '),r.locator,r.scope_basis,r.media].join(' '))}
 function setPathway(p){PW=p||null;PWRE=p?pwRegex(p):null}
-function pwStat(f){const el=$('#pwstat');if(!el)return;if(FSET){el.hidden=false;el.classList.add('nmstat');el.innerHTML=`<span><small>${esc(FNAME||'The Names')} · provisional</small><b>${[...FSET].map(esc).join(' · ')}</b> · ${VIEW.length} entries</span><button class="chip" id="pwClear">Show everything</button>`;$('#pwClear').onclick=()=>{FSET=null;FNAME=null;el.classList.remove('nmstat');history.replaceState(null,'',location.pathname);applyFilter('All')};return}if(!PW){el.hidden=true;return}el.hidden=false;el.innerHTML=`<span><b>${esc(f)}</b> › ${esc(PW)} · ${VIEW.length} ${VIEW.length===1?'entry':'entries'}${VIEW.length<4?' (few tagged yet)':''}</span><button class="chip" id="pwClear">Show all ${esc(f)}</button>`;$('#pwClear').onclick=()=>{setPathway(null);applyFilter(f)}}
+function pwStat(f){const el=$('#pwstat');if(!el)return;if(FSET){el.hidden=false;el.classList.add('nmstat');el.innerHTML=`<span><small>${esc(FNAME||'The Names')}</small><b>${[...FSET].map(esc).join(' · ')}</b> · ${VIEW.length} entries</span><button class="chip" id="pwClear">Show everything</button>`;$('#pwClear').onclick=()=>{FSET=null;FNAME=null;el.classList.remove('nmstat');history.replaceState(null,'',location.pathname);applyFilter('All')};return}if(!PW){el.hidden=true;return}el.hidden=false;el.innerHTML=`<span><b>${esc(f)}</b> › ${esc(PW)} · ${VIEW.length} ${VIEW.length===1?'entry':'entries'}</span><button class="chip" id="pwClear">Show all ${esc(f)}</button>`;$('#pwClear').onclick=()=>{setPathway(null);applyFilter(f)}}
 function deepLink(){const q=new URLSearchParams(location.search);const f=q.get('field'),p=q.get('pathway'),s=q.get('q'),fs=q.get('fields');if(fs&&!FSET&&!deepLink.done){deepLink.done=1;FSET=new Set(fs.split(',').map(canonField));FNAME=q.get('name');applyFilter('All');return}if(s){const i=$('#q');if(i)i.value=s;SQ=s.toLowerCase();applyFilter('All');return}if(f){setPathway(p);applyFilter(canonField(f));setTimeout(()=>$('#fields')?.scrollIntoView({block:'start'}),60)}}
 
 // ---------- feed order: new/old interleave, daily seed, opened entries sink ----------
@@ -179,8 +179,7 @@ function route(){const h=location.hash||'';const s=$('#sheet');fitsStop();$('#sh
   if(v==='fits'||v==='universe'){location.replace('universe.html'+(r?'?item='+encodeURIComponent(r.id):''));return}
   if(v==='field'){const parts=(h.split('/').slice(2).join('/')||'All').split('/').map(decodeURIComponent);history.replaceState({},'','#/');s.hidden=true;document.body.style.overflow='';setPathway(parts[1]||null);applyFilter(canonField(parts[0])||parts[0]);chips();setTimeout(()=>$('#fields')?.scrollIntoView({block:'start'}),60);return}
   if(v==='watch'){s.innerHTML=watch(id);wireReels();return}if(v==='fits'){s.classList.add('dark');s.innerHTML=topBar()+fits();fitsStart(r);return}s.innerHTML=topBar()+({d:()=>detail(r),chain:chain,sky:sky,place:place,shelf:shelf,hundred:hundred,deeper:()=>deeper(r),watch:()=>watch(id),queue:queue,hub:()=>hub(id),places:places}[v]||(()=>'<div class="pad">Not found</div>'))()}
-function topBar(){return `<div class="top"><button class="pill" onclick="history.back()" aria-label="Back">‹ Back</button>
- <div class="crumbs">${trail.slice(-4).map(t=>esc(t.replace('#/',''))).join(' › ')}</div>
+function topBar(){return `<div class="top"><button class="pill" onclick="history.back()" aria-label="Back">‹ Back</button><span class="topspace" aria-hidden="true"></span>
  <button class="pill" onclick="trail.length=0;history.go(-(history.length));location.hash='';" aria-label="Back to feed">Feed</button></div>`}
 const row=(id,label,sub,open)=>`<button class="row" data-toggle="${id}">${label} <span><small>${sub||''}</small> <span class="chev">${open?'⌄':'›'}</span></span></button>`;
 function teaser(r){const sc=c=>String(c.scope||'');const hits=COUNTS.filter(c=>!/^DO NOT DISPLAY/i.test(c.reliability||'')&&Number(c.total??c.count)>0).filter(c=>[c.key,c.field,c.slug,c.id].some(k=>k&&(k===r?.field||k===r?.slug||k===r?.id))||sc(c)==='field:'+r?.field||(r?.source_name&&c.source===r.source_name));
@@ -198,30 +197,27 @@ function browseURL(c){const q=String(c.query||''),s=c.source||'',E=encodeURIComp
  if(s==='Art Institute of Chicago'&&(m=q.match(/q=([^&]+)/)))return 'https://www.artic.edu/collection?q='+E(m[1])+'&is_public_domain=1';
  if(s==='Wikidata'&&q)return 'https://query.wikidata.org/#'+E(q);
  return c.url||''}
-function rawCounts(r){const sc=c=>String(c.scope||'');const hits=COUNTS.filter(c=>!/^DO NOT DISPLAY/i.test(c.reliability||'')&&Number(c.total??c.count)>0).filter(c=>[c.key,c.field,c.slug,c.id].some(k=>k&&(k===r?.field||k===r?.slug||k===r?.id))||sc(c)==='field:'+r?.field||(r?.source_name&&c.source===r.source_name));
- return hits.length?`<h4>Counts behind “Browse more”</h4>${hits.map(c=>`<p><small>${esc(c.source)}: <code>${esc(c.query||'')}</code> · ${esc(c.reliability||'')} · retrieved ${esc(c.retrieved||c.as_of||'')}</small></p>`).join('')}`:''}
 function detail(r){if(!r)return'<div class="pad">Not found</div>';markOpened(r.id);const s=r.sources[0]||{};const saved=saves[r.id];
  return `${r.image?`<div class="herowrap" onmousemove="loupe(event,this)" onclick="openZoom('${esc(r.id)}')"><img class="hero" src="${esc(r.image.src)}" data-fb="${esc(r.cover)}" alt="${esc(r.title)}" onerror="fbImg(this)"><div class="loupe" style="background-image:url('${esc(hires(r.image.src))}')"></div><span class="zoomhint">⤢ Tap to zoom</span></div>`:`<div class="herowrap gen"><img class="hero${(r.media==="person"||r.voice_tag==="creator")?" pers":""}" src="${esc(r.cover)}" alt="">${covLbl(r,1)}</div>`}<div class="pad">${vtag(r)?`<div class="vtrow">${vtag(r)}</div>`:''}<h2>${esc(r.title)}</h2>${r.orig_title?`<small class="orig">Original title: ${esc(r.orig_title)}</small>`:''}<p style="font-size:17px;color:var(--ink2)">${esc(r.hook)}</p>${r.translated?`<small class="orig">English title and caption added by us${typeof r.translated==='string'?'; the source is in '+esc(r.translated):''}.</small>`:''}
  <button class="btn ghost ra" id="raBtn" data-ra="${esc(r.id)}" aria-pressed="false"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 9.5h3l4-3.5v12l-4-3.5H4z"/><path d="M15 9a4 4 0 0 1 0 6M17.5 6.5a7.5 7.5 0 0 1 0 11"/></g></svg><span>Read aloud</span></button><p class="ramsg" id="raMsg" role="status" aria-live="polite" hidden></p>
- <button class="btn ghost next-entry-btn" type="button" data-next-entry="${esc(r.id)}">What happens next?</button>
- ${hlText(r)?`<section class="why" aria-labelledby="whyh"><h3 id="whyh">Why it matters</h3><p>${esc(hlText(r))}</p><small>About a one-minute read. Editorial note written from the sources linked on this record; candidate, unreviewed.</small></section>`:''}
+ ${hlText(r)?`<section class="why" aria-labelledby="whyh"><h3 id="whyh">Why it matters</h3><p>${esc(hlText(r))}</p><small>About a one-minute read, written from the linked sources.</small></section>`:''}
  ${r.content_advisory||r.viewing_preference?`<div class="advisory">ⓘ Context: ${esc(r.viewing_preference||r.content_advisory)}</div>`:''}
  ${tabOf(r)==='Listen'&&r.media_url?`<button class="btn" onclick="enqueue('${esc(r.id)}',true)">▶︎ Play</button><button class="btn ghost" onclick="enqueue('${esc(r.id)}')">+ Queue</button>`:''}
  ${tabOf(r)==='Watch'&&(r.media_url||r.embed_url)?`<button class="btn" data-go="#/watch/${esc(r.id)}">▶︎ Watch</button>`:''}
  ${s.url?`<a class="btn${(tabOf(r)==='Watch'||tabOf(r)==='Listen')&&(r.media_url||r.embed_url)?' ghost':''}" href="${esc(s.url)}" target="_blank" rel="noopener">Open the source ↗</a>`:''}
  ${r.wayback_url?`<a class="btn ghost" href="${esc(r.wayback_url)}" target="_blank" rel="noopener">Wayback ${esc(earlyWeb(r)||'')}</a>`:''}
  <p style="font-size:13px;color:var(--muted)">${[r.creator,r.era,r.place].filter(x=>x&&typeof x==='string').map(esc).join(' · ')}</p>
- <span class="tag">${esc(r.field)}</span><span class="tag">${esc(r.media||'')}</span><span class="tag warn">${esc(r.verification_status)}</span>
+ <span class="tag">${esc(r.field)}</span><span class="tag">${esc(r.media||'')}</span>
  <div class="group">
  ${row('p-look','Look closer',r.image?'image':'')}<div class="panel" id="p-look" hidden>${r.image?`<a href="${esc(r.image.src)}" target="_blank">Open full image</a> · licence <b>${esc(r.image.licence)}</b> · <a href="${esc(r.image.commons_page)}" target="_blank">file page</a><br><small>${esc(r.image.credit||'')}</small>`:'No openly licensed image yet, so the picture above is an illustrative image of the theme, not a picture of this item. The source is linked below (link only).'}</div>
- ${row('p-story','Tell me its story','',true)}<div class="panel" id="p-story">${esc(r.story||r.summary)}${(r.story_sources||[]).filter(u=>/^https?:\/\//.test(u)).length?`<p style="color:var(--muted);font-size:14px">Background: ${r.story_sources.filter(u=>/^https?:\/\//.test(u)).map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(/wikipedia\.org\/wiki\//.test(u)?decodeURIComponent(u.split('/').pop()).replace(/_/g,' '):new URL(u).hostname.replace(/^www\./,''))}</a>`).join(', ')}</p>`:''}${isWiki(r)?'<p class="ccline" style="color:var(--muted);font-size:12px;opacity:.8">Text adapted from Wikipedia, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>':''}${r.story_thin?'<p style="color:var(--muted);font-size:14px"><span class="tag">thin record</span> The source says very little about this one.</p>':''}${r.date_original?`<p><span class="tag">original date string</span> “${esc(r.date_original.string)}” (${esc(r.date_original.calendars.join(' / '))})</p>`:''}</div>
+ ${row('p-story','Tell me its story','',true)}<div class="panel" id="p-story">${esc(r.story||r.summary)}${(r.story_sources||[]).filter(u=>/^https?:\/\//.test(u)).length?`<p style="color:var(--muted);font-size:14px">Background: ${r.story_sources.filter(u=>/^https?:\/\//.test(u)).map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(/wikipedia\.org\/wiki\//.test(u)?decodeURIComponent(u.split('/').pop()).replace(/_/g,' '):new URL(u).hostname.replace(/^www\./,''))}</a>`).join(', ')}</p>`:''}${isWiki(r)?'<p class="ccline" style="color:var(--muted);font-size:12px;opacity:.8">Text adapted from Wikipedia, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>':''}</div>
  ${row('p-world','Find it in the world')}<div class="panel" id="p-world" hidden><a class="btn" href="${esc(s.url)}" target="_blank" rel="noopener">View at ${esc(s.name||s.publisher||r.source_name||'the source')} ↗</a>
    ${r.slug==='Kampong_Glam'||r.slug==='Sultan_Mosque'||r.slug==='Haji_Lane'?`<button class="btn ghost" data-go="#/place">Place Book</button>`:''}
    ${hubsFor(r).map(h=>`<button class="btn ghost" data-go="#/hub/${esc(h.id)}">📍 ${esc(h.label)}</button>`).join('')}${hubsFor(r).map(h=>comingUp(h,2)).join('')||''}${teaser(r)}</div>
  ${row('p-conn','Follow a connection')}<div class="panel" id="p-conn" hidden>${['The_Book_of_Fixed_Stars','Abd_al-Rahman_al-Sufi','Almagest','Arabic_star_names','Mariam_al-Asturlabi'].includes(r.slug)?`<button class="btn" data-go="#/chain">Give Props to the Chain</button>`:''}
    ${['Aldebaran','Lunar_station','The_Book_of_Fixed_Stars','Arabic_star_names'].includes(r.slug)?`<button class="btn ghost" data-go="#/sky">Follow the follower ✦</button>`:''}
    <p>Also in ${esc(r.field)}:</p>${ALL.filter(x=>x.field===r.field&&x.id!==r.id).slice(0,4).map(x=>`<button class="row" data-go="#/d/${esc(x.id)}">${esc(x.title)}<span class="chev">›</span></button>`).join('')}</div>
- ${row('p-ev','Show me the evidence','Trust Passport')}<div class="panel" id="p-ev" hidden>${passport(r)}${rawCounts(r)}</div>
+ ${row('p-ev','Show me the evidence','Trust Passport')}<div class="panel" id="p-ev" hidden>${passport(r)}</div>
  ${row('p-keep','Keep this',saved?'saved':'')}<div class="panel" id="p-keep" hidden>
    <button class="btn" data-like="${esc(r.id)}">${likes.has(r.id)?'♥ Liked':'♡ Like'}</button>
    <button class="btn ghost" onclick="saves['${esc(r.id)}']={at:Date.now(),folder:prompt('Folder (optional)')||''};LS.set('saves',saves);this.textContent='Saved to Shelf'">${saved?'Saved':'Save to Shelf'}</button></div>
@@ -230,29 +226,24 @@ function detail(r){if(!r)return'<div class="pad">Not found</div>';markOpened(r.i
    <p>This walks inward through Leon's rings, one ring at a time. Every link on that walk is <span class="tag ed">editorial</span>, not a documented fact.</p>
    <button class="btn ghost" data-go="#/deeper/${esc(r.id)}">Start from ${esc(r.field)} ›</button> <button class="btn ghost" data-go="#/fits/${esc(r.id)}">How it fits together ›</button></div></div>
  ${tryIt(r)}
+ <section class="next-end" aria-labelledby="nextEndH"><h3 id="nextEndH">What happens next?</h3><p>When you have read it and visited the source, choose how to keep going.</p><button class="next-end-btn" type="button" data-next-entry="${esc(r.id)}"><span>View or Learn</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></section>
  </div>`}
-function passport(r){return `<table style="width:100%;font-size:13px;border-collapse:collapse">
- ${(r.sources||[]).map(s=>`<tr><td colspan=2><blockquote>${esc(s.quote||'(no quote captured)')}</blockquote>
- <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.url)}</a><br><small>${esc(s.kind||'')} · locator: ${esc(s.locator||'n/a')} · fetched ${esc(s.fetched_at||'')}</small></td></tr>`).join('')}
- <tr><td><b>Claim: what it is</b></td><td><span class="tag">tertiary-sourced</span></td></tr>
- <tr><td><b>Claim: dates & attribution</b></td><td><span class="tag warn">not independently checked</span></td></tr>
- <tr><td><b>Connections</b></td><td>${r.deeper?'<span class="tag ed">ring links are editorial</span>':'<span class="tag">none</span>'}</td></tr>
- <tr><td><b>Rights</b></td><td>${esc(r.rights_status)}</td></tr>
- <tr><td><b>Review</b></td><td><span class="tag warn">${esc(r.verification_status)}</span> · curator: unassigned</td></tr>
- <tr><td><b>Challenge</b></td><td>Report a correction (stub in the prototype)</td></tr></table>`}
+function passport(r){return `<div class="evidence"><p>The source for this entry is linked below. Dates, attribution and editorial connections are shown for context, not as independent proof.</p>
+ ${(r.sources||[]).filter(s=>s.url).map(s=>`${s.quote?`<blockquote>${esc(s.quote)}</blockquote>`:''}<p><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name||s.publisher||'Open the original source')} ↗</a></p>`).join('')}
+ <p><small>${esc(r.rights_status||'Source rights are noted on the linked page.')}</small></p></div>`}
 function chain(){const c=X.chain;if(!c)return'';const g=d=>c.hops.filter(h=>h.dir===d).map(h=>`<div class="hop"><div class="dir">${h.dir} · ${esc(h.rel)}</div><b>${esc(h.to)}</b>
- <blockquote>${esc(h.evidence)}</blockquote><span class="tag ${/no_evidence/.test(h.confidence)?'warn':'ok'}">${esc(h.confidence)}</span>
+ <blockquote>${esc(h.evidence)}</blockquote><span class="tag ${/not yet documented/.test(h.confidence)?'warn':'ok'}">${esc(/not yet documented/i.test(h.confidence||'')?'No documented link yet':/tertiary/i.test(h.confidence||'')?'Source note':(h.confidence||'Source note'))}</span>
  ${h.uncertainty?`<p><small>Uncertainty: ${esc(h.uncertainty)}</small></p>`:''}<a href="${esc(h.url)}" target="_blank" rel="noopener"><small>source</small></a></div>`).join('');
  return `<div class="pad"><h2>Give Props to the Chain</h2><p>${esc(c.title)}</p>
  <h3>← Backwards</h3>${g('backwards')}<h3>↔ Sideways</h3>${g('sideways')}<h3>→ Forwards</h3>${g('forwards')}</div>`}
 function sky(){const k=X.sky;return `<div class="pad"><h2>✦ ${esc(k.title)}</h2><div class="const">${[[30,40],[45,48],[60,52],[52,70],[38,30],[72,28]].map(([x,y],i)=>`<b style="left:${x}%;top:${y}%;${i==2?'width:10px;height:10px;background:#fb923c;box-shadow:0 0 16px #fb923c':''}"></b>`).join('')}<small style="position:absolute;bottom:8px;left:12px;color:#94a3b8">illustrative, not a star chart</small></div>
- ${k.steps.map((s,i)=>`<div class="hop"><div class="dir">step ${i+1}</div><b>${esc(s.h)}</b><p>${esc(s.t)}</p>${s.quote?`<blockquote>${esc(s.quote)}</blockquote>`:'<span class="tag warn">no_evidence_yet</span>'}<a href="${esc(s.url)}" target="_blank"><small>source</small></a></div>`).join('')}</div>`}
+ ${k.steps.map((s,i)=>`<div class="hop"><div class="dir">step ${i+1}</div><b>${esc(s.h)}</b><p>${esc(s.t)}</p>${s.quote?`<blockquote>${esc(s.quote)}</blockquote>`:'<span class="tag">Source note not available</span>'}<a href="${esc(s.url)}" target="_blank"><small>source</small></a></div>`).join('')}</div>`}
 function place(){const p=X.place,sec=(n,a)=>`<h3>${n}</h3>`+a.map(x=>`<div class="hop"><b>${esc(x.t)}</b><blockquote>${esc(x.quote)}</blockquote><a href="${esc(x.url)}" target="_blank"><small>source</small></a></div>`).join('');
  return `<div class="pad"><span class="tag">${esc(p.label)}</span><h2>${esc(p.name)}</h2>${sec('Then',p.then)}${sec('Now',p.now)}${sec('Next',p.next)}<p class="tag warn">${esc(p.compare_label)}</p></div>`}
 function shelf(){const items=ALL.filter(r=>likes.has(r.id)||saves[r.id]);const n=likes.size,pct=Math.min(100,n);
  return `<div class="pad"><h2>Your Living Shelf</h2><p><small>Private, stored only on this device.</small></p>
  <p><b>${Math.min(n,100)}</b> of 100 distinct likes</p><div class="progress"><i style="width:${pct}%"></i></div>
- <div class="group" style="padding:14px"><span class="tag warn">MOCK: Kindred Curiosity preview</span>
+ <div class="group" style="padding:14px"><span class="tag warn">Kindred Curiosity preview</span>
  <p>${n>=100?'Unlocked. You can now <b>choose</b> to opt in. Reaching 100 is not consent.':'Opens at 100 distinct likes. Even then you have to opt in, and you can opt out again.'}
  This is a likes-only overlap. There are no profiles and no messages.</p>
  <div class="const" style="height:110px">${[...Array(14)].map((_,i)=>`<b style="left:${(i*37)%95}%;top:${(i*53)%85+5}%;opacity:${i<Math.min(14,n/7)?1:.25}"></b>`).join('')}</div>
@@ -264,10 +255,10 @@ function shelf(){const items=ALL.filter(r=>likes.has(r.id)||saves[r.id]);const n
 function deeper(r){if(!r)return'';const g=(X.guilds_from_image||{})[r.field];const d=r.deeper||{};
  const ring=(col,lbl,body)=>`<div class="ring" style="background:${col}"><small style="opacity:.8">${lbl}</small><div>${body}</div></div>`;
  return `<div class="pad"><h2>Go deeper</h2><p><button class="btn ghost" data-go="#/fits/${esc(r.id)}">See how it fits together ›</button></p><p><small>Outside-in, one ring at a time. You can stop at any ring. <span class="tag ed">Editorial association</span>: these links are curatorial readings. They are not documented claims about ${esc(r.title)}.</small></p>
- ${ring('#334155','Guilds & Jobs (from Leon\'s image)',g?g.map(x=>`<span class="tag">${esc(x)}</span>`).join(''):'<span class="tag warn">no_evidence_yet for this field</span>')}
+ ${ring('#334155','Guilds & Jobs (from Leon\'s image)',g?g.map(x=>`<span class="tag">${esc(x)}</span>`).join(''):'<span class="tag">No linked field note yet</span>')}
  ${ring('#7c3aed','Culture field',esc(r.field)+'<div style="margin-top:6px">'+teaser(r)+'</div>')}
  <details><summary class="row" style="cursor:pointer">Continue inward ›</summary>
- ${ring('#15803d','The Islamic sciences · 18, from Golden Age Sciences',esc(d.science_ring_label||'no_evidence_yet')+' <span class="tag ed">editorial</span><div style="margin-top:6px;opacity:.85;font-size:13px">The list of 18 is still being drafted.</div>')}
+ ${ring('#15803d','The Islamic sciences · 18, from Golden Age Sciences',esc(d.science_ring_label||'Science links are being prepared')+' <span class="tag ed">editorial</span><div style="margin-top:6px;opacity:.85;font-size:13px">The list of 18 is still being drafted.</div>')}
  ${ring('#0f766e','Something of the 99 Names of Allah','<small>The centre. The Names create reality; the sciences documented how it works.</small>')}</details></div>`}
 Object.defineProperty(window,'__entries',{get:()=>ALL});boot();
 
@@ -364,8 +355,8 @@ function hub(id){const h=PLACES.find(p=>p.id===id);if(!h)return'<div class="pad"
  <h3>Festivals & gatherings</h3><div class="group">${fest.map(e=>`<a class="row" href="${esc(e.official_url||e.action_link||'#')}" target="_blank" rel="noopener">${esc(e.name)}<small>${e.status==='verified_active'?(evWhen(e)||'official site'):e.status==='expired'?'ended':'link only'}</small></a>`).join('')||'<div class="panel">None listed yet</div>'}</div>
  ${(h.neighbourhoods||[]).length?`<h3>Neighbourhoods</h3><div>${h.neighbourhoods.map(n=>`<span class="tag">${esc(typeof n==='string'?n:n.name)}</span>`).join('')}</div>`:''}
  ${(h.venues||[]).length?`<h3>Venues</h3><div>${h.venues.map(n=>`<span class="tag">${esc(typeof n==='string'?n:n.name)}</span>`).join('')}</div>`:''}
- <h3>Then</h3><div class="hgrid">${then.slice(0,12).map(tile).join('')||'<small>no_evidence_yet</small>'}</div>
- <h3>Now</h3><div class="hgrid">${now.slice(0,12).map(tile).join('')||'<small>no_evidence_yet</small>'}</div>
+ <h3>Then</h3><div class="hgrid">${then.slice(0,12).map(tile).join('')||'<small>No earlier finds linked yet</small>'}</div>
+ <h3>Now</h3><div class="hgrid">${now.slice(0,12).map(tile).join('')||'<small>No earlier finds linked yet</small>'}</div>
  <h3>Next</h3><p><small>The dated events above link to their official pages. No other verified opportunity yet.</small></p>
  <p><small>Linked discoveries: ${ds.length}. Then/Now is split by recorded period or date (before 1950 = Then). This is an approximate grouping, not a verified history.</small></p></div>`}
 function places(){const withEv=p=>EVENTS.filter(e=>e.place_hub===p.id&&e.status==='verified_active').length;
